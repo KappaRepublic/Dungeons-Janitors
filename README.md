@@ -31,7 +31,7 @@ Follow these naming conventions when creating files within Unity:
 * Function names will be stylized the same as variables, for example `decrementHealth`, and not `decrement_health`.
 3. Class Names
 * Classes will be all capitalized, using no underscores. For example `ClassName` is correct, `className` and `Class_Name` are not.
-3. Class Headers
+4. Class Headers
 * When creating a class, add and edit the following header to the top of the class. When editing a class you haven't worked on before, be sure to add your name to the author(s) section so we can easily see who's worked on what class.
 ```
 /*
