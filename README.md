@@ -1,5 +1,5 @@
 # TorchLighters
-Repository for the Masters Semester 1 group project
+[Download the latest release from here](https://github.com/KappaRepublic/TorchLighters/releases)
 
 ## Recommended Programs
 
