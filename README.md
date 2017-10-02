@@ -26,22 +26,24 @@ Follow these naming conventions when creating files within Unity:
 ## Programming Guidelines
 
 1. Variable Names
-* Variables will follow camel case formating, for example `healthPoints` instead of `health_points`
-2. Class Names
+* Variables will follow camel case formating, for example `healthPoints` instead of `health_points`.
+2. Function Names
+* Function names will be stylized the same as variables, for example `decrementHealth`, and not `decrement_health`.
+3. Class Names
 * Classes will be all capitalized, using no underscores. For example `ClassName` is correct, `className` and `Class_Name` are not.
 3. Class Headers
 * When creating a class, add and edit the following header to the top of the class. When editing a class you haven't worked on before, be sure to add your name to the author(s) section so we can easily see who's worked on what class.
 ```
-	/*
-	 * Class Name
-	 * ==========
-	 * 
-	 * Created: date
-	 * Base Class: (If applicable) Name of the base class.
-	 * Author(s): Name of the people whom have worked on this file.
-	 *
-	 * Purpose: The purpose of this file.
-	 */
+/*
+* Class Name
+* ==========
+* 
+* Created: date
+* Base Class: (If applicable) Name of the base class.
+* Author(s): Name of the people whom have worked on this file.
+*
+* Purpose: The purpose of this file.
+*/
 ```
 
 **README will be updated in future to comply to new changes within the project, as well as new information.**
