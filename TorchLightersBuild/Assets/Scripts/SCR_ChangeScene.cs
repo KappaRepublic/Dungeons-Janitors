@@ -30,10 +30,10 @@ public class SCR_ChangeScene : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		if (Input.GetKey (KeyCode.Escape))
+		/*if (Input.GetKey (KeyCode.Escape))
 		{
 			Application.Quit ();
-		}
+		}*/
 	}
 
 	public void changeGameScene(int level)
