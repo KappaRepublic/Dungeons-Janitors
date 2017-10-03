@@ -27,11 +27,11 @@ public class SCR_LevelSelectMovement : MonoBehaviour {
 		// Check if the object is off screen
 		if (transform.position.x < -horzExtent) {
 			float offset = transform.position.x + horzExtent;
-			transform.position = new Vector3 (horzExtent , transform.position.y, transform.position.z);
+			transform.position = new Vector3 (horzExtent + (offset * 0.5f), transform.position.y, transform.position.z);
 
 		} else if (transform.position.x > horzExtent) {
 			float offset = transform.position.x - horzExtent;
-			transform.position = new Vector3 (-horzExtent , transform.position.y, transform.position.z);
+			transform.position = new Vector3 (-horzExtent + (offset * 0.5f), transform.position.y, transform.position.z);
 		}
 	}
 }
