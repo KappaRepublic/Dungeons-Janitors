@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 1756983320}
-  gameLevelToLoad: 0
+  gameLevelToLoad: 2
 --- !u!1 &280457259
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,6 +271,7 @@ GameObject:
   - component: {fileID: 300823387}
   - component: {fileID: 300823391}
   - component: {fileID: 300823392}
+  - component: {fileID: 300823393}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -291,7 +292,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 19ead4c03936d7f48a67b36fcb0ebecf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -372,6 +373,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
+--- !u!114 &300823393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 300823386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c984305427977499f2d60d7841a9a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  indicator: {fileID: 0}
 --- !u!1 &491250541
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,7 +493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 1756983320}
-  gameLevelToLoad: 0
+  gameLevelToLoad: 2
 --- !u!1 &572242574
 GameObject:
   m_ObjectHideFlags: 0
@@ -589,7 +602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 1756983320}
-  gameLevelToLoad: 0
+  gameLevelToLoad: 2
 --- !u!1 &576543174
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,7 +835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 1756983320}
-  gameLevelToLoad: 0
+  gameLevelToLoad: 2
 --- !u!1 &754307239
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,7 +944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 1756983320}
-  gameLevelToLoad: 0
+  gameLevelToLoad: 2
 --- !u!1 &757533619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,7 +1716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 1756983320}
-  gameLevelToLoad: 0
+  gameLevelToLoad: 1
 --- !u!1 &1909042996
 GameObject:
   m_ObjectHideFlags: 0
@@ -1812,7 +1825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 1756983320}
-  gameLevelToLoad: 0
+  gameLevelToLoad: 1
 --- !u!1 &1953446074
 GameObject:
   m_ObjectHideFlags: 0
@@ -1921,4 +1934,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 1756983320}
-  gameLevelToLoad: 0
+  gameLevelToLoad: 2

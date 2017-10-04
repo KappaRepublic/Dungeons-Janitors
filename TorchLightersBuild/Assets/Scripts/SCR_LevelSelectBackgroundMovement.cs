@@ -2,6 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+* Class Name:
+* SCR_LevelSelectBackgroundMovement
+* ==========
+* 
+* Created: 03/10/17
+* Author(s): Sebastian Poskitt-Marshall
+*
+* Purpose:
+* Allows objects within the level select screen to move and wrap
+* around the screen when certain counditions on position are met.
+*/
+
 public class SCR_LevelSelectBackgroundMovement : MonoBehaviour {
 
 	public float speed = 0;
