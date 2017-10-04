@@ -3,15 +3,19 @@
 
 ## Recommended Programs
 
-Unity 2017.1.0 - Available [here](https://unity3d.com/get-unity/download/archive)
+Unity 2017.1.0 - Available from [here](https://unity3d.com/get-unity/download/archive)
 
-Tiled - Available [here](http://www.mapeditor.org/) 
+Tiled - Available from [here](http://www.mapeditor.org/) 
 
-GitHub Desktop - Available [here](https://desktop.github.com/)
+Tiled2Unity - Available from [here](https://seanba.itch.io/tiled2unity)
+
+GitHub Desktop - Available from [here](https://desktop.github.com/)
 
 **OR** 
 
-Source Tree - Available [here](https://www.sourcetreeapp.com/)
+Source Tree - Available from [here](https://www.sourcetreeapp.com/)
+
+(It's recommended to go for GitHub Desktop over Source Tree as it is the easier of the two programs to operate. Source Tree is included as Seb uses it)
 
 ## Project Guidelines
 
