@@ -6,8 +6,9 @@ public class SCR_PlayerCollisionCheck : MonoBehaviour {
 
 	public GameObject indicator;
 
-	void OnCollisionEnter (Collision col)
+	void OnTriggerEnter (Collider col)
 	{
 		indicator.SetActive (true);
+		Debug.Log ("Collision");
 	}
 } 
