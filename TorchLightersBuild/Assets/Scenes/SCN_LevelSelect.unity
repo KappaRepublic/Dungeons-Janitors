@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 1756983320}
-  gameLevelToLoad: 2
+  gameLevelToLoad: 3
 --- !u!1 &280457259
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,7 +384,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44c984305427977499f2d60d7841a9a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  indicator: {fileID: 0}
 --- !u!1 &491250541
 GameObject:
   m_ObjectHideFlags: 0
@@ -1934,4 +1933,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 1756983320}
-  gameLevelToLoad: 2
+  gameLevelToLoad: 3
