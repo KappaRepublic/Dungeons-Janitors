@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 998
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 9
+  controlID: 1863
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 1864
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -343,7 +343,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 2629f6ffe429f6ff822bf6ff902bf6ffa62bf6ffaa2bf6ff0c58f6ff6a72f8ff8072f8ff52c0f8ff74c1f8ff4069fafff4f7ffff6ef9ffff78f9ffff1afcffff000000000a430000364300004243000070430000
+    m_ExpandedIDs: 1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -362,7 +362,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 6}
     m_SearchString: 
   m_ExpandedScenes:
-  - SCN_LevelSelect
+  - SCN_TestMovement
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -393,14 +393,14 @@ MonoBehaviour:
     width: 916
     height: 575
   m_SceneLighting: 0
-  lastFramingTime: 7678.451815828166
+  lastFramingTime: 291.05774379150705
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 7.8179054, y: 0.6537415, z: 0}
+    m_Target: {x: 7.8640013, y: 4.080798, z: 0}
     speed: 2
-    m_Value: {x: 7.8179054, y: 0.6537415, z: 0}
+    m_Value: {x: 7.8640013, y: 4.080798, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -427,9 +427,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 16.24463
+    m_Target: 16.354961
     speed: 2
-    m_Value: 16.24463
+    m_Value: 16.354961
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -478,19 +478,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: \\StuHome\HomeDrive1$\1301641\GitHub\TorchLighters\TorchLightersBuild
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 38}
-    m_SelectedIDs: aa260000
-    m_LastClickedID: 9898
-    m_ExpandedIDs: 000000003826000086260000be260000c826000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 42}
+    m_SelectedIDs: 9e260000
+    m_LastClickedID: 9886
+    m_ExpandedIDs: 000000006e260000da2600000a2700001e27000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -518,7 +518,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003826000086260000be260000c8260000
+    m_ExpandedIDs: 000000006e260000da2600000a2700001e27000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -545,7 +545,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: d61afdffc8680000b4000000063f000030010000661b000016280000a62b00000c3100006c310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
