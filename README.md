@@ -25,6 +25,8 @@ Follow these naming conventions when creating files within Unity:
 
 1. Scripts - SCR_ClassName
 2. Scenes - SCN_SceneName
+3. Sprites - SPR_SpriteName
+4. Prefabs - PRE_PrefabName
 - Further naming conventions to be discussed then added.
 
 ## Programming Guidelines
