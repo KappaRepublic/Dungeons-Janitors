@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SCR_OpenMenu : MonoBehaviour 
 {
@@ -74,5 +75,13 @@ public class SCR_OpenMenu : MonoBehaviour
 	public void Quit()
 	{
 		Application.Quit();
+	}
+
+
+	//restarts the current level
+	public void Restart()
+	{
+		SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
+		UnPause ();
 	}
 }

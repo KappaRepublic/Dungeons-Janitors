@@ -99,7 +99,7 @@ public class FrankMove : MonoBehaviour
 	//might change the way movement is done
 	private void Controls(float horizontal, float vertical)
 	{
-		Debug.Log (horizontal);
+		//Debug.Log (horizontal);
 
 		if (moving_ == true)
 		{
