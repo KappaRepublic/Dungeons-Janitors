@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SCR_OpenMenu : MonoBehaviour 
 {
@@ -33,7 +34,14 @@ public class SCR_OpenMenu : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		
+		//pressing escape will function the same as the menu button
+		if (Input.GetKeyDown (KeyCode.Escape) && isPaused == false)
+		{
+			Pause ();
+		} else if (Input.GetKeyDown (KeyCode.Escape) && isPaused == true)
+		{
+			UnPause ();
+		}
 	}
 
 
@@ -61,5 +69,19 @@ public class SCR_OpenMenu : MonoBehaviour
 		isPaused = false;
 		pauseMenu.gameObject.SetActive (false);
 		Time.timeScale = 1.0f;
+	}
+
+	//exit application
+	public void Quit()
+	{
+		Application.Quit();
+	}
+
+
+	//restarts the current level
+	public void Restart()
+	{
+		SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
+		UnPause ();
 	}
 }
