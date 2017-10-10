@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}" SchemaVersion="80">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Level_Start" ID="{8E6F2FCC-0888-41BB-93E1-D674DD0C5A55}">
+					<ChildrenList>
+						<Action Name="" ID="{FCABE654-AEC6-4DC6-B0C7-BF4A2BBB2097}" ShortID="307620796">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Empty Amb 1" ID="{854B04E5-F4CF-4428-8DA6-788D345943D2}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Light_Torch" ID="{77405169-592A-4E04-8482-02C0E2B5D5E3}">
+					<ChildrenList>
+						<Action Name="" ID="{8AB0BED4-EE50-4C46-B11A-6C36B1420630}" ShortID="866347766">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Light Torch 1" ID="{79BC965B-E615-4A83-A201-8467575F1D9F}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6A909B03-9B82-4133-BE70-FE3C9E55AF3A}" ShortID="225195262">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Light Torch Loop 1" ID="{FBE2208F-C32A-4BA2-9E78-9AE28CC056EE}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Open_Gate" ID="{A5207A5A-C220-45DE-9778-CA42C286FA74}">
+					<ChildrenList>
+						<Action Name="" ID="{AC2E8761-3E0D-400A-9F1E-A365BECCB30D}" ShortID="957892198">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gate Open 1" ID="{C5B1A787-49E2-459E-9C88-9E20F012F288}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Close_Gate" ID="{06D935FB-B83C-4261-B946-83DD0C125CF8}">
+					<ChildrenList>
+						<Action Name="" ID="{081CC0F5-278A-4CF9-A307-629E9F1046C4}" ShortID="226337001">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gate Close 1" ID="{B1B37586-1E50-44AE-BEBE-2014EE1083A8}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Cleanup_Corpse" ID="{84807FA0-46A9-48FF-B21F-571AD4EEDE1C}">
+					<ChildrenList>
+						<Action Name="" ID="{16D9BB24-92D9-4B97-9B46-3587B2ECEE11}" ShortID="369987382">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Corpse Store 1" ID="{C5F3F2E7-ED0F-4D6D-A12D-FAD61A3316A1}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Level_1" ID="{543D85AB-4C0A-441E-B128-1263E7EA56BF}">
+					<ChildrenList>
+						<Action Name="" ID="{0A78184D-D044-476B-A3B8-1E51AF97A9BA}" ShortID="506641337">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Torchlighter Amb 1" ID="{6EB03672-84AA-45A2-9A26-06A77D21A14C}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Level_2" ID="{48124709-BE2F-4B5A-8690-4F8F4D706064}">
+					<ChildrenList>
+						<Action Name="" ID="{FDC2CD1D-4DCC-40EE-A1D3-E21A43E3BEF9}" ShortID="716538696">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Torchlighter Amb 2" ID="{18DF3E7D-5132-4C19-807C-F0813BDFCC70}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Level_3" ID="{3E681F01-E0AE-4A81-946B-F9BB743CCE5D}">
+					<ChildrenList>
+						<Action Name="" ID="{3298477E-DE90-41EA-B4EC-DD70D4F5C376}" ShortID="5072277">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main Music" ID="{F39A7C3D-E08B-4B32-8EF7-54E35E7251B1}" WorkUnitID="{DB086AE6-23BE-48A1-85E3-4A4F6A724524}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Level_4" ID="{403CA044-89F6-49B5-B480-1897DB445D80}"/>
+				<Event Name="Level_Complete" ID="{D6A2F3E9-D6C4-40C5-B4BA-B16CBB54055A}"/>
+				<Event Name="Footstep" ID="{2EB95765-B4D3-4F25-A1C1-390EA6B07EF3}">
+					<ChildrenList>
+						<Action Name="" ID="{E65B35A4-CFC5-40F3-B5DA-7F45E138E8BC}" ShortID="1005900151">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{EA710813-6178-484A-A009-393D5E76776C}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pull_Lever" ID="{8683E3B9-BF6E-4D17-9347-615DDB518A36}">
+					<ChildrenList>
+						<Action Name="" ID="{F30D51F6-2B19-4EB0-BEB7-B46F6C1BEBD6}" ShortID="206532588">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gate Lever 1" ID="{0057D783-638E-4BE9-8049-E5A2C5C5725B}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_Trap" ID="{B642F7C4-561A-49F7-B9F1-E507C8CAA35A}">
+					<ChildrenList>
+						<Action Name="" ID="{5FFE9FD5-9F2B-48C5-B97A-12113C3B76F3}" ShortID="713715618">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Set Trap" ID="{6C34194F-15FF-4C3F-A2E6-228BC152E132}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Trigger_Trap" ID="{E2033E30-BFC2-4C79-8722-591B6ABFF0F4}">
+					<ChildrenList>
+						<Action Name="" ID="{664CB030-2C6E-4483-8030-553C88A6C283}" ShortID="362125038">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Trigger Trap" ID="{DB91BC90-D1BA-4BBC-B335-C02D5DAEA678}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Spikes" ID="{4B7CA1E6-E72F-4C54-B782-B846470FEC8B}">
+					<ChildrenList>
+						<Action Name="" ID="{4E3437DB-009C-4B4D-A7C7-8AECF087AF50}" ShortID="315493878">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spikes" ID="{AD6DF322-3871-42F0-81A1-462782468315}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="125">
+	<RootPaths>
+		<ProjectRoot>/Users/pauldb/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/MProf Games Development/Team 2/Github/TorchLighters/TorchLightersBuild/TorchLightersBuild_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/pauldb/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/MProf Games Development/Team 2/Github/TorchLighters/TorchLightersBuild/TorchLightersBuild_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/pauldb/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/MProf Games Development/Team 2/Github/TorchLighters/TorchLightersBuild/TorchLightersBuild_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/pauldb/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/MProf Games Development/Team 2/Github/TorchLighters/TorchLightersBuild/TorchLightersBuild_WwiseProject/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1545137546" Name="Cleanup_Corpse" ObjectPath="\Events\Default Work Unit\Cleanup_Corpse"/>
+				<Event Id="4197195035" Name="Close_Gate" ObjectPath="\Events\Default Work Unit\Close_Gate"/>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep"/>
+				<Event Id="1290008369" Name="Level_1" ObjectPath="\Events\Default Work Unit\Level_1"/>
+				<Event Id="1290008370" Name="Level_2" ObjectPath="\Events\Default Work Unit\Level_2"/>
+				<Event Id="1290008371" Name="Level_3" ObjectPath="\Events\Default Work Unit\Level_3"/>
+				<Event Id="1290008372" Name="Level_4" ObjectPath="\Events\Default Work Unit\Level_4" MaxAttenuation="0.000000"/>
+				<Event Id="3736098925" Name="Level_Complete" ObjectPath="\Events\Default Work Unit\Level_Complete" MaxAttenuation="0.000000"/>
+				<Event Id="352576276" Name="Level_Start" ObjectPath="\Events\Default Work Unit\Level_Start"/>
+				<Event Id="2156420204" Name="Light_Torch" ObjectPath="\Events\Default Work Unit\Light_Torch"/>
+				<Event Id="196301345" Name="Open_Gate" ObjectPath="\Events\Default Work Unit\Open_Gate"/>
+				<Event Id="766957497" Name="Pull_Lever" ObjectPath="\Events\Default Work Unit\Pull_Lever"/>
+				<Event Id="2733576287" Name="Set_Trap" ObjectPath="\Events\Default Work Unit\Set_Trap"/>
+				<Event Id="747415224" Name="Spikes" ObjectPath="\Events\Default Work Unit\Spikes"/>
+				<Event Id="4012165883" Name="Trigger_Trap" ObjectPath="\Events\Default Work Unit\Trigger_Trap"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="92247098" Language="SFX">
+					<ShortName>Concrete_Left_Foot_Toe.07.wav</ShortName>
+					<Path>SFX/Concrete_Left_Foot_Toe.07_1C9C67B2.wem</Path>
+				</File>
+				<File Id="100743402" Language="SFX">
+					<ShortName>Concrete_Left_Foot_Toe.02.wav</ShortName>
+					<Path>SFX/Concrete_Left_Foot_Toe.02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="138517460" Language="SFX">
+					<ShortName>Choir 1.wav</ShortName>
+					<Path>SFX/Choir 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="204364504" Language="SFX">
+					<ShortName>Concrete_Left_Foot_Toe.03.wav</ShortName>
+					<Path>SFX/Concrete_Left_Foot_Toe.03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="227952304" Language="SFX">
+					<ShortName>Concrete_Left_Foot_Toe.06.wav</ShortName>
+					<Path>SFX/Concrete_Left_Foot_Toe.06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="233634665" Language="SFX">
+					<ShortName>Bass Strings 1.wav</ShortName>
+					<Path>SFX/Bass Strings 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="252893621" Language="SFX">
+					<ShortName>Concrete_Left_Foot_Toe.04.wav</ShortName>
+					<Path>SFX/Concrete_Left_Foot_Toe.04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="253726521" Language="SFX">
+					<ShortName>Percussion 1.wav</ShortName>
+					<Path>SFX/Percussion 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="254265299" Language="SFX">
+					<ShortName>Gate Close 1.wav</ShortName>
+					<Path>SFX/Gate Close 1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="289709675" Language="SFX">
+					<ShortName>Gate Open 1.wav</ShortName>
+					<Path>SFX/Gate Open 1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="377556134" Language="SFX">
+					<ShortName>Organ 1.wav</ShortName>
+					<Path>SFX/Organ 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="410224967" Language="SFX">
+					<ShortName>Bass Strings 2.wav</ShortName>
+					<Path>SFX/Bass Strings 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="425492008" Language="SFX">
+					<ShortName>Torchlighter Amb 2.wav</ShortName>
+					<Path>SFX/Torchlighter Amb 2_F38BBB2B.wem</Path>
+				</File>
+				<File Id="550011003" Language="SFX">
+					<ShortName>Light Torch 1.wav</ShortName>
+					<Path>SFX/Light Torch 1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="551363450" Language="SFX">
+					<ShortName>Torchlighter Amb 1.wav</ShortName>
+					<Path>SFX/Torchlighter Amb 1_483BB4EC.wem</Path>
+				</File>
+				<File Id="595152032" Language="SFX">
+					<ShortName>Set Trap.wav</ShortName>
+					<Path>SFX/Set Trap_1C9C67B2.wem</Path>
+				</File>
+				<File Id="702969576" Language="SFX">
+					<ShortName>Piano 1.wav</ShortName>
+					<Path>SFX/Piano 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="741245128" Language="SFX">
+					<ShortName>Concrete_Left_Foot_Toe.05.wav</ShortName>
+					<Path>SFX/Concrete_Left_Foot_Toe.05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="751886074" Language="SFX">
+					<ShortName>Psycho Drums 2.wav</ShortName>
+					<Path>SFX/Psycho Drums 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="804047683" Language="SFX">
+					<ShortName>Choir 2.wav</ShortName>
+					<Path>SFX/Choir 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="813395391" Language="SFX">
+					<ShortName>Gate Lever 1.wav</ShortName>
+					<Path>SFX/Gate Lever 1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="886055633" Language="SFX">
+					<ShortName>Trigger Trap.wav</ShortName>
+					<Path>SFX/Trigger Trap_1C9C67B2.wem</Path>
+				</File>
+				<File Id="891333955" Language="SFX">
+					<ShortName>Organ 2.wav</ShortName>
+					<Path>SFX/Organ 2_F17FB28C.wem</Path>
+				</File>
+				<File Id="924942465" Language="SFX">
+					<ShortName>Psycho Drums 1.wav</ShortName>
+					<Path>SFX/Psycho Drums 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="935381441" Language="SFX">
+					<ShortName>Light Torch Loop 1.wav</ShortName>
+					<Path>SFX/Light Torch Loop 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="939029470" Language="SFX">
+					<ShortName>Corpse Store 1.wav</ShortName>
+					<Path>SFX/Corpse Store 1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="953556749" Language="SFX">
+					<ShortName>Concrete_Left_Foot_Toe.01.wav</ShortName>
+					<Path>SFX/Concrete_Left_Foot_Toe.01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="992871585" Language="SFX">
+					<ShortName>Concrete_Left_Foot_Toe.08.wav</ShortName>
+					<Path>SFX/Concrete_Left_Foot_Toe.08_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1001031287" Language="SFX">
+					<ShortName>Spikes.wav</ShortName>
+					<Path>SFX/Spikes_1C9C67B2.wem</Path>
+				</File>
+				<File Id="1068195165" Language="SFX">
+					<ShortName>Empty Amb 1.wav</ShortName>
+					<Path>SFX/Empty Amb 1_507EB8F1.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
