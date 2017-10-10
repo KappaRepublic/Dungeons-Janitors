@@ -19,7 +19,8 @@ Source Tree - Available from [here](https://www.sourcetreeapp.com/)
 
 ## Project Guidelines
 
-The sparkliest of all our branches
+To be discussed with the teams.
+
 Follow these naming conventions when creating files within Unity:
 
 1. Scripts - SCR_ClassName
