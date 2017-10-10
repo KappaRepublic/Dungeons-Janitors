@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events/Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{014BA097-B3CB-4271-A6E1-889DF9048C0C}'
-    m_lastTimePsrt1: -1421065216
-    m_lastTimePart2: -1999302878
+    m_lastTimePsrt1: 319134720
+    m_lastTimePart2: -1999302718
     List:
     - Name: Cleanup_Corpse
       Path: Default Work Unit/Cleanup_Corpse
@@ -119,6 +119,16 @@ MonoBehaviour:
       ID: -2138547092
       Guid: 695140772a59044e848202c0e2b5d5e3
       maxAttenuation: 0
+    - Name: Music_Start
+      Path: Default Work Unit/Music_Start
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music_Start
+        ObjectType: 3
+      ID: -569063489
+      Guid: 0325dcbecc174947a84f2fe605e3a222
+      maxAttenuation: 0
     - Name: Open_Gate
       Path: Default Work Unit/Open_Gate
       PathAndIcons:
@@ -180,22 +190,55 @@ MonoBehaviour:
   - PhysicalPath: States/Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{53F1EBD3-FE15-4956-B414-DA57C63E30BD}'
-    m_lastTimePsrt1: 1998346112
-    m_lastTimePart2: -1999302895
-    List: []
+    m_lastTimePsrt1: 1139069312
+    m_lastTimePart2: -1999302720
+    List:
+    - Name: Music
+      Path: Default Work Unit/Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 9
+      ID: -303024426
+      Guid: 55983fdeb21e4e40bbf37f2b915adc19
+      values:
+      - L1
+      - L2
+      - L3
+      - L4
+      - None
+      ValueIcons:
+      - ElementName: L1
+        ObjectType: 8
+      - ElementName: L2
+        ObjectType: 8
+      - ElementName: L3
+        ObjectType: 8
+      - ElementName: L4
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      valueIDs: 381c77653b1c77653a1c77653d1c7765db3ba32c
+      ValueGuids:
+      - bytes: cf95bc3ab3363548ba3e4d117b4be6ee
+      - bytes: 038742af08c1854ab276c2131428dce2
+      - bytes: 0e5057268e1414468d940fa8d5770610
+      - bytes: f5dfd8cc8e72474094b8eeb6b7afa28c
+      - bytes: b0e0b7f28b2c304abf2d66e761dad16b
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FEE1E438-54EA-471F-8021-5AAAFB6AD920}'
-    m_lastTimePsrt1: 1998346112
-    m_lastTimePart2: -1999302895
+    m_lastTimePsrt1: 1139069312
+    m_lastTimePart2: -1999302720
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks/Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{F90E13A9-AD2C-4C30-8E42-92EA9FB4B16A}'
-    m_lastTimePsrt1: 553509632
-    m_lastTimePart2: -1999302890
+    m_lastTimePsrt1: 609134720
+    m_lastTimePart2: -1999302718
     List:
     - Name: Main
       Path: Default Work Unit/Main
@@ -318,8 +361,6 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /TorchLightersBuild_WwiseProject
-  - /TorchLightersBuild_WwiseProject/Events
-  - /TorchLightersBuild_WwiseProject/Events/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

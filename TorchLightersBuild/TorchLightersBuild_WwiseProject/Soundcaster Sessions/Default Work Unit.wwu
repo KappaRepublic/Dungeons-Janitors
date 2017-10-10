@@ -38,10 +38,6 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Level_3" ID="{3E681F01-E0AE-4A81-946B-F9BB743CCE5D}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
-							<Position X="2" Y="2"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Pull_Lever" ID="{8683E3B9-BF6E-4D17-9347-615DDB518A36}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
 							<Position X="3" Y="0"/>
 						</Module>
@@ -56,6 +52,18 @@
 						<Module>
 							<ObjectRef Name="Trigger_Trap" ID="{E2033E30-BFC2-4C79-8722-591B6ABFF0F4}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
 							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music" ID="{D59A83C3-228A-4374-B363-A667F46C3DC9}" WorkUnitID="{DB086AE6-23BE-48A1-85E3-4A4F6A724524}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music_Start" ID="{BEDC2503-17CC-4749-A84F-2FE605E3A222}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Mop" ID="{B93D26D1-9197-480C-9D80-197F075DBB53}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="4" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -100,7 +108,9 @@
 							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="L4" ID="{CCD8DFF5-728E-4047-94B8-EEB6B7AFA28C}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>

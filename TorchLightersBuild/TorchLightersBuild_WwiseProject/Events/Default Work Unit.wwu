@@ -111,21 +111,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Level_3" ID="{3E681F01-E0AE-4A81-946B-F9BB743CCE5D}">
-					<ChildrenList>
-						<Action Name="" ID="{3298477E-DE90-41EA-B4EC-DD70D4F5C376}" ShortID="5072277">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Main Music" ID="{F39A7C3D-E08B-4B32-8EF7-54E35E7251B1}" WorkUnitID="{DB086AE6-23BE-48A1-85E3-4A4F6A724524}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Level_4" ID="{403CA044-89F6-49B5-B480-1897DB445D80}"/>
 				<Event Name="Level_Complete" ID="{D6A2F3E9-D6C4-40C5-B4BA-B16CBB54055A}"/>
 				<Event Name="Footstep" ID="{2EB95765-B4D3-4F25-A1C1-390EA6B07EF3}">
 					<ChildrenList>
@@ -192,6 +177,45 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Spikes" ID="{AD6DF322-3871-42F0-81A1-462782468315}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Start" ID="{BEDC2503-17CC-4749-A84F-2FE605E3A222}">
+					<ChildrenList>
+						<Action Name="" ID="{AB79902E-7EA8-4EF2-8455-3C3013F5DE51}" ShortID="213607736">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{D59A83C3-228A-4374-B363-A667F46C3DC9}" WorkUnitID="{DB086AE6-23BE-48A1-85E3-4A4F6A724524}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8E9DC64C-4CC2-4378-94FD-5C3D0D4EFB16}" ShortID="853223053">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Torchlighter Amb 2" ID="{18DF3E7D-5132-4C19-807C-F0813BDFCC70}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mop" ID="{B93D26D1-9197-480C-9D80-197F075DBB53}">
+					<ChildrenList>
+						<Action Name="" ID="{833BAF21-9112-4355-957E-1B62A93AF089}" ShortID="184802926">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mop" ID="{FBED8CA5-B5AF-447A-8C6D-F03DB9BEA399}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

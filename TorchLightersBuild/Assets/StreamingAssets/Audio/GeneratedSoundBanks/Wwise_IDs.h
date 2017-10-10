@@ -18,17 +18,34 @@ namespace AK
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID LEVEL_1 = 1290008369U;
         static const AkUniqueID LEVEL_2 = 1290008370U;
-        static const AkUniqueID LEVEL_3 = 1290008371U;
-        static const AkUniqueID LEVEL_4 = 1290008372U;
         static const AkUniqueID LEVEL_COMPLETE = 3736098925U;
         static const AkUniqueID LEVEL_START = 352576276U;
         static const AkUniqueID LIGHT_TORCH = 2156420204U;
+        static const AkUniqueID MOP = 1082004779U;
+        static const AkUniqueID MUSIC_START = 3725903807U;
         static const AkUniqueID OPEN_GATE = 196301345U;
         static const AkUniqueID PULL_LEVER = 766957497U;
         static const AkUniqueID SET_TRAP = 2733576287U;
         static const AkUniqueID SPIKES = 747415224U;
         static const AkUniqueID TRIGGER_TRAP = 4012165883U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace MUSIC
+        {
+            static const AkUniqueID GROUP = 3991942870U;
+
+            namespace STATE
+            {
+                static const AkUniqueID L1 = 1702304824U;
+                static const AkUniqueID L2 = 1702304827U;
+                static const AkUniqueID L3 = 1702304826U;
+                static const AkUniqueID L4 = 1702304829U;
+            } // namespace STATE
+        } // namespace MUSIC
+
+    } // namespace STATES
 
     namespace GAME_PARAMETERS
     {
