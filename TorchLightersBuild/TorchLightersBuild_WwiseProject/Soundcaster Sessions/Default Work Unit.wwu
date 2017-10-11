@@ -14,7 +14,7 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Level_1" ID="{543D85AB-4C0A-441E-B128-1263E7EA56BF}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<ObjectRef Name="Amb_1" ID="{543D85AB-4C0A-441E-B128-1263E7EA56BF}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
@@ -26,7 +26,7 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Level_2" ID="{48124709-BE2F-4B5A-8690-4F8F4D706064}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<ObjectRef Name="Amb_2" ID="{48124709-BE2F-4B5A-8690-4F8F4D706064}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>

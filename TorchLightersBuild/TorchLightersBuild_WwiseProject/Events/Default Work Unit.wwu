@@ -83,7 +83,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Level_1" ID="{543D85AB-4C0A-441E-B128-1263E7EA56BF}">
+				<Event Name="Amb_1" ID="{543D85AB-4C0A-441E-B128-1263E7EA56BF}">
 					<ChildrenList>
 						<Action Name="" ID="{0A78184D-D044-476B-A3B8-1E51AF97A9BA}" ShortID="506641337">
 							<PropertyList>
@@ -97,7 +97,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Level_2" ID="{48124709-BE2F-4B5A-8690-4F8F4D706064}">
+				<Event Name="Amb_2" ID="{48124709-BE2F-4B5A-8690-4F8F4D706064}">
 					<ChildrenList>
 						<Action Name="" ID="{FDC2CD1D-4DCC-40EE-A1D3-E21A43E3BEF9}" ShortID="716538696">
 							<PropertyList>
@@ -197,7 +197,8 @@
 						<Action Name="" ID="{8E9DC64C-4CC2-4378-94FD-5C3D0D4EFB16}" ShortID="853223053">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="FadeCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">

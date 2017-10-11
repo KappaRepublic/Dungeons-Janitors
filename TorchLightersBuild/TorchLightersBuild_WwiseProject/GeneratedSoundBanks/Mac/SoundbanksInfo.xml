@@ -21,21 +21,21 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1545137546" Name="Cleanup_Corpse" ObjectPath="\Events\Default Work Unit\Cleanup_Corpse"/>
-				<Event Id="4197195035" Name="Close_Gate" ObjectPath="\Events\Default Work Unit\Close_Gate"/>
-				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep"/>
-				<Event Id="1290008369" Name="Level_1" ObjectPath="\Events\Default Work Unit\Level_1"/>
-				<Event Id="1290008370" Name="Level_2" ObjectPath="\Events\Default Work Unit\Level_2"/>
+				<Event Id="2061769231" Name="Amb_1" ObjectPath="\Events\Default Work Unit\Amb_1" MaxAttenuation="100.000000"/>
+				<Event Id="2061769228" Name="Amb_2" ObjectPath="\Events\Default Work Unit\Amb_2" MaxAttenuation="100.000000"/>
+				<Event Id="1545137546" Name="Cleanup_Corpse" ObjectPath="\Events\Default Work Unit\Cleanup_Corpse" MaxAttenuation="100.000000"/>
+				<Event Id="4197195035" Name="Close_Gate" ObjectPath="\Events\Default Work Unit\Close_Gate" MaxAttenuation="100.000000"/>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" MaxAttenuation="100.000000"/>
 				<Event Id="3736098925" Name="Level_Complete" ObjectPath="\Events\Default Work Unit\Level_Complete" MaxAttenuation="0.000000"/>
-				<Event Id="352576276" Name="Level_Start" ObjectPath="\Events\Default Work Unit\Level_Start"/>
-				<Event Id="2156420204" Name="Light_Torch" ObjectPath="\Events\Default Work Unit\Light_Torch"/>
-				<Event Id="1082004779" Name="Mop" ObjectPath="\Events\Default Work Unit\Mop"/>
+				<Event Id="352576276" Name="Level_Start" ObjectPath="\Events\Default Work Unit\Level_Start" MaxAttenuation="100.000000"/>
+				<Event Id="2156420204" Name="Light_Torch" ObjectPath="\Events\Default Work Unit\Light_Torch" MaxAttenuation="100.000000"/>
+				<Event Id="1082004779" Name="Mop" ObjectPath="\Events\Default Work Unit\Mop" MaxAttenuation="100.000000"/>
 				<Event Id="3725903807" Name="Music_Start" ObjectPath="\Events\Default Work Unit\Music_Start"/>
-				<Event Id="196301345" Name="Open_Gate" ObjectPath="\Events\Default Work Unit\Open_Gate"/>
-				<Event Id="766957497" Name="Pull_Lever" ObjectPath="\Events\Default Work Unit\Pull_Lever"/>
-				<Event Id="2733576287" Name="Set_Trap" ObjectPath="\Events\Default Work Unit\Set_Trap"/>
-				<Event Id="747415224" Name="Spikes" ObjectPath="\Events\Default Work Unit\Spikes"/>
-				<Event Id="4012165883" Name="Trigger_Trap" ObjectPath="\Events\Default Work Unit\Trigger_Trap"/>
+				<Event Id="196301345" Name="Open_Gate" ObjectPath="\Events\Default Work Unit\Open_Gate" MaxAttenuation="100.000000"/>
+				<Event Id="766957497" Name="Pull_Lever" ObjectPath="\Events\Default Work Unit\Pull_Lever" MaxAttenuation="100.000000"/>
+				<Event Id="2733576287" Name="Set_Trap" ObjectPath="\Events\Default Work Unit\Set_Trap" MaxAttenuation="100.000000"/>
+				<Event Id="747415224" Name="Spikes" ObjectPath="\Events\Default Work Unit\Spikes" MaxAttenuation="100.000000"/>
+				<Event Id="4012165883" Name="Trigger_Trap" ObjectPath="\Events\Default Work Unit\Trigger_Trap" MaxAttenuation="100.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="76783930" Language="SFX">
@@ -49,6 +49,10 @@
 				<File Id="100743402" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.02.wav</ShortName>
 					<Path>SFX/Concrete_Left_Foot_Toe.02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="138517460" Language="SFX">
+					<ShortName>Choir 1.wav</ShortName>
+					<Path>SFX/Choir 1_F17FB28C.wem</Path>
 				</File>
 				<File Id="204364504" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.03.wav</ShortName>

@@ -13,11 +13,11 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMB_1 = 2061769231U;
+        static const AkUniqueID AMB_2 = 2061769228U;
         static const AkUniqueID CLEANUP_CORPSE = 1545137546U;
         static const AkUniqueID CLOSE_GATE = 4197195035U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
-        static const AkUniqueID LEVEL_1 = 1290008369U;
-        static const AkUniqueID LEVEL_2 = 1290008370U;
         static const AkUniqueID LEVEL_COMPLETE = 3736098925U;
         static const AkUniqueID LEVEL_START = 352576276U;
         static const AkUniqueID LIGHT_TORCH = 2156420204U;
