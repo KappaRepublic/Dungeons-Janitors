@@ -14,10 +14,13 @@ public class SCR_SpikeLever : MonoBehaviour {
 		if (!activated) {
 			for (int i = 0; i < linkedSpikes.Length; i++) {
 				linkedSpikes [i].GetComponent<SCR_Spikes>().swapState ();
+
 			}
 
 			GetComponent<SpriteRenderer> ().sprite = leverOn;
 			activated = true;
+			AkSoundEngine.PostEvent ("Pull_Lever", gameObject);
+
 		}
 	}
 }

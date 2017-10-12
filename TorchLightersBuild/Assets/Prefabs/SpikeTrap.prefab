@@ -73,6 +73,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4398514718036544}
+  - component: {fileID: 114209770335294766}
+  - component: {fileID: 114744707045227834}
+  - component: {fileID: 114972003950443282}
   m_Layer: 0
   m_Name: SpikeTrap
   m_TagString: Untagged
@@ -223,6 +226,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spikesDown: {fileID: 21300000, guid: 1adc187c95b1c3546bb4be8dff75db73, type: 3}
   spikesUp: {fileID: 21300002, guid: 1adc187c95b1c3546bb4be8dff75db73, type: 3}
+--- !u!114 &114209770335294766
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1727320094336440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff93642d4e104e7db6f3e29c145653a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_positionOffsetData:
+    positionOffset: {x: 0, y: 0, z: 0}
+    KeepMe: 0
+  isEnvironmentAware: 0
+  isStaticObject: 0
+  m_listeners:
+    initialListenerList: []
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!114 &114349018014371262
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -249,6 +272,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spikesDown: {fileID: 21300000, guid: 1adc187c95b1c3546bb4be8dff75db73, type: 3}
   spikesUp: {fileID: 21300002, guid: 1adc187c95b1c3546bb4be8dff75db73, type: 3}
+--- !u!114 &114744707045227834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1727320094336440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef489f12c84c4de79b0a2c74691c1ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 
+  useOtherObject: 0
+  valueGuid: c4f742b61a56f749b9f1e507c8caa35a
+  eventID: -1561391009
+  soundEmitterObject: {fileID: 0}
+  enableActionOnEvent: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  transitionDuration: 0
+  m_callbackData: {fileID: 0}
+  playingId: 0
+--- !u!114 &114972003950443282
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1727320094336440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef489f12c84c4de79b0a2c74691c1ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 
+  useOtherObject: 0
+  valueGuid: 303e03e2c2bf794c8722591b6abff0f4
+  eventID: -282801413
+  soundEmitterObject: {fileID: 0}
+  enableActionOnEvent: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  transitionDuration: 0
+  m_callbackData: {fileID: 0}
+  playingId: 0
 --- !u!212 &212170650216437446
 SpriteRenderer:
   m_ObjectHideFlags: 1
