@@ -1,10 +1,10 @@
 # Oooga
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ibrary/
-/Assets/AssetStoreTools*
+TorchLightersBuild/[Tt]emp/
+TorchLightersBuild/[Oo]bj/
+TorchLightersBuild/[Bb]uild/
+TorchLightersBuild/[Bb]uilds/
+TorchLightersBuild/[Ll]ibrary/
+TorchLightersBuild/Assets/AssetStoreTools*
 
 # Visual Studio 2015 cache directory
 /.vs/
