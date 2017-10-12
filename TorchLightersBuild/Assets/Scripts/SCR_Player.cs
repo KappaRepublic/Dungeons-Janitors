@@ -22,6 +22,8 @@ public class SCR_Player : MonoBehaviour {
 	public Animator pAnimator;
 	public float rollCooldown = 1.0f;
 
+	public float footStepTimer = 0.4f;
+
 	// Use this for initialization
 	void Start () {
 		pAnimator = GetComponent<Animator>();
@@ -41,23 +43,33 @@ public class SCR_Player : MonoBehaviour {
 
 		Vector2 velocity = new Vector2(0.0f, 0.0f);
 
-		SpriteRenderer sprRenderer = GetComponent<SpriteRenderer> ();
-
 		if (Input.GetKey (KeyCode.W)) {
 			velocity.y += 1.0f;
-			playerInteractionArea.transform.rotation = Quaternion.Euler(0, 0, 0);;
+			playerInteractionArea.transform.rotation = Quaternion.Euler(0, 0, 0);
+
+			footStepTimer -= Time.deltaTime;
+			// If timer has reached 0
+			if (footStepTimer <= 0.0f) {
+				footStepTimer = 0.4f;
+				// AkSoundEngine.PostEvent ("Open_Gate", gameObject);
+			}
+
+
+			// Call every 0.4 seconds
+			// AkSoundEngine.PostEvent ("Footstep", gameObject);
+
 		} 
 		if (Input.GetKey (KeyCode.S)) {
 			velocity.y -= 1.0f;
-			playerInteractionArea.transform.rotation = Quaternion.Euler(0, 0, 180);;
+			playerInteractionArea.transform.rotation = Quaternion.Euler(0, 0, 180);
 		}
 		if (Input.GetKey (KeyCode.A)) {
 			velocity.x -= 1.0f;
-			playerInteractionArea.transform.rotation = Quaternion.Euler(0, 0, 90);;
+			playerInteractionArea.transform.rotation = Quaternion.Euler(0, 0, 90);
 		}
 		if (Input.GetKey (KeyCode.D)) {
 			velocity.x += 1.0f;
-			playerInteractionArea.transform.rotation = Quaternion.Euler(0, 0, 270);;
+			playerInteractionArea.transform.rotation = Quaternion.Euler(0, 0, 270);
 		}
 
 		updateMovement (velocity);
