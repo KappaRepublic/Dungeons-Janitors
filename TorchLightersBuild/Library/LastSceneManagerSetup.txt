@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/SCN_GameScene.unity
+- path: Assets/Scenes/SCN_TestMovement.unity
   isLoaded: 1
   isActive: 1
