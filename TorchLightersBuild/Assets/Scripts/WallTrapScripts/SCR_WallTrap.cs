@@ -29,22 +29,16 @@ public class SCR_WallTrap : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		Debug.Log (SCR_PressurePlate.platePressed);
+		//Debug.Log (SCR_PressurePlate.platePressed);
 	}
 
-	void OnTriggerStay2D(Collider2D coll)
-	{
-		if (coll.gameObject.tag == "Player")
+	public void resetTrap()
+	{		
+		if (SCR_PressurePlate.platePressed == true)
 		{
-			if (SCR_PressurePlate.platePressed == true)
-			{
-				if (Input.GetKeyDown (KeyCode.Space))
-				{
-					SCR_PressurePlate.platePressed = false;
-				}
-			}
-				
-		}
+			
+			SCR_PressurePlate.platePressed = false;
 
+		}
 	}
 }

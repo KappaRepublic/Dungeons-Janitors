@@ -41,18 +41,15 @@ public class SCR_Bullet : MonoBehaviour
 		}
 	}
 
-
-
 	void OnCollisionEnter2D(Collision2D col)
 	{
-		Destroy (gameObject);
-		Debug.Log ("need to add functionality when bullet hits player");
 
 		if (col.gameObject.tag == "Player")
 		{
-			
+			SCR_Player.dead = true;
 		}
+
+
+		Destroy (gameObject);
 	}
-
-
 }

@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Chest
+  - Lever
+  - Blood
+  - Torch
+  - WallTrap
+  - Gate
+  - GateCollider
   layers:
   - Default
   - TransparentFX
@@ -40,7 +47,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: UI
-    uniqueID: 454272841
     locked: 0
