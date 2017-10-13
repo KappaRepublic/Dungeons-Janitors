@@ -22,6 +22,7 @@ public class SCR_Player : MonoBehaviour {
 	public Animator pAnimator;
 	public float rollCooldown = 1.0f;
 
+
 	public float footStepTimer = 0.4f;
 
 	// Use this for initialization
@@ -33,8 +34,19 @@ public class SCR_Player : MonoBehaviour {
 	void Update () {
 		// Update cool downs
 
+	
+
 		// Process player input
 		processInput ();
+	}
+	// SETTING WWISE EVENTS
+
+	public void IsWalking (){
+		AkSoundEngine.PostEvent ("Footstep", gameObject);
+	}
+
+	public void LightTorch (){
+		AkSoundEngine.PostEvent ("Light_Torch", gameObject);
 	}
 
 	// Process input checks for what the player is inputting and calls
@@ -169,7 +181,7 @@ public class SCR_Player : MonoBehaviour {
 					pAnimator.Play("ANIM_PlayerMop_DLeft");
 				} else {
 					// If player is not mopping
-					pAnimator.Play("ANIM_PlayerRun_DLeft");
+					pAnimator.Play("ANIM_Player_FakeIdle");
 				}
 			}
 		}

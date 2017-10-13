@@ -15,7 +15,18 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Footsteps" ID="{EA710813-6178-484A-A009-393D5E76776C}" ShortID="820357228">
 							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-8</Value>
@@ -31,7 +42,9 @@
 										<Effect Name="Wwise Parametric EQ (Custom)" ID="{7A025369-14C7-48BA-BD6F-AFBA35BE76D0}" ShortID="665362772" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 											<PropertyList>
 												<Property Name="FrequencyBand2" Type="Real32" Value="2077"/>
+												<Property Name="FrequencyBand3" Type="Real32" Value="620"/>
 												<Property Name="GainBand2" Type="Real32" Value="-24"/>
+												<Property Name="GainBand3" Type="Real32" Value="-24"/>
 											</PropertyList>
 										</Effect>
 									</Custom>
@@ -319,7 +332,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
