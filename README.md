@@ -17,6 +17,10 @@ Source Tree - Available from [here](https://www.sourcetreeapp.com/)
 
 (It's recommended to go for GitHub Desktop over Source Tree as it is the easier of the two programs to operate. Source Tree is included as Seb uses it)
 
+## Used Technologies
+
+VLS2D - Available from [here](https://github.com/reveriejake/VLS2D)
+
 ## Project Guidelines
 
 To be discussed with the teams.
