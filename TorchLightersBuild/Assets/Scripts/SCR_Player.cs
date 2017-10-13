@@ -22,7 +22,6 @@ public class SCR_Player : MonoBehaviour {
 	public Animator pAnimator;
 	public float rollCooldown = 1.0f;
 
-
 	public float footStepTimer = 0.4f;
 
 	// Use this for initialization
@@ -34,19 +33,8 @@ public class SCR_Player : MonoBehaviour {
 	void Update () {
 		// Update cool downs
 
-	
-
 		// Process player input
 		processInput ();
-	}
-	// SETTING WWISE EVENTS
-
-	public void IsWalking (){
-		AkSoundEngine.PostEvent ("Footstep", gameObject);
-	}
-
-	public void LightTorch (){
-		AkSoundEngine.PostEvent ("Light_Torch", gameObject);
 	}
 
 	// Process input checks for what the player is inputting and calls
@@ -58,30 +46,15 @@ public class SCR_Player : MonoBehaviour {
 		if (Input.GetKey (KeyCode.W)) {
 			velocity.y += 1.0f;
 			playerInteractionArea.transform.rotation = Quaternion.Euler(0, 0, 0);
-
-			footStepTimer -= Time.deltaTime;
-			// If timer has reached 0
-			if (footStepTimer <= 0.0f) {
-				footStepTimer = 0.4f;
-				// AkSoundEngine.PostEvent ("Open_Gate", gameObject);
-			}
-
-
-			// Call every 0.4 seconds
-			// AkSoundEngine.PostEvent ("Footstep", gameObject);
-
 		} 
 		if (Input.GetKey (KeyCode.S)) {
 			velocity.y -= 1.0f;
-			playerInteractionArea.transform.rotation = Quaternion.Euler(0, 0, 180);
 		}
 		if (Input.GetKey (KeyCode.A)) {
 			velocity.x -= 1.0f;
-			playerInteractionArea.transform.rotation = Quaternion.Euler(0, 0, 90);
 		}
 		if (Input.GetKey (KeyCode.D)) {
 			velocity.x += 1.0f;
-			playerInteractionArea.transform.rotation = Quaternion.Euler(0, 0, 270);
 		}
 
 		updateMovement (velocity);
@@ -181,7 +154,7 @@ public class SCR_Player : MonoBehaviour {
 					pAnimator.Play("ANIM_PlayerMop_DLeft");
 				} else {
 					// If player is not mopping
-					pAnimator.Play("ANIM_Player_FakeIdle");
+					// pAnimator.Play("ANIM_PlayerRun_DLeft");
 				}
 			}
 		}
