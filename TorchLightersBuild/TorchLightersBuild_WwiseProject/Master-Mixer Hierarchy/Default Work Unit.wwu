@@ -3,7 +3,106 @@
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}" PersistMode="Standalone">
 			<ChildrenList>
-				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ChildrenList>
+						<AuxBus Name="Reverb_Large" ID="{B5D42962-764A-4EC3-8237-4D4517D7EE4F}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+									<ObjectRef Name="Big_Garage1" ID="{172402A8-22F4-40FC-BE1D-5269594CB633}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Reverb_Zone" ID="{12D2B710-A806-424B-8D34-D1870E8D7684}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Small" ID="{3D8B988E-413C-46A1-9DED-8D9955B394B9}"/>
+										<State Name="Custom State" ID="{9DC24643-75A2-40DB-9FD2-6BEFC4CFCCCD}" ShortID="712071534">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hall" ID="{771B866F-3A64-4E11-AE6C-892A64F95F3F}"/>
+										<State Name="Custom State" ID="{305FBBF8-B830-4C10-8FB8-497FCB0FFA9A}" ShortID="945207807">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</AuxBus>
+						<AuxBus Name="Reverb_Small" ID="{3CBAA407-04CB-4D13-99A2-03DAB5E91D51}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Room_Medium_Tiled" ID="{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Reverb_Zone" ID="{12D2B710-A806-424B-8D34-D1870E8D7684}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Large" ID="{1E188284-FFD8-4594-87B7-716550402829}"/>
+										<State Name="Custom State" ID="{50018300-FBE7-4878-AAB5-DBB93133D723}" ShortID="938905437">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Hall" ID="{771B866F-3A64-4E11-AE6C-892A64F95F3F}"/>
+										<State Name="Custom State" ID="{217D22D9-E3CC-4FB5-8533-11CF2A101E01}" ShortID="481637315">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</AuxBus>
+						<AuxBus Name="Reverb_Hall" ID="{D74B02EA-E651-4119-B49A-3AFF8E0BB068}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+									<ObjectRef Name="Tunnel1" ID="{CC44B890-9865-4157-965F-86FED27BC4C6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Reverb_Zone" ID="{12D2B710-A806-424B-8D34-D1870E8D7684}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Large" ID="{1E188284-FFD8-4594-87B7-716550402829}"/>
+										<State Name="Custom State" ID="{FD9D158B-A3BC-4F13-AFE9-22499D26AE53}" ShortID="631200796">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Small" ID="{3D8B988E-413C-46A1-9DED-8D9955B394B9}"/>
+										<State Name="Custom State" ID="{4A4FD2C5-A4B5-4564-A13D-0548D3FDC74F}" ShortID="546163738">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-96"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
 				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
 			</ChildrenList>

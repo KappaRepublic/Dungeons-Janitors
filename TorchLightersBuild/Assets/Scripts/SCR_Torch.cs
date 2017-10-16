@@ -29,7 +29,9 @@ public class SCR_Torch : MonoBehaviour
 	public void lightTorch(){
 		torchLit = true;
 		GetComponent<SpriteRenderer> ().sprite = litSprite;
+        AkSoundEngine.PostEvent("Light_Torch", gameObject);
 
-		lightSource.SetActive (true);
+
+        lightSource.SetActive (true);
 	}
 }

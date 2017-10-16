@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID CLEAN_BLOOD = 2331375193U;
         static const AkUniqueID CLEANUP_CORPSE = 1545137546U;
         static const AkUniqueID CLOSE_GATE = 4197195035U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
@@ -25,8 +26,10 @@ namespace AK
         static const AkUniqueID MUSIC_START = 3725903807U;
         static const AkUniqueID OPEN_GATE = 196301345U;
         static const AkUniqueID PULL_LEVER = 766957497U;
+        static const AkUniqueID REFILL_CHEST = 3968848771U;
         static const AkUniqueID SET_TRAP = 2733576287U;
         static const AkUniqueID SPIKES = 747415224U;
+        static const AkUniqueID SWING_TORCH = 3704360134U;
         static const AkUniqueID TRIGGER_TRAP = 4012165883U;
     } // namespace EVENTS
 
@@ -44,6 +47,18 @@ namespace AK
                 static const AkUniqueID L4 = 1702304829U;
             } // namespace STATE
         } // namespace MUSIC
+
+        namespace REVERB_ZONE
+        {
+            static const AkUniqueID GROUP = 709278834U;
+
+            namespace STATE
+            {
+                static const AkUniqueID HALL = 3633416828U;
+                static const AkUniqueID LARGE = 4284352190U;
+                static const AkUniqueID SMALL = 1846755610U;
+            } // namespace STATE
+        } // namespace REVERB_ZONE
 
     } // namespace STATES
 
@@ -72,6 +87,13 @@ namespace AK
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MASTER_SECONDARY_BUS = 805203703U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID REVERB_HALL = 543722441U;
+        static const AkUniqueID REVERB_LARGE = 573298149U;
+        static const AkUniqueID REVERB_SMALL = 933527613U;
+    } // namespace AUX_BUSSES
 
 }// namespace AK
 

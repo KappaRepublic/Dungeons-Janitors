@@ -1,12 +1,25 @@
 State Group	ID	Name			Wwise Object Path	Notes
+	709278834	Reverb_Zone			\Default Work Unit\Reverb_Zone	
 	3991942870	Music			\Default Work Unit\Music	
 
 State	ID	Name	State Group			Notes
+	748895195	None	Reverb_Zone			
+	1846755610	Small	Reverb_Zone			
+	3633416828	Hall	Reverb_Zone			
+	4284352190	Large	Reverb_Zone			
 	748895195	None	Music			
 	1702304824	L1	Music			
 	1702304826	L3	Music			
 	1702304827	L2	Music			
 	1702304829	L4	Music			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	481637315	Hall	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small		
+	546163738	Small	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Hall		
+	631200796	Large	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Hall		
+	712071534	Small	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Large		
+	938905437	Large	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Small		
+	945207807	Hall	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Large		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
@@ -27,4 +40,14 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	543722441	Reverb_Hall			\Default Work Unit\Master Audio Bus\Reverb_Hall	
+	573298149	Reverb_Large			\Default Work Unit\Master Audio Bus\Reverb_Large	
+	933527613	Reverb_Small			\Default Work Unit\Master Audio Bus\Reverb_Small	
+
+Effect plug-ins	ID	Name	Type				Notes
+	702543456	Tunnel1	Wwise Matrix Reverb			
+	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
+	3546444380	Big_Garage1	Wwise Matrix Reverb			
 

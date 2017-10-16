@@ -27,7 +27,9 @@ public class SCR_Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		pAnimator = GetComponent<Animator>();
-	}
+
+        AkSoundEngine.SetState("Reverb_Zone", "Small");
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -37,9 +39,29 @@ public class SCR_Player : MonoBehaviour {
 		processInput ();
 	}
 
-	// Process input checks for what the player is inputting and calls
-	// the functions correlating to each key
-	void processInput(){
+    // PLAYER AUDIO TRIGGERS
+
+    public void IsWalking()
+    {
+        AkSoundEngine.PostEvent("Footstep", gameObject);
+    }
+
+    public void IsMopping()
+    {
+        AkSoundEngine.PostEvent("Mop", gameObject);
+    }
+
+    public void IsLightingTorch()
+    {
+        AkSoundEngine.PostEvent("SwingTorch", gameObject);
+    }
+
+    //
+
+
+    // Process input checks for what the player is inputting and calls
+    // the functions correlating to each key
+    void processInput(){
 
 		Vector2 velocity = new Vector2(0.0f, 0.0f);
 

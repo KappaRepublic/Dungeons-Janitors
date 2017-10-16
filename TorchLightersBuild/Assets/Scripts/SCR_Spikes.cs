@@ -14,9 +14,14 @@ public class SCR_Spikes : MonoBehaviour {
 		// Update graphic based on current state
 		if (activated) {
 			GetComponent<SpriteRenderer> ().sprite = spikesUp;
-		} else {
+            AkSoundEngine.PostEvent("Trigger_Trap", gameObject);
+
+        }
+        else {
 			GetComponent<SpriteRenderer> ().sprite = spikesDown;
 			GetComponent<BoxCollider2D> ().enabled = false;
-		}
-	}
+            AkSoundEngine.PostEvent("Set_Trap", gameObject);
+
+        }
+    }
 }

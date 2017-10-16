@@ -12,6 +12,17 @@
 						<State Name="L4" ID="{CCD8DFF5-728E-4047-94B8-EEB6B7AFA28C}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Reverb_Zone" ID="{12D2B710-A806-424B-8D34-D1870E8D7684}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{550CB47D-33BE-4584-B9A5-4ADDF71A8654}"/>
+						<State Name="Large" ID="{1E188284-FFD8-4594-87B7-716550402829}"/>
+						<State Name="Small" ID="{3D8B988E-413C-46A1-9DED-8D9955B394B9}"/>
+						<State Name="Hall" ID="{771B866F-3A64-4E11-AE6C-892A64F95F3F}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

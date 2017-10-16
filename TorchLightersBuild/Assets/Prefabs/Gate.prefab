@@ -23,6 +23,9 @@ GameObject:
   - component: {fileID: 61397045104049432}
   - component: {fileID: 61831320900578692}
   - component: {fileID: 114517093547533130}
+  - component: {fileID: 114324669274060034}
+  - component: {fileID: 114772987732806612}
+  - component: {fileID: 114402380625171982}
   m_Layer: 0
   m_Name: Gate
   m_TagString: Untagged
@@ -93,6 +96,48 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &114324669274060034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1228559220227060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdb4dd23dec9b2e45a696fb7bacc3d7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_positionOffsetData:
+    positionOffset: {x: 0, y: 0, z: 0}
+    KeepMe: 0
+  isEnvironmentAware: 0
+  isStaticObject: 0
+  m_listeners:
+    initialListenerList: []
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &114402380625171982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1228559220227060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93df001471da4f84680676dbe9ca07fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 
+  useOtherObject: 0
+  valueGuid: fb35d9063cb86142b94683dd0c125cf8
+  eventID: -97772261
+  soundEmitterObject: {fileID: 0}
+  enableActionOnEvent: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  transitionDuration: 0
+  m_callbackData: {fileID: 0}
+  playingId: 0
 --- !u!114 &114517093547533130
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -106,6 +151,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   closedGate: {fileID: 21300000, guid: 6ef02fb1a1ec64545b64c2af3964e47e, type: 3}
   openGate: {fileID: 21300000, guid: c5a27f7bc6a16b84bb5f6213c6b336bd, type: 3}
+--- !u!114 &114772987732806612
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1228559220227060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93df001471da4f84680676dbe9ca07fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 
+  useOtherObject: 0
+  valueGuid: 5a7a20a520c2de459778ca42c286fa74
+  eventID: 196301345
+  soundEmitterObject: {fileID: 0}
+  enableActionOnEvent: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  transitionDuration: 0
+  m_callbackData: {fileID: 0}
+  playingId: 0
 --- !u!212 &212351957732075172
 SpriteRenderer:
   m_ObjectHideFlags: 1

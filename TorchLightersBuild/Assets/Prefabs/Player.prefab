@@ -296,6 +296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b287c320e10af7445974a8b872be41be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pAnimator: {fileID: 0}
 --- !u!114 &114931290044814896
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -309,12 +310,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSpeed: 4
   playerInteractionArea: {fileID: 1032774615444744}
-  directions:
-  - {fileID: 21300000, guid: 268924d6b07dee346bc0860390339842, type: 3}
-  - {fileID: 21300002, guid: 268924d6b07dee346bc0860390339842, type: 3}
-  - {fileID: 21300004, guid: 268924d6b07dee346bc0860390339842, type: 3}
-  - {fileID: 21300006, guid: 268924d6b07dee346bc0860390339842, type: 3}
+  pAnimator: {fileID: 0}
   rollCooldown: 1
+  footStepTimer: 0.4
 --- !u!114 &114989152793431430
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 212340647471605134}
   - component: {fileID: 61480246845741658}
   - component: {fileID: 114091172809148844}
+  - component: {fileID: 114515986783636554}
+  - component: {fileID: 114585985006659644}
   m_Layer: 0
   m_Name: Chest
   m_TagString: Chest
@@ -80,6 +82,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chestOpenSprite: {fileID: 21300000, guid: 0145c4368332cfb43a969e3f6732d2a0, type: 3}
   chestClosedSprite: {fileID: 21300002, guid: 0145c4368332cfb43a969e3f6732d2a0, type: 3}
+--- !u!114 &114515986783636554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783049831270076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdb4dd23dec9b2e45a696fb7bacc3d7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_positionOffsetData:
+    positionOffset: {x: 0, y: 0, z: 0}
+    KeepMe: 0
+  isEnvironmentAware: 0
+  isStaticObject: 0
+  m_listeners:
+    initialListenerList: []
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &114585985006659644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1783049831270076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93df001471da4f84680676dbe9ca07fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 
+  useOtherObject: 0
+  valueGuid: 2428b5560f3d774fbc72efff140cf87d
+  eventID: -326118525
+  soundEmitterObject: {fileID: 0}
+  enableActionOnEvent: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  transitionDuration: 0
+  m_callbackData: {fileID: 0}
+  playingId: 0
 --- !u!212 &212340647471605134
 SpriteRenderer:
   m_ObjectHideFlags: 1

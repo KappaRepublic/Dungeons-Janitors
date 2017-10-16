@@ -3114,6 +3114,48 @@ GameObject:
   m_PrefabParentObject: {fileID: 1179155883147360, guid: e48dccf08a3815d449d3be33e091bc5f,
     type: 2}
   m_PrefabInternal: {fileID: 1780265993}
+--- !u!114 &342598532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 342598531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef489f12c84c4de79b0a2c74691c1ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: 6557b92ed3b4254fa1c1390ea6b07ef3
+  eventID: 1866025847
+  soundEmitterObject: {fileID: 0}
+  enableActionOnEvent: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  transitionDuration: 0
+  m_callbackData: {fileID: 0}
+  playingId: 0
+--- !u!114 &342598533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 342598531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff93642d4e104e7db6f3e29c145653a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_positionOffsetData:
+    positionOffset: {x: 0, y: 0, z: 0}
+    KeepMe: 0
+  isEnvironmentAware: 0
+  isStaticObject: 0
+  m_listeners:
+    initialListenerList: []
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!4 &342598536 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4589323849829598, guid: e48dccf08a3815d449d3be33e091bc5f,
@@ -4949,6 +4991,25 @@ GameObject:
   m_PrefabParentObject: {fileID: 1441675468766952, guid: e48dccf08a3815d449d3be33e091bc5f,
     type: 2}
   m_PrefabInternal: {fileID: 1780265993}
+--- !u!114 &814561750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 814561749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0331e06f6d96a483db1ebd376589fac5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: e14097971d0fdf4291574c7773236c14
+  bankName: Main
+  loadAsynchronous: 0
+  decodeBank: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
 --- !u!114 &814561751
 MonoBehaviour:
   m_ObjectHideFlags: 0
