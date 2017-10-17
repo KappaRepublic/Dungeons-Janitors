@@ -749,8 +749,6 @@ GameObject:
   m_Component:
   - component: {fileID: 108658596}
   - component: {fileID: 108658599}
-  - component: {fileID: 108658598}
-  - component: {fileID: 108658597}
   m_Layer: 0
   m_Name: Zone
   m_TagString: Untagged
@@ -771,34 +769,6 @@ Transform:
   m_Father: {fileID: 1593495229}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &108658597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 108658595}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2099697b428a6f94197ebaf7ad36290a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7f422d6
-  useOtherObject: 0
-  groupGuid: 10b7d21206a84b428d34d1870e8d7684
-  valueGuid: 6f861b77643a114eae6c892a64f95f3f
-  groupID: 709278834
-  valueID: -661550468
---- !u!114 &108658598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 108658595}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f161c9ef30f938642aa81c1214db4041, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &108658599
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -910,7 +880,6 @@ GameObject:
   m_Component:
   - component: {fileID: 133970844}
   - component: {fileID: 133970846}
-  - component: {fileID: 133970845}
   m_Layer: 0
   m_Name: Zone (4)
   m_TagString: Untagged
@@ -931,23 +900,6 @@ Transform:
   m_Father: {fileID: 329625911}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &133970845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 133970843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2099697b428a6f94197ebaf7ad36290a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7f422d6
-  useOtherObject: 1
-  groupGuid: 10b7d21206a84b428d34d1870e8d7684
-  valueGuid: 8482181ed8ff944587b7716550402829
-  groupID: 709278834
-  valueID: -10615106
 --- !u!61 &133970846
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3454,7 +3406,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 342598531}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 93df001471da4f84680676dbe9ca07fd, type: 3}
   m_Name: 
@@ -3970,9 +3922,8 @@ GameObject:
   m_Component:
   - component: {fileID: 463602641}
   - component: {fileID: 463602643}
-  - component: {fileID: 463602642}
-  - component: {fileID: 463602645}
   - component: {fileID: 463602644}
+  - component: {fileID: 463602642}
   m_Layer: 0
   m_Name: 'Zone '
   m_TagString: Untagged
@@ -4001,15 +3952,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 463602640}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2099697b428a6f94197ebaf7ad36290a, type: 3}
+  m_Script: {fileID: 11500000, guid: 484071442e0d20f45ab1cd2e71232896, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7f422d6
-  useOtherObject: 1
-  groupGuid: 10b7d21206a84b428d34d1870e8d7684
-  valueGuid: 8482181ed8ff944587b7716550402829
-  groupID: 709278834
-  valueID: -10615106
 --- !u!61 &463602643
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4041,44 +3986,17 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 463602640}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70292a11f1610814b9651a77a7d41ca5, type: 3}
+  m_Script: {fileID: 11500000, guid: 2099697b428a6f94197ebaf7ad36290a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   triggerList: f7f422d6
   useOtherObject: 1
-  valueGuid: ab853d540a4c1e44b1281263e7ea56bf
-  eventID: 1290008369
-  soundEmitterObject: {fileID: 0}
-  enableActionOnEvent: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  transitionDuration: 0
-  m_callbackData: {fileID: 0}
-  playingId: 0
-  multiPositionTypeLabel: 0
-  multiPositionArray: []
---- !u!114 &463602645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 463602640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdb4dd23dec9b2e45a696fb7bacc3d7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_positionOffsetData:
-    positionOffset: {x: 0, y: 0, z: 0}
-    KeepMe: 0
-  isEnvironmentAware: 0
-  isStaticObject: 0
-  m_listeners:
-    initialListenerList: []
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
+  groupGuid: 10b7d21206a84b428d34d1870e8d7684
+  valueGuid: 6f861b77643a114eae6c892a64f95f3f
+  groupID: 709278834
+  valueID: -661550468
 --- !u!1001 &478705249
 Prefab:
   m_ObjectHideFlags: 0
@@ -4771,7 +4689,6 @@ GameObject:
   m_Component:
   - component: {fileID: 616548134}
   - component: {fileID: 616548136}
-  - component: {fileID: 616548135}
   m_Layer: 0
   m_Name: Zone (1)
   m_TagString: Untagged
@@ -4792,23 +4709,6 @@ Transform:
   m_Father: {fileID: 329625911}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &616548135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 616548133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2099697b428a6f94197ebaf7ad36290a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7f422d6
-  useOtherObject: 1
-  groupGuid: 10b7d21206a84b428d34d1870e8d7684
-  valueGuid: 8482181ed8ff944587b7716550402829
-  groupID: 709278834
-  valueID: -10615106
 --- !u!61 &616548136
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8503,7 +8403,6 @@ GameObject:
   m_Component:
   - component: {fileID: 990721464}
   - component: {fileID: 990721466}
-  - component: {fileID: 990721465}
   m_Layer: 0
   m_Name: Zone (2)
   m_TagString: Untagged
@@ -8524,23 +8423,6 @@ Transform:
   m_Father: {fileID: 329625911}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &990721465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 990721463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2099697b428a6f94197ebaf7ad36290a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7f422d6
-  useOtherObject: 1
-  groupGuid: 10b7d21206a84b428d34d1870e8d7684
-  valueGuid: 8482181ed8ff944587b7716550402829
-  groupID: 709278834
-  valueID: -10615106
 --- !u!61 &990721466
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12599,7 +12481,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1457606324}
   - component: {fileID: 1457606326}
-  - component: {fileID: 1457606325}
   m_Layer: 0
   m_Name: Zone (3)
   m_TagString: Untagged
@@ -12620,23 +12501,6 @@ Transform:
   m_Father: {fileID: 329625911}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1457606325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1457606323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2099697b428a6f94197ebaf7ad36290a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7f422d6
-  useOtherObject: 1
-  groupGuid: 10b7d21206a84b428d34d1870e8d7684
-  valueGuid: 8482181ed8ff944587b7716550402829
-  groupID: 709278834
-  valueID: -10615106
 --- !u!61 &1457606326
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15589,7 +15453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93df001471da4f84680676dbe9ca07fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c
+  triggerList: 
   useOtherObject: 0
   valueGuid: 303e03e2c2bf794c8722591b6abff0f4
   eventID: -282801413
@@ -15636,7 +15500,7 @@ MonoBehaviour:
   m_positionOffsetData:
     positionOffset: {x: 0, y: 0, z: 0}
     KeepMe: 0
-  isEnvironmentAware: 1
+  isEnvironmentAware: 0
   isStaticObject: 0
   m_listeners:
     initialListenerList: []
@@ -16185,6 +16049,75 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1952457800 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1613880177432386, guid: d66cca9a0bacf7e40af38b7423289a56,
+    type: 2}
+  m_PrefabInternal: {fileID: 155401527}
+--- !u!114 &1952457805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1952457800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93df001471da4f84680676dbe9ca07fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 
+  useOtherObject: 0
+  valueGuid: b9e383866ebf174d9347615ddb518a36
+  eventID: 766957497
+  soundEmitterObject: {fileID: 0}
+  enableActionOnEvent: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  transitionDuration: 0
+  m_callbackData: {fileID: 0}
+  playingId: 0
+--- !u!114 &1952457806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1952457800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdb4dd23dec9b2e45a696fb7bacc3d7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_positionOffsetData:
+    positionOffset: {x: 0, y: 0, z: 0}
+    KeepMe: 0
+  isEnvironmentAware: 0
+  isStaticObject: 0
+  m_listeners:
+    initialListenerList: []
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1952457807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1952457800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93df001471da4f84680676dbe9ca07fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 
+  useOtherObject: 0
+  valueGuid: c4f742b61a56f749b9f1e507c8caa35a
+  eventID: -1561391009
+  soundEmitterObject: {fileID: 0}
+  enableActionOnEvent: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  transitionDuration: 0
+  m_callbackData: {fileID: 0}
+  playingId: 0
 --- !u!1001 &1959315217
 Prefab:
   m_ObjectHideFlags: 0
