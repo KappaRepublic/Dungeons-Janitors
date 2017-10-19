@@ -9,15 +9,15 @@ Tiled - Available from [here](http://www.mapeditor.org/)
 
 Tiled2Unity - Available from [here](https://seanba.itch.io/tiled2unity)
 
+Wwise - Available from [here](https://www.audiokinetic.com/products/wwise/)
+
 GitHub Desktop - Available from [here](https://desktop.github.com/)
 
 **OR** 
 
 Source Tree - Available from [here](https://www.sourcetreeapp.com/)
 
-(It's recommended to go for GitHub Desktop over Source Tree as it is the easier of the two programs to operate. Source Tree is included as Seb uses it)
-
-## Used Technologies
+## Additional Technologies
 
 VLS2D - Available from [here](https://github.com/reveriejake/VLS2D)
 
