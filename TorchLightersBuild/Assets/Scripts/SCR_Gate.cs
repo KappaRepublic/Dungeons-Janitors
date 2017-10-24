@@ -36,12 +36,14 @@ public class SCR_Gate : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
+		//changes the sprite and disables the collider so the player can walk through
 		if (gateOpen == true)
 		{
 			gate.gameObject.GetComponent<SpriteRenderer> ().sprite = openGate;
 			gate.gameObject.GetComponent<BoxCollider2D> ().enabled = false;
 		}
 
+		//visaversa
 		if (gateOpen == false)
 		{
 			gate.gameObject.GetComponent<SpriteRenderer> ().sprite = closedGate;
@@ -49,6 +51,8 @@ public class SCR_Gate : MonoBehaviour
 		}
 	}
 
+	//when the player interacts with a gate, if its open, close it. and if its
+	//closed, open it.
 	public void gateInteraction()
 	{
 		

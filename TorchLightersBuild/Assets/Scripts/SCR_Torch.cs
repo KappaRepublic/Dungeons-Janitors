@@ -26,10 +26,11 @@ public class SCR_Torch : MonoBehaviour
 	public Sprite litSprite;
 	public GameObject lightSource;
 
+	//changes the sprite to signify the light is on
 	public void lightTorch(){
 		torchLit = true;
 		GetComponent<SpriteRenderer> ().sprite = litSprite;
-
+		//activates the light source for the lighting system.
 		lightSource.SetActive (true);
 	}
 }

@@ -11,6 +11,8 @@ TagManager:
   - WallTrap
   - Gate
   - GateCollider
+  - RubbleCollider
+  - TrapDoor
   layers:
   - Default
   - TransparentFX

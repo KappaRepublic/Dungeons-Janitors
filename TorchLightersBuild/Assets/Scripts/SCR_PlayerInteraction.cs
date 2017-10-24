@@ -48,6 +48,19 @@ public class SCR_PlayerInteraction : MonoBehaviour {
 				Debug.Log ("GateCollider");
 				col.gameObject.GetComponent<SCR_Gate> ().gateInteraction ();
 			}
+
+			if(col.gameObject.tag == "RubbleCollider")
+			{
+				Debug.Log("RubbleCollider");
+				col.gameObject.GetComponent<SCR_Rubble> ().rubbleInteraction();
+			}
+
+			if (col.gameObject.tag == "TrapDoor")
+			{
+				Debug.Log ("TrapDoor");
+				col.gameObject.GetComponent<SCR_TrapDoor> ().trapDoorInteraction ();
+			}
+			
 		}
 	}
 }
