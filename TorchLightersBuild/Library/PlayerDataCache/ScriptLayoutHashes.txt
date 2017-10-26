@@ -117,9 +117,11 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Hall_Verb
 ad37dc40b50266e7dc49dee5669b85d2 Assembly-CSharp.dll:.AkTriggerCollisionEnter
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FrankMove
 fab3f48bb6484a76cde2b81e3201be7e Assembly-CSharp.dll:Tiled2Unity.TileObject
+6ebef2fc5d5fd10f6028ef537a8ed080 Assembly-CSharp.dll:.SCR_TrapDoor
 1ac45e65362b8990ca8bc05364d4581e Assembly-CSharp.dll:Tiled2Unity.ImportBehaviour
 ad37dc40b50266e7dc49dee5669b85d2 Assembly-CSharp.dll:.AkTriggerExit
 e2943923977e8d5b90259c57698a1b60 Assembly-CSharp.dll:.Draggable2D
@@ -133,10 +135,11 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 ad37dc40b50266e7dc49dee5669b85d2 Assembly-CSharp.dll:.AkTriggerEnter
 c5b77decb97ffc0c36e810b155d27dde Assembly-CSharp.dll:Tiled2Unity.TiledMap
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AkTriggerEnable
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SCR_Timer
 b492059a9eaba1758103eae3cbf3d3c7 Assembly-CSharp.dll:.AkEventCallbackData
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SCR_ChangeScene
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SCR_MopDirection
-ff025e8445bedfe0119e92be03b15be0 Assembly-CSharp.dll:.SCR_Player
+de58d6136fb9eed414e4bde32b1d22b4 Assembly-CSharp.dll:.SCR_Player
 f149f24230a6358c2804c5fae71459a2 Assembly-CSharp.dll:Tiled2Unity.TileAnimator
 079825f47aa65e6cf010f291a92e6390 Assembly-CSharp.dll:PicoGames.VLS2D.VLSRadial
 dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.SCR_LevelSelectBackgroundScroller
@@ -170,6 +173,7 @@ dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.SCR_LevelSelectBackgroundM
 ad37dc40b50266e7dc49dee5669b85d2 Assembly-CSharp.dll:.AkTriggerCollisionExit
 3736845e0e6e8a13dace1e72c0e741dd Assembly-CSharp.dll:.AkEnvironment
 44410162ab98eb3ec8b99c710ac08319 Assembly-CSharp.dll:.SCR_Gate
+75d68852094974cc274e4e34a45bf263 Assembly-CSharp.dll:.SCR_Monster
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule

@@ -8,6 +8,8 @@ TagManager:
   - Lever
   - Blood
   - Torch
+  - Corpse
+  - TrapDoor
   layers:
   - Default
   - TransparentFX

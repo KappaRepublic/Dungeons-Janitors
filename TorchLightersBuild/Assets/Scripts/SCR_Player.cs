@@ -24,6 +24,8 @@ public class SCR_Player : MonoBehaviour {
 
 	public float footStepTimer = 0.4f;
 
+	public bool player2 = false;
+
 	// Use this for initialization
 	void Start () {
 		pAnimator = GetComponent<Animator>();
@@ -43,18 +45,36 @@ public class SCR_Player : MonoBehaviour {
 
 		Vector2 velocity = new Vector2(0.0f, 0.0f);
 
-		if (Input.GetKey (KeyCode.W)) {
-			velocity.y += 1.0f;
-			playerInteractionArea.transform.rotation = Quaternion.Euler(0, 0, 0);
-		} 
-		if (Input.GetKey (KeyCode.S)) {
-			velocity.y -= 1.0f;
+		if (player2) {
+			if (Input.GetKey (KeyCode.UpArrow)) {
+				velocity.y += 1.0f;
+			} 
+			if (Input.GetKey (KeyCode.DownArrow)) {
+				velocity.y -= 1.0f;
+			}
+			if (Input.GetKey (KeyCode.LeftArrow)) {
+				velocity.x -= 1.0f;
+			}
+			if (Input.GetKey (KeyCode.RightArrow)) {
+				velocity.x += 1.0f;
+			}
+		} else {
+			if (Input.GetKey (KeyCode.W)) {
+				velocity.y += 1.0f;
+			} 
+			if (Input.GetKey (KeyCode.S)) {
+				velocity.y -= 1.0f;
+			}
+			if (Input.GetKey (KeyCode.A)) {
+				velocity.x -= 1.0f;
+			}
+			if (Input.GetKey (KeyCode.D)) {
+				velocity.x += 1.0f;
+			}
 		}
-		if (Input.GetKey (KeyCode.A)) {
-			velocity.x -= 1.0f;
-		}
-		if (Input.GetKey (KeyCode.D)) {
-			velocity.x += 1.0f;
+
+		if (Input.GetKey (KeyCode.Home)) {
+			Application.LoadLevel (0);
 		}
 
 		updateMovement (velocity);
@@ -86,6 +106,7 @@ public class SCR_Player : MonoBehaviour {
 				// Moving up
 				if (Input.GetKey (KeyCode.Space)) {
 					// If player is mopping
+					pAnimator.Play("ANIM_PlayerMop_URight");
 				} else {
 					// If player is not mopping
 					pAnimator.Play("ANIM_PlayerRun_URight");
@@ -94,6 +115,7 @@ public class SCR_Player : MonoBehaviour {
 				// Not moving on the y axis
 				if (Input.GetKey (KeyCode.Space)) {
 					// If player is mopping
+					pAnimator.Play("ANIM_PlayerMop_Right");
 				} else {
 					// If player is not mopping
 					pAnimator.Play("ANIM_PlayerRun_Right");
@@ -114,6 +136,7 @@ public class SCR_Player : MonoBehaviour {
 				// Moving up
 				if (Input.GetKey (KeyCode.Space)) {
 					// If player is mopping
+					pAnimator.Play("ANIM_PlayerMop_ULeft");
 				} else {
 					// If player is not mopping
 					pAnimator.Play("ANIM_PlayerRun_ULeft");
@@ -143,6 +166,7 @@ public class SCR_Player : MonoBehaviour {
 				// Moving up
 				if (Input.GetKey (KeyCode.Space)) {
 					// If player is mopping
+					pAnimator.Play("ANIM_PlayerMop_ULeft");
 				} else {
 					// If player is not mopping
 					pAnimator.Play("ANIM_PlayerRun_ULeft");
@@ -151,12 +175,18 @@ public class SCR_Player : MonoBehaviour {
 				// Not moving on the y axis
 				if (Input.GetKey (KeyCode.Space)) {
 					// If player is mopping
-					pAnimator.Play("ANIM_PlayerMop_DLeft");
+					// pAnimator.Play("ANIM_PlayerMop_DLeft");
 				} else {
 					// If player is not mopping
 					// pAnimator.Play("ANIM_PlayerRun_DLeft");
 				}
 			}
+		}
+	}
+
+	void OnTriggerEnter2D(Collider2D col) {
+		if (col.gameObject.tag == "Blood" && Input.GetKey(KeyCode.Space)) {
+			Destroy (col.gameObject);
 		}
 	}
 }
