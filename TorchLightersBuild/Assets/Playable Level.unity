@@ -11632,6 +11632,15 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23797601991000210, guid: 8c02cde5a95ed50468ea783a1f1e4119,
+        type: 2}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770340800208458, guid: 8c02cde5a95ed50468ea783a1f1e4119, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8c02cde5a95ed50468ea783a1f1e4119, type: 2}
   m_IsPrefabParent: 0
