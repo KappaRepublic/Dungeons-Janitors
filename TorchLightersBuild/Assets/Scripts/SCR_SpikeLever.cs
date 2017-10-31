@@ -15,6 +15,8 @@ public class SCR_SpikeLever : MonoBehaviour {
 			for (int i = 0; i < linkedSpikes.Length; i++) {
 				linkedSpikes [i].GetComponent<SCR_Spikes>().swapState ();
                 AkSoundEngine.PostEvent("Pull_Lever", gameObject);
+                AkSoundEngine.PostEvent("Set_Trap", gameObject);
+
 
             }
 

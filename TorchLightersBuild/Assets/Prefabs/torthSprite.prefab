@@ -22,8 +22,6 @@ GameObject:
   - component: {fileID: 212573435846365614}
   - component: {fileID: 61907083509989096}
   - component: {fileID: 114073438208187786}
-  - component: {fileID: 114233359257960858}
-  - component: {fileID: 114624461283876020}
   m_Layer: 0
   m_Name: torthSprite
   m_TagString: Untagged
@@ -83,48 +81,6 @@ MonoBehaviour:
   unlitSprite: {fileID: 21300000, guid: 921c953df21a902418e1fbcb97640508, type: 3}
   litSprite: {fileID: 21300000, guid: f827abd78e8a58346837ffb9696d3b1c, type: 3}
   lightSource: {fileID: 0}
---- !u!114 &114233359257960858
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1530888670244072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdb4dd23dec9b2e45a696fb7bacc3d7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_positionOffsetData:
-    positionOffset: {x: 0, y: 0, z: 0}
-    KeepMe: 0
-  isEnvironmentAware: 0
-  isStaticObject: 0
-  m_listeners:
-    initialListenerList: []
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
---- !u!114 &114624461283876020
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1530888670244072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93df001471da4f84680676dbe9ca07fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: 
-  useOtherObject: 0
-  valueGuid: 695140772a59044e848202c0e2b5d5e3
-  eventID: -2138547092
-  soundEmitterObject: {fileID: 0}
-  enableActionOnEvent: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  transitionDuration: 0
-  m_callbackData: {fileID: 0}
-  playingId: 0
 --- !u!212 &212573435846365614
 SpriteRenderer:
   m_ObjectHideFlags: 1

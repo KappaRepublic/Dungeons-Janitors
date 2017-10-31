@@ -53,7 +53,7 @@ public class SCR_Player : MonoBehaviour {
 
     public void IsLightingTorch()
     {
-        AkSoundEngine.PostEvent("SwingTorch", gameObject);
+        AkSoundEngine.PostEvent("Swing_Torch", gameObject);
     }
 
     //

@@ -38,14 +38,12 @@ public class SCR_Gate : MonoBehaviour
 		{
 			GetComponent<SpriteRenderer> ().sprite = openGate;
 			GetComponent<BoxCollider2D> ().enabled = false;
-            AkSoundEngine.PostEvent("Open_Gate", gameObject);
         }
 
         if (gateOpen == false)
 		{
 			GetComponent<SpriteRenderer> ().sprite = closedGate;
 			GetComponent<BoxCollider2D> ().enabled = true;
-            AkSoundEngine.PostEvent("Close_Gate", gameObject);
 
         }
     }
@@ -57,7 +55,15 @@ public class SCR_Gate : MonoBehaviour
 			if (Input.GetKeyDown (KeyCode.Space))
 			{
 				gateOpen = !gateOpen;
-			}
+                 if (gateOpen == true)
+                {
+                    AkSoundEngine.PostEvent("Open_Gate", gameObject);
+                }
+                 else
+                {
+                    AkSoundEngine.PostEvent("Close_Gate", gameObject);
+                }
+            }
 		}
 
 	}
