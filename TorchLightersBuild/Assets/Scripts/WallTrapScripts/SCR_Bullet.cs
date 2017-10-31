@@ -22,7 +22,7 @@ using UnityEngine;
 public class SCR_Bullet : MonoBehaviour 
 {
 
-	float destrotTimer = 2.0f;
+	float destrotTimer = 5.0f;
 
 	// Use this for initialization
 	void Start () 

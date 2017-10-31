@@ -20,10 +20,13 @@ using UnityEngine;
 
 public class SCR_WallTrap : MonoBehaviour 
 {
+	public static Vector3 currentPosition;
+	public SCR_PressurePlate pressure;
+
 	// Use this for initialization
 	void Start () 
 	{
-		
+		currentPosition = gameObject.transform.position;
 	}
 	
 	// Update is called once per frame
@@ -34,10 +37,10 @@ public class SCR_WallTrap : MonoBehaviour
 
 	public void resetTrap()
 	{		
-		if (SCR_PressurePlate.platePressed == true)
+		if (pressure.platePressed == true)
 		{
 			
-			SCR_PressurePlate.platePressed = false;
+			pressure.platePressed = false;
 
 		}
 	}
