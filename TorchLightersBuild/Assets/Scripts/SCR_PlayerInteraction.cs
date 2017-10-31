@@ -60,6 +60,20 @@ public class SCR_PlayerInteraction : MonoBehaviour {
 				Debug.Log ("TrapDoor");
 				col.gameObject.GetComponent<SCR_TrapDoor> ().trapDoorInteraction ();
 			}
+
+
+			if (col.gameObject.tag == "DeadMonster")
+			{
+				Debug.Log ("DeadMonster");
+				col.gameObject.GetComponent<SCR_DeadMonster> ().reviveMonster ();
+			}
+
+			if (col.gameObject.tag == "HungryMonster")
+			{
+				Debug.Log ("HungryMonster");
+				col.gameObject.GetComponent<SCR_HungryMonster> ().FeedMonster ();
+
+			}
 			
 		}
 	}

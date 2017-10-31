@@ -31,8 +31,8 @@ public class SCR_Monster : MonoBehaviour
 	public Sprite monsterFed;
 
 
-	float rightLimit = 2.5f;
-	float leftLimit = 1.0f;
+	float rightLimit;// = 2.5f;
+	float leftLimit;// = 1.0f;
 	float speed = 2.0f;
 	int direction = 1;
 
@@ -41,7 +41,8 @@ public class SCR_Monster : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		
+		rightLimit = gameObject.transform.position.x + 2.5f;
+		leftLimit = gameObject.transform.position.x - 2.5f;
 	}
 	
 	// Update is called once per frame
@@ -77,6 +78,7 @@ public class SCR_Monster : MonoBehaviour
 		}
 
 	}
+
 
 	void OnTriggerStay2D(Collider2D coll)
 	{

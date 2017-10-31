@@ -13,6 +13,8 @@ TagManager:
   - GateCollider
   - RubbleCollider
   - TrapDoor
+  - DeadMonster
+  - HungryMonster
   layers:
   - Default
   - TransparentFX
