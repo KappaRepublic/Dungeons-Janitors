@@ -20,47 +20,74 @@ public class SCR_PlayerInteraction : MonoBehaviour {
 
 	public Animator pAnimator;
 
+	bool buttonDown = false;
+	public List<GameObject> collidingObjects;
+
 	// Use this for initialization
 	void Start () {
-		
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		// Check for player input as long as a valid target is available
+		if (Input.GetKeyDown (KeyCode.I)) {
+
+			Debug.Log ("I Pressed");
+
+			for (int i = 0; i < collidingObjects.Count; i++) {
+				if (collidingObjects[i] != null) {
+					if (collidingObjects[i].tag == "Chest") {
+						collidingObjects[i].GetComponent<SCR_Chest> ().refillChest ();
+					}
+					if (collidingObjects[i].tag == "Lever") {
+						Debug.Log ("Spike Lever");
+						collidingObjects[i].GetComponent<SCR_SpikeLever> ().activate ();
+					}
+					if (collidingObjects[i].tag == "Torch") {
+						Debug.Log ("Torch");
+						collidingObjects[i].GetComponent<SCR_Torch> ().lightTorch ();
+						// Play the animation
+						pAnimator.Play ("ANIM_PlayerTorchLight_Left");
+					}
+					if (collidingObjects[i].tag == "Corpse") {
+						Debug.Log ("Corspe");
+						Destroy (collidingObjects[i]);
+					}
+					if (collidingObjects[i].gameObject.tag == "TrapDoor") {
+						Debug.Log ("Trap Door");
+						collidingObjects[i].GetComponent<SCR_TrapDoor> ().reset ();
+					}
+					if (collidingObjects [i].gameObject.tag == "GateCollider") {
+						Debug.Log ("Gate");
+						collidingObjects [i].GetComponent<SCR_Gate> ().gateInteraction ();
+					}
+					if (collidingObjects [i].gameObject.tag == "WallTrap") {
+						Debug.Log ("Wall Trap");
+						collidingObjects [i].GetComponent<SCR_WallTrap> ().resetTrap ();
+					}
+				}
+			}
+		}
+
+
+	}
+
+	void FixedUpdate()
+	{
+		collidingObjects.Clear ();
 	}
 
 	void OnTriggerStay2D(Collider2D col)
 	{
-		if (col.gameObject.tag != "Player") {
+		if (col.gameObject.tag != "Player" & col.gameObject.tag != "Blood") {
 			
 			// Show that object has been found to debug information
-			Debug.Log ("Found something");
+			Debug.Log("Object Found");
 
-			// Check for player input as long as a valid target is available
-			if (Input.GetKeyDown (KeyCode.I)) {
-				if (col.gameObject.tag == "Chest") {
-					col.gameObject.GetComponent<SCR_Chest> ().refillChest ();
-				}
-				if (col.gameObject.tag == "Lever") {
-					Debug.Log ("Spike Lever");
-					col.gameObject.GetComponent<SCR_SpikeLever> ().activate ();
-				}
-				if (col.gameObject.tag == "Torch") {
-					Debug.Log ("Torch");
-					col.gameObject.GetComponent<SCR_Torch> ().lightTorch ();
-					// Play the animation
-					pAnimator.Play ("ANIM_PlayerTorchLight_Left");
-				}
-				if (col.gameObject.tag == "Corpse") {
-					Debug.Log ("Corspe");
-					Destroy (col.gameObject);
-				}
-				if (col.gameObject.tag == "TrapDoor") {
-					Debug.Log ("Trap Door");
-					col.gameObject.GetComponent<SCR_TrapDoor> ().reset ();
-				}
+			collidingObjects.Add (col.gameObject);
 
-			}
+			// collidingObject = col.gameObject;
+
 		}
 	}
 }

@@ -22,7 +22,7 @@ using UnityEngine;
 public class SCR_Bullet : MonoBehaviour 
 {
 
-	float destrotTimer = 2.0f;
+	float destroyTimer = 5.0f;
 
 	// Use this for initialization
 	void Start () 
@@ -33,9 +33,30 @@ public class SCR_Bullet : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		destrotTimer -= Time.deltaTime;
+		destroyTimer -= Time.deltaTime;
 
-		if (destrotTimer <= 0)
+		if (destroyTimer <= 0)
+		{
+			Destroy (gameObject);
+		}
+	}
+
+	void OnCollisionEnter2D(Collision2D col)
+	{
+
+		if (col.gameObject.tag == "Player")
+		{
+			// SCR_Player.dead = true;
+			Destroy (gameObject);
+		}
+
+
+		// 
+	}
+
+	void OnTriggerEnter2D(Collider2D col) 
+	{
+		if (col.gameObject.tag == "DestructionZone") 
 		{
 			Destroy (gameObject);
 		}

@@ -10,6 +10,10 @@ TagManager:
   - Torch
   - Corpse
   - TrapDoor
+  - WallTrap
+  - GateCollider
+  - Gate
+  - DestructionZone
   layers:
   - Default
   - TransparentFX

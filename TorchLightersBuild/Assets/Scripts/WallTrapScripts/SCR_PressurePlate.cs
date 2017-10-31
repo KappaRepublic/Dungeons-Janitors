@@ -25,7 +25,7 @@ public class SCR_PressurePlate : MonoBehaviour
 	float bulletImpulse = 5.0f;
 	GameObject theBullet;
 
-	public static bool platePressed;
+	public bool platePressed;
 
 	// Use this for initialization
 	void Start () 
@@ -45,8 +45,12 @@ public class SCR_PressurePlate : MonoBehaviour
 		{
 			platePressed = true;
 
+			//theBullet = (GameObject)Instantiate (Resources.Load ("Bullet"), wallTrap.transform.position + wallTrap.transform.forward, wallTrap.transform.rotation);
+
+			//spawn a bullet, place it on top of the walltrap, move it "forward"
 			theBullet = (GameObject)Instantiate (bulletPrefab, wallTrap.transform.position + wallTrap.transform.forward, wallTrap.transform.rotation);
-			theBullet.GetComponent<Rigidbody2D> ().AddForce (wallTrap.transform.up * bulletImpulse, ForceMode2D.Impulse);
+
+			theBullet.GetComponent<Rigidbody2D> ().AddForce (-(wallTrap.transform.up * bulletImpulse), ForceMode2D.Impulse);
 
 		}
 

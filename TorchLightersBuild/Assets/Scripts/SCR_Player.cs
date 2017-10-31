@@ -19,8 +19,12 @@ public class SCR_Player : MonoBehaviour {
 
 	public float playerSpeed = 4.0f;
 	public GameObject playerInteractionArea;
+	public GameObject checkPoint;
 	public Animator pAnimator;
-	public float rollCooldown = 1.0f;
+	public float rollCooldown = 0.0f;
+	public float rollCooldownActionTimer = 0.0f;
+	public bool dodging = false;
+	public bool canRoll = true;
 
 	public float footStepTimer = 0.4f;
 
@@ -34,6 +38,17 @@ public class SCR_Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		// Update cool downs
+		rollCooldown -= Time.deltaTime;
+		rollCooldownActionTimer -= Time.deltaTime;
+
+		if (rollCooldown <= 0.0f) {
+			dodging = false;
+		}
+
+		if (rollCooldownActionTimer <= 0.0f) {
+			canRoll = true;
+		}
+
 
 		// Process player input
 		processInput ();
@@ -71,13 +86,27 @@ public class SCR_Player : MonoBehaviour {
 			if (Input.GetKey (KeyCode.D)) {
 				velocity.x += 1.0f;
 			}
+			if (Input.GetKeyDown (KeyCode.K)) {
+				if (canRoll) {
+					canRoll = false;
+					dodging = true;
+					Vector2 dodgeDirection = new Vector2 (velocity.x * 3.0f, velocity.y * 3.0f);
+					velocity.x = 0.0f;
+					velocity.y = 0.0f;
+					rollCooldown = 0.2f;
+					rollCooldownActionTimer = 1.0f;
+					dodgeRoll (dodgeDirection);
+				}
+			}
 		}
 
 		if (Input.GetKey (KeyCode.Home)) {
 			Application.LoadLevel (0);
 		}
 
-		updateMovement (velocity);
+		if (!dodging) {
+			updateMovement (velocity);
+		}
 	}
 
 	// Updates movement using the passed velocity vector
@@ -88,6 +117,12 @@ public class SCR_Player : MonoBehaviour {
 
 		// Update the players animations
 		updateAnimations(vel);
+	}
+
+	void dodgeRoll(Vector2 dir) {
+		Rigidbody2D rigidBody = GetComponent<Rigidbody2D> ();
+
+		rigidBody.velocity = dir * playerSpeed;
 	}
 
 	void updateAnimations(Vector2 vel) {
