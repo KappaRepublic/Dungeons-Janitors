@@ -44,11 +44,7 @@ public class SCR_Bullet : MonoBehaviour
 	void OnCollisionEnter2D(Collision2D col)
 	{
 
-		if (col.gameObject.tag == "Player")
-		{
-			// SCR_Player.dead = true;
-			Destroy (gameObject);
-		}
+
 
 
 		// 
@@ -56,9 +52,19 @@ public class SCR_Bullet : MonoBehaviour
 
 	void OnTriggerEnter2D(Collider2D col) 
 	{
+		if (col.gameObject.tag == "Player")
+		{
+			// SCR_Player.dead = true;
+			Destroy (gameObject);
+		}
+
 		if (col.gameObject.tag == "DestructionZone") 
 		{
 			Destroy (gameObject);
+	
+				AkSoundEngine.PostEvent ("Break_Arrow", gameObject);
+			}
+
 		}
 	}
-}
+

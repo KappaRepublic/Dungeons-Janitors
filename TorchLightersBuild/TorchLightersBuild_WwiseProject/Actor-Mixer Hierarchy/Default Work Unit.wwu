@@ -299,11 +299,10 @@
 							<ChildrenList>
 								<AudioFileSource Name="Empty Amb 1" ID="{356B5C64-DDBE-4719-8D83-3E27D101135B}" ShortID="1068195165">
 									<PropertyList>
-										<Property Name="CrossfadeDuration" Type="Real64" Value="232"/>
 										<Property Name="FadeInDuration" Type="Real64" Value="0.253342450765864"/>
 										<Property Name="FadeOutDuration" Type="Real64" Value="0.506684901531727"/>
-										<Property Name="LoopBegin" Type="Real64" Value="6.43489824945295"/>
-										<Property Name="LoopEnd" Type="Real64" Value="37.9000306345733"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="LoopEnd" Type="Real64" Value="41.4974934354486"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimEnd" Type="Real64" Value="41.4974934354486"/>
 									</PropertyList>
@@ -335,12 +334,8 @@
 							<ChildrenList>
 								<AudioFileSource Name="Torchlighter Amb 1" ID="{96AC5DAD-A22D-4AED-B596-A0D7BDC75CD3}" ShortID="551363450">
 									<PropertyList>
-										<Property Name="CrossfadeDuration" Type="Real64" Value="249"/>
 										<Property Name="FadeInDuration" Type="Real64" Value="0.992863967906637"/>
 										<Property Name="FadeOutDuration" Type="Real64" Value="0.684733770970094"/>
-										<Property Name="LoopBegin" Type="Real64" Value="11.4008172866521"/>
-										<Property Name="LoopEnd" Type="Real64" Value="18.8986520787746"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 										<Property Name="TrimBegin" Type="Real64" Value="4.48500619985412"/>
 										<Property Name="TrimEnd" Type="Real64" Value="24.1711021152443"/>
 									</PropertyList>
@@ -354,6 +349,7 @@
 						</Sound>
 						<Sound Name="Torchlighter Amb 2" ID="{18DF3E7D-5132-4C19-807C-F0813BDFCC70}" ShortID="1062876264">
 							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>

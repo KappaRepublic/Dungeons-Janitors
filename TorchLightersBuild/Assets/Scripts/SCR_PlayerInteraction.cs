@@ -38,14 +38,18 @@ public class SCR_PlayerInteraction : MonoBehaviour {
 				if (collidingObjects[i] != null) {
 					if (collidingObjects[i].tag == "Chest") {
 						collidingObjects[i].GetComponent<SCR_Chest> ().refillChest ();
+						AkSoundEngine.PostEvent ("Refill_Chest", gameObject);
 					}
 					if (collidingObjects[i].tag == "Lever") {
 						Debug.Log ("Spike Lever");
 						collidingObjects[i].GetComponent<SCR_SpikeLever> ().activate ();
+						AkSoundEngine.PostEvent ("Pull_Lever", gameObject);
+
 					}
 					if (collidingObjects[i].tag == "Torch") {
 						Debug.Log ("Torch");
 						collidingObjects[i].GetComponent<SCR_Torch> ().lightTorch ();
+						AkSoundEngine.PostEvent ("Light_Torch", gameObject);
 						// Play the animation
 						pAnimator.Play ("ANIM_PlayerTorchLight_Left");
 					}
@@ -56,14 +60,6 @@ public class SCR_PlayerInteraction : MonoBehaviour {
 					if (collidingObjects[i].gameObject.tag == "TrapDoor") {
 						Debug.Log ("Trap Door");
 						collidingObjects[i].GetComponent<SCR_TrapDoor> ().reset ();
-					}
-					if (collidingObjects [i].gameObject.tag == "GateCollider") {
-						Debug.Log ("Gate");
-						collidingObjects [i].GetComponent<SCR_Gate> ().gateInteraction ();
-					}
-					if (collidingObjects [i].gameObject.tag == "WallTrap") {
-						Debug.Log ("Wall Trap");
-						collidingObjects [i].GetComponent<SCR_WallTrap> ().resetTrap ();
 					}
 				}
 			}

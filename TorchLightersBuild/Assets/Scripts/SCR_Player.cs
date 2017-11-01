@@ -19,7 +19,6 @@ public class SCR_Player : MonoBehaviour {
 
 	public float playerSpeed = 4.0f;
 	public GameObject playerInteractionArea;
-	public GameObject checkPoint;
 	public Animator pAnimator;
 	public float rollCooldown = 0.0f;
 	public float rollCooldownActionTimer = 0.0f;

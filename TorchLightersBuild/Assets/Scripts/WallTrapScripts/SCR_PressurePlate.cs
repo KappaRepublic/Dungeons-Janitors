@@ -44,6 +44,10 @@ public class SCR_PressurePlate : MonoBehaviour
 		if (coll.gameObject.tag == "Player" && platePressed == false)
 		{
 			platePressed = true;
+	
+				AkSoundEngine.PostEvent ("Pressure_plate", gameObject);
+			
+
 
 			//theBullet = (GameObject)Instantiate (Resources.Load ("Bullet"), wallTrap.transform.position + wallTrap.transform.forward, wallTrap.transform.rotation);
 
