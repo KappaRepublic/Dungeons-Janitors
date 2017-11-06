@@ -23,11 +23,12 @@ public class SCR_Bullet : MonoBehaviour
 {
 
 	float destroyTimer = 5.0f;
+	public GameObject player;
 
 	// Use this for initialization
 	void Start () 
 	{
-		
+		player = GameObject.FindGameObjectWithTag ("Player");
 	}
 	
 	// Update is called once per frame
@@ -41,20 +42,12 @@ public class SCR_Bullet : MonoBehaviour
 		}
 	}
 
-	void OnCollisionEnter2D(Collision2D col)
-	{
-
-
-
-
-		// 
-	}
 
 	void OnTriggerEnter2D(Collider2D col) 
 	{
 		if (col.gameObject.tag == "Player")
 		{
-			// SCR_Player.dead = true;
+			player.GetComponent<SCR_Player>().kill ();
 			Destroy (gameObject);
 		}
 

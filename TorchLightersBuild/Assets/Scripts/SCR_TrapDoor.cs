@@ -27,6 +27,7 @@ public class SCR_TrapDoor : MonoBehaviour {
 	public void reset() {
 		// Set the trap to reset
 		trapReset = true;
+		AkSoundEngine.PostEvent ("Trapdoor_Close", gameObject);
 		// Set the graphic to the closed door
 		GetComponent<SpriteRenderer> ().sprite = graphics [1];
 		// Set the collider to be a trigger
@@ -38,9 +39,10 @@ public class SCR_TrapDoor : MonoBehaviour {
 		if (col.gameObject.tag == "Player") {
 			Debug.Log ("TRAP SENDS PLAYER BACK TO CHECK POINT");
 			// DO PLAYER RESET HERE
-
+			col.GetComponent<SCR_Player>().kill();
 			// Set the trap back to activated
 			trapReset = false;
+			AkSoundEngine.PostEvent ("Trapdoor_Open", gameObject);
 			// Set the graphic to the open door
 			GetComponent<SpriteRenderer>().sprite = graphics [0];
 			// Set the collider to no longer be a trigger

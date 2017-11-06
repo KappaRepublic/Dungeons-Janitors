@@ -61,6 +61,14 @@ public class SCR_PlayerInteraction : MonoBehaviour {
 						Debug.Log ("Trap Door");
 						collidingObjects[i].GetComponent<SCR_TrapDoor> ().reset ();
 					}
+					if (collidingObjects[i].gameObject.tag == "WallTrap") {
+						Debug.Log("Wall Trap");
+						collidingObjects [i].GetComponent<SCR_WallTrap> ().resetTrap ();
+					}
+					if (collidingObjects [i].gameObject.tag == "GateCollider") {
+						Debug.Log ("Gate");
+						collidingObjects [i].GetComponent<SCR_Gate> ().activateGate ();
+					}
 				}
 			}
 		}

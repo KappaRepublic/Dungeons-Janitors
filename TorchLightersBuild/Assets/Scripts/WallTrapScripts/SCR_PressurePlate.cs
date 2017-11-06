@@ -45,7 +45,7 @@ public class SCR_PressurePlate : MonoBehaviour
 		{
 			platePressed = true;
 	
-				AkSoundEngine.PostEvent ("Pressure_plate", gameObject);
+				AkSoundEngine.PostEvent ("Pressure_Plate", gameObject);
 			
 
 

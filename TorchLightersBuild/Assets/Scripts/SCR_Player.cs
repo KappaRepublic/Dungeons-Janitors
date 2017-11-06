@@ -17,13 +17,49 @@ using UnityEngine;
 
 public class SCR_Player : MonoBehaviour {
 
+	enum PlayerStates {
+		// Idle States
+		idleLeft,
+		idleRight,
+		idleUpLeft,
+		idleUpRight,
+		// Walking States
+		walkingLeft,
+		walkingRight,
+		walkingUpLeft,
+		walkingDownLeft,
+		walkingUpRight,
+		walkingDownRight,
+		// Mopping States
+		moppingLeft,
+		moppingRight,
+		moppingUpLeft,
+		moppingDownLeft,
+		moppingUpRight,
+		moppingDownRight,
+		// Dash animations
+		dashRight,
+		// Torch Actions
+		lightTorchLeft,
+		lightTorchRight
+	}
+
+
 	public float playerSpeed = 4.0f;
 	public GameObject playerInteractionArea;
 	public Animator pAnimator;
 	public float rollCooldown = 0.0f;
 	public float rollCooldownActionTimer = 0.0f;
+	public GameObject checkPoint;
 	public bool dodging = false;
 	public bool canRoll = true;
+
+	public GameObject pCamera;
+	bool cameraZoomed = false;
+
+	PlayerStates pState;
+
+	AnimatorStateInfo animStateInfo;
 
 	public float footStepTimer = 0.4f;
 
@@ -32,6 +68,7 @@ public class SCR_Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		pAnimator = GetComponent<Animator>();
+		pState = PlayerStates.idleLeft;
 	}
 	
 	// Update is called once per frame
@@ -48,9 +85,26 @@ public class SCR_Player : MonoBehaviour {
 			canRoll = true;
 		}
 
+		animStateInfo = pAnimator.GetCurrentAnimatorStateInfo (0);
 
+		Debug.Log(animStateInfo.nameHash);
 		// Process player input
 		processInput ();
+	}
+
+	public void IsMopping()
+	{
+		AkSoundEngine.PostEvent ("Swing_Mop", gameObject);
+	}
+
+	public void IsWalking()
+	{
+		AkSoundEngine.PostEvent ("Footstep", gameObject);
+	}
+
+	public void IsUsingTorch()
+	{
+		AkSoundEngine.PostEvent ("Swing_Torch", gameObject);
 	}
 
 	// Process input checks for what the player is inputting and calls
@@ -87,15 +141,28 @@ public class SCR_Player : MonoBehaviour {
 			}
 			if (Input.GetKeyDown (KeyCode.K)) {
 				if (canRoll) {
+					// Start the animation
+					pAnimator.Play("ANIM_PlayerDash_Right");
+
 					canRoll = false;
 					dodging = true;
-					Vector2 dodgeDirection = new Vector2 (velocity.x * 3.0f, velocity.y * 3.0f);
+					Vector2 dodgeDirection = new Vector2 (velocity.x * 2.0f, velocity.y * 2.0f);
 					velocity.x = 0.0f;
 					velocity.y = 0.0f;
-					rollCooldown = 0.2f;
-					rollCooldownActionTimer = 1.0f;
+					rollCooldown = 0.32f;
+					rollCooldownActionTimer = 0.5f;
 					dodgeRoll (dodgeDirection);
 				}
+			}
+		}
+
+		if (Input.GetKeyDown (KeyCode.Q)) {
+			cameraZoomed = !cameraZoomed;
+
+			if (cameraZoomed) {
+				pCamera.GetComponent<Camera> ().orthographicSize = 19.2f;
+			} else if (!cameraZoomed) {
+				pCamera.GetComponent<Camera> ().orthographicSize = 4.8f;
 			}
 		}
 
@@ -115,7 +182,7 @@ public class SCR_Player : MonoBehaviour {
 		rigidBody.velocity = vel * playerSpeed;
 
 		// Update the players animations
-		updateAnimations(vel);
+		updateState(vel);
 	}
 
 	void dodgeRoll(Vector2 dir) {
@@ -124,7 +191,7 @@ public class SCR_Player : MonoBehaviour {
 		rigidBody.velocity = dir * playerSpeed;
 	}
 
-	void updateAnimations(Vector2 vel) {
+	void updateState(Vector2 vel) {
 		if (vel.x > 0.0f) {
 			// Moving right
 			if (vel.y < 0.0f) {
@@ -182,7 +249,9 @@ public class SCR_Player : MonoBehaviour {
 					pAnimator.Play("ANIM_PlayerMop_Left");
 				} else {
 					// If player is not mopping
-					pAnimator.Play("ANIM_PlayerRun_Left");
+					//if (animStateInfo.nameHash != Animator.StringToHash ("ANIM_PlayerRun_Left")) {
+						pAnimator.Play ("ANIM_PlayerRun_Left");
+					// }
 				}
 			}
 		} else if (vel.x == 0.0f) {
@@ -212,15 +281,71 @@ public class SCR_Player : MonoBehaviour {
 					// pAnimator.Play("ANIM_PlayerMop_DLeft");
 				} else {
 					// If player is not mopping
-					// pAnimator.Play("ANIM_PlayerRun_DLeft");
+					Debug.Log("Not Moving");
+					pAnimator.Play("ANIM_Player_IdleDLeft");
 				}
 			}
 		}
+	}
+
+	void playAnimation() {
+		/*
+		switch (pState) {
+		// Idle states
+		case PlayerStates.idleLeft:
+			break;
+		case PlayerStates.idleRight:
+			break;
+		case PlayerStates.idleUpLeft:
+			break;
+		case PlayerStates.idleUpRight:
+			break;
+		// Walking States
+		case PlayerStates.walkingLeft:
+			break;
+		case PlayerStates.walkingRight:
+			break;
+		case PlayerStates.walkingUpLeft:
+			break;
+		case PlayerStates.walkingDownLeft:
+			break;
+		case PlayerStates.walkingUpRight:
+			break;
+		case PlayerStates.walkingUpRight:
+			break;
+		// Mopping States
+		case PlayerStates.moppingLeft:
+			break;
+		case PlayerStates.moppingRight:
+			break;
+		case PlayerStates.moppingUpLeft:
+			break;
+		case PlayerStates.moppingDownLeft:
+			break;
+		case PlayerStates.moppingUpRight:
+			break;
+		case PlayerStates.moppingDownRight:
+			break;
+		// Dash States
+		case PlayerStates.dashRight:
+			break;
+		// Torch Action states
+		case PlayerStates.lightTorchLeft:
+			break;
+		case PlayerStates.lightTorchRight:
+			break;
+		}
+		*/
 	}
 
 	void OnTriggerEnter2D(Collider2D col) {
 		if (col.gameObject.tag == "Blood" && Input.GetKey(KeyCode.Space)) {
 			Destroy (col.gameObject);
 		}
+	}
+
+	public void kill()
+	{
+		transform.position = new Vector3(checkPoint.transform.position.x, checkPoint.transform.position.y, -2.0f);
 	}
 }

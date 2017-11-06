@@ -31,6 +31,9 @@ public class SCR_Torch : MonoBehaviour
 
 			torchLit = true;
 
+			AkSoundEngine.PostEvent ("Light_Torch", gameObject);
+			
+
 			int rand = Random.Range (0, 2);
 
 			// Choose a random animation to play for variance in graphics.

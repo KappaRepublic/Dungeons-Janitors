@@ -24,6 +24,7 @@ public class SCR_Gate : MonoBehaviour
 	bool gateOpen = false;
 	public Sprite closedGate;
 	public Sprite openGate;
+	public GameObject gateObject;
 
 	// Use this for initialization
 	void Start () 
@@ -34,18 +35,24 @@ public class SCR_Gate : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
+		
+	}
+
+	public void activateGate() {
+		gateOpen = !gateOpen;
+
 		if (gateOpen == true)
 		{
-			GetComponent<SpriteRenderer> ().sprite = openGate;
-			GetComponent<BoxCollider2D> ().enabled = false;
+			gateObject.GetComponent<SpriteRenderer> ().sprite = openGate;
+			gateObject.GetComponent<BoxCollider2D> ().enabled = false;
 			AkSoundEngine.PostEvent ("Close_Gate", gameObject);
-		
+
 		}
 
 		if (gateOpen == false)
 		{
-			GetComponent<SpriteRenderer> ().sprite = closedGate;
-			GetComponent<BoxCollider2D> ().enabled = true;
+			gateObject.GetComponent<SpriteRenderer> ().sprite = closedGate;
+			gateObject.GetComponent<BoxCollider2D> ().enabled = true;
 			AkSoundEngine.PostEvent ("Open_Gate", gameObject);
 		}
 	}
