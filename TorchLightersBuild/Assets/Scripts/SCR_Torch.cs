@@ -20,7 +20,7 @@ using UnityEngine;
 
 public class SCR_Torch : MonoBehaviour 
 {
-	bool torchLit = false;
+	public bool torchLit = false;
 	public Sprite unlitSprite;
 	public Sprite litSprite;
 	public GameObject lightSource;

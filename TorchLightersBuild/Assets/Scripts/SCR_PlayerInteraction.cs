@@ -50,8 +50,9 @@ public class SCR_PlayerInteraction : MonoBehaviour {
 						Debug.Log ("Torch");
 						collidingObjects[i].GetComponent<SCR_Torch> ().lightTorch ();
 						AkSoundEngine.PostEvent ("Light_Torch", gameObject);
-						// Play the animation
-						pAnimator.Play ("ANIM_PlayerTorchLight_Left");
+
+						GameObject.FindGameObjectWithTag ("Player").gameObject.GetComponent<SCR_Player> ().lightingTorch = true;
+						StartCoroutine (lightTorch ());
 					}
 					if (collidingObjects[i].tag == "Corpse") {
 						Debug.Log ("Corspe");
@@ -93,5 +94,10 @@ public class SCR_PlayerInteraction : MonoBehaviour {
 			// collidingObject = col.gameObject;
 
 		}
+	}
+
+	IEnumerator lightTorch() {
+		yield return new WaitForSeconds (0.65f);
+		GameObject.FindGameObjectWithTag ("Player").gameObject.GetComponent<SCR_Player> ().lightingTorch = false;
 	}
 }

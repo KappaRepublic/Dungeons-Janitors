@@ -17,47 +17,29 @@ using UnityEngine;
 
 public class SCR_Player : MonoBehaviour {
 
-	enum PlayerStates {
-		// Idle States
-		idleLeft,
-		idleRight,
-		idleUpLeft,
-		idleUpRight,
-		// Walking States
-		walkingLeft,
-		walkingRight,
-		walkingUpLeft,
-		walkingDownLeft,
-		walkingUpRight,
-		walkingDownRight,
-		// Mopping States
-		moppingLeft,
-		moppingRight,
-		moppingUpLeft,
-		moppingDownLeft,
-		moppingUpRight,
-		moppingDownRight,
-		// Dash animations
-		dashRight,
-		// Torch Actions
-		lightTorchLeft,
-		lightTorchRight
-	}
+
 
 
 	public float playerSpeed = 4.0f;
 	public GameObject playerInteractionArea;
 	public Animator pAnimator;
 	public float rollCooldown = 0.0f;
+	public float maxRollCooldown = 0.32f;
 	public float rollCooldownActionTimer = 0.0f;
+	public float maxRollCooldownActionTimer = 0.5f;
 	public GameObject checkPoint;
 	public bool dodging = false;
 	public bool canRoll = true;
 
 	public GameObject pCamera;
-	bool cameraZoomed = false;
 
-	PlayerStates pState;
+	bool cameraZoomed = false;
+	bool directionLeft = false;
+	bool directionUp = false;
+	bool staticX = false;
+	bool staticY = false;
+
+	public bool lightingTorch;
 
 	AnimatorStateInfo animStateInfo;
 
@@ -68,7 +50,6 @@ public class SCR_Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		pAnimator = GetComponent<Animator>();
-		pState = PlayerStates.idleLeft;
 	}
 	
 	// Update is called once per frame
@@ -86,8 +67,7 @@ public class SCR_Player : MonoBehaviour {
 		}
 
 		animStateInfo = pAnimator.GetCurrentAnimatorStateInfo (0);
-
-		Debug.Log(animStateInfo.nameHash);
+	
 		// Process player input
 		processInput ();
 	}
@@ -142,15 +122,34 @@ public class SCR_Player : MonoBehaviour {
 			if (Input.GetKeyDown (KeyCode.K)) {
 				if (canRoll) {
 					// Start the animation
-					pAnimator.Play("ANIM_PlayerDash_Right");
+					if (directionLeft) {
+						if (staticY) {
+							pAnimator.Play("ANIM_PlayerDash_Left");
+						} else if (directionUp) {
+							pAnimator.Play("ANIM_PlayerDash_ULeft");
+						} else {
+							pAnimator.Play("ANIM_PlayerDash_DLeft");
+						}
+					} else {
+						if (staticY) {
+							pAnimator.Play("ANIM_PlayerDash_Right");
+						} else if (directionUp) {
+							pAnimator.Play("ANIM_PlayerDash_URight");
+						} else {
+							pAnimator.Play("ANIM_PlayerDash_DRight");
+						}
+					}
+
+
+
 
 					canRoll = false;
 					dodging = true;
 					Vector2 dodgeDirection = new Vector2 (velocity.x * 2.0f, velocity.y * 2.0f);
 					velocity.x = 0.0f;
 					velocity.y = 0.0f;
-					rollCooldown = 0.32f;
-					rollCooldownActionTimer = 0.5f;
+					rollCooldown = maxRollCooldown;
+					rollCooldownActionTimer = maxRollCooldownActionTimer;
 					dodgeRoll (dodgeDirection);
 				}
 			}
@@ -160,7 +159,7 @@ public class SCR_Player : MonoBehaviour {
 			cameraZoomed = !cameraZoomed;
 
 			if (cameraZoomed) {
-				pCamera.GetComponent<Camera> ().orthographicSize = 19.2f;
+				pCamera.GetComponent<Camera> ().orthographicSize = 14.4f;
 			} else if (!cameraZoomed) {
 				pCamera.GetComponent<Camera> ().orthographicSize = 4.8f;
 			}
@@ -192,150 +191,135 @@ public class SCR_Player : MonoBehaviour {
 	}
 
 	void updateState(Vector2 vel) {
-		if (vel.x > 0.0f) {
-			// Moving right
-			if (vel.y < 0.0f) {
-				// Moving down
-				if (Input.GetKey (KeyCode.Space)) {
-					// If player is mopping
-					pAnimator.Play("ANIM_PlayerMop_DRight");
-				} else {
-					// If player is not mopping
-					pAnimator.Play("ANIM_PlayerRun_DRight");
+		if (!lightingTorch) {
+			if (vel.x > 0.0f) {
+				// Moving right
+				directionLeft = false;
+				staticX = false;
+				if (vel.y < 0.0f) {
+					// Moving down
+					directionUp = false;
+					staticY = false;
+					if (Input.GetKey (KeyCode.Space)) {
+						// If player is mopping
+						pAnimator.Play ("ANIM_PlayerMop_DRight");
+					} else {
+						// If player is not mopping
+						pAnimator.Play ("ANIM_PlayerRun_DRight");
+					}
+				} else if (vel.y > 0.0f) {
+					// Moving up
+					directionUp = true;
+					staticY = false;
+					if (Input.GetKey (KeyCode.Space)) {
+						// If player is mopping
+						pAnimator.Play ("ANIM_PlayerMop_URight");
+					} else {
+						// If player is not mopping
+						pAnimator.Play ("ANIM_PlayerRun_URight");
+					}
+				} else if (vel.y == 0.0f) {
+					// Not moving on the y axis
+					staticY = true;
+					if (Input.GetKey (KeyCode.Space)) {
+						// If player is mopping
+						pAnimator.Play ("ANIM_PlayerMop_Right");
+					} else {
+						// If player is not mopping
+						pAnimator.Play ("ANIM_PlayerRun_Right");
+					}
 				}
-			} else if (vel.y > 0.0f) {
-				// Moving up
-				if (Input.GetKey (KeyCode.Space)) {
-					// If player is mopping
-					pAnimator.Play("ANIM_PlayerMop_URight");
-				} else {
-					// If player is not mopping
-					pAnimator.Play("ANIM_PlayerRun_URight");
-				}
-			} else if (vel.y == 0.0f) {
-				// Not moving on the y axis
-				if (Input.GetKey (KeyCode.Space)) {
-					// If player is mopping
-					pAnimator.Play("ANIM_PlayerMop_Right");
-				} else {
-					// If player is not mopping
-					pAnimator.Play("ANIM_PlayerRun_Right");
-				}
-			}
-		} else if (vel.x < 0.0f) {
-			// Moving Left
-			if (vel.y < 0.0f) {
-				// Moving down
-				if (Input.GetKey (KeyCode.Space)) {
-					// If player is mopping
-					pAnimator.Play("ANIM_PlayerMop_DLeft");
-				} else {
-					// If player is not mopping
-					pAnimator.Play("ANIM_PlayerRun_DLeft");
-				}
-			} else if (vel.y > 0.0f) {
-				// Moving up
-				if (Input.GetKey (KeyCode.Space)) {
-					// If player is mopping
-					pAnimator.Play("ANIM_PlayerMop_ULeft");
-				} else {
-					// If player is not mopping
-					pAnimator.Play("ANIM_PlayerRun_ULeft");
-				}
-			} else if (vel.y == 0.0f) {
-				// Not moving on the y axis
-				if (Input.GetKey (KeyCode.Space)) {
-					// If player is mopping
-					pAnimator.Play("ANIM_PlayerMop_Left");
-				} else {
-					// If player is not mopping
-					//if (animStateInfo.nameHash != Animator.StringToHash ("ANIM_PlayerRun_Left")) {
+			} else if (vel.x < 0.0f) {
+				// Moving Left
+				staticX = false;
+				directionLeft = true;
+				if (vel.y < 0.0f) {
+					// Moving down
+					directionUp = false;
+					staticY = false;
+					if (Input.GetKey (KeyCode.Space)) {
+						// If player is mopping
+						pAnimator.Play ("ANIM_PlayerMop_DLeft");
+					} else {
+						// If player is not mopping
+						pAnimator.Play ("ANIM_PlayerRun_DLeft");
+					}
+				} else if (vel.y > 0.0f) {
+					// Moving up
+					directionUp = true;
+					staticY = false;
+					if (Input.GetKey (KeyCode.Space)) {
+						// If player is mopping
+						pAnimator.Play ("ANIM_PlayerMop_ULeft");
+					} else {
+						// If player is not mopping
+						pAnimator.Play ("ANIM_PlayerRun_ULeft");
+					}
+				} else if (vel.y == 0.0f) {
+					// Not moving on the y axis
+					staticY = true;
+					if (Input.GetKey (KeyCode.Space)) {
+						// If player is mopping
+						pAnimator.Play ("ANIM_PlayerMop_Left");
+					} else {
+						// If player is not mopping
+						//if (animStateInfo.nameHash != Animator.StringToHash ("ANIM_PlayerRun_Left")) {
 						pAnimator.Play ("ANIM_PlayerRun_Left");
-					// }
+						// }
+					}
 				}
-			}
-		} else if (vel.x == 0.0f) {
-			// Not moving on the x axis
-			if (vel.y < 0.0f) {
-				// Moving down
-				if (Input.GetKey (KeyCode.Space)) {
-					// If player is mopping
-					pAnimator.Play("ANIM_PlayerMop_DLeft");
-				} else {
-					// If player is not mopping
-					pAnimator.Play("ANIM_PlayerRun_DLeft");
-				}
-			} else if (vel.y > 0.0f) {
-				// Moving up
-				if (Input.GetKey (KeyCode.Space)) {
-					// If player is mopping
-					pAnimator.Play("ANIM_PlayerMop_ULeft");
-				} else {
-					// If player is not mopping
-					pAnimator.Play("ANIM_PlayerRun_ULeft");
-				}
-			} else if (vel.y == 0.0f) {
-				// Not moving on the y axis
-				if (Input.GetKey (KeyCode.Space)) {
-					// If player is mopping
-					// pAnimator.Play("ANIM_PlayerMop_DLeft");
-				} else {
-					// If player is not mopping
-					Debug.Log("Not Moving");
-					pAnimator.Play("ANIM_Player_IdleDLeft");
-				}
-			}
-		}
-	}
+			} else if (vel.x == 0.0f) {
+				// Not moving on the x axis
+				staticX = true;
+				if (vel.y < 0.0f) {
+					// Moving down
+					directionUp = false;
+					staticY = false;
+					if (Input.GetKey (KeyCode.Space)) {
+						// If player is mopping
+						pAnimator.Play ("ANIM_PlayerMop_DLeft");
+					} else {
+						// If player is not mopping
+						pAnimator.Play ("ANIM_PlayerRun_DLeft");
+					}
+				} else if (vel.y > 0.0f) {
+					// Moving up
+					directionUp = true;
+					staticY = false;
+					if (Input.GetKey (KeyCode.Space)) {
+						// If player is mopping
+						pAnimator.Play ("ANIM_PlayerMop_ULeft");
+					} else {
+						// If player is not mopping
+						pAnimator.Play ("ANIM_PlayerRun_ULeft");
+					}
+				} else if (vel.y == 0.0f) {
+					// Not moving on the y axis
+					staticY = true;
+					if (directionUp) {
+						if (directionLeft) {
+							pAnimator.Play ("ANIM_Player_IdleULeft");
+						} else {
+							pAnimator.Play ("ANIM_Player_IdleURight");
+						}
+					} else {
+						if (directionLeft) {
+							pAnimator.Play ("ANIM_Player_IdleDLeft");
+						} else {
+							pAnimator.Play ("ANIM_Player_IdleDRight");
+						}
+					}
 
-	void playAnimation() {
-		/*
-		switch (pState) {
-		// Idle states
-		case PlayerStates.idleLeft:
-			break;
-		case PlayerStates.idleRight:
-			break;
-		case PlayerStates.idleUpLeft:
-			break;
-		case PlayerStates.idleUpRight:
-			break;
-		// Walking States
-		case PlayerStates.walkingLeft:
-			break;
-		case PlayerStates.walkingRight:
-			break;
-		case PlayerStates.walkingUpLeft:
-			break;
-		case PlayerStates.walkingDownLeft:
-			break;
-		case PlayerStates.walkingUpRight:
-			break;
-		case PlayerStates.walkingUpRight:
-			break;
-		// Mopping States
-		case PlayerStates.moppingLeft:
-			break;
-		case PlayerStates.moppingRight:
-			break;
-		case PlayerStates.moppingUpLeft:
-			break;
-		case PlayerStates.moppingDownLeft:
-			break;
-		case PlayerStates.moppingUpRight:
-			break;
-		case PlayerStates.moppingDownRight:
-			break;
-		// Dash States
-		case PlayerStates.dashRight:
-			break;
-		// Torch Action states
-		case PlayerStates.lightTorchLeft:
-			break;
-		case PlayerStates.lightTorchRight:
-			break;
+
+				}
+			}
+		} else {
+			if (directionLeft) {
+				pAnimator.Play ("ANIM_PlayerTorchLight_Left");
+			} else {
+				pAnimator.Play ("ANIM_PlayerTorchLight_Right");
+			}
 		}
-		*/
 	}
 
 	void OnTriggerEnter2D(Collider2D col) {
