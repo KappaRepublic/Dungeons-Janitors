@@ -68,7 +68,9 @@ public class SCR_PlayerInteraction : MonoBehaviour {
 					}
 					if (collidingObjects [i].gameObject.tag == "GateCollider") {
 						Debug.Log ("Gate");
-						collidingObjects [i].GetComponent<SCR_Gate> ().activateGate ();
+						if (!collidingObjects [i].GetComponent<SCR_Gate> ().gateIsOpened) {
+							collidingObjects [i].GetComponent<SCR_Gate> ().activateGate ();
+						}
 					}
 				}
 			}

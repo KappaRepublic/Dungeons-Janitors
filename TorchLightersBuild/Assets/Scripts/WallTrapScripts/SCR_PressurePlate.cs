@@ -30,7 +30,7 @@ public class SCR_PressurePlate : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		platePressed = false;
+		platePressed = true;
 	}
 
 	// Update is called once per frame

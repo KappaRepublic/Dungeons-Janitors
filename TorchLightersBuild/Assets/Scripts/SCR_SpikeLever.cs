@@ -8,7 +8,7 @@ public class SCR_SpikeLever : MonoBehaviour
 	// Array of the spikes activated by this lever
 	public GameObject[] linkedSpikes;
 	public Sprite leverOn, leverOff;
-	bool activated = false;
+	public bool activated = false;
 
 	// Activate the lever
 	public void activate() 

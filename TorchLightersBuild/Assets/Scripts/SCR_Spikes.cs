@@ -57,8 +57,11 @@ public class SCR_Spikes : MonoBehaviour
 
 		if (col.gameObject.tag == "Player" && activated == false)
 		{
-			//when the player walks on spike trap, add to a counter
-			steps += 1;
+			if (!col.gameObject.GetComponent<SCR_Player> ().dodging) {
+				//when the player walks on spike trap, add to a counter
+				steps += 1;
+			}
+
 		}
 	}
 }

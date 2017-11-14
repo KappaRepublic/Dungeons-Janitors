@@ -21,6 +21,7 @@ using UnityEngine.UI;
 public class SCR_ScoreTracker : MonoBehaviour {
 	[Header("Completion Percentages")]
 	public float torchCompletionPercentage = 50.0f;
+	public float trapCompletionPercentage = 70.0f;
 	public float bloodCompletionPercentage = 60.0f;
 	public float chestCompletionPercentage = 30.0f;
 	public float corpseCompletionPercentage = 80.0f;
@@ -36,10 +37,18 @@ public class SCR_ScoreTracker : MonoBehaviour {
 	public List<GameObject> bloodList;
 	public List<GameObject> chestList;
 	public List<GameObject> corpseList;
+	[Header("End Level Gate")]
+	public GameObject endLevelGate;
 
 	// Privates
 	int originalMaxBlood = 0;
 	int originalMaxCorpses = 0;
+
+	bool torchComplete;
+	bool trapComplete;
+	bool bloodComplete;
+	bool chestComplete;
+	bool corpseComplete;
 
 	// Use this for initialization
 	void Start () {
@@ -50,6 +59,7 @@ public class SCR_ScoreTracker : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		calculatePercentages ();
+		checkEndConditions ();
 	}
 		
 	void populateObjectLists() {
@@ -67,6 +77,7 @@ public class SCR_ScoreTracker : MonoBehaviour {
 
 	void calculatePercentages() {
 		calculateTorchPercentages ();
+		calculateTrapPercentages ();
 		calculateBloodPercentages ();
 		calculateChestPercentages ();
 		calculateCorpsePercentages ();
@@ -83,6 +94,25 @@ public class SCR_ScoreTracker : MonoBehaviour {
 	}
 
 	void populateTrapList() {
+		// Spike levers
+		GameObject[] tempLevers = GameObject.FindGameObjectsWithTag("Lever");
+		// Wall traps
+		GameObject[] tempWallTraps = GameObject.FindGameObjectsWithTag("PressurePlate");
+		// Floor traps
+		GameObject[] tempFloorTraps = GameObject.FindGameObjectsWithTag("TrapDoor");
+
+		// Add all of the traps to the trap list
+		for (int i = 0; i < tempLevers.Length; i++) {
+			trapList.Add (tempLevers [i]);
+		}
+
+		for (int i = 0; i < tempWallTraps.Length; i++) {
+			trapList.Add (tempWallTraps [i]);
+		}
+
+		for (int i = 0; i < tempFloorTraps.Length; i++) {
+			trapList.Add (tempFloorTraps [i]);
+		}
 	}
 
 	void populateBloodList() {
@@ -131,13 +161,52 @@ public class SCR_ScoreTracker : MonoBehaviour {
 		// Update the UI text colour to illustrate if a goal has been met
 		if (torchPercentage < torchCompletionPercentage) {
 			torchUiText.color = new Color (1.0f, 0.0f, 0.0f);
+			torchComplete = false;
 		} else {
 			torchUiText.color = new Color (0.0f, 1.0f, 0.0f);
+			torchComplete = true;
 		}
 
 
 		// Update the UI text to display the new percentage
 		torchUiText.text = Mathf.Round(torchPercentage).ToString() + "%/" + torchCompletionPercentage.ToString () + "%";
+	}
+		
+	void calculateTrapPercentages() {
+		int trapsCleared = 0;
+
+		for (int i = 0; i < trapList.Count; i++) {
+			if (trapList [i].tag == "Lever") {
+				if (trapList [i].GetComponent<SCR_SpikeLever> ().activated) {
+					trapsCleared++;
+				}
+			}
+			if (trapList [i].tag == "PressurePlate") {
+				if (!trapList [i].GetComponent<SCR_PressurePlate> ().platePressed) {
+					trapsCleared++;
+				}
+			}
+			if (trapList [i].tag == "TrapDoor") {
+				if (trapList [i].GetComponent<SCR_TrapDoor> ().trapReset) {
+					trapsCleared++;
+				}
+			}
+		}
+
+		// Calculate the percentage of traps cleared
+		float trapPercentage = ((float)trapsCleared / trapList.Count) * 100.0f;
+
+		// Update the UI text colour to illustrate if a goal has been met
+		if (trapPercentage < trapCompletionPercentage) {
+			trapUiText.color = new Color (1.0f, 0.0f, 0.0f);
+			trapComplete = false;
+		} else {
+			trapUiText.color = new Color (0.0f, 1.0f, 0.0f);
+			trapComplete = true;
+		}
+
+		// Update the UI text to display the new percentage
+		trapUiText.text = Mathf.Round(trapPercentage).ToString() + "%/" + trapCompletionPercentage.ToString() + "%";
 	}
 
 	void calculateBloodPercentages() {
@@ -155,8 +224,10 @@ public class SCR_ScoreTracker : MonoBehaviour {
 		// Update the UI text colout to illustrate if a goal has been met
 		if (bloodPercentage < bloodCompletionPercentage) {
 			bloodUiText.color = new Color (1.0f, 0.0f, 0.0f);
+			bloodComplete = false;
 		} else {
 			bloodUiText.color = new Color (0.0f, 1.0f, 0.0f);
+			bloodComplete = true;
 		}
 
 
@@ -181,8 +252,10 @@ public class SCR_ScoreTracker : MonoBehaviour {
 		// Update the UI text colour to illustrate if a goal has been met
 		if (chestPercentage < chestCompletionPercentage) {
 			chestUiText.color = new Color (1.0f, 0.0f, 0.0f);
+			chestComplete = false;
 		} else {
 			chestUiText.color = new Color (0.0f, 1.0f, 0.0f);
+			chestComplete = true;
 		}
 
 
@@ -205,12 +278,22 @@ public class SCR_ScoreTracker : MonoBehaviour {
 		// Update the UI text colout to illustrate if a goal has been met
 		if (corpsePercentage < corpseCompletionPercentage) {
 			corpseUiText.color = new Color (1.0f, 0.0f, 0.0f);
+			corpseComplete = false;
 		} else {
 			corpseUiText.color = new Color (0.0f, 1.0f, 0.0f);
+			corpseComplete = true;
 		}
 
 
 		// Update the UI text to display the new percentage
 		corpseUiText.text = Mathf.Round(corpsePercentage).ToString() + "%/" + corpseCompletionPercentage.ToString () + "%";
+	}
+
+	void checkEndConditions() {
+		if (torchComplete && trapComplete && bloodComplete && chestComplete && corpseComplete) {
+			endLevelGate.SetActive (true);
+		} else {
+			endLevelGate.SetActive (false);
+		}
 	}
 }

@@ -89,7 +89,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: b65b15314f93cfd43af666876cbe88ac, type: 2}
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -171,8 +171,8 @@ MonoBehaviour:
   vlsLight: {fileID: 114863990545979052}
   colorGradient:
     serializedVersion: 2
-    key0: {r: 0, g: 0.76637936, b: 0.875, a: 1}
-    key1: {r: 0, g: 0.796, b: 0.8745098, a: 1}
+    key0: {r: 0.9411765, g: 0.8373226, b: 0, a: 1}
+    key1: {r: 0.8745098, g: 0.5247059, b: 0, a: 1}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
@@ -211,6 +211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4329b43d6672e9840888730a6c1438a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  torchLit: 0
   unlitSprite: {fileID: 21300000, guid: 921c953df21a902418e1fbcb97640508, type: 3}
   litSprite: {fileID: 21300000, guid: f827abd78e8a58346837ffb9696d3b1c, type: 3}
   lightSource: {fileID: 1099201565957442}
@@ -455,11 +456,11 @@ MonoBehaviour:
   - {x: -0.7071069, y: 0.70710665, z: 0}
   - {x: -0.38268343, y: 0.92387956, z: 0}
   - {x: 0.00000017484555, y: 1, z: 0}
-  isDirty: 0
+  isDirty: 1
   verticesDirty: 0
   isStatic: 0
-  color: {r: 1, g: 0.6827586, b: 0, a: 0.378}
-  material: {fileID: 2100000, guid: b65b15314f93cfd43af666876cbe88ac, type: 2}
+  color: {r: 1, g: 0.6827586, b: 0, a: 0.409}
+  material: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   shadowLayer:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -493,8 +494,8 @@ MonoBehaviour:
       angle: -1.9634956
     - position: {x: -0.38268358, y: -0.92387927, z: 0}
       angle: -1.9634956
-    - position: {x: -0.3269951, y: -0.9349564, z: 0}
-      angle: -1.9072428
+    - position: {x: -0.30208206, y: -0.93991166, z: 0}
+      angle: -1.8817633
     - position: {x: -0.2006775, y: -0.96008223, z: 0}
       angle: -1.7768508
     - position: {x: 0, y: -1, z: 0}
@@ -525,24 +526,24 @@ MonoBehaviour:
       angle: -0.78539765
     - position: {x: 0.29963836, y: -0.29963762, z: 0}
       angle: -0.7853969
-    - position: {x: 0.2996292, y: -0.28862152, z: 0}
-      angle: -0.76668775
+    - position: {x: 0.29961854, y: -0.2756363, z: 0}
+      angle: -0.7437325
     - position: {x: 0.299498, y: -0.12405624, z: 0}
       angle: -0.39269942
     - position: {x: 0.299498, y: -0.12405624, z: 0}
       angle: -0.39269903
-    - position: {x: 0.29948577, y: -0.10813141, z: 0}
-      angle: -0.34649092
-    - position: {x: 0.29948273, y: -0.10328674, z: 0}
-      angle: -0.33210972
+    - position: {x: 0.29948273, y: -0.10332489, z: 0}
+      angle: -0.33222353
+    - position: {x: 0.29947814, y: -0.098910525, z: 0}
+      angle: -0.31899667
     - position: {x: 0.29940033, y: 0, z: 0}
       angle: 0
     - position: {x: 0.29935607, y: 0.055446625, z: 0}
       angle: 0.18314412
     - position: {x: 0.29935607, y: 0.055446625, z: 0}
       angle: 0.18314412
-    - position: {x: 0.23639984, y: 0.055466462, z: 0}
-      angle: 0.23046117
+    - position: {x: 0.24678956, y: 0.05546341, z: 0}
+      angle: 0.22106667
     - position: {x: 0.1339859, y: 0.055499267, z: 0}
       angle: 0.39269903
     - position: {x: 0.1339859, y: 0.055499267, z: 0}
@@ -593,10 +594,6 @@ MonoBehaviour:
       angle: 3.1415927
     - position: {x: 0, y: 0, z: 0}
       angle: 0
-    - position: {x: -1.0991043, y: 0, z: 0}
-      angle: Infinity
-    - position: {x: 0, y: 0, z: 0}
-      angle: Infinity
     triangles: 3d00000001000000000000003d00000002000000010000003d00000003000000020000003d00000004000000030000003d00000005000000040000003d00000006000000050000003d00000007000000060000003d00000008000000070000003d00000009000000080000003d0000000a000000090000003d0000000b0000000a0000003d0000000c0000000b0000003d0000000d0000000c0000003d0000000e0000000d0000003d0000000f0000000e0000003d000000100000000f0000003d00000011000000100000003d00000012000000110000003d00000013000000120000003d00000014000000130000003d00000015000000140000003d00000016000000150000003d00000017000000160000003d00000018000000170000003d00000019000000180000003d0000001a000000190000003d0000001b0000001a0000003d0000001c0000001b0000003d0000001d0000001c0000003d0000001e0000001d0000003d0000001f0000001e0000003d000000200000001f0000003d00000021000000200000003d00000022000000210000003d00000023000000220000003d00000024000000230000003d00000025000000240000003d00000026000000250000003d00000027000000260000003d00000028000000270000003d00000029000000280000003d0000002a000000290000003d0000002b0000002a0000003d0000002c0000002b0000003d0000002d0000002c0000003d0000002e0000002d0000003d0000002f0000002e0000003d000000300000002f0000003d00000031000000300000003d00000032000000310000003d00000033000000320000003d00000034000000330000003d00000035000000340000003d00000036000000350000003d00000037000000360000003d00000038000000370000003d00000039000000380000003d0000003a000000390000003d0000003b0000003a0000003d0000003c0000003b0000003d000000000000003c000000000000000000000000000000
     normals:
     - {x: 0, y: 0, z: -1}
@@ -674,7 +671,7 @@ MonoBehaviour:
     - {x: 0.30173796, y: 0.042684168}
     - {x: 0.3086582, y: 0.038060367}
     - {x: 0.3086582, y: 0.038060367}
-    - {x: 0.33650243, y: 0.032521814}
+    - {x: 0.34895897, y: 0.030044168}
     - {x: 0.39966124, y: 0.019958884}
     - {x: 0.5, y: 0}
     - {x: 0.5, y: 0}
@@ -690,15 +687,15 @@ MonoBehaviour:
     - {x: 0.6498337, y: 0.33228147}
     - {x: 0.6498192, y: 0.3501812}
     - {x: 0.6498192, y: 0.3501812}
-    - {x: 0.6498146, y: 0.35568923}
+    - {x: 0.64980924, y: 0.36218184}
     - {x: 0.649749, y: 0.4379719}
     - {x: 0.649749, y: 0.4379719}
-    - {x: 0.6497429, y: 0.4459343}
-    - {x: 0.64974135, y: 0.44835663}
+    - {x: 0.64974135, y: 0.44833755}
+    - {x: 0.6497391, y: 0.45054474}
     - {x: 0.64970016, y: 0.5}
     - {x: 0.64967805, y: 0.5277233}
     - {x: 0.64967805, y: 0.5277233}
-    - {x: 0.61819994, y: 0.5277332}
+    - {x: 0.6233948, y: 0.5277317}
     - {x: 0.56699294, y: 0.52774966}
     - {x: 0.56699294, y: 0.52774966}
     - {x: 0.5277618, y: 0.5277618}
@@ -726,129 +723,129 @@ MonoBehaviour:
     - {x: 0.5, y: 0.5}
     colors:
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     - serializedVersion: 2
-      rgba: 1610657535
+      rgba: 587247359
     filter: {fileID: 33492283203981464}
   flagUpdate: 1
   mRenderer: {fileID: 23361264781119872}

@@ -26,6 +26,7 @@ public class SCR_Gate : MonoBehaviour
 	// public Sprite openGate;
 	public GameObject gateObject;
 	float openTime = 5.0f;
+	public bool gateIsOpened;
 
 	// Use this for initialization
 	void Start () 
@@ -36,29 +37,29 @@ public class SCR_Gate : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
+		if (gateIsOpened) {
+			if (gateOpen == true) {
+				openTime -= Time.deltaTime;
+			}
 
-		if (gateOpen == true)
-		{
-			openTime -= Time.deltaTime;
-		}
-
-		if(openTime <= 0.0f)
-		{
-			openTime = 5.0f;
+			if (openTime <= 0.0f) {
+				openTime = 5.0f;
 
 
-			// gateObject.GetComponent<SpriteRenderer> ().sprite = openGate;
-			gateObject.GetComponent<BoxCollider2D> ().enabled = false;
-			AkSoundEngine.PostEvent ("Close_Gate", gameObject);
-			gateOpen = false;
+				// gateObject.GetComponent<SpriteRenderer> ().sprite = openGate;
+				gateObject.GetComponent<BoxCollider2D> ().enabled = false;
+				AkSoundEngine.PostEvent ("Close_Gate", gameObject);
+				gateOpen = false;
+			}
 		}
 	}
 
 	public void activateGate() 
 	{
-		//gateOpen = !gateOpen;
+		if (!gateIsOpened) {
+			//gateOpen = !gateOpen;
 
-		/*if (gateOpen == true)
+			/*if (gateOpen == true)
 		{
 			//seb is a silly goose
 			// I concur
@@ -67,18 +68,19 @@ public class SCR_Gate : MonoBehaviour
 			AkSoundEngine.PostEvent ("Close_Gate", gameObject);
 
 		}*/
-		gateOpen = true;
-		this.gameObject.transform.GetChild(0).gameObject.GetComponent<Animator> ().Play ("ANIM_GateOpen");
+			gateOpen = true;
+			gateIsOpened = true;
+			this.gameObject.transform.GetChild (0).gameObject.GetComponent<Animator> ().Play ("ANIM_GateOpen");
 
-		//if (gateOpen == false)
-		/*{
+			//if (gateOpen == false)
+			/*{
 			openTime = 5.0f;
 			gateObject.GetComponent<SpriteRenderer> ().sprite = closedGate;
 			gateObject.GetComponent<BoxCollider2D> ().enabled = true;
 			AkSoundEngine.PostEvent ("Open_Gate", gameObject);
 			gateOpen = false;
 		}*/
-
+		}
 	}
 		
 }

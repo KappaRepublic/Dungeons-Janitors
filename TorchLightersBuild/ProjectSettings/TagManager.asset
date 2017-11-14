@@ -18,6 +18,7 @@ TagManager:
   - SmallRoom
   - Hallway
   - MediumRoom
+  - PressurePlate
   layers:
   - Default
   - TransparentFX
