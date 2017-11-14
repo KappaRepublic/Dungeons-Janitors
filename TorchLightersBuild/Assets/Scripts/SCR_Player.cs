@@ -16,10 +16,7 @@ using UnityEngine;
 */
 
 public class SCR_Player : MonoBehaviour {
-
-
-
-
+	
 	public float playerSpeed = 4.0f;
 	public GameObject playerInteractionArea;
 	public Animator pAnimator;
@@ -30,6 +27,9 @@ public class SCR_Player : MonoBehaviour {
 	public GameObject checkPoint;
 	public bool dodging = false;
 	public bool canRoll = true;
+
+	float startTime = 4.0f;
+	bool started = false;
 
 	public GameObject pCamera;
 
@@ -54,22 +54,32 @@ public class SCR_Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		// Update cool downs
-		rollCooldown -= Time.deltaTime;
-		rollCooldownActionTimer -= Time.deltaTime;
+		startTime -= Time.deltaTime;
 
-		if (rollCooldown <= 0.0f) {
-			dodging = false;
+		if (startTime <= 0.0f) {
+			started = true;
 		}
 
-		if (rollCooldownActionTimer <= 0.0f) {
-			canRoll = true;
-		}
 
-		animStateInfo = pAnimator.GetCurrentAnimatorStateInfo (0);
+
+		if (started) {
+			// Update cool downs
+			rollCooldown -= Time.deltaTime;
+			rollCooldownActionTimer -= Time.deltaTime;
+
+			if (rollCooldown <= 0.0f) {
+				dodging = false;
+			}
+
+			if (rollCooldownActionTimer <= 0.0f) {
+				canRoll = true;
+			}
+
+			animStateInfo = pAnimator.GetCurrentAnimatorStateInfo (0);
 	
-		// Process player input
-		processInput ();
+			// Process player input
+			processInput ();
+		}
 	}
 
 	public void IsMopping()

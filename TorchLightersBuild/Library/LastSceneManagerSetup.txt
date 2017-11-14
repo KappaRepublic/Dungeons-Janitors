@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SCN_LevelSelectNew.unity
+- path: Assets/Playable Level.unity
   isLoaded: 1
   isActive: 1
