@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{580DCB54-2388-4D43-B0C5-78DA4D4FCAEE}" SchemaVersion="80">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{580DCB54-2388-4D43-B0C5-78DA4D4FCAEE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{580DCB54-2388-4D43-B0C5-78DA4D4FCAEE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Big_Reverb" ID="{F9D0E9CB-4692-4433-A31A-22EF0309A817}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+					<PropertyList>
+						<Property Name="HFRatio" Type="Real32" Value="1.5"/>
+						<Property Name="ReverbTime" Type="Real32" Value="3.7"/>
+						<Property Name="WetLevel" Type="Real32" Value="-39"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

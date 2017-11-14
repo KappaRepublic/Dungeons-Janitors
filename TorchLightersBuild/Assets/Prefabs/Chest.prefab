@@ -80,6 +80,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chestOpenSprite: {fileID: 21300000, guid: 4f483ac1404a63a47873e5e6e3b4792b, type: 3}
   chestClosedSprite: {fileID: 21300000, guid: 56a33126db4d71a489c9588aad44f945, type: 3}
+  chestRefilled: 0
 --- !u!212 &212340647471605134
 SpriteRenderer:
   m_ObjectHideFlags: 1

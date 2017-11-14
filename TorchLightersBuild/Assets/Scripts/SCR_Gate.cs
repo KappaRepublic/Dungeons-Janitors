@@ -48,7 +48,7 @@ public class SCR_Gate : MonoBehaviour
 
 				// gateObject.GetComponent<SpriteRenderer> ().sprite = openGate;
 				gateObject.GetComponent<BoxCollider2D> ().enabled = false;
-				AkSoundEngine.PostEvent ("Close_Gate", gameObject);
+				
 				gateOpen = false;
 			}
 		}
@@ -57,9 +57,10 @@ public class SCR_Gate : MonoBehaviour
 	public void activateGate() 
 	{
 		if (!gateIsOpened) {
-			//gateOpen = !gateOpen;
+            AkSoundEngine.PostEvent("Open_Gate", gameObject);
+            //gateOpen = !gateOpen;
 
-			/*if (gateOpen == true)
+            /*if (gateOpen == true)
 		{
 			//seb is a silly goose
 			// I concur
@@ -68,7 +69,7 @@ public class SCR_Gate : MonoBehaviour
 			AkSoundEngine.PostEvent ("Close_Gate", gameObject);
 
 		}*/
-			gateOpen = true;
+            gateOpen = true;
 			gateIsOpened = true;
 			this.gameObject.transform.GetChild (0).gameObject.GetComponent<Animator> ().Play ("ANIM_GateOpen");
 
@@ -81,6 +82,10 @@ public class SCR_Gate : MonoBehaviour
 			gateOpen = false;
 		}*/
 		}
+        else
+        {
+            AkSoundEngine.PostEvent("Close_Gate", gameObject);
+        }
 	}
 		
 }

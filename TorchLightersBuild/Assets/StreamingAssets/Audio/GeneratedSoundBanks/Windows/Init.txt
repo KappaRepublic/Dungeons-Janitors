@@ -1,3 +1,29 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	709278834	Reverb_Zone			\Default Work Unit\Reverb_Zone	
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Reverb_Zone			
+	1846755610	Small	Reverb_Zone			
+	2849147824	Medium	Reverb_Zone			
+	3633416828	Hall	Reverb_Zone			
+	4284352190	Large	Reverb_Zone			
+	748895195	None	Music			
+	1702304824	L1	Music			
+	1702304826	L3	Music			
+	1702304827	L2	Music			
+	1702304829	L4	Music			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	69015219	Small	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Large_Reverb		
+	88683506	Small	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Hall_Reverb		
+	119364330	Large	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Hall_Reverb		
+	334184290	Hall	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Large_Reverb		
+	364920223	Medium	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Small_Reverb		
+	458211509	Hall	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Small_Reverb		
+	738763543	Medium	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Hall_Reverb		
+	984301560	Large	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Small_Reverb		
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Reflect Acoustic Textures\Textures\Mountain	
@@ -17,4 +43,14 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	4052205305	Small_Reverb			\Default Work Unit\Master Audio Bus\Small_Reverb	
+	4162753235	Hall_Reverb			\Default Work Unit\Master Audio Bus\Hall_Reverb	
+	4168664725	Large_Reverb			\Default Work Unit\Master Audio Bus\Large_Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	702543456	Tunnel1	Wwise Matrix Reverb			
+	1551236760	Small_Wooden_Room1	Wwise Matrix Reverb			
+	2849147824	Medium	Wwise RoomVerb			
 

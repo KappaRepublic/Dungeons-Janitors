@@ -6,16 +6,20 @@
 				<SoundcasterSession Name="Test" ID="{65810A3D-8461-41AA-8DF0-E007DCA420B2}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Level_Start" ID="{8E6F2FCC-0888-41BB-93E1-D674DD0C5A55}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Footstep" ID="{2EB95765-B4D3-4F25-A1C1-390EA6B07EF3}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Level_1" ID="{543D85AB-4C0A-441E-B128-1263E7EA56BF}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
 							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Spaces" ID="{DA3084C1-12E4-470C-9671-A649B6ACD588}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Swing_Torch" ID="{7189BFDE-3223-4C76-AB20-5B65F92CD2DD}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="0" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Light_Torch" ID="{77405169-592A-4E04-8482-02C0E2B5D5E3}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
@@ -30,6 +34,18 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Spikes_Down" ID="{B642F7C4-561A-49F7-B9F1-E507C8CAA35A}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Arrow_Reload" ID="{FFA17CA7-799A-4BDC-9695-7691A3F8A0F3}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Trigger_Trapdoor" ID="{24E24E61-C01E-4B02-8B07-2E5D73F86EC3}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Cleanup_Corpse" ID="{84807FA0-46A9-48FF-B21F-571AD4EEDE1C}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -38,11 +54,19 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Arrow_Fire" ID="{413A96D2-7577-4979-8F83-3D41A2FC5529}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Chest_Refill" ID="{6DE70196-952D-41F1-BC9B-D83936C13724}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Pull_Lever" ID="{8683E3B9-BF6E-4D17-9347-615DDB518A36}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Set_Trap" ID="{B642F7C4-561A-49F7-B9F1-E507C8CAA35A}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<ObjectRef Name="Spikes_Down" ID="{B642F7C4-561A-49F7-B9F1-E507C8CAA35A}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
 							<Position X="3" Y="1"/>
 						</Module>
 						<Module>
@@ -50,8 +74,12 @@
 							<Position X="3" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Trigger_Trap" ID="{E2033E30-BFC2-4C79-8722-591B6ABFF0F4}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<ObjectRef Name="Spikes_Up" ID="{E2033E30-BFC2-4C79-8722-591B6ABFF0F4}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
 							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Dash" ID="{F612AEEE-2840-4CEA-8F71-6E7AB3295C81}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="3" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Music" ID="{D59A83C3-228A-4374-B363-A667F46C3DC9}" WorkUnitID="{DB086AE6-23BE-48A1-85E3-4A4F6A724524}"/>
@@ -64,6 +92,22 @@
 						<Module>
 							<ObjectRef Name="Mop" ID="{B93D26D1-9197-480C-9D80-197F075DBB53}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
 							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Arrow_Kill" ID="{6978A281-81D2-4839-96F8-1DE382FDBD48}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Dead" ID="{9C749D94-AF62-40AE-84A5-D690BA50FBB5}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="4" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Arrow_Miss" ID="{D7FB052C-07C8-4B89-87E4-4ABB76B6D75B}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="5" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Set_Trapdoor" ID="{41D21A2A-3F5D-4FDF-9DEE-C1D21E7DDEBB}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="5" Y="4"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -110,6 +154,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="L4" ID="{CCD8DFF5-728E-4047-94B8-EEB6B7AFA28C}"/>
+						<CurrentStateRef Name="Large" ID="{B82E3B13-6817-4138-9244-3E227C26EDA1}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

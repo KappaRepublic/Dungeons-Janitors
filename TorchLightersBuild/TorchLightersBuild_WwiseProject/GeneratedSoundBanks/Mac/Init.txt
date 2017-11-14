@@ -1,7 +1,13 @@
 State Group	ID	Name			Wwise Object Path	Notes
+	2469860632	Spaces			\Default Work Unit\Spaces	
 	3991942870	Music			\Default Work Unit\Music	
 
 State	ID	Name	State Group			Notes
+	748895195	None	Spaces			
+	1291433366	Base	Spaces			
+	1941896084	Room_1	Spaces			
+	1941896087	Room_2	Spaces			
+	3059984139	Tunnel	Spaces			
 	748895195	None	Music			
 	1702304824	L1	Music			
 	1702304826	L3	Music			

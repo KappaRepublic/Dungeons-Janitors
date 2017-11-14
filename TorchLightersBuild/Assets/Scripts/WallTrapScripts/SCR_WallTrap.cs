@@ -39,8 +39,9 @@ public class SCR_WallTrap : MonoBehaviour
 	{		
 		if (pressure.platePressed == true)
 		{
-			
-			pressure.platePressed = false;
+            AkSoundEngine.PostEvent("Arrow_Fire", gameObject);
+
+            pressure.platePressed = false;
 
 		}
 	}

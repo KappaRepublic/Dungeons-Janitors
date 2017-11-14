@@ -26,8 +26,10 @@ public class SCR_Spikes : MonoBehaviour
 			//swapState ();
 			//respawn player
 			player.GetComponent<SCR_Player>().kill ();
-		}
-	}
+            AkSoundEngine.PostEvent("Dead", gameObject);
+
+        }
+    }
 
 	// Change the state of the spikes
 	public void swapState()

@@ -64,13 +64,16 @@ public class FrankMove : MonoBehaviour
 			{
 				myRigid.AddForce(forceright);
 				dashRightTimer -= Time.deltaTime;
+                AkSoundEngine.PostEvent("Dash", gameObject);
 
-				if (dashRightTimer <= 0)
+
+                if (dashRightTimer <= 0)
 				{
 					dashright_ = false;
 					dashRightTimer = 1.0f;
-				}
-			}
+
+                }
+            }
 
 			if(dashleft_ == true)
 			{

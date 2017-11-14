@@ -45,7 +45,7 @@ public class SCR_PressurePlate : MonoBehaviour
 		{
 			platePressed = true;
 	
-				AkSoundEngine.PostEvent ("Pressure_Plate", gameObject);
+				AkSoundEngine.PostEvent ("Pull_Lever", gameObject);
 			
 
 
@@ -55,8 +55,10 @@ public class SCR_PressurePlate : MonoBehaviour
 			theBullet = (GameObject)Instantiate (bulletPrefab, wallTrap.transform.position + wallTrap.transform.forward, wallTrap.transform.rotation);
 
 			theBullet.GetComponent<Rigidbody2D> ().AddForce (-(wallTrap.transform.up * bulletImpulse), ForceMode2D.Impulse);
+            AkSoundEngine.PostEvent("Arrow_Fire", gameObject);
 
-		}
 
-	}
+        }
+
+    }
 }

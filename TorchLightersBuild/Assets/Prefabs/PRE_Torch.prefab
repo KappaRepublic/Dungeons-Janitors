@@ -42,6 +42,8 @@ GameObject:
   - component: {fileID: 61024880701748834}
   - component: {fileID: 114549457388567768}
   - component: {fileID: 95231347518951668}
+  - component: {fileID: 114116078744245722}
+  - component: {fileID: 114882892099550126}
   m_Layer: 0
   m_Name: PRE_Torch
   m_TagString: Torch
@@ -157,6 +159,26 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114116078744245722
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1102808100297240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff93642d4e104e7db6f3e29c145653a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_positionOffsetData:
+    positionOffset: {x: 0, y: 0, z: 0}
+    KeepMe: 0
+  isEnvironmentAware: 0
+  isStaticObject: 0
+  m_listeners:
+    initialListenerList: []
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!114 &114257632884444364
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -853,6 +875,28 @@ MonoBehaviour:
   isInitialized: 1
   edgeCount: 16
   coneAngle: 360
+--- !u!114 &114882892099550126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1102808100297240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef489f12c84c4de79b0a2c74691c1ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 
+  useOtherObject: 0
+  valueGuid: 695140772a59044e848202c0e2b5d5e3
+  eventID: -2138547092
+  soundEmitterObject: {fileID: 0}
+  enableActionOnEvent: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  transitionDuration: 0
+  m_callbackData: {fileID: 0}
+  playingId: 0
 --- !u!212 &212296126364432324
 SpriteRenderer:
   m_ObjectHideFlags: 1

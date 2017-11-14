@@ -47,15 +47,17 @@ public class SCR_Bullet : MonoBehaviour
 	{
 		if (col.gameObject.tag == "Player")
 		{
-			player.GetComponent<SCR_Player>().kill ();
-			Destroy (gameObject);
-		}
+            AkSoundEngine.PostEvent("Arrow_Kill", player);
+            player.GetComponent<SCR_Player>().kill ();
+            Destroy(gameObject);
 
-		if (col.gameObject.tag == "DestructionZone") 
+        }
+
+        if (col.gameObject.tag == "DestructionZone") 
 		{
 			Destroy (gameObject);
 	
-				AkSoundEngine.PostEvent ("Break_Arrow", gameObject);
+				AkSoundEngine.PostEvent ("Arrow_Miss", gameObject);
 			}
 
 		}

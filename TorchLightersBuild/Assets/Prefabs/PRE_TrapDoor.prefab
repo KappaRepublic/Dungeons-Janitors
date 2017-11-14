@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 212857755004328470}
   - component: {fileID: 61857421539694728}
   - component: {fileID: 114179652904871978}
+  - component: {fileID: 114740323790826002}
+  - component: {fileID: 114647664490137226}
   m_Layer: 0
   m_Name: PRE_TrapDoor
   m_TagString: TrapDoor
@@ -81,6 +83,49 @@ MonoBehaviour:
   graphics:
   - {fileID: 21300000, guid: c3c1b073127077a4684cf10b164e5c4c, type: 3}
   - {fileID: 21300000, guid: 4d1f654e28fb4dc4e92d3893e621e371, type: 3}
+  trapReset: 0
+--- !u!114 &114647664490137226
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1924166117070146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ef489f12c84c4de79b0a2c74691c1ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 
+  useOtherObject: 0
+  valueGuid: 614ee2241ec0024b8b072e5d73f86ec3
+  eventID: 281220831
+  soundEmitterObject: {fileID: 0}
+  enableActionOnEvent: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  transitionDuration: 0
+  m_callbackData: {fileID: 0}
+  playingId: 0
+--- !u!114 &114740323790826002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1924166117070146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff93642d4e104e7db6f3e29c145653a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_positionOffsetData:
+    positionOffset: {x: 0, y: 0, z: 0}
+    KeepMe: 0
+  isEnvironmentAware: 0
+  isStaticObject: 0
+  m_listeners:
+    initialListenerList: []
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!212 &212857755004328470
 SpriteRenderer:
   m_ObjectHideFlags: 1

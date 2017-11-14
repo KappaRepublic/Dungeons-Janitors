@@ -84,7 +84,7 @@ public class SCR_Player : MonoBehaviour {
 
 	public void IsMopping()
 	{
-		AkSoundEngine.PostEvent ("Swing_Mop", gameObject);
+		AkSoundEngine.PostEvent ("Mop", gameObject);
 	}
 
 	public void IsWalking()
@@ -94,7 +94,6 @@ public class SCR_Player : MonoBehaviour {
 
 	public void IsUsingTorch()
 	{
-		AkSoundEngine.PostEvent ("Swing_Torch", gameObject);
 	}
 
 	// Process input checks for what the player is inputting and calls
@@ -131,8 +130,10 @@ public class SCR_Player : MonoBehaviour {
 			}
 			if (Input.GetKeyDown (KeyCode.K)) {
 				if (canRoll) {
-					// Start the animation
-					if (directionLeft) {
+                    AkSoundEngine.PostEvent("Dash", gameObject);
+
+                    // Start the animation
+                    if (directionLeft) {
 						if (staticY) {
 							pAnimator.Play("ANIM_PlayerDash_Left");
 						} else if (directionUp) {
@@ -326,20 +327,25 @@ public class SCR_Player : MonoBehaviour {
 		} else {
 			if (directionLeft) {
 				pAnimator.Play ("ANIM_PlayerTorchLight_Left");
-			} else {
+
+            } else {
 				pAnimator.Play ("ANIM_PlayerTorchLight_Right");
-			}
+
+            }
 		}
 	}
 
 	void OnTriggerEnter2D(Collider2D col) {
 		if (col.gameObject.tag == "Blood" && Input.GetKey(KeyCode.Space)) {
 			Destroy (col.gameObject);
-		}
-	}
+            AkSoundEngine.PostEvent("Clean_Blood", gameObject);
+
+        }
+    }
 
 	public void kill()
 	{
 		transform.position = new Vector3(checkPoint.transform.position.x, checkPoint.transform.position.y, -2.0f);
-	}
+
+    }
 }

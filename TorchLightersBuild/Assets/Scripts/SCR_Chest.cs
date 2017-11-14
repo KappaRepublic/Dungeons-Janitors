@@ -24,6 +24,8 @@ public class SCR_Chest : MonoBehaviour {
 	// Refills chest
 	public void refillChest(){
 		GetComponent<SpriteRenderer> ().sprite = chestClosedSprite;
+                        AkSoundEngine.PostEvent("Dash", gameObject);
+
 		chestRefilled = true;
 	}
 }

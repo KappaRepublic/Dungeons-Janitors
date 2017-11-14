@@ -12,6 +12,15 @@
 						<State Name="L4" ID="{CCD8DFF5-728E-4047-94B8-EEB6B7AFA28C}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Reverb_Zone" ID="{00CCEA0D-1ABE-4A9A-8B18-D7E9B355BA29}">
+					<ChildrenList>
+						<State Name="None" ID="{F9093E78-0C77-44F8-AF80-77B50152ABFF}"/>
+						<State Name="Hall" ID="{4C2A5C80-15F1-4246-8AC9-72713417B503}"/>
+						<State Name="Small" ID="{80949DF8-9CBA-4C97-A1B8-E664555E7743}"/>
+						<State Name="Medium" ID="{4BB7707A-5607-4581-8089-CDE3533D21C3}"/>
+						<State Name="Large" ID="{B82E3B13-6817-4138-9244-3E227C26EDA1}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
