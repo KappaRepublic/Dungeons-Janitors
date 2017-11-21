@@ -22,6 +22,10 @@
 							<Position X="0" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Spaces" ID="{DA3084C1-12E4-470C-9671-A649B6ACD588}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Light_Torch" ID="{77405169-592A-4E04-8482-02C0E2B5D5E3}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -154,7 +158,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="L4" ID="{CCD8DFF5-728E-4047-94B8-EEB6B7AFA28C}"/>
-						<CurrentStateRef Name="Large" ID="{B82E3B13-6817-4138-9244-3E227C26EDA1}"/>
+						<CurrentStateRef Name="Medium" ID="{4BB7707A-5607-4581-8089-CDE3533D21C3}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

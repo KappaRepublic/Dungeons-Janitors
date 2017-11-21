@@ -51,9 +51,11 @@ public class SCR_Spikes : MonoBehaviour
 			GetComponent<Animator> ().Play ("ANIM_SpikeDeactivate");
 			GetComponent<BoxCollider2D> ().enabled = false;
 			AkSoundEngine.PostEvent ("Spikes_Down", gameObject);
+            AkSoundEngine.SetState("Music", "L2");
 
-		}
-	}
+
+        }
+    }
 
 
 	public void OnTriggerEnter2D(Collider2D col)

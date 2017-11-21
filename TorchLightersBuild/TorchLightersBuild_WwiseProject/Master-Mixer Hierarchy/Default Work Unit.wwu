@@ -117,9 +117,14 @@
 								</CustomStateList>
 							</StateInfo>
 						</AuxBus>
+						<Bus Name="Interact" ID="{72EDA553-FEDF-40B0-B671-82B25935324A}"/>
 					</ChildrenList>
 				</Bus>
-				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
+				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}">
+					<ChildrenList>
+						<Bus Name="Music" ID="{424844FD-08BE-4A0A-9AB2-3C4D3B54DC6C}"/>
+					</ChildrenList>
+				</Bus>
 				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
 			</ChildrenList>
 		</WorkUnit>

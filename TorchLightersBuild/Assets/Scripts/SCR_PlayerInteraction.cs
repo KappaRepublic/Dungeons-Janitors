@@ -39,8 +39,10 @@ public class SCR_PlayerInteraction : MonoBehaviour {
 					if (collidingObjects[i].tag == "Chest") {
 						collidingObjects[i].GetComponent<SCR_Chest> ().refillChest ();
 						AkSoundEngine.PostEvent ("Chest_Refill", gameObject);
-					}
-					if (collidingObjects[i].tag == "Lever") {
+                        AkSoundEngine.SetState("Music", "L3");
+
+                    }
+                    if (collidingObjects[i].tag == "Lever") {
 						Debug.Log ("Spike Lever");
 						collidingObjects[i].GetComponent<SCR_SpikeLever> ().activate ();
 						AkSoundEngine.PostEvent ("Pull_Lever", gameObject);
@@ -64,6 +66,8 @@ public class SCR_PlayerInteraction : MonoBehaviour {
 						Debug.Log ("Trap Door");
 						collidingObjects[i].GetComponent<SCR_TrapDoor> ().reset ();
                         AkSoundEngine.PostEvent("Set_Trapdoor", gameObject);
+                        AkSoundEngine.SetState("Music", "L4");
+
 
                     }
                     if (collidingObjects[i].gameObject.tag == "WallTrap") {

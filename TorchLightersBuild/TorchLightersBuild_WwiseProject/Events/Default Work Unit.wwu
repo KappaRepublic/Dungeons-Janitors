@@ -390,6 +390,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Music" ID="{A2C08924-0E43-4246-8467-8FEC5330868E}" ShortID="414370035"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

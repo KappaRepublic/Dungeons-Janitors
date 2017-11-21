@@ -313,6 +313,7 @@ public class SCR_ScoreTracker : MonoBehaviour {
 		} else if (corpsePercentage >= corpsePercentage && corpsePercentage < 100.0f) {
 			corpseUiBar.color = new Color (0.486f, 0.819f, 0.290f, 1.0f);
 			corpseComplete = true;
+
 		} else {
 			corpseUiBar.color = new Color (0.368f, 0.717f, 0.858f, 1.0f);
 		}

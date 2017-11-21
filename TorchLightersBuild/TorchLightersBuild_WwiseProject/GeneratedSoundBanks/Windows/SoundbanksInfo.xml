@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>C:\Users\1301641\Downloads\TorchLighters-seb (1)\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\1301641\Downloads\TorchLighters-seb (1)\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\1301641\Downloads\TorchLighters-seb (1)\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\1301641\Downloads\TorchLighters-seb (1)\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -69,6 +69,10 @@
 				<File Id="48513008" Language="SFX">
 					<ShortName>clothing_movement_6.wav</ShortName>
 					<Path>SFX\clothing_movement_6_ECCE338B.wem</Path>
+				</File>
+				<File Id="57928580" Language="SFX">
+					<ShortName>Strings2.wav</ShortName>
+					<Path>SFX\Strings2_F17FB28C.wem</Path>
 				</File>
 				<File Id="76783930" Language="SFX">
 					<ShortName>Mop1.wav</ShortName>
@@ -173,6 +177,10 @@
 				<File Id="377556134" Language="SFX">
 					<ShortName>Organ 1.wav</ShortName>
 					<Path>SFX\Organ 1_F17FB28C.wem</Path>
+				</File>
+				<File Id="396595573" Language="SFX">
+					<ShortName>Strings1.wav</ShortName>
+					<Path>SFX\Strings1_F17FB28C.wem</Path>
 				</File>
 				<File Id="409256195" Language="SFX">
 					<ShortName>dash 1.wav</ShortName>
@@ -281,6 +289,10 @@
 				<File Id="741245128" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.05.wav</ShortName>
 					<Path>SFX\Concrete_Left_Foot_Toe.05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="750181583" Language="SFX">
+					<ShortName>Choir1.wav</ShortName>
+					<Path>SFX\Choir1_F17FB28C.wem</Path>
 				</File>
 				<File Id="751886074" Language="SFX">
 					<ShortName>Psycho Drums 2.wav</ShortName>
