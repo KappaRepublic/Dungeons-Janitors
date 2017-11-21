@@ -48,7 +48,7 @@ public class SCR_Bullet : MonoBehaviour
 		if (col.gameObject.tag == "Player")
 		{
             AkSoundEngine.PostEvent("Arrow_Kill", player);
-            player.GetComponent<SCR_Player>().kill ();
+			player.GetComponent<SCR_Player>().kill (this.gameObject);
             Destroy(gameObject);
 
         }

@@ -47,6 +47,11 @@ public class SCR_Player : MonoBehaviour {
 
 	public bool player2 = false;
 
+	[Header("Corpse Prefabs")]
+	public GameObject wallGunCorpse;
+	public GameObject spikeCorpse;
+	public GameObject pitfallCorpse;
+
 	// Use this for initialization
 	void Start () {
 		pAnimator = GetComponent<Animator>();
@@ -343,8 +348,22 @@ public class SCR_Player : MonoBehaviour {
         }
     }
 
-	public void kill()
+	public void kill(GameObject killedBy)
 	{
+		Debug.Log ("Killed by " + killedBy.tag);
+
+		if (killedBy.tag == "Bullet") {
+			Debug.Log ("Killed by bullet");
+			Instantiate (wallGunCorpse, killedBy.transform.position, killedBy.transform.rotation);
+		} else if (killedBy.tag == "Spike") {
+			Debug.Log ("Killed by spikes");
+			Instantiate (spikeCorpse, killedBy.transform.position, killedBy.transform.rotation);
+		} else if (killedBy.tag == "TrapDoor") {
+			Debug.Log ("Killed by trap door");
+			Instantiate (pitfallCorpse, killedBy.transform.position, killedBy.transform.rotation);
+		}
+
+
 		transform.position = new Vector3(checkPoint.transform.position.x, checkPoint.transform.position.y, -2.0f);
 
     }

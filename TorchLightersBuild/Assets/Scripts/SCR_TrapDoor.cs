@@ -39,7 +39,7 @@ public class SCR_TrapDoor : MonoBehaviour {
 			if (!col.gameObject.GetComponent<SCR_Player> ().dodging) {
 				Debug.Log ("TRAP SENDS PLAYER BACK TO CHECK POINT");
 				// DO PLAYER RESET HERE
-				col.GetComponent<SCR_Player> ().kill ();
+				col.GetComponent<SCR_Player> ().kill (this.gameObject);
                 AkSoundEngine.PostEvent("Pit_Death", gameObject);
 
                 // Set the trap back to activated

@@ -19,6 +19,8 @@ TagManager:
   - Hallway
   - MediumRoom
   - PressurePlate
+  - Bullet
+  - Spike
   layers:
   - Default
   - TransparentFX

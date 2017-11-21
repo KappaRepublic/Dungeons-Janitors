@@ -1,0 +1,39 @@
+﻿# Tiled2Unity generated file. Do not modify by hand.
+# Wavefront file for 'finalLevel1retiledV3_mesh_0004.obj'
+
+# Vertices (Count = 16)
+v -55 -14 0
+v -57 -14 0
+v -57 -13 0
+v -55 -13 0
+v -62 -14 0
+v -64 -14 0
+v -64 -13 0
+v -62 -13 0
+v -58 -29 0
+v -60 -29 0
+v -60 -28 0
+v -58 -28 0
+v -30 -41 0
+v -32 -41 0
+v -32 -40 0
+v -30 -40 0
+
+# Texture cooridinates (Count = 4)
+vt 0 0
+vt 1 0
+vt 1 1
+vt 0 1
+
+# Normal
+vn 0 0 -1
+
+# Mesh description
+g finalLevel1retiledV3_mesh_0004
+
+# Faces
+f 1/1/1 2/2/1 3/3/1 4/4/1
+f 5/1/1 6/2/1 7/3/1 8/4/1
+f 9/1/1 10/2/1 11/3/1 12/4/1
+f 13/1/1 14/2/1 15/3/1 16/4/1
+

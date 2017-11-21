@@ -6,7 +6,7 @@ public class SCR_Spikes : MonoBehaviour
 {
 
 	public Sprite spikesDown, spikesUp;
-	bool activated = true;
+	public bool activated = true;
 	public int steps = 0;
 	public GameObject player;
 
@@ -25,7 +25,7 @@ public class SCR_Spikes : MonoBehaviour
 			transform.parent.GetComponent<SCR_SpikeAll> ().allSpikes ();
 			//swapState ();
 			//respawn player
-			player.GetComponent<SCR_Player>().kill ();
+			player.GetComponent<SCR_Player>().kill (this.gameObject);
             AkSoundEngine.PostEvent("Dead", gameObject);
 
         }
@@ -39,14 +39,16 @@ public class SCR_Spikes : MonoBehaviour
 		// Update graphic based on current state
 		if (activated) 
 		{
-			GetComponent<SpriteRenderer> ().sprite = spikesUp;
+			// GetComponent<SpriteRenderer> ().sprite = spikesUp;
+			GetComponent<Animator> ().Play ("ANIM_SpikeActivate");
 			GetComponent<BoxCollider2D> ().enabled = true;
 			AkSoundEngine.PostEvent ("Spikes_Up", gameObject);
 			steps = 0;
 
 		} else 
 		{
-			GetComponent<SpriteRenderer> ().sprite = spikesDown;
+			// GetComponent<SpriteRenderer> ().sprite = spikesDown;
+			GetComponent<Animator> ().Play ("ANIM_SpikeDeactivate");
 			GetComponent<BoxCollider2D> ().enabled = false;
 			AkSoundEngine.PostEvent ("Spikes_Down", gameObject);
 

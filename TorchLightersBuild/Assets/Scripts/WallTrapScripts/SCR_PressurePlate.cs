@@ -43,20 +43,21 @@ public class SCR_PressurePlate : MonoBehaviour
 	{
 		if (coll.gameObject.tag == "Player" && platePressed == false)
 		{
-			platePressed = true;
+			if (!coll.gameObject.GetComponent<SCR_Player> ().dodging) {
+				platePressed = true;
 	
 				AkSoundEngine.PostEvent ("Pull_Lever", gameObject);
 			
 
 
-			//theBullet = (GameObject)Instantiate (Resources.Load ("Bullet"), wallTrap.transform.position + wallTrap.transform.forward, wallTrap.transform.rotation);
+				//theBullet = (GameObject)Instantiate (Resources.Load ("Bullet"), wallTrap.transform.position + wallTrap.transform.forward, wallTrap.transform.rotation);
 
-			//spawn a bullet, place it on top of the walltrap, move it "forward"
-			theBullet = (GameObject)Instantiate (bulletPrefab, wallTrap.transform.position + wallTrap.transform.forward, wallTrap.transform.rotation);
+				//spawn a bullet, place it on top of the walltrap, move it "forward"
+				theBullet = (GameObject)Instantiate (bulletPrefab, wallTrap.transform.position + wallTrap.transform.forward, wallTrap.transform.rotation);
 
-			theBullet.GetComponent<Rigidbody2D> ().AddForce (-(wallTrap.transform.up * bulletImpulse), ForceMode2D.Impulse);
-            AkSoundEngine.PostEvent("Arrow_Fire", gameObject);
-
+				theBullet.GetComponent<Rigidbody2D> ().AddForce (-(wallTrap.transform.up * bulletImpulse), ForceMode2D.Impulse);
+				AkSoundEngine.PostEvent ("Arrow_Fire", gameObject);
+			}
 
         }
 

@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{014BA097-B3CB-4271-A6E1-889DF9048C0C}'
-    m_lastTimePsrt1: -1361802752
-    m_lastTimePart2: -1999295562
+    m_lastTimePsrt1: -1122500299
+    m_lastTimePart2: -1999295472
     List:
     - Name: Arrow_Fire
       Path: Default Work Unit\Arrow_Fire
@@ -293,8 +293,8 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}'
-    m_lastTimePsrt1: 1448131840
-    m_lastTimePart2: -1999295563
+    m_lastTimePsrt1: -1094018845
+    m_lastTimePart2: -1999295472
     List:
     - Name: Hall_Reverb
       Path: Default Work Unit\Master Audio Bus\Hall_Reverb
@@ -333,8 +333,8 @@ MonoBehaviour:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{53F1EBD3-FE15-4956-B414-DA57C63E30BD}'
-    m_lastTimePsrt1: -332391424
-    m_lastTimePart2: -1999295580
+    m_lastTimePsrt1: -1052777631
+    m_lastTimePart2: -1999295472
     List:
     - Name: Music
       Path: Default Work Unit\Music
@@ -406,15 +406,15 @@ MonoBehaviour:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FEE1E438-54EA-471F-8021-5AAAFB6AD920}'
-    m_lastTimePsrt1: -330957568
-    m_lastTimePart2: -1999298441
+    m_lastTimePsrt1: -1052777631
+    m_lastTimePart2: -1999295472
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{F90E13A9-AD2C-4C30-8E42-92EA9FB4B16A}'
-    m_lastTimePsrt1: -330957568
-    m_lastTimePart2: -1999298441
+    m_lastTimePsrt1: -1053089625
+    m_lastTimePart2: -1999295472
     List:
     - Name: Main
       Path: Default Work Unit\Main
@@ -429,14 +429,14 @@ MonoBehaviour:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{6B01A27D-E61C-4CEF-839F-396E4A707915}'
-    m_lastTimePsrt1: -450957568
-    m_lastTimePart2: -1999298441
+    m_lastTimePsrt1: -1122344302
+    m_lastTimePart2: -1999295472
     List: []
   - PhysicalPath: Game Parameters\Factory SoundSeed Air Game Syncs.wwu
     ParentPhysicalPath: 
     Guid: '{3B167755-FB42-458B-98BF-96F557AFB3B9}'
-    m_lastTimePsrt1: -450957568
-    m_lastTimePart2: -1999298441
+    m_lastTimePsrt1: -1122188305
+    m_lastTimePart2: -1999295472
     List:
     - Name: SS_Air_Fear
       Path: Factory SoundSeed Air Game Syncs\SS_Air_Fear
@@ -532,13 +532,11 @@ MonoBehaviour:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{3E6FAD6E-DC7E-467A-81AC-C5285878FA47}'
-    m_lastTimePsrt1: -330957568
-    m_lastTimePart2: -1999298441
+    m_lastTimePsrt1: -1052621634
+    m_lastTimePart2: -1999295472
     List: []
   ExpandedItems:
   - /Torchlighters
-  - /Torchlighters/Events
-  - /Torchlighters/Events/Default Work Unit
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
