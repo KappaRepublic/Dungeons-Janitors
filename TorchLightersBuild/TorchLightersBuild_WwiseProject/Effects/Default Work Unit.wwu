@@ -10,6 +10,18 @@
 						<Property Name="WetLevel" Type="Real32" Value="-39"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="New_Wwise_Parametric_EQ" ID="{1E64FB94-7C0A-47CC-87E5-587F9CB4D6FB}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand3" Type="Real32" Value="5665"/>
+						<Property Name="GainBand3" Type="Real32" Value="-5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_Wwise_Parametric_EQ_01" ID="{09468255-3C18-412A-9F31-577A5B4AA218}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand2" Type="Real32" Value="2794"/>
+						<Property Name="GainBand2" Type="Real32" Value="-4"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

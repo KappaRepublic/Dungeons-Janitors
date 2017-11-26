@@ -86,10 +86,6 @@
 							<Position X="3" Y="4"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Music" ID="{D59A83C3-228A-4374-B363-A667F46C3DC9}" WorkUnitID="{DB086AE6-23BE-48A1-85E3-4A4F6A724524}"/>
-							<Position X="4" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Music_Start" ID="{BEDC2503-17CC-4749-A84F-2FE605E3A222}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
 							<Position X="4" Y="1"/>
 						</Module>
@@ -157,7 +153,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="L4" ID="{CCD8DFF5-728E-4047-94B8-EEB6B7AFA28C}"/>
+						<CurrentStateRef Name="Start" ID="{D131D3C2-F053-4C14-9607-A935E643D86B}"/>
 						<CurrentStateRef Name="Medium" ID="{4BB7707A-5607-4581-8089-CDE3533D21C3}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>

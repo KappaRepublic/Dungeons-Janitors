@@ -39,7 +39,6 @@ public class SCR_PlayerInteraction : MonoBehaviour {
 					if (collidingObjects[i].tag == "Chest") {
 						collidingObjects[i].GetComponent<SCR_Chest> ().refillChest ();
 						AkSoundEngine.PostEvent ("Chest_Refill", gameObject);
-                        AkSoundEngine.SetState("Music", "L3");
 
                     }
                     if (collidingObjects[i].tag == "Lever") {
@@ -66,7 +65,6 @@ public class SCR_PlayerInteraction : MonoBehaviour {
 						Debug.Log ("Trap Door");
 						collidingObjects[i].GetComponent<SCR_TrapDoor> ().reset ();
                         AkSoundEngine.PostEvent("Set_Trapdoor", gameObject);
-                        AkSoundEngine.SetState("Music", "L4");
 
 
                     }

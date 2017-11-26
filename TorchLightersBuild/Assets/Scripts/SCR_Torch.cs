@@ -32,7 +32,6 @@ public class SCR_Torch : MonoBehaviour
 			torchLit = true;
 
 			AkSoundEngine.PostEvent ("Light_Torch", gameObject);
-            AkSoundEngine.SetState("Music", "L1");
 			
 
 			int rand = Random.Range (0, 2);

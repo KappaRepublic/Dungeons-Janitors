@@ -5045,12 +5045,12 @@
 					<StateInfo>
 						<StatePropertyList>
 							<Property Name="Lowpass"/>
-							<Property Name="Volume"/>
 							<Property Name="Pitch"/>
 							<Property Name="Highpass"/>
+							<Property Name="Volume"/>
 							<Property Name="MakeUpGain"/>
-							<Property Name="UserAuxSendVolume1"/>
 							<Property Name="UserAuxSendVolume2"/>
+							<Property Name="UserAuxSendVolume1"/>
 							<Property Name="UserAuxSendVolume0"/>
 						</StatePropertyList>
 						<StateGroupList>

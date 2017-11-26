@@ -60,8 +60,10 @@ public class SCR_ScoreTracker : MonoBehaviour {
 	bool chestComplete;
 	bool corpseComplete;
 
-	// Use this for initialization
-	void Start () {
+    float finalPercentage;
+
+    // Use this for initialization
+    void Start () {
 
 		setupUiComponents();
 		// Populate the object lists with all of the objects in the level
@@ -490,5 +492,10 @@ public class SCR_ScoreTracker : MonoBehaviour {
 		Debug.Log (finalPercentage);
 
 		return Mathf.Round(finalPercentage);
-	}
+
+
+
+    }
+
+
 }
