@@ -86,6 +86,10 @@
 							<Position X="3" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Foots" ID="{F22215C0-14CF-47C1-AC97-79560F379AE4}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Music_Start" ID="{BEDC2503-17CC-4749-A84F-2FE605E3A222}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
 							<Position X="4" Y="1"/>
 						</Module>
@@ -100,6 +104,14 @@
 						<Module>
 							<ObjectRef Name="Dead" ID="{9C749D94-AF62-40AE-84A5-D690BA50FBB5}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
 							<Position X="4" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Level_Music" ID="{68E49F41-ACAF-4319-B523-6C8F5835D7D4}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Menu_Music" ID="{1EBB95DC-88CA-4DF2-BFAB-82B9CFC2B6EC}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
+							<Position X="5" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Arrow_Miss" ID="{D7FB052C-07C8-4B89-87E4-4ABB76B6D75B}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
@@ -153,8 +165,56 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Start" ID="{D131D3C2-F053-4C14-9607-A935E643D86B}"/>
+						<CurrentStateRef Name="Menu" ID="{D85E9C9A-D0C0-452A-A845-6339F8385503}"/>
 						<CurrentStateRef Name="Medium" ID="{4BB7707A-5607-4581-8089-CDE3533D21C3}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{29F63F20-CACF-45A8-9F5C-8AF62B479B4B}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Menu" ID="{D85E9C9A-D0C0-452A-A845-6339F8385503}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

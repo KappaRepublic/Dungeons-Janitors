@@ -3,394 +3,482 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Light_Torch" ID="{77405169-592A-4E04-8482-02C0E2B5D5E3}">
-					<ChildrenList>
-						<Action Name="" ID="{6A909B03-9B82-4133-BE70-FE3C9E55AF3A}" ShortID="225195262">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Light Torch Loop 1" ID="{FBE2208F-C32A-4BA2-9E78-9AE28CC056EE}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Open_Gate" ID="{A5207A5A-C220-45DE-9778-CA42C286FA74}">
-					<ChildrenList>
-						<Action Name="" ID="{AC2E8761-3E0D-400A-9F1E-A365BECCB30D}" ShortID="957892198">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Gate Open" ID="{212E0246-28B1-4E36-B9EB-3AE0DA63A9AE}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Close_Gate" ID="{06D935FB-B83C-4261-B946-83DD0C125CF8}">
-					<ChildrenList>
-						<Action Name="" ID="{081CC0F5-278A-4CF9-A307-629E9F1046C4}" ShortID="226337001">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Gate Close 1" ID="{B1B37586-1E50-44AE-BEBE-2014EE1083A8}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Cleanup_Corpse" ID="{84807FA0-46A9-48FF-B21F-571AD4EEDE1C}">
-					<ChildrenList>
-						<Action Name="" ID="{16D9BB24-92D9-4B97-9B46-3587B2ECEE11}" ShortID="369987382">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Corpse Store 1" ID="{C5F3F2E7-ED0F-4D6D-A12D-FAD61A3316A1}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Level_1" ID="{543D85AB-4C0A-441E-B128-1263E7EA56BF}">
-					<ChildrenList>
-						<Action Name="" ID="{0A78184D-D044-476B-A3B8-1E51AF97A9BA}" ShortID="506641337">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Torchlighter Amb 1" ID="{6EB03672-84AA-45A2-9A26-06A77D21A14C}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Level_2" ID="{48124709-BE2F-4B5A-8690-4F8F4D706064}">
-					<ChildrenList>
-						<Action Name="" ID="{FDC2CD1D-4DCC-40EE-A1D3-E21A43E3BEF9}" ShortID="716538696">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Torchlighter Amb 2" ID="{18DF3E7D-5132-4C19-807C-F0813BDFCC70}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Level_Complete" ID="{D6A2F3E9-D6C4-40C5-B4BA-B16CBB54055A}"/>
-				<Event Name="Footstep" ID="{2EB95765-B4D3-4F25-A1C1-390EA6B07EF3}">
-					<ChildrenList>
-						<Action Name="" ID="{E65B35A4-CFC5-40F3-B5DA-7F45E138E8BC}" ShortID="1005900151">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Walking" ID="{1443F213-CC58-454D-9830-1C9D6D401C21}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Pull_Lever" ID="{8683E3B9-BF6E-4D17-9347-615DDB518A36}">
-					<ChildrenList>
-						<Action Name="" ID="{F30D51F6-2B19-4EB0-BEB7-B46F6C1BEBD6}" ShortID="206532588">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Gate Lever 1" ID="{0057D783-638E-4BE9-8049-E5A2C5C5725B}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Spikes_Down" ID="{B642F7C4-561A-49F7-B9F1-E507C8CAA35A}">
-					<ChildrenList>
-						<Action Name="" ID="{5FFE9FD5-9F2B-48C5-B97A-12113C3B76F3}" ShortID="713715618">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Spikes Down" ID="{6C34194F-15FF-4C3F-A2E6-228BC152E132}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Spikes_Up" ID="{E2033E30-BFC2-4C79-8722-591B6ABFF0F4}">
-					<ChildrenList>
-						<Action Name="" ID="{664CB030-2C6E-4483-8030-553C88A6C283}" ShortID="362125038">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Spikes Up" ID="{DB91BC90-D1BA-4BBC-B335-C02D5DAEA678}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Spikes" ID="{4B7CA1E6-E72F-4C54-B782-B846470FEC8B}">
-					<ChildrenList>
-						<Action Name="" ID="{4E3437DB-009C-4B4D-A7C7-8AECF087AF50}" ShortID="315493878">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Spikes" ID="{AD6DF322-3871-42F0-81A1-462782468315}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Music_Start" ID="{BEDC2503-17CC-4749-A84F-2FE605E3A222}">
-					<ChildrenList>
-						<Action Name="" ID="{AB79902E-7EA8-4EF2-8455-3C3013F5DE51}" ShortID="213607736">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music" ID="{B6D141DE-4511-48FB-8556-298AC4B41A41}" WorkUnitID="{DB086AE6-23BE-48A1-85E3-4A4F6A724524}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{8E9DC64C-4CC2-4378-94FD-5C3D0D4EFB16}" ShortID="853223053">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Torchlighter Amb 2" ID="{18DF3E7D-5132-4C19-807C-F0813BDFCC70}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Mop" ID="{B93D26D1-9197-480C-9D80-197F075DBB53}">
-					<ChildrenList>
-						<Action Name="" ID="{833BAF21-9112-4355-957E-1B62A93AF089}" ShortID="184802926">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Mop Swing" ID="{090FD96D-2F63-4C54-91E7-004614F757B5}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Clean_Blood" ID="{82EC22FA-2990-442F-8816-B98C6B07BA31}">
-					<ChildrenList>
-						<Action Name="" ID="{9D18DB68-3904-4412-BBF9-C29993416DA1}" ShortID="930721417">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Mop" ID="{FBED8CA5-B5AF-447A-8C6D-F03DB9BEA399}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Set_Trapdoor" ID="{41D21A2A-3F5D-4FDF-9DEE-C1D21E7DDEBB}">
-					<ChildrenList>
-						<Action Name="" ID="{9324C9E7-CAEE-493E-8D2A-1360C7B4EBE3}" ShortID="749877901">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="trapdoor set" ID="{9E47F022-2AD3-4E2D-9AA5-27B0E3E9B8FF}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Trigger_Trapdoor" ID="{24E24E61-C01E-4B02-8B07-2E5D73F86EC3}">
-					<ChildrenList>
-						<Action Name="" ID="{24F097DE-119D-4EE8-85C6-792B89081B72}" ShortID="375252997">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Trigger Trapdoor" ID="{4471A325-48D4-4D4A-A2F8-F6518BFA3D7F}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Arrow_Kill" ID="{6978A281-81D2-4839-96F8-1DE382FDBD48}">
-					<ChildrenList>
-						<Action Name="" ID="{87F14107-AB9F-49AC-99AA-1BD2B92BA5B1}" ShortID="91076021">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Arrow Kill" ID="{5E73C672-52BE-415B-86EF-B0C5A329E1E3}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Chest_Refill" ID="{6DE70196-952D-41F1-BC9B-D83936C13724}">
-					<ChildrenList>
-						<Action Name="" ID="{B614661F-A8FF-4564-917F-079B2C5CD25B}" ShortID="973310276">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Refill Chest" ID="{C9122256-0E8E-4CB7-801C-E81A1D171142}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Arrow_Miss" ID="{D7FB052C-07C8-4B89-87E4-4ABB76B6D75B}">
-					<ChildrenList>
-						<Action Name="" ID="{00E112A6-02F2-4BD9-9F15-6D9C6F36ACCA}" ShortID="883915010">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Arrow Miss" ID="{FCF7A1B7-9940-4CB8-B92F-11AD730D5CFC}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Arrow_Reload" ID="{FFA17CA7-799A-4BDC-9695-7691A3F8A0F3}">
-					<ChildrenList>
-						<Action Name="" ID="{B123AFE6-2C3D-4E63-8C47-BDAA973075F8}" ShortID="265266822">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Arrow Reload" ID="{B112F875-8822-4D42-A441-809827FC7ECA}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Arrow_Fire" ID="{413A96D2-7577-4979-8F83-3D41A2FC5529}">
-					<ChildrenList>
-						<Action Name="" ID="{574E9893-813E-4408-908B-4FFBAFFA7D34}" ShortID="95417428">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Arrow Fire" ID="{E7BC40F6-03CE-407E-AAD7-763EB7B25671}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Dead" ID="{9C749D94-AF62-40AE-84A5-D690BA50FBB5}">
-					<ChildrenList>
-						<Action Name="" ID="{71FBFA9A-710B-44A3-B0FA-03081DC7FB12}" ShortID="895378536">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Dead" ID="{9DFF1890-695F-402B-B089-705F7175DB67}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Dash" ID="{F612AEEE-2840-4CEA-8F71-6E7AB3295C81}">
-					<ChildrenList>
-						<Action Name="" ID="{5111590F-490C-4911-B42A-4842A0413351}" ShortID="45082712">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Dash" ID="{1F0C8EC1-8A56-48F0-8B83-2B0FB0242BED}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Spaces" ID="{DA3084C1-12E4-470C-9671-A649B6ACD588}">
-					<ChildrenList>
-						<Action Name="" ID="{81AF88CA-896C-4A1E-88FC-640493745A5D}" ShortID="967603032">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Spaces" ID="{68C5EAFB-78FF-4413-B9EE-37D561A00D95}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Swing_Torch" ID="{7189BFDE-3223-4C76-AB20-5B65F92CD2DD}">
-					<ChildrenList>
-						<Action Name="" ID="{89A0F19A-1268-43AD-AA80-C3395274FD43}" ShortID="195223717">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Light Torch 1" ID="{79BC965B-E615-4A83-A201-8467575F1D9F}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Pit_Death" ID="{14660973-53BA-45DD-96B9-952B8C3FD191}">
-					<ChildrenList>
-						<Action Name="" ID="{C78436CE-E617-4BD1-8273-98DC6F253A2C}" ShortID="1015971147">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-								<Property Name="Delay" Type="Real64" Value="0.4"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Pit Death" ID="{CFB7C0A6-BF6B-48E2-94CC-85F14DB7EF5B}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{371A4825-5E12-4CE5-A073-FB8731289F8F}" ShortID="873018859">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Trigger Trapdoor" ID="{4471A325-48D4-4D4A-A2F8-F6518BFA3D7F}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Music" ID="{A2C08924-0E43-4246-8467-8FEC5330868E}" ShortID="414370035"/>
+				<Event Name="Menu_Music" ID="{1EBB95DC-88CA-4DF2-BFAB-82B9CFC2B6EC}">
+					<ChildrenList>
+						<Action Name="" ID="{37E0E200-1404-46AA-9349-6215C42B95DC}" ShortID="376616703">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music Menu" ID="{143ECBE0-BCD2-447E-B68D-9FCBD812C24B}" WorkUnitID="{DB086AE6-23BE-48A1-85E3-4A4F6A724524}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Level_Music" ID="{68E49F41-ACAF-4319-B523-6C8F5835D7D4}">
+					<ChildrenList>
+						<Action Name="" ID="{77FD1D59-C14D-415B-994A-78FBB8255421}" ShortID="880225589">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music Levels" ID="{024D521D-6D55-4F17-9C93-38DBE88528D4}" WorkUnitID="{DB086AE6-23BE-48A1-85E3-4A4F6A724524}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Main" ID="{39C1FBC3-FABA-4BC1-BBF6-5FC52CBFC0AE}" ShortID="285899895">
+					<ChildrenList>
+						<Event Name="Chest_Refill" ID="{6DE70196-952D-41F1-BC9B-D83936C13724}">
+							<ChildrenList>
+								<Action Name="" ID="{B614661F-A8FF-4564-917F-079B2C5CD25B}" ShortID="973310276">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Refill Chest" ID="{C9122256-0E8E-4CB7-801C-E81A1D171142}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Arrow_Kill" ID="{6978A281-81D2-4839-96F8-1DE382FDBD48}">
+							<ChildrenList>
+								<Action Name="" ID="{87F14107-AB9F-49AC-99AA-1BD2B92BA5B1}" ShortID="91076021">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Arrow Kill" ID="{5E73C672-52BE-415B-86EF-B0C5A329E1E3}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Cleanup_Corpse" ID="{84807FA0-46A9-48FF-B21F-571AD4EEDE1C}">
+							<ChildrenList>
+								<Action Name="" ID="{16D9BB24-92D9-4B97-9B46-3587B2ECEE11}" ShortID="369987382">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Corpse Store 1" ID="{C5F3F2E7-ED0F-4D6D-A12D-FAD61A3316A1}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Arrow_Reload" ID="{FFA17CA7-799A-4BDC-9695-7691A3F8A0F3}">
+							<ChildrenList>
+								<Action Name="" ID="{B123AFE6-2C3D-4E63-8C47-BDAA973075F8}" ShortID="265266822">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Arrow Reload" ID="{B112F875-8822-4D42-A441-809827FC7ECA}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Clean_Blood" ID="{82EC22FA-2990-442F-8816-B98C6B07BA31}">
+							<ChildrenList>
+								<Action Name="" ID="{9D18DB68-3904-4412-BBF9-C29993416DA1}" ShortID="930721417">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mop" ID="{FBED8CA5-B5AF-447A-8C6D-F03DB9BEA399}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Arrow_Fire" ID="{413A96D2-7577-4979-8F83-3D41A2FC5529}">
+							<ChildrenList>
+								<Action Name="" ID="{574E9893-813E-4408-908B-4FFBAFFA7D34}" ShortID="95417428">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Arrow Fire" ID="{E7BC40F6-03CE-407E-AAD7-763EB7B25671}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Close_Gate" ID="{06D935FB-B83C-4261-B946-83DD0C125CF8}">
+							<ChildrenList>
+								<Action Name="" ID="{081CC0F5-278A-4CF9-A307-629E9F1046C4}" ShortID="226337001">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gate Close 1" ID="{B1B37586-1E50-44AE-BEBE-2014EE1083A8}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level_2" ID="{48124709-BE2F-4B5A-8690-4F8F4D706064}">
+							<ChildrenList>
+								<Action Name="" ID="{FDC2CD1D-4DCC-40EE-A1D3-E21A43E3BEF9}" ShortID="716538696">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Torchlighter Amb 2" ID="{18DF3E7D-5132-4C19-807C-F0813BDFCC70}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Footstep" ID="{2EB95765-B4D3-4F25-A1C1-390EA6B07EF3}">
+							<ChildrenList>
+								<Action Name="" ID="{E65B35A4-CFC5-40F3-B5DA-7F45E138E8BC}" ShortID="1005900151">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Walking" ID="{1443F213-CC58-454D-9830-1C9D6D401C21}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dead" ID="{9C749D94-AF62-40AE-84A5-D690BA50FBB5}">
+							<ChildrenList>
+								<Action Name="" ID="{71FBFA9A-710B-44A3-B0FA-03081DC7FB12}" ShortID="895378536">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dead" ID="{9DFF1890-695F-402B-B089-705F7175DB67}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level_1" ID="{543D85AB-4C0A-441E-B128-1263E7EA56BF}">
+							<ChildrenList>
+								<Action Name="" ID="{0A78184D-D044-476B-A3B8-1E51AF97A9BA}" ShortID="506641337">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Torchlighter Amb 1" ID="{6EB03672-84AA-45A2-9A26-06A77D21A14C}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Arrow_Miss" ID="{D7FB052C-07C8-4B89-87E4-4ABB76B6D75B}">
+							<ChildrenList>
+								<Action Name="" ID="{00E112A6-02F2-4BD9-9F15-6D9C6F36ACCA}" ShortID="883915010">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Arrow Miss" ID="{FCF7A1B7-9940-4CB8-B92F-11AD730D5CFC}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dash" ID="{F612AEEE-2840-4CEA-8F71-6E7AB3295C81}">
+							<ChildrenList>
+								<Action Name="" ID="{5111590F-490C-4911-B42A-4842A0413351}" ShortID="45082712">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dash" ID="{1F0C8EC1-8A56-48F0-8B83-2B0FB0242BED}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level_Complete" ID="{D6A2F3E9-D6C4-40C5-B4BA-B16CBB54055A}"/>
+						<Event Name="Pit_Death" ID="{14660973-53BA-45DD-96B9-952B8C3FD191}">
+							<ChildrenList>
+								<Action Name="" ID="{C78436CE-E617-4BD1-8273-98DC6F253A2C}" ShortID="1015971147">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pit Death" ID="{CFB7C0A6-BF6B-48E2-94CC-85F14DB7EF5B}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{371A4825-5E12-4CE5-A073-FB8731289F8F}" ShortID="873018859">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Trigger Trapdoor" ID="{4471A325-48D4-4D4A-A2F8-F6518BFA3D7F}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Swing_Torch" ID="{7189BFDE-3223-4C76-AB20-5B65F92CD2DD}">
+							<ChildrenList>
+								<Action Name="" ID="{89A0F19A-1268-43AD-AA80-C3395274FD43}" ShortID="195223717">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Light Torch 1" ID="{79BC965B-E615-4A83-A201-8467575F1D9F}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mop" ID="{B93D26D1-9197-480C-9D80-197F075DBB53}">
+							<ChildrenList>
+								<Action Name="" ID="{833BAF21-9112-4355-957E-1B62A93AF089}" ShortID="184802926">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mop Swing" ID="{090FD96D-2F63-4C54-91E7-004614F757B5}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Trapdoor" ID="{41D21A2A-3F5D-4FDF-9DEE-C1D21E7DDEBB}">
+							<ChildrenList>
+								<Action Name="" ID="{9324C9E7-CAEE-493E-8D2A-1360C7B4EBE3}" ShortID="749877901">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="trapdoor set" ID="{9E47F022-2AD3-4E2D-9AA5-27B0E3E9B8FF}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Light_Torch" ID="{77405169-592A-4E04-8482-02C0E2B5D5E3}">
+							<ChildrenList>
+								<Action Name="" ID="{6A909B03-9B82-4133-BE70-FE3C9E55AF3A}" ShortID="225195262">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Light Torch Loop 1" ID="{FBE2208F-C32A-4BA2-9E78-9AE28CC056EE}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Open_Gate" ID="{A5207A5A-C220-45DE-9778-CA42C286FA74}">
+							<ChildrenList>
+								<Action Name="" ID="{AC2E8761-3E0D-400A-9F1E-A365BECCB30D}" ShortID="957892198">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gate Open" ID="{212E0246-28B1-4E36-B9EB-3AE0DA63A9AE}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pull_Lever" ID="{8683E3B9-BF6E-4D17-9347-615DDB518A36}">
+							<ChildrenList>
+								<Action Name="" ID="{F30D51F6-2B19-4EB0-BEB7-B46F6C1BEBD6}" ShortID="206532588">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gate Lever 1" ID="{0057D783-638E-4BE9-8049-E5A2C5C5725B}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Music_Start" ID="{BEDC2503-17CC-4749-A84F-2FE605E3A222}">
+							<ChildrenList>
+								<Action Name="" ID="{AB79902E-7EA8-4EF2-8455-3C3013F5DE51}" ShortID="213607736">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music" ID="{B6D141DE-4511-48FB-8556-298AC4B41A41}" WorkUnitID="{DB086AE6-23BE-48A1-85E3-4A4F6A724524}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8E9DC64C-4CC2-4378-94FD-5C3D0D4EFB16}" ShortID="853223053">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Torchlighter Amb 2" ID="{18DF3E7D-5132-4C19-807C-F0813BDFCC70}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Spikes_Up" ID="{E2033E30-BFC2-4C79-8722-591B6ABFF0F4}">
+							<ChildrenList>
+								<Action Name="" ID="{664CB030-2C6E-4483-8030-553C88A6C283}" ShortID="362125038">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spikes Up" ID="{DB91BC90-D1BA-4BBC-B335-C02D5DAEA678}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Trigger_Trapdoor" ID="{24E24E61-C01E-4B02-8B07-2E5D73F86EC3}">
+							<ChildrenList>
+								<Action Name="" ID="{24F097DE-119D-4EE8-85C6-792B89081B72}" ShortID="375252997">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Trigger Trapdoor" ID="{4471A325-48D4-4D4A-A2F8-F6518BFA3D7F}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Spikes_Down" ID="{B642F7C4-561A-49F7-B9F1-E507C8CAA35A}">
+							<ChildrenList>
+								<Action Name="" ID="{5FFE9FD5-9F2B-48C5-B97A-12113C3B76F3}" ShortID="713715618">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spikes Down" ID="{6C34194F-15FF-4C3F-A2E6-228BC152E132}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Spaces" ID="{DA3084C1-12E4-470C-9671-A649B6ACD588}">
+							<ChildrenList>
+								<Action Name="" ID="{81AF88CA-896C-4A1E-88FC-640493745A5D}" ShortID="967603032">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spaces" ID="{68C5EAFB-78FF-4413-B9EE-37D561A00D95}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Spikes" ID="{4B7CA1E6-E72F-4C54-B782-B846470FEC8B}">
+							<ChildrenList>
+								<Action Name="" ID="{4E3437DB-009C-4B4D-A7C7-8AECF087AF50}" ShortID="315493878">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spikes" ID="{AD6DF322-3871-42F0-81A1-462782468315}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Foots" ID="{F22215C0-14CF-47C1-AC97-79560F379AE4}">
+					<ChildrenList>
+						<Action Name="" ID="{DE8861B3-72B5-434E-8172-78889BA769DC}" ShortID="278951210">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{EA710813-6178-484A-A009-393D5E76776C}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OpenLift" ID="{731DFDDA-073A-4D45-9A07-2C691AEF64FE}">
+					<ChildrenList>
+						<Action Name="" ID="{C49ACB5A-163A-4580-8EBD-0AD52D76B293}" ShortID="551428222">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lift Down" ID="{BC9069D3-708F-4EB3-B800-51D30F4F67AA}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Lift_Arrive" ID="{005C373B-E6F5-4DFE-B0BF-3EDEF33DE211}">
+					<ChildrenList>
+						<Action Name="" ID="{5101FAB0-F9D3-4D93-A76D-53D6F6A2D232}" ShortID="253404658">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Elevator ding" ID="{ADBE8568-1B70-46F9-8DAF-172872A5A985}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LevelSelect_Amb" ID="{C94DC17A-A7C2-40F0-9353-B2C5C6B943C4}">
+					<ChildrenList>
+						<Action Name="" ID="{1E9F783B-D52A-4A7C-A6F5-2C9F021113CC}" ShortID="97574682">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Room Amb 1" ID="{A4047830-25D8-4F57-AA35-BEF4256C0189}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

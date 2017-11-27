@@ -55,6 +55,8 @@ public class SCR_Player : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		pAnimator = GetComponent<Animator>();
+		//AkSoundEngine.LoadBank (1, 0);
+
 	}
 	
 	// Update is called once per frame

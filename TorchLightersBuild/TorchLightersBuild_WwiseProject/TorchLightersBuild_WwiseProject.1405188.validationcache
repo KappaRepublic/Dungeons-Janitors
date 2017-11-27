@@ -38,6 +38,45 @@
 	<ValidationCacheItem File="\\StuHome\HomeDrive8$\1405188\Desktop\TorchLighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="3385785600" DateHigh="30626400"/>
 	<ValidationCacheItem File="\\StuHome\HomeDrive8$\1405188\Desktop\TorchLighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="3385785600" DateHigh="30626400"/>
 	<ValidationCacheItem File="\\StuHome\HomeDrive8$\1405188\Desktop\TorchLighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="3385785600" DateHigh="30626400"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3588473984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="3594273984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="3598573984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="3597973984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="3590773984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3592973984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="3592373984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Effects\Default Work Unit.wwu" DateLow="3589673984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Effects\Factory Altiverb - Outdoor and More.wwu" DateLow="3590273984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Effects\Factory Auro Headphone.wwu" DateLow="3597673984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Effects\Factory Convolution Reverb Effects.wwu" DateLow="3592673984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Effects\Factory Effects.wwu" DateLow="3591673984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Effects\Factory iZotope Box Modeler.wwu" DateLow="3593173984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Effects\Factory iZotope Delay.wwu" DateLow="3593473984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Effects\Factory iZotope Dynamics.wwu" DateLow="3593673984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Effects\Factory iZotope Filters.wwu" DateLow="3593973984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="3594573984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="3595273984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="3590473984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Effects\Factory McDSP Effects.wwu" DateLow="3594973984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Events\Default Work Unit.wwu" DateLow="3591373984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="3589873984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="3589473984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3597173984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3591073984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="3592073984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="3597473984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Presets\Default Work Unit.wwu" DateLow="3596473984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Queries\Default Work Unit.wwu" DateLow="3595873984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Queries\Factory Queries.wwu" DateLow="3596173984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="3589173984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3596773984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\States\Default Work Unit.wwu" DateLow="3588173984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Switches\Default Work Unit.wwu" DateLow="3588773984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\TorchLightersBuild_WwiseProject.1405188.wsettings" DateLow="4232321792" DateHigh="30631798"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\TorchLightersBuild_WwiseProject.wproj" DateLow="4232321792" DateHigh="30631798"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="3595573984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="3598273984" DateHigh="30631821"/>
+	<ValidationCacheItem File="G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="3598873984" DateHigh="30631821"/>
 	<ValidationCacheItem File="G:\TorchLighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3410063104" DateHigh="30627601"/>
 	<ValidationCacheItem File="G:\TorchLighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="3265785600" DateHigh="30626400"/>
 	<ValidationCacheItem File="G:\TorchLighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="3265785600" DateHigh="30626400"/>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>E:\TorchLighters\TorchLightersBuild\TorchLightersBuild\TorchLightersBuild_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>E:\TorchLighters\TorchLightersBuild\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\TorchLighters\TorchLightersBuild\TorchLightersBuild\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>G:\TorchLighters-seb\TorchLightersBuild\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\TorchLighters\TorchLightersBuild\TorchLightersBuild\TorchLightersBuild_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,38 +16,132 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
+		<SoundBank Id="2607556080" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Menu</ObjectPath>
+			<ShortName>Menu</ShortName>
+			<Path>Menu.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4055567060" Name="Menu_Music" ObjectPath="\Events\Default Work Unit\Menu_Music"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="5717030" Language="SFX">
+					<ShortName>101948__juskiddink__dry-thunder3.wav</ShortName>
+					<Path>SFX\101948__juskiddink__dry-thunder3_F17FB28C.wem</Path>
+				</File>
+				<File Id="452886228" Language="SFX">
+					<ShortName>104954__glaneur-de-sons__pigeons-taking-off.wav</ShortName>
+					<Path>SFX\104954__glaneur-de-sons__pigeons-taking-off_F17FB28C.wem</Path>
+				</File>
+				<File Id="513084512" Language="SFX">
+					<ShortName>Trans1.wav</ShortName>
+					<Path>SFX\Trans1_F17FB28C.wem</Path>
+				</File>
+				<File Id="599225133" Language="SFX">
+					<ShortName>Music Menu.wav</ShortName>
+					<Path>SFX\Music Menu_F17FB28C.wem</Path>
+				</File>
+				<File Id="727837060" Language="SFX">
+					<ShortName>336217__robinhood76__06348-distant-ghost-howl.wav</ShortName>
+					<Path>SFX\336217__robinhood76__06348-distant-ghost-howl_F17FB28C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2678230316" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Levels</ObjectPath>
+			<ShortName>Levels</ShortName>
+			<Path>Levels.bnk</Path>
+			<IncludedEvents>
+				<Event Id="264776788" Name="Foots" ObjectPath="\Events\Default Work Unit\Foots"/>
+				<Event Id="1244594577" Name="Level_Music" ObjectPath="\Events\Default Work Unit\Level_Music"/>
+				<Event Id="2606505640" Name="LevelSelect_Amb" ObjectPath="\Events\Default Work Unit\LevelSelect_Amb"/>
+				<Event Id="3969681210" Name="OpenLift" ObjectPath="\Events\Default Work Unit\OpenLift"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="92247098" Language="SFX">
+					<ShortName>Concrete_Left_Foot_Toe.07.wav</ShortName>
+					<Path>SFX\Concrete_Left_Foot_Toe.07_1C9C67B2.wem</Path>
+				</File>
+				<File Id="100743402" Language="SFX">
+					<ShortName>Concrete_Left_Foot_Toe.02.wav</ShortName>
+					<Path>SFX\Concrete_Left_Foot_Toe.02_1C9C67B2.wem</Path>
+				</File>
+				<File Id="204364504" Language="SFX">
+					<ShortName>Concrete_Left_Foot_Toe.03.wav</ShortName>
+					<Path>SFX\Concrete_Left_Foot_Toe.03_1C9C67B2.wem</Path>
+				</File>
+				<File Id="227952304" Language="SFX">
+					<ShortName>Concrete_Left_Foot_Toe.06.wav</ShortName>
+					<Path>SFX\Concrete_Left_Foot_Toe.06_1C9C67B2.wem</Path>
+				</File>
+				<File Id="252893621" Language="SFX">
+					<ShortName>Concrete_Left_Foot_Toe.04.wav</ShortName>
+					<Path>SFX\Concrete_Left_Foot_Toe.04_1C9C67B2.wem</Path>
+				</File>
+				<File Id="272842970" Language="SFX">
+					<ShortName>Supermarket Loop.wav</ShortName>
+					<Path>SFX\Supermarket Loop_37D262E0.wem</Path>
+				</File>
+				<File Id="456617033" Language="SFX">
+					<ShortName>Room Amb 1.wav</ShortName>
+					<Path>SFX\Room Amb 1_85BA15D0.wem</Path>
+				</File>
+				<File Id="513084512" Language="SFX">
+					<ShortName>Trans1.wav</ShortName>
+					<Path>SFX\Trans1_F17FB28C.wem</Path>
+				</File>
+				<File Id="648141054" Language="SFX">
+					<ShortName>Elevator down.wav</ShortName>
+					<Path>SFX\Elevator down_8DC03BEA.wem</Path>
+				</File>
+				<File Id="741245128" Language="SFX">
+					<ShortName>Concrete_Left_Foot_Toe.05.wav</ShortName>
+					<Path>SFX\Concrete_Left_Foot_Toe.05_1C9C67B2.wem</Path>
+				</File>
+				<File Id="953556749" Language="SFX">
+					<ShortName>Concrete_Left_Foot_Toe.01.wav</ShortName>
+					<Path>SFX\Concrete_Left_Foot_Toe.01_1C9C67B2.wem</Path>
+				</File>
+				<File Id="992871585" Language="SFX">
+					<ShortName>Concrete_Left_Foot_Toe.08.wav</ShortName>
+					<Path>SFX\Concrete_Left_Foot_Toe.08_1C9C67B2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="3161908922" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="922015" Name="Arrow_Fire" ObjectPath="\Events\Default Work Unit\Arrow_Fire"/>
-				<Event Id="1552114495" Name="Arrow_Kill" ObjectPath="\Events\Default Work Unit\Arrow_Kill"/>
-				<Event Id="1384846663" Name="Arrow_Miss" ObjectPath="\Events\Default Work Unit\Arrow_Miss"/>
-				<Event Id="950567424" Name="Arrow_Reload" ObjectPath="\Events\Default Work Unit\Arrow_Reload"/>
-				<Event Id="3754893623" Name="Chest_Refill" ObjectPath="\Events\Default Work Unit\Chest_Refill"/>
-				<Event Id="2331375193" Name="Clean_Blood" ObjectPath="\Events\Default Work Unit\Clean_Blood"/>
-				<Event Id="1545137546" Name="Cleanup_Corpse" ObjectPath="\Events\Default Work Unit\Cleanup_Corpse"/>
-				<Event Id="4197195035" Name="Close_Gate" ObjectPath="\Events\Default Work Unit\Close_Gate"/>
-				<Event Id="1942692385" Name="Dash" ObjectPath="\Events\Default Work Unit\Dash"/>
-				<Event Id="2044049779" Name="Dead" ObjectPath="\Events\Default Work Unit\Dead"/>
-				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep"/>
-				<Event Id="1290008369" Name="Level_1" ObjectPath="\Events\Default Work Unit\Level_1"/>
-				<Event Id="1290008370" Name="Level_2" ObjectPath="\Events\Default Work Unit\Level_2"/>
-				<Event Id="3736098925" Name="Level_Complete" ObjectPath="\Events\Default Work Unit\Level_Complete"/>
-				<Event Id="2156420204" Name="Light_Torch" ObjectPath="\Events\Default Work Unit\Light_Torch"/>
-				<Event Id="1082004779" Name="Mop" ObjectPath="\Events\Default Work Unit\Mop"/>
-				<Event Id="3725903807" Name="Music_Start" ObjectPath="\Events\Default Work Unit\Music_Start"/>
-				<Event Id="196301345" Name="Open_Gate" ObjectPath="\Events\Default Work Unit\Open_Gate"/>
-				<Event Id="2258526687" Name="Pit_Death" ObjectPath="\Events\Default Work Unit\Pit_Death"/>
-				<Event Id="766957497" Name="Pull_Lever" ObjectPath="\Events\Default Work Unit\Pull_Lever"/>
-				<Event Id="247686155" Name="Set_Trapdoor" ObjectPath="\Events\Default Work Unit\Set_Trapdoor"/>
-				<Event Id="2469860632" Name="Spaces" ObjectPath="\Events\Default Work Unit\Spaces"/>
-				<Event Id="747415224" Name="Spikes" ObjectPath="\Events\Default Work Unit\Spikes"/>
-				<Event Id="772025031" Name="Spikes_Down" ObjectPath="\Events\Default Work Unit\Spikes_Down"/>
-				<Event Id="1155199632" Name="Spikes_Up" ObjectPath="\Events\Default Work Unit\Spikes_Up"/>
-				<Event Id="3704360134" Name="Swing_Torch" ObjectPath="\Events\Default Work Unit\Swing_Torch"/>
-				<Event Id="281220831" Name="Trigger_Trapdoor" ObjectPath="\Events\Default Work Unit\Trigger_Trapdoor"/>
+				<Event Id="922015" Name="Arrow_Fire" ObjectPath="\Events\Default Work Unit\Main\Arrow_Fire"/>
+				<Event Id="1552114495" Name="Arrow_Kill" ObjectPath="\Events\Default Work Unit\Main\Arrow_Kill"/>
+				<Event Id="1384846663" Name="Arrow_Miss" ObjectPath="\Events\Default Work Unit\Main\Arrow_Miss"/>
+				<Event Id="950567424" Name="Arrow_Reload" ObjectPath="\Events\Default Work Unit\Main\Arrow_Reload"/>
+				<Event Id="3754893623" Name="Chest_Refill" ObjectPath="\Events\Default Work Unit\Main\Chest_Refill"/>
+				<Event Id="2331375193" Name="Clean_Blood" ObjectPath="\Events\Default Work Unit\Main\Clean_Blood"/>
+				<Event Id="1545137546" Name="Cleanup_Corpse" ObjectPath="\Events\Default Work Unit\Main\Cleanup_Corpse"/>
+				<Event Id="4197195035" Name="Close_Gate" ObjectPath="\Events\Default Work Unit\Main\Close_Gate"/>
+				<Event Id="1942692385" Name="Dash" ObjectPath="\Events\Default Work Unit\Main\Dash"/>
+				<Event Id="2044049779" Name="Dead" ObjectPath="\Events\Default Work Unit\Main\Dead"/>
+				<Event Id="264776788" Name="Foots" ObjectPath="\Events\Default Work Unit\Foots"/>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Main\Footstep"/>
+				<Event Id="1290008369" Name="Level_1" ObjectPath="\Events\Default Work Unit\Main\Level_1"/>
+				<Event Id="1290008370" Name="Level_2" ObjectPath="\Events\Default Work Unit\Main\Level_2"/>
+				<Event Id="3736098925" Name="Level_Complete" ObjectPath="\Events\Default Work Unit\Main\Level_Complete"/>
+				<Event Id="4192888116" Name="Lift_Arrive" ObjectPath="\Events\Default Work Unit\Lift_Arrive"/>
+				<Event Id="2156420204" Name="Light_Torch" ObjectPath="\Events\Default Work Unit\Main\Light_Torch"/>
+				<Event Id="1082004779" Name="Mop" ObjectPath="\Events\Default Work Unit\Main\Mop"/>
+				<Event Id="3725903807" Name="Music_Start" ObjectPath="\Events\Default Work Unit\Main\Music_Start"/>
+				<Event Id="196301345" Name="Open_Gate" ObjectPath="\Events\Default Work Unit\Main\Open_Gate"/>
+				<Event Id="3969681210" Name="OpenLift" ObjectPath="\Events\Default Work Unit\OpenLift"/>
+				<Event Id="2258526687" Name="Pit_Death" ObjectPath="\Events\Default Work Unit\Main\Pit_Death"/>
+				<Event Id="766957497" Name="Pull_Lever" ObjectPath="\Events\Default Work Unit\Main\Pull_Lever"/>
+				<Event Id="247686155" Name="Set_Trapdoor" ObjectPath="\Events\Default Work Unit\Main\Set_Trapdoor"/>
+				<Event Id="2469860632" Name="Spaces" ObjectPath="\Events\Default Work Unit\Main\Spaces"/>
+				<Event Id="747415224" Name="Spikes" ObjectPath="\Events\Default Work Unit\Main\Spikes"/>
+				<Event Id="772025031" Name="Spikes_Down" ObjectPath="\Events\Default Work Unit\Main\Spikes_Down"/>
+				<Event Id="1155199632" Name="Spikes_Up" ObjectPath="\Events\Default Work Unit\Main\Spikes_Up"/>
+				<Event Id="3704360134" Name="Swing_Torch" ObjectPath="\Events\Default Work Unit\Main\Swing_Torch"/>
+				<Event Id="281220831" Name="Trigger_Trapdoor" ObjectPath="\Events\Default Work Unit\Main\Trigger_Trapdoor"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="11027485" Language="SFX">
@@ -84,7 +178,7 @@
 				</File>
 				<File Id="105432556" Language="SFX">
 					<ShortName>ambience base 3.wav</ShortName>
-					<Path>SFX\ambience base 3_DFA5A4B6.wem</Path>
+					<Path>SFX\ambience base 3_9CA129D4.wem</Path>
 				</File>
 				<File Id="149845972" Language="SFX">
 					<ShortName>fs_stone_heel_6.wav</ShortName>
@@ -114,21 +208,21 @@
 					<ShortName>Concrete_Left_Foot_Toe.06.wav</ShortName>
 					<Path>SFX\Concrete_Left_Foot_Toe.06_1C9C67B2.wem</Path>
 				</File>
-				<File Id="233634665" Language="SFX">
-					<ShortName>Bass Strings 1.wav</ShortName>
-					<Path>SFX\Bass Strings 1_F17FB28C.wem</Path>
-				</File>
 				<File Id="252893621" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.04.wav</ShortName>
 					<Path>SFX\Concrete_Left_Foot_Toe.04_1C9C67B2.wem</Path>
 				</File>
-				<File Id="253726521" Language="SFX">
-					<ShortName>Percussion 1.wav</ShortName>
-					<Path>SFX\Percussion 1_F17FB28C.wem</Path>
-				</File>
 				<File Id="254265299" Language="SFX">
 					<ShortName>Gate Close 1.wav</ShortName>
 					<Path>SFX\Gate Close 1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="262578551" Language="SFX">
+					<ShortName>P1.wav</ShortName>
+					<Path>SFX\P1_F17FB28C.wem</Path>
+				</File>
+				<File Id="272842970" Language="SFX">
+					<ShortName>Supermarket Loop.wav</ShortName>
+					<Path>SFX\Supermarket Loop_37D262E0.wem</Path>
 				</File>
 				<File Id="273515129" Language="SFX">
 					<ShortName>fs_stone_heel_2.wav</ShortName>
@@ -154,13 +248,25 @@
 					<ShortName>mop_swing_3.wav</ShortName>
 					<Path>SFX\mop_swing_3_1C9C67B2.wem</Path>
 				</File>
+				<File Id="335646140" Language="SFX">
+					<ShortName>P2-2.wav</ShortName>
+					<Path>SFX\P2-2_F17FB28C.wem</Path>
+				</File>
 				<File Id="335995624" Language="SFX">
 					<ShortName>fs_stone_heel_5.wav</ShortName>
 					<Path>SFX\fs_stone_heel_5_1C9C67B2.wem</Path>
 				</File>
+				<File Id="351333416" Language="SFX">
+					<ShortName>Elevator ding.wav</ShortName>
+					<Path>SFX\Elevator ding_D381CC8A.wem</Path>
+				</File>
 				<File Id="360739430" Language="SFX">
 					<ShortName>Scratch 1.wav</ShortName>
 					<Path>SFX\Scratch 1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="369006218" Language="SFX">
+					<ShortName>P3.wav</ShortName>
+					<Path>SFX\P3_F17FB28C.wem</Path>
 				</File>
 				<File Id="369774411" Language="SFX">
 					<ShortName>Mop5.wav</ShortName>
@@ -170,17 +276,9 @@
 					<ShortName>dash 2.wav</ShortName>
 					<Path>SFX\dash 2_1C9C67B2.wem</Path>
 				</File>
-				<File Id="377556134" Language="SFX">
-					<ShortName>Organ 1.wav</ShortName>
-					<Path>SFX\Organ 1_F17FB28C.wem</Path>
-				</File>
 				<File Id="409256195" Language="SFX">
 					<ShortName>dash 1.wav</ShortName>
 					<Path>SFX\dash 1_1C9C67B2.wem</Path>
-				</File>
-				<File Id="410224967" Language="SFX">
-					<ShortName>Bass Strings 2.wav</ShortName>
-					<Path>SFX\Bass Strings 2_F17FB28C.wem</Path>
 				</File>
 				<File Id="425492008" Language="SFX">
 					<ShortName>Torchlighter Amb 2.wav</ShortName>
@@ -202,17 +300,41 @@
 					<ShortName>fs_stone_toe_7.wav</ShortName>
 					<Path>SFX\fs_stone_toe_7_1C9C67B2.wem</Path>
 				</File>
+				<File Id="480557333" Language="SFX">
+					<ShortName>P4.wav</ShortName>
+					<Path>SFX\P4_F17FB28C.wem</Path>
+				</File>
 				<File Id="494455522" Language="SFX">
 					<ShortName>arrow miss 2.wav</ShortName>
 					<Path>SFX\arrow miss 2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="500986679" Language="SFX">
+					<ShortName>P3-3.wav</ShortName>
+					<Path>SFX\P3-3_F17FB28C.wem</Path>
+				</File>
+				<File Id="501375345" Language="SFX">
+					<ShortName>P4-2.wav</ShortName>
+					<Path>SFX\P4-2_F17FB28C.wem</Path>
+				</File>
+				<File Id="505879799" Language="SFX">
+					<ShortName>Trans2.wav</ShortName>
+					<Path>SFX\Trans2_F17FB28C.wem</Path>
 				</File>
 				<File Id="512358483" Language="SFX">
 					<ShortName>fs_stone_heel_4.wav</ShortName>
 					<Path>SFX\fs_stone_heel_4_1C9C67B2.wem</Path>
 				</File>
+				<File Id="513084512" Language="SFX">
+					<ShortName>Trans1.wav</ShortName>
+					<Path>SFX\Trans1_F17FB28C.wem</Path>
+				</File>
 				<File Id="522100863" Language="SFX">
 					<ShortName>fs_stone_toe_2.wav</ShortName>
 					<Path>SFX\fs_stone_toe_2_1C9C67B2.wem</Path>
+				</File>
+				<File Id="540279701" Language="SFX">
+					<ShortName>Music 6 End.wav</ShortName>
+					<Path>SFX\Music 6 End_F17FB28C.wem</Path>
 				</File>
 				<File Id="550011003" Language="SFX">
 					<ShortName>Light Torch 1.wav</ShortName>
@@ -220,7 +342,7 @@
 				</File>
 				<File Id="551363450" Language="SFX">
 					<ShortName>Torchlighter Amb 1.wav</ShortName>
-					<Path>SFX\Torchlighter Amb 1_2460C770.wem</Path>
+					<Path>SFX\Torchlighter Amb 1_F46436F9.wem</Path>
 				</File>
 				<File Id="560534499" Language="SFX">
 					<ShortName>fs_stone_toe_5.wav</ShortName>
@@ -252,7 +374,11 @@
 				</File>
 				<File Id="633473104" Language="SFX">
 					<ShortName>spikes up.wav</ShortName>
-					<Path>SFX\spikes up_7966A32C.wem</Path>
+					<Path>SFX\spikes up_52DF6FA5.wem</Path>
+				</File>
+				<File Id="648141054" Language="SFX">
+					<ShortName>Elevator down.wav</ShortName>
+					<Path>SFX\Elevator down_8DC03BEA.wem</Path>
 				</File>
 				<File Id="662909320" Language="SFX">
 					<ShortName>arrow hit.wav</ShortName>
@@ -270,10 +396,6 @@
 					<ShortName>fs_stone_toe_6.wav</ShortName>
 					<Path>SFX\fs_stone_toe_6_1C9C67B2.wem</Path>
 				</File>
-				<File Id="702969576" Language="SFX">
-					<ShortName>Piano 1.wav</ShortName>
-					<Path>SFX\Piano 1_F17FB28C.wem</Path>
-				</File>
 				<File Id="703590830" Language="SFX">
 					<ShortName>dash 3.wav</ShortName>
 					<Path>SFX\dash 3_1C9C67B2.wem</Path>
@@ -281,10 +403,6 @@
 				<File Id="741245128" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.05.wav</ShortName>
 					<Path>SFX\Concrete_Left_Foot_Toe.05_1C9C67B2.wem</Path>
-				</File>
-				<File Id="751886074" Language="SFX">
-					<ShortName>Psycho Drums 2.wav</ShortName>
-					<Path>SFX\Psycho Drums 2_F17FB28C.wem</Path>
 				</File>
 				<File Id="780882581" Language="SFX">
 					<ShortName>Mop3.wav</ShortName>
@@ -294,13 +412,13 @@
 					<ShortName>dead 1.wav</ShortName>
 					<Path>SFX\dead 1_1C9C67B2.wem</Path>
 				</File>
-				<File Id="804047683" Language="SFX">
-					<ShortName>Choir 2.wav</ShortName>
-					<Path>SFX\Choir 2_F17FB28C.wem</Path>
-				</File>
 				<File Id="813395391" Language="SFX">
 					<ShortName>Gate Lever 1.wav</ShortName>
 					<Path>SFX\Gate Lever 1_1C9C67B2.wem</Path>
+				</File>
+				<File Id="838024916" Language="SFX">
+					<ShortName>P2.wav</ShortName>
+					<Path>SFX\P2_F17FB28C.wem</Path>
 				</File>
 				<File Id="841016456" Language="SFX">
 					<ShortName>fs_stone_toe_3.wav</ShortName>
@@ -322,17 +440,9 @@
 					<ShortName>Trigger Trap.wav</ShortName>
 					<Path>SFX\Trigger Trap_1C9C67B2.wem</Path>
 				</File>
-				<File Id="891333955" Language="SFX">
-					<ShortName>Organ 2.wav</ShortName>
-					<Path>SFX\Organ 2_F17FB28C.wem</Path>
-				</File>
 				<File Id="897544447" Language="SFX">
 					<ShortName>clothing_movement_2.wav</ShortName>
 					<Path>SFX\clothing_movement_2_9EB4B346.wem</Path>
-				</File>
-				<File Id="924942465" Language="SFX">
-					<ShortName>Psycho Drums 1.wav</ShortName>
-					<Path>SFX\Psycho Drums 1_F17FB28C.wem</Path>
 				</File>
 				<File Id="932737058" Language="SFX">
 					<ShortName>Close chest gold 1.wav</ShortName>
@@ -349,10 +459,6 @@
 				<File Id="953556749" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.01.wav</ShortName>
 					<Path>SFX\Concrete_Left_Foot_Toe.01_1C9C67B2.wem</Path>
-				</File>
-				<File Id="965227024" Language="SFX">
-					<ShortName>Timpani Roll.wav</ShortName>
-					<Path>SFX\Timpani Roll_F17FB28C.wem</Path>
 				</File>
 				<File Id="968088806" Language="SFX">
 					<ShortName>fs_stone_toe_4.wav</ShortName>
@@ -376,11 +482,11 @@
 				</File>
 				<File Id="1052743530" Language="SFX">
 					<ShortName>ambience base tunnel.wav</ShortName>
-					<Path>SFX\ambience base tunnel_93699E75.wem</Path>
+					<Path>SFX\ambience base tunnel_FBB3CF0A.wem</Path>
 				</File>
 				<File Id="1068195165" Language="SFX">
 					<ShortName>Empty Amb 1.wav</ShortName>
-					<Path>SFX\Empty Amb 1_23666C9B.wem</Path>
+					<Path>SFX\Empty Amb 1_298025B0.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

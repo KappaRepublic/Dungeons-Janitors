@@ -7,5 +7,6 @@ public class SCR_TitleScreen : MonoBehaviour {
 
 	public void loadScene(int sceneID) {
 		SceneManager.LoadScene (sceneID);
+		//AkSoundEngine.LoadBank (2, 0);
 	}
 }

@@ -23,14 +23,20 @@ namespace AK
         static const AkUniqueID CLOSE_GATE = 4197195035U;
         static const AkUniqueID DASH = 1942692385U;
         static const AkUniqueID DEAD = 2044049779U;
+        static const AkUniqueID FOOTS = 264776788U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID LEVEL_1 = 1290008369U;
         static const AkUniqueID LEVEL_2 = 1290008370U;
         static const AkUniqueID LEVEL_COMPLETE = 3736098925U;
+        static const AkUniqueID LEVEL_MUSIC = 1244594577U;
+        static const AkUniqueID LEVELSELECT_AMB = 2606505640U;
+        static const AkUniqueID LIFT_ARRIVE = 4192888116U;
         static const AkUniqueID LIGHT_TORCH = 2156420204U;
+        static const AkUniqueID MENU_MUSIC = 4055567060U;
         static const AkUniqueID MOP = 1082004779U;
         static const AkUniqueID MUSIC_START = 3725903807U;
         static const AkUniqueID OPEN_GATE = 196301345U;
+        static const AkUniqueID OPENLIFT = 3969681210U;
         static const AkUniqueID PIT_DEATH = 2258526687U;
         static const AkUniqueID PULL_LEVER = 766957497U;
         static const AkUniqueID SET_TRAPDOOR = 247686155U;
@@ -50,10 +56,13 @@ namespace AK
 
             namespace STATE
             {
+                static const AkUniqueID END = 529726532U;
                 static const AkUniqueID L1 = 1702304824U;
                 static const AkUniqueID L2 = 1702304827U;
                 static const AkUniqueID L3 = 1702304826U;
                 static const AkUniqueID L4 = 1702304829U;
+                static const AkUniqueID MENU = 2607556080U;
+                static const AkUniqueID START = 1281810935U;
             } // namespace STATE
         } // namespace MUSIC
 
@@ -89,13 +98,17 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID LEVELS = 2678230316U;
         static const AkUniqueID MAIN = 3161908922U;
+        static const AkUniqueID MENU = 2607556080U;
     } // namespace BANKS
 
     namespace BUSSES
     {
+        static const AkUniqueID INTERACT = 1466384055U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MASTER_SECONDARY_BUS = 805203703U;
+        static const AkUniqueID MUSIC = 3991942870U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES

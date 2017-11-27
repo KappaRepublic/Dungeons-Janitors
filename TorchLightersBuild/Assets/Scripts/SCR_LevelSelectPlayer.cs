@@ -10,7 +10,11 @@ public class SCR_LevelSelectPlayer : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		AkSoundEngine.LoadBank (0, 0);
+		//AkSoundEngine.LoadBank (0, 0);
+	}
+
+	public void Footsteps(){
+		AkSoundEngine.PostEvent ("Foots", gameObject);
 	}
 	
 	// Update is called once per frame

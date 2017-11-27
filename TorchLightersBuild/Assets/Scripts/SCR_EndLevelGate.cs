@@ -28,6 +28,8 @@ public class SCR_EndLevelGate : MonoBehaviour {
 			gameHud.SetActive (false);
 			player.SetActive (false);
 			levelClearScreen.SetActive (true);
-		}
-	}
+            AkSoundEngine.SetState("Music", "End");
+
+        }
+    }
 }

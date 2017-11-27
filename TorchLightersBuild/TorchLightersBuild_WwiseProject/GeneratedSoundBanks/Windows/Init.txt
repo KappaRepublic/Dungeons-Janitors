@@ -8,11 +8,14 @@ State	ID	Name	State Group			Notes
 	2849147824	Medium	Reverb_Zone			
 	3633416828	Hall	Reverb_Zone			
 	4284352190	Large	Reverb_Zone			
+	529726532	End	Music			
 	748895195	None	Music			
+	1281810935	Start	Music			
 	1702304824	L1	Music			
 	1702304826	L3	Music			
 	1702304827	L2	Music			
 	1702304829	L4	Music			
+	2607556080	Menu	Music			
 
 Custom State	ID	Name	State Group	Owner		Notes
 	69015219	Small	Reverb_Zone	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Large_Reverb		

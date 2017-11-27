@@ -136,9 +136,10 @@
 								<RandomSequenceContainer Name="Footsteps" ID="{EA710813-6178-484A-A009-393D5E76776C}" ShortID="820357228">
 									<PropertyList>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-8</Value>
+												<Value>-14</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1640,6 +1641,7 @@
 								</Sound>
 								<SwitchContainer Name="Spaces" ID="{68C5EAFB-78FF-4413-B9EE-37D561A00D95}" ShortID="1004235292">
 									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -1650,6 +1652,9 @@
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66B5D066-2992-4EF1-8303-97EF3441F3FF}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<ObjectRef Name="New_Wwise_Parametric_EQ_03" ID="{68AAEA87-EA24-4B12-B9CD-EAB9E2AE5C0B}" WorkUnitID="{580DCB54-2388-4D43-B0C5-78DA4D4FCAEE}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}"/>
@@ -2098,6 +2103,60 @@
 												<ActiveSource Name="Torchlighter Amb 1" ID="{96AC5DAD-A22D-4AED-B596-A0D7BDC75CD3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Elevator ding" ID="{ADBE8568-1B70-46F9-8DAF-172872A5A985}" ShortID="856963871">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume2" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66B5D066-2992-4EF1-8303-97EF3441F3FF}"/>
+												</Reference>
+												<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Hall_Reverb" ID="{60DE68C1-EF37-4138-8E71-F0483058EDC2}" WorkUnitID="{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Large_Reverb" ID="{A724447F-3965-47EE-B974-E5F1B88E639B}" WorkUnitID="{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}"/>
+												</Reference>
+												<Reference Name="UserAuxSend2">
+													<ObjectRef Name="Small_Reverb" ID="{7A440250-6253-4C99-B980-60E1EF8AD7D9}" WorkUnitID="{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Elevator ding" ID="{D085C010-E803-4F84-B6E8-49DD7EF9BDDE}" ShortID="351333416">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.171964285714285"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.52857142857143"/>
+														<Property Name="TrimBegin" Type="Real64" Value="10.5471428571429"/>
+														<Property Name="TrimEnd" Type="Real64" Value="14.2921428571429"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Elevator ding.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Elevator ding" ID="{D085C010-E803-4F84-B6E8-49DD7EF9BDDE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupRef Name="Reverb_Zone" ID="{00CCEA0D-1ABE-4A9A-8B18-D7E9B355BA29}"/>
@@ -2134,6 +2193,9 @@
 														</ValueList>
 													</Property>
 												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Elevator ding" ID="{ADBE8568-1B70-46F9-8DAF-172872A5A985}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Torchlighter Amb 1" ID="{6EB03672-84AA-45A2-9A26-06A77D21A14C}"/>
@@ -2369,6 +2431,38 @@
 										</Sound>
 									</ChildrenList>
 								</BlendContainer>
+								<Sound Name="Room Amb 1" ID="{A4047830-25D8-4F57-AA35-BEF4256C0189}" ShortID="950589961">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66B5D066-2992-4EF1-8303-97EF3441F3FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Room Amb 1" ID="{F4CC4031-7F57-4F46-976F-D78AE320089B}" ShortID="456617033">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.39285714285714"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.69642857142857"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Room Amb 1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Room Amb 1" ID="{F4CC4031-7F57-4F46-976F-D78AE320089B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Interactables" ID="{76326803-CF88-466F-B7D0-01D7E716B5D1}" ShortID="828730641">
@@ -2904,6 +2998,11 @@
 												<Value>True</Value>
 											</ValueList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2942,6 +3041,11 @@
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4206,7 +4310,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-14</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4537,6 +4641,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<BlendContainer Name="Gate Open" ID="{212E0246-28B1-4E36-B9EB-3AE0DA63A9AE}" ShortID="370219157">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66B5D066-2992-4EF1-8303-97EF3441F3FF}"/>
@@ -4817,7 +4928,7 @@
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>8</Value>
+												<Value>1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -5044,10 +5155,10 @@
 					</PositioningInfo>
 					<StateInfo>
 						<StatePropertyList>
-							<Property Name="Lowpass"/>
 							<Property Name="Pitch"/>
-							<Property Name="Highpass"/>
 							<Property Name="Volume"/>
+							<Property Name="Highpass"/>
+							<Property Name="Lowpass"/>
 							<Property Name="MakeUpGain"/>
 							<Property Name="UserAuxSendVolume2"/>
 							<Property Name="UserAuxSendVolume1"/>
@@ -5098,6 +5209,107 @@
 						</CustomStateList>
 					</StateInfo>
 				</ActorMixer>
+				<BlendContainer Name="Lift Down" ID="{BC9069D3-708F-4EB3-B800-51D30F4F67AA}" ShortID="373601915">
+					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66B5D066-2992-4EF1-8303-97EF3441F3FF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Supermarket Loop" ID="{6B9CC354-F5F7-4163-A2BC-8467AD837D51}" ShortID="309945554">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-25</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66B5D066-2992-4EF1-8303-97EF3441F3FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Supermarket Loop" ID="{8543FE3F-F639-4ACC-8682-1D7F1C566763}" ShortID="272842970">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="2.04464518229167"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="2.41268131510416"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.58000520833335"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Supermarket Loop.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Supermarket Loop" ID="{8543FE3F-F639-4ACC-8682-1D7F1C566763}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Elevator down" ID="{F58F6752-7175-4E3C-AD79-56F6815B520F}" ShortID="863163259">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66B5D066-2992-4EF1-8303-97EF3441F3FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Elevator down" ID="{67EC2305-B745-4BFD-8FB1-04846D443C47}" ShortID="648141054">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.515892857142857"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.515892857142856"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.535"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.82785714285713"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Elevator down.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Elevator down" ID="{67EC2305-B745-4BFD-8FB1-04846D443C47}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

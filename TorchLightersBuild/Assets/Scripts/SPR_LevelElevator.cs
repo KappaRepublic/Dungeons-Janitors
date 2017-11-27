@@ -14,7 +14,6 @@ public class SPR_LevelElevator : MonoBehaviour {
 			timeToOpen -= Time.deltaTime;
 			if (timeToOpen <= 0.0f) {
 				SceneManager.LoadScene (sceneToLoad);
-				AkSoundEngine.LoadBank (0, 0);
 			}
 		}
 	}
@@ -24,7 +23,9 @@ public class SPR_LevelElevator : MonoBehaviour {
 			this.gameObject.GetComponent<SpriteRenderer> ().enabled = true;
 			this.gameObject.GetComponent<Animator> ().enabled = true;
 			col.gameObject.GetComponent<SCR_LevelSelectPlayer> ().enabled = false;
-			opened = true;
+            AkSoundEngine.PostEvent("OpenLift", gameObject);
+
+            opened = true;
 		}
 	}
 }
