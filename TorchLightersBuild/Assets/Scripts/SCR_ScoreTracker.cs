@@ -572,13 +572,13 @@ public class SCR_ScoreTracker : MonoBehaviour
         int corpsesCleaned = originalMaxCorpses - corpseList.Count;
 
         int totalObjectsCleared = torchesLit + trapsCleared + bloodCleaned + chestsFilled + corpsesCleaned;
-        Debug.Log("Cleared: " + totalObjectsCleared);
+        // Debug.Log("Cleared: " + totalObjectsCleared);
         int maxObjects = torchList.Count + trapList.Count + originalMaxBlood + chestList.Count + originalMaxCorpses;
-        Debug.Log("Final: " + maxObjects);
+        // Debug.Log("Final: " + maxObjects);
 
         float finalPercentage = ((float)totalObjectsCleared / (float)maxObjects) * 100.0f;
 
-        Debug.Log(finalPercentage);
+        // Debug.Log(finalPercentage);
 
         return Mathf.Round(finalPercentage);
 

@@ -43,6 +43,9 @@ public class SCR_WallTrap : MonoBehaviour
 
             pressure.platePressed = false;
 
+			this.GetComponent<Animator> ().Play ("ANIM_WallGun_Reloaded");
+
+			pressure.setUpPosition ();
 		}
 	}
 }

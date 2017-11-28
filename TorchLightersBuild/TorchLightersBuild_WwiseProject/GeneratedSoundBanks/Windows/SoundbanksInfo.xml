@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\1301641\Downloads\GitHub\TorchLighters\TorchLighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\1301641\Downloads\GitHub\TorchLighters\TorchLighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\1301641\Downloads\GitHub\TorchLighters\TorchLighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>G:\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\1301641\Downloads\GitHub\TorchLighters\TorchLighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>

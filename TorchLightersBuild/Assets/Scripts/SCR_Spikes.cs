@@ -19,16 +19,17 @@ public class SCR_Spikes : MonoBehaviour
 	void Update()
 	{
 		//if the player steps on this trap twice then kill the player
-		if (steps >= 2)
-		{
+		if (steps >= 2) {
 			steps = 0;
 			transform.parent.GetComponent<SCR_SpikeAll> ().allSpikes ();
 			//swapState ();
 			//respawn player
-			player.GetComponent<SCR_Player>().kill (this.gameObject);
-            AkSoundEngine.PostEvent("Dead", gameObject);
+			player.GetComponent<SCR_Player> ().kill (this.gameObject);
+			AkSoundEngine.PostEvent ("Dead", gameObject);
 
-        }
+		} else if (steps == 1) {
+			this.GetComponent<Animator> ().Play ("ANIM_SpikePrimed");
+		}
     }
 
 	// Change the state of the spikes

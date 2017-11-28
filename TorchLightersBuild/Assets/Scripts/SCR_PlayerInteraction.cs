@@ -30,9 +30,7 @@ public class SCR_PlayerInteraction : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		// Check for player input as long as a valid target is available
-		if (Input.GetKeyDown (KeyCode.I)) {
-
-			Debug.Log ("I Pressed");
+		if (Input.GetKeyDown (KeyCode.Return) || Input.GetKeyDown(KeyCode.Joystick1Button0)) {
 
 			for (int i = 0; i < collidingObjects.Count; i++) {
 				if (collidingObjects[i] != null) {
