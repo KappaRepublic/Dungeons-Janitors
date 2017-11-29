@@ -5,6 +5,7 @@ using UnityEngine;
 public class SCR_LevelUpdate : MonoBehaviour {
 
 	public SCR_ScoreTracker sTracker;
+	public float RTPC;
 
 	// Update is called once per frame
 	void Update () {
@@ -26,5 +27,12 @@ public class SCR_LevelUpdate : MonoBehaviour {
 			AkSoundEngine.SetState ("Music", "L4");
 			Debug.Log ("80%");
 		}
+
+		RTPC = sTracker.getTotalPercentage ();
+
+
+			
+
+		
 	}
 }

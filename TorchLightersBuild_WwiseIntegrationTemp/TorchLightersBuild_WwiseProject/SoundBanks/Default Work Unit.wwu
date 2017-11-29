@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F90E13A9-AD2C-4C30-8E42-92EA9FB4B16A}" SchemaVersion="80">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{F90E13A9-AD2C-4C30-8E42-92EA9FB4B16A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{979740E1-0F1D-42DF-9157-4C7773236C14}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Trans1" ID="{93D566FA-00D2-40B4-B62C-E1F6A0CFA3DC}" WorkUnitID="{DB086AE6-23BE-48A1-85E3-4A4F6A724524}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Music" ID="{B6D141DE-4511-48FB-8556-298AC4B41A41}" WorkUnitID="{DB086AE6-23BE-48A1-85E3-4A4F6A724524}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Main" ID="{39C1FBC3-FABA-4BC1-BBF6-5FC52CBFC0AE}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Lift_Arrive" ID="{005C373B-E6F5-4DFE-B0BF-3EDEF33DE211}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Default Work Unit" ID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Trans2" ID="{03AC27E0-A3B4-4EE9-BBAB-6E06AB266EC5}" WorkUnitID="{DB086AE6-23BE-48A1-85E3-4A4F6A724524}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList>
+						<ObjectRef Name="Room Amb 1" ID="{A4047830-25D8-4F57-AA35-BEF4256C0189}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+					</ObjectExclusionList>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Menu" ID="{7650F79A-8C46-4E44-8437-6D1FD21E8F40}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music Menu" ID="{143ECBE0-BCD2-447E-B68D-9FCBD812C24B}" WorkUnitID="{DB086AE6-23BE-48A1-85E3-4A4F6A724524}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Menu_Music" ID="{1EBB95DC-88CA-4DF2-BFAB-82B9CFC2B6EC}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Levels" ID="{034F1E37-9EA9-49D0-B43C-3EA2AACC328A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="LevelSelect_Amb" ID="{C94DC17A-A7C2-40F0-9353-B2C5C6B943C4}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Level_Music" ID="{68E49F41-ACAF-4319-B523-6C8F5835D7D4}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Foots" ID="{F22215C0-14CF-47C1-AC97-79560F379AE4}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Footsteps" ID="{EA710813-6178-484A-A009-393D5E76776C}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="OpenLift" ID="{731DFDDA-073A-4D45-9A07-2C691AEF64FE}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Lift Down" ID="{BC9069D3-708F-4EB3-B800-51D30F4F67AA}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Music Levels" ID="{024D521D-6D55-4F17-9C93-38DBE88528D4}" WorkUnitID="{DB086AE6-23BE-48A1-85E3-4A4F6A724524}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Room Amb 1" ID="{A4047830-25D8-4F57-AA35-BEF4256C0189}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

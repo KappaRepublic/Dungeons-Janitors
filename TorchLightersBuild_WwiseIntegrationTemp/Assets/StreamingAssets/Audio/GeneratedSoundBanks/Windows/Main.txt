@@ -1,0 +1,152 @@
+Event	ID	Name			Wwise Object Path	Notes
+	922015	Arrow_Fire			\Default Work Unit\Main\Arrow_Fire	
+	196301345	Open_Gate			\Default Work Unit\Main\Open_Gate	
+	247686155	Set_Trapdoor			\Default Work Unit\Main\Set_Trapdoor	
+	264776788	Foots			\Default Work Unit\Foots	
+	281220831	Trigger_Trapdoor			\Default Work Unit\Main\Trigger_Trapdoor	
+	747415224	Spikes			\Default Work Unit\Main\Spikes	
+	766957497	Pull_Lever			\Default Work Unit\Main\Pull_Lever	
+	772025031	Spikes_Down			\Default Work Unit\Main\Spikes_Down	
+	950567424	Arrow_Reload			\Default Work Unit\Main\Arrow_Reload	
+	1082004779	Mop			\Default Work Unit\Main\Mop	
+	1155199632	Spikes_Up			\Default Work Unit\Main\Spikes_Up	
+	1290008369	Level_1			\Default Work Unit\Main\Level_1	
+	1290008370	Level_2			\Default Work Unit\Main\Level_2	
+	1384846663	Arrow_Miss			\Default Work Unit\Main\Arrow_Miss	
+	1545137546	Cleanup_Corpse			\Default Work Unit\Main\Cleanup_Corpse	
+	1552114495	Arrow_Kill			\Default Work Unit\Main\Arrow_Kill	
+	1866025847	Footstep			\Default Work Unit\Main\Footstep	
+	1942692385	Dash			\Default Work Unit\Main\Dash	
+	2044049779	Dead			\Default Work Unit\Main\Dead	
+	2156420204	Light_Torch			\Default Work Unit\Main\Light_Torch	
+	2258526687	Pit_Death			\Default Work Unit\Main\Pit_Death	
+	2331375193	Clean_Blood			\Default Work Unit\Main\Clean_Blood	
+	2469860632	Spaces			\Default Work Unit\Main\Spaces	
+	3704360134	Swing_Torch			\Default Work Unit\Main\Swing_Torch	
+	3725903807	Music_Start			\Default Work Unit\Main\Music_Start	
+	3736098925	Level_Complete			\Default Work Unit\Main\Level_Complete	
+	3754893623	Chest_Refill			\Default Work Unit\Main\Chest_Refill	
+	3969681210	OpenLift			\Default Work Unit\OpenLift	
+	4192888116	Lift_Arrive			\Default Work Unit\Lift_Arrive	
+	4197195035	Close_Gate			\Default Work Unit\Main\Close_Gate	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	709278834	Reverb_Zone			\Default Work Unit\Reverb_Zone	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Reverb_Zone			
+	1846755610	Small	Reverb_Zone			
+	2849147824	Medium	Reverb_Zone			
+	3633416828	Hall	Reverb_Zone			
+	4284352190	Large	Reverb_Zone			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	345012793	Medium	Reverb_Zone	\Actor-Mixer Hierarchy\Default Work Unit\Main		
+	358702582	Hall	Reverb_Zone	\Actor-Mixer Hierarchy\Default Work Unit\Main		
+	396869656	Small	Reverb_Zone	\Actor-Mixer Hierarchy\Default Work Unit\Main		
+	527805410	Large	Reverb_Zone	\Actor-Mixer Hierarchy\Default Work Unit\Main		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Ambience	
+
+Effect plug-ins	ID	Name	Type				Notes
+	51520222	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	301363172	Big_Reverb	Wwise Matrix Reverb			
+	621144043	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	665362772	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	2098638826	Underground_Parking1	Wwise Matrix Reverb			
+	2689776681	New_Wwise_Parametric_EQ_01	Wwise Parametric EQ			
+	2689776682	New_Wwise_Parametric_EQ_02	Wwise Parametric EQ			
+	2689776683	New_Wwise_Parametric_EQ_03	Wwise Parametric EQ			
+	2689776685	New_Wwise_Parametric_EQ_05	Wwise Parametric EQ			
+	3546444380	Big_Garage1	Wwise Matrix Reverb			
+	3604890626	High_Pass_60Hz	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	11027485	clothing_movement_4	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\clothing_movement_4_5A1FE50D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Clothing\clothing_movement_4		136144
+	30370103	arrow reload	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\arrow reload_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Arrow Reload\arrow reload		230736
+	39703815	arrow reload 3	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\arrow reload 3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Arrow Reload\arrow reload 3		230736
+	45085846	fs_stone_heel_1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\fs_stone_heel_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Heel\fs_stone_heel_1		64144
+	48513008	clothing_movement_6	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\clothing_movement_6_ECCE338B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Clothing\clothing_movement_6		112144
+	76783930	Mop1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Mop1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Mop\Mop1		251660
+	92247098	Concrete_Left_Foot_Toe_07	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Concrete_Left_Foot_Toe.07_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Footsteps\Concrete_Left_Foot_Toe_07		24708
+	100743402	Concrete_Left_Foot_Toe_02	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Concrete_Left_Foot_Toe.02_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Footsteps\Concrete_Left_Foot_Toe_02		31824
+	105432556	ambience base 3	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\ambience base 3_9CA129D4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Spaces\ambience base 3		5211536
+	149845972	fs_stone_heel_6	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\fs_stone_heel_6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Heel\fs_stone_heel_6		65344
+	194680731	mop_swing_2	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\mop_swing_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Mop Swing\mop_swing_2		48144
+	204364504	Concrete_Left_Foot_Toe_03	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Concrete_Left_Foot_Toe.03_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Footsteps\Concrete_Left_Foot_Toe_03		25040
+	205821305	mop_swing_4	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\mop_swing_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Mop Swing\mop_swing_4		48144
+	216249049	fs_stone_heel_3	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\fs_stone_heel_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Heel\fs_stone_heel_3		72144
+	226817299	trapdoor set	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\trapdoor set_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\trapdoor set		492880
+	227952304	Concrete_Left_Foot_Toe_06	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Concrete_Left_Foot_Toe.06_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Footsteps\Concrete_Left_Foot_Toe_06		24012
+	252893621	Concrete_Left_Foot_Toe_04	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Concrete_Left_Foot_Toe.04_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Footsteps\Concrete_Left_Foot_Toe_04		26712
+	254265299	Gate Close 1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Gate Close 1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Gate Close 1		408176
+	262578551	P1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\P1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level 1\P1 Intro Hats\P1		5993464
+	272842970	Supermarket Loop	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Supermarket Loop_37D262E0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lift Down\Supermarket Loop		879504
+	273515129	fs_stone_heel_2	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\fs_stone_heel_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Heel\fs_stone_heel_2		61344
+	277348869	Close chest gold 3	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Close chest gold 3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Refill Chest\Gold\Close chest gold 3		264144
+	289709675	Gate Open 1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Gate Open 1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Gate Open\Gate Open 1		672176
+	291924013	mop_swing_1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\mop_swing_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Mop Swing\mop_swing_1		48144
+	323883956	arrow fire 2	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\arrow fire 2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Arrow Fire\arrow fire 2		230736
+	328850470	mop_swing_3	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\mop_swing_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Mop Swing\mop_swing_3		48144
+	335646140	3P2-2	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\P2-2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level 2\4P2 Glock2loop\3P2-2		6517720
+	335995624	fs_stone_heel_5	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\fs_stone_heel_5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Heel\fs_stone_heel_5		68144
+	351333416	Elevator ding	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Elevator ding_D381CC8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Spaces\Elevator ding		660680
+	360739430	Scratch 1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Scratch 1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Environment\Scratch 1		1027536
+	369006218	5P3	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\P3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level 3\7P3 Arp\5P3		6779864
+	369774411	Mop5	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Mop5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Mop\Mop5		251660
+	370491744	dash 2	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\dash 2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Dash\dash 2		230736
+	409256195	dash 1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\dash 1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Dash\dash 1		230736
+	425492008	Torchlighter Amb 2	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Torchlighter Amb 2_A3B07AFE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Torchlighter Amb 2		5746128
+	430733079	arrow fire 1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\arrow fire 1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Arrow Fire\arrow fire 1		230736
+	446315770	Mop4	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Mop4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Mop\Mop4		251660
+	458489072	Close chest wood 1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Close chest wood 1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Refill Chest\Wood\Close chest wood 1		230736
+	465799402	fs_stone_toe_7	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\fs_stone_toe_7_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Toe\fs_stone_toe_7		72144
+	480557333	9P4	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\P4_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level 4\11P4 Trance1\9P4		6779864
+	494455522	arrow miss 2	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\arrow miss 2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Arrow Miss\arrow miss 2		384144
+	500986679	6P3-3	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\P3-3_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level 3\8P3 Arp2loop\6P3-3		6779864
+	501375345	10P4-2	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\P4-2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level 4\12P4 Trance2loop\10P4-2		6255576
+	505879799	Trans2	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Trans2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Trans2\Trans2		1440176
+	512358483	fs_stone_heel_4	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\fs_stone_heel_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Heel\fs_stone_heel_4		72144
+	513084512	Trans1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Trans1_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Trans1\Trans1		1536936
+	522100863	fs_stone_toe_2	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\fs_stone_toe_2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Toe\fs_stone_toe_2		64144
+	540279701	Music 6 End	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Music 6 End_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\End\Music 6 End\Music 6 End		1440144
+	550011003	Light Torch 1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Light Torch 1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Light Torch 1		194776
+	551363450	Torchlighter Amb 1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Torchlighter Amb 1_F46436F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Spaces\Torchlighter Amb 1		2941604
+	560534499	fs_stone_toe_5	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\fs_stone_toe_5_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Toe\fs_stone_toe_5		72144
+	563467749	gate open start	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\gate open start_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Gate Open\gate open start		755024
+	584531347	clothing_movement_5	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\clothing_movement_5_931CB3E0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Clothing\clothing_movement_5		120144
+	595152032	Spikes Down	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Set Trap_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Spikes Down		478388
+	601591945	Close chest wood 2	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Close chest wood 2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Refill Chest\Wood\Close chest wood 2		230736
+	628139494	Mop2	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Mop2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Mop\Mop2		251660
+	628927122	clothing_movement_1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\clothing_movement_1_46DD8E91.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Clothing\clothing_movement_1		120144
+	633473104	Pit Death	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\spikes up_52DF6FA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Pit Death		335208
+	648141054	Elevator down	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Elevator down_8DC03BEA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lift Down\Elevator down		404520
+	662909320	arrow hit	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\arrow hit_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Arrow Kill\arrow hit		492880
+	688484614	Close chest gold 2	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Close chest gold 2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Refill Chest\Gold\Close chest gold 2		264144
+	690302272	fs_stone_toe_1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\fs_stone_toe_1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Toe\fs_stone_toe_1		64144
+	697961581	fs_stone_toe_6	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\fs_stone_toe_6_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Toe\fs_stone_toe_6		68144
+	703590830	dash 3	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\dash 3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Dash\dash 3		230736
+	741245128	Concrete_Left_Foot_Toe_05	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Concrete_Left_Foot_Toe.05_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Footsteps\Concrete_Left_Foot_Toe_05		23944
+	780882581	Mop3	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Mop3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Mop\Mop3		251660
+	802047604	dead arrow	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\dead 1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Arrow Kill\dead arrow		230736
+	813395391	Gate Lever 1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Gate Lever 1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Gate Lever 1		96176
+	838024916	2P2	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\P2_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Level 2\P2 Glock1\2P2		6517720
+	841016456	fs_stone_toe_3	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\fs_stone_toe_3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Toe\fs_stone_toe_3		68144
+	842506889	arrow reload 2	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\arrow reload 2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Arrow Reload\arrow reload 2		230736
+	878654252	Trigger Trapdoor	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Trigger Trapdoor_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Trigger Trapdoor		478388
+	880573726	arrow miss 1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\arrow miss 1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Arrow Miss\arrow miss 1		492880
+	886055633	Spikes Up	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Trigger Trap_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Spikes Up		478388
+	897544447	clothing_movement_2	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\clothing_movement_2_9EB4B346.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Clothing\clothing_movement_2		120144
+	932737058	Close chest gold 1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Close chest gold 1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Refill Chest\Gold\Close chest gold 1		264144
+	935381441	Light Torch Loop 1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Light Torch Loop 1_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Environment\Light Torch Loop 1		768176
+	939029470	Corpse Store 1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Corpse Store 1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Corpse Store 1		216244
+	953556749	Concrete_Left_Foot_Toe_01	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Concrete_Left_Foot_Toe.01_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Footsteps\Concrete_Left_Foot_Toe_01		29812
+	968088806	fs_stone_toe_4	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\fs_stone_toe_4_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Toe\fs_stone_toe_4		61944
+	992871585	Concrete_Left_Foot_Toe_08	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Concrete_Left_Foot_Toe.08_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Footsteps\Concrete_Left_Foot_Toe_08		19536
+	1001031287	Spikes	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Spikes_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Interactables\Spikes		478388
+	1023382564	spikes up	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\spikes up_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Dead\spikes up		768176
+	1026255925	clothing_movement_3	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\clothing_movement_3_1BB1AAE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Character\Movement\Walking\Clothing\clothing_movement_3		120144
+	1052743530	ambience base tunnel	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\ambience base tunnel_FBB3CF0A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Spaces\ambience base tunnel		5474504
+	1068195165	Empty Amb 1	D:\Github\Torchlighters\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\SFX\Empty Amb 1_298025B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Ambience\Spaces\Empty Amb 1		7967728
+
