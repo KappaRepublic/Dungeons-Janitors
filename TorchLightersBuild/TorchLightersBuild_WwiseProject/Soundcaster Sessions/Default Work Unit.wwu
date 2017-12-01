@@ -132,10 +132,6 @@
 							<Value>6</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="Ambience" ID="{A78B4056-5207-44F1-ACF9-8FBBAFE08538}"/>
-							<Value>0</Value>
-						</RTPCValue>
-						<RTPCValue>
 							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
 							<Value>50</Value>
 						</RTPCValue>

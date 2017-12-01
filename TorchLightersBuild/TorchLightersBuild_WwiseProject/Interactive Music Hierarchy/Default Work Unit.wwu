@@ -3852,7 +3852,7 @@
 						<Property Name="Tempo" Type="Real64" Value="128"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-12</Value>
+								<Value>-15</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -3861,7 +3861,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66B5D066-2992-4EF1-8303-97EF3441F3FF}"/>
 						</Reference>
 						<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-							<ObjectRef Name="New_Wwise_Parametric_EQ_05" ID="{27AD25D5-D34B-4DCB-977A-3A8D5A28AD74}" WorkUnitID="{580DCB54-2388-4D43-B0C5-78DA4D4FCAEE}"/>
+							<ObjectRef Name="New_Wwise_Parametric_EQ_05" ID="{C35F6BBD-E487-49D5-9674-618FD142AB4D}" WorkUnitID="{580DCB54-2388-4D43-B0C5-78DA4D4FCAEE}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}"/>
@@ -4146,6 +4146,13 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Level 3" ID="{117ACD74-C4B0-4577-AC2E-FBC5F644AD6F}" ShortID="363793255">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66B5D066-2992-4EF1-8303-97EF3441F3FF}"/>
@@ -4765,7 +4772,7 @@
 						<Property Name="Tempo" Type="Real64" Value="128"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-15</Value>
+								<Value>-21</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -4837,7 +4844,7 @@
 						<Property Name="Tempo" Type="Real64" Value="128"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-15</Value>
+								<Value>-21</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -4915,6 +4922,9 @@
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66B5D066-2992-4EF1-8303-97EF3441F3FF}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+							<ObjectRef Name="New_Wwise_Parametric_EQ_06" ID="{CEB67077-27BD-4340-8CED-9177F4A9AB27}" WorkUnitID="{580DCB54-2388-4D43-B0C5-78DA4D4FCAEE}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}"/>
@@ -5444,11 +5454,7 @@
 								</MusicTransition>
 							</TransitionList>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{9376D6DB-E144-4F88-A2DF-6A83AF4A64EF}" ShortID="604200231">
-									<PropertyList>
-										<Property Name="LoopCount" Type="int16" Value="0"/>
-									</PropertyList>
-								</MusicPlaylistItem>
+								<MusicPlaylistItem Name="" ID="{9376D6DB-E144-4F88-A2DF-6A83AF4A64EF}" ShortID="604200231"/>
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>

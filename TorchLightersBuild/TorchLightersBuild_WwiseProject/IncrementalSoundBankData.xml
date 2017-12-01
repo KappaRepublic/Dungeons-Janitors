@@ -44,15 +44,15 @@
 	<Platform GUID="{C56C8727-5E95-4E90-8A12-536545ECDD17}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="2088942224" Timestamp="131564307281420904"/>
-				<File Name="Levels" Hash="554293830" Timestamp="131564307281355734"/>
-				<File Name="Main" Hash="3189355892" Timestamp="131564307279106381"/>
-				<File Name="Menu" Hash="329482438" Timestamp="131564307280196949"/>
+				<File Name="Init" Hash="4113274372" Timestamp="131565641000000000"/>
+				<File Name="Levels" Hash="2290757998" Timestamp="131565641000000000"/>
+				<File Name="Main" Hash="2839939399" Timestamp="131565641000000000"/>
+				<File Name="Menu" Hash="1243056663" Timestamp="131565641000000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3059479643" Timestamp="131564307281476053"/>
+				<File Name="" Hash="2958357428" Timestamp="131565641000000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

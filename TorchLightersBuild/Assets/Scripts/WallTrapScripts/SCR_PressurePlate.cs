@@ -28,6 +28,8 @@ public class SCR_PressurePlate : MonoBehaviour
 	public Sprite downPlate;
 	public Sprite upPlate;
 
+	public float rotation = 0.0f;
+
 	public bool platePressed;
 
 	// Use this for initialization
@@ -57,8 +59,9 @@ public class SCR_PressurePlate : MonoBehaviour
 
 				//spawn a bullet, place it on top of the walltrap, move it "forward"
 				theBullet = (GameObject)Instantiate (bulletPrefab, wallTrap.transform.position + wallTrap.transform.forward, wallTrap.transform.rotation);
+				theBullet.transform.Rotate(new Vector3(0.0f, 0.0f, rotation));
 
-				theBullet.GetComponent<Rigidbody2D> ().AddForce (-(wallTrap.transform.up * bulletImpulse), ForceMode2D.Impulse);
+				theBullet.GetComponent<Rigidbody2D> ().AddForce (-(theBullet.transform.up * bulletImpulse), ForceMode2D.Impulse);
 				AkSoundEngine.PostEvent ("Arrow_Fire", gameObject);
 
 				this.GetComponent<SpriteRenderer> ().sprite = downPlate;

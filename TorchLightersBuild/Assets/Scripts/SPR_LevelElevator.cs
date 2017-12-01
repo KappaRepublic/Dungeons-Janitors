@@ -19,7 +19,7 @@ public class SPR_LevelElevator : MonoBehaviour {
 	}
 
 	void OnTriggerStay2D(Collider2D col) {
-		if (Input.GetKey (KeyCode.W)) {
+		if (Input.GetKey (KeyCode.W)  || Input.GetKeyDown(KeyCode.Joystick1Button0)) {
 			this.gameObject.GetComponent<SpriteRenderer> ().enabled = true;
 			this.gameObject.GetComponent<Animator> ().enabled = true;
 			col.gameObject.GetComponent<SCR_LevelSelectPlayer> ().enabled = false;

@@ -1,9 +1,0 @@
-<?xml version='1.0'?>
-<WwiseSettings>
-    <CreateWwiseGlobal>true</CreateWwiseGlobal>
-    <CreateWwiseListener>true</CreateWwiseListener>
-    <SoundbankPath>Audio/GeneratedSoundBanks/Windows/</SoundbankPath>
-    <WwiseProjectPath>../../TorchLightersBuild/TorchLightersBuild_WwiseProject/Torchlighters.wproj</WwiseProjectPath>
-    <WwiseInstallationPathWindows>D:\Wwise</WwiseInstallationPathWindows>
-    <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise 2017.1.2.6361/Wwise.app</WwiseInstallationPathMac>
-</WwiseSettings>
