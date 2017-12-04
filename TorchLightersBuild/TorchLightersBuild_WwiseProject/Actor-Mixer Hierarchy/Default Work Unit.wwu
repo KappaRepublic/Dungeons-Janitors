@@ -139,7 +139,7 @@
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-19</Value>
+												<Value>-29</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1582,11 +1582,18 @@
 						</ActorMixer>
 						<ActorMixer Name="Ambience" ID="{8D4BD5F2-DA39-4B4E-A982-242E9D8B3129}" ShortID="331744666">
 							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66B5D066-2992-4EF1-8303-97EF3441F3FF}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="New_Wwise_Parametric_EQ_03" ID="{68AAEA87-EA24-4B12-B9CD-EAB9E2AE5C0B}" WorkUnitID="{580DCB54-2388-4D43-B0C5-78DA4D4FCAEE}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="New_Wwise_Parametric_EQ_08" ID="{9BC99220-FA8D-4D9E-9F2D-37C68A45E467}" WorkUnitID="{580DCB54-2388-4D43-B0C5-78DA4D4FCAEE}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}" WorkUnitID="{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}"/>
@@ -1641,6 +1648,16 @@
 								</Sound>
 								<SwitchContainer Name="Spaces" ID="{68C5EAFB-78FF-4413-B9EE-37D561A00D95}" ShortID="1004235292">
 									<PropertyList>
+										<Property Name="BypassEffect0" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="BypassEffect1" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
@@ -1655,6 +1672,9 @@
 										</Reference>
 										<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 											<ObjectRef Name="New_Wwise_Parametric_EQ_03" ID="{68AAEA87-EA24-4B12-B9CD-EAB9E2AE5C0B}" WorkUnitID="{580DCB54-2388-4D43-B0C5-78DA4D4FCAEE}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<ObjectRef Name="New_Wwise_Parametric_EQ_08" ID="{9BC99220-FA8D-4D9E-9F2D-37C68A45E467}" WorkUnitID="{580DCB54-2388-4D43-B0C5-78DA4D4FCAEE}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}"/>
@@ -2117,7 +2137,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-11</Value>
+														<Value>-13</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -2438,7 +2458,7 @@
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-16</Value>
+												<Value>-25</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -5165,14 +5185,14 @@
 					</PositioningInfo>
 					<StateInfo>
 						<StatePropertyList>
+							<Property Name="Volume"/>
+							<Property Name="Pitch"/>
 							<Property Name="Highpass"/>
 							<Property Name="Lowpass"/>
 							<Property Name="MakeUpGain"/>
-							<Property Name="Pitch"/>
-							<Property Name="UserAuxSendVolume0"/>
-							<Property Name="UserAuxSendVolume1"/>
 							<Property Name="UserAuxSendVolume2"/>
-							<Property Name="Volume"/>
+							<Property Name="UserAuxSendVolume1"/>
+							<Property Name="UserAuxSendVolume0"/>
 						</StatePropertyList>
 						<StateGroupList>
 							<StateGroupInfo>
@@ -5241,6 +5261,7 @@
 						<Sound Name="Supermarket Loop" ID="{6B9CC354-F5F7-4163-A2BC-8467AD837D51}" ShortID="309945554">
 							<PropertyList>
 								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
 										<Value>1</Value>
@@ -5253,7 +5274,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-25</Value>
+										<Value>-29</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -5291,6 +5312,11 @@
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

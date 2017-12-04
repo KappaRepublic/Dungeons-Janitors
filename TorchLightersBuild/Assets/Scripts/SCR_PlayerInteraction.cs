@@ -7,7 +7,7 @@ using UnityEngine;
 * ==========
 * 
 * Created: 5/10/17
-* Author(s): Sebastian Poskitt-Marshall
+* Author(s): Sebastian Poskitt-Marshall, Rory McLean
 *
 * Purpose: If a player is able to interact with an object, the check
 * will be performed here, for example, lighting a torch. If the object

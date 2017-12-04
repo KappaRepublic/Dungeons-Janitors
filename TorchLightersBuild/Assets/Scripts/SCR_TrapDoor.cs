@@ -8,7 +8,7 @@ using UnityEngine;
 * ==========
 * 
 * Created: 24/10/17
-* Author(s): Sebastian Poskitt-Marshall
+* Author(s): Sebastian Poskitt-Marshall, Rory McLean
 *
 * Purpose:
 * Pit fall / Trap door trap functionality

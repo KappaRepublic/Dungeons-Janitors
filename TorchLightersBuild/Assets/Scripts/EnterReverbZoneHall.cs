@@ -2,6 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+* Class Name:
+* Enter Reverb Zone
+* ==========
+* 
+* Created: 28/10/17
+* Author(s): Sebastian Poskitt-Marshall
+*
+* Purpose:
+* Changes a state within wwise whenever the player enters
+* a new room, based on the size of the enetered room.
+*/
+
 
 public class EnterReverbZoneHall : MonoBehaviour
 {

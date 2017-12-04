@@ -4,6 +4,19 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+/*
+* Class Name:
+* SCR_LevelSelectBackgroundMovement
+* ==========
+* 
+* Created: 17/11/17
+* Author(s): Sebastian Poskitt-Marshall
+*
+* Purpose:
+* Updates and shows all the required information at the end of
+* each level on the results screen.
+*/
+
 public class SCR_ResultScreen : MonoBehaviour {
 
 	public Text timeTaken;
@@ -16,6 +29,8 @@ public class SCR_ResultScreen : MonoBehaviour {
 
 	public SCR_Timer timer;
 	public SCR_ScoreTracker sTracker;
+
+	public GameObject player;
 
 	// Use this for initialization
 	void Start () {
@@ -52,7 +67,11 @@ public class SCR_ResultScreen : MonoBehaviour {
 	}
 
 	public void buttonRetry() {
+		Destroy (player);
 		SceneManager.LoadScene (Application.loadedLevel);
-		AkSoundEngine.LoadBank (0, 0);
+
+		// AkSoundEngine.UnloadBank ("Main", null);
+		AkSoundEngine.SetState("Music", "None");
+		// AkSoundEngine.PostEvent("Music_Start", gameObject);
 	}
 }

@@ -91,7 +91,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: b65b15314f93cfd43af666876cbe88ac, type: 2}
+  - {fileID: 2100000, guid: 080a22197b89e554ca049d4a2b22962c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -482,7 +482,7 @@ MonoBehaviour:
   verticesDirty: 0
   isStatic: 0
   color: {r: 1, g: 0.6827586, b: 0, a: 0.865}
-  material: {fileID: 2100000, guid: b65b15314f93cfd43af666876cbe88ac, type: 2}
+  material: {fileID: 2100000, guid: 080a22197b89e554ca049d4a2b22962c, type: 2}
   shadowLayer:
     serializedVersion: 2
     m_Bits: 4294967295

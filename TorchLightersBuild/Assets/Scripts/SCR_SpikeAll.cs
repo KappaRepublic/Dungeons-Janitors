@@ -2,6 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+* Class Name:
+* SCR_SpikeAll
+* ==========
+* 
+* Created: 18/10/17
+* Author(s): Sebastian Poskitt-Marshall, Rory McLean
+*
+* Purpose:
+* Attaches a group of spikes to a group of levers within the level
+* to link up their functionality.
+*/
+
 public class SCR_SpikeAll : MonoBehaviour 
 {
 	public GameObject[] linkedspikes;

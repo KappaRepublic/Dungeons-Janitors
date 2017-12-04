@@ -3,6 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
+* Class Name:
+* SCR_Timer
+* ==========
+* 
+* Created: 12/11/17
+* Author(s): Sebastian Poskitt-Marshall
+*
+* Purpose:
+* Keeps track of the amount of time the players spent in the
+* level for scroing purposes.
+*/
+
 public class SCR_Timer : MonoBehaviour {
 
 	float timer = 0.0f;

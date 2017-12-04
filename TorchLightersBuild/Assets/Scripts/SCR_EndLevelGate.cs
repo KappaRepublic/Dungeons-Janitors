@@ -12,7 +12,7 @@ using UnityEngine.SceneManagement;
 * Author(s): Sebastian Poskitt-Marshall
 *
 * Purpose:
-* Functionlity for the end level gate. Will call results screen and return
+* Functionality for the end level gate. Will call results screen and return
 * player to the level select screen.
 * 
 */

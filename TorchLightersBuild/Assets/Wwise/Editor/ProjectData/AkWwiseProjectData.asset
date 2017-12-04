@@ -13,14 +13,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentPluginConfig: Release
   EventWwu:
-  - PhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{014BA097-B3CB-4271-A6E1-889DF9048C0C}'
-    m_lastTimePsrt1: -1403174912
-    m_lastTimePart2: -1999292852
+    m_lastTimePsrt1: 1465466499
+    m_lastTimePart2: -1999292248
     List:
     - Name: Arrow_Fire
-      Path: Default Work Unit/Main/Arrow_Fire
+      Path: Default Work Unit\Main\Arrow_Fire
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -32,7 +32,7 @@ MonoBehaviour:
       Guid: d2963a41777579498f833d41a2fc5529
       maxAttenuation: 25
     - Name: Arrow_Kill
-      Path: Default Work Unit/Main/Arrow_Kill
+      Path: Default Work Unit\Main\Arrow_Kill
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -44,7 +44,7 @@ MonoBehaviour:
       Guid: 81a27869d281394896f81de382fdbd48
       maxAttenuation: 0
     - Name: Arrow_Miss
-      Path: Default Work Unit/Main/Arrow_Miss
+      Path: Default Work Unit\Main\Arrow_Miss
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -56,7 +56,7 @@ MonoBehaviour:
       Guid: 2c05fbd7c807894b87e44abb76b6d75b
       maxAttenuation: 25
     - Name: Arrow_Reload
-      Path: Default Work Unit/Main/Arrow_Reload
+      Path: Default Work Unit\Main\Arrow_Reload
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -68,7 +68,7 @@ MonoBehaviour:
       Guid: a77ca1ff9a79dc4b96957691a3f8a0f3
       maxAttenuation: 0
     - Name: Chest_Refill
-      Path: Default Work Unit/Main/Chest_Refill
+      Path: Default Work Unit\Main\Chest_Refill
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -80,7 +80,7 @@ MonoBehaviour:
       Guid: 9601e76d2d95f141bc9bd83936c13724
       maxAttenuation: 0
     - Name: Clean_Blood
-      Path: Default Work Unit/Main/Clean_Blood
+      Path: Default Work Unit\Main\Clean_Blood
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -92,7 +92,7 @@ MonoBehaviour:
       Guid: fa22ec8290292f448816b98c6b07ba31
       maxAttenuation: 0
     - Name: Cleanup_Corpse
-      Path: Default Work Unit/Main/Cleanup_Corpse
+      Path: Default Work Unit\Main\Cleanup_Corpse
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -104,7 +104,7 @@ MonoBehaviour:
       Guid: a07f8084a946ff48b21f571ad4eede1c
       maxAttenuation: 0
     - Name: Close_Gate
-      Path: Default Work Unit/Main/Close_Gate
+      Path: Default Work Unit\Main\Close_Gate
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -116,7 +116,7 @@ MonoBehaviour:
       Guid: fb35d9063cb86142b94683dd0c125cf8
       maxAttenuation: 25
     - Name: Dash
-      Path: Default Work Unit/Main/Dash
+      Path: Default Work Unit\Main\Dash
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -128,7 +128,7 @@ MonoBehaviour:
       Guid: eeae12f64028ea4c8f716e7ab3295c81
       maxAttenuation: 0
     - Name: Dead
-      Path: Default Work Unit/Main/Dead
+      Path: Default Work Unit\Main\Dead
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -140,7 +140,7 @@ MonoBehaviour:
       Guid: 949d749c62afae4084a5d690ba50fbb5
       maxAttenuation: 0
     - Name: Foots
-      Path: Default Work Unit/Foots
+      Path: Default Work Unit\Foots
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -150,7 +150,7 @@ MonoBehaviour:
       Guid: c01522f2cf14c147ac9779560f379ae4
       maxAttenuation: 0
     - Name: Footstep
-      Path: Default Work Unit/Main/Footstep
+      Path: Default Work Unit\Main\Footstep
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -162,7 +162,7 @@ MonoBehaviour:
       Guid: 6557b92ed3b4254fa1c1390ea6b07ef3
       maxAttenuation: 25
     - Name: Level_1
-      Path: Default Work Unit/Main/Level_1
+      Path: Default Work Unit\Main\Level_1
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -174,7 +174,7 @@ MonoBehaviour:
       Guid: ab853d540a4c1e44b1281263e7ea56bf
       maxAttenuation: 0
     - Name: Level_2
-      Path: Default Work Unit/Main/Level_2
+      Path: Default Work Unit\Main\Level_2
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -186,7 +186,7 @@ MonoBehaviour:
       Guid: 094712482fbe5a4b86904f8f4d706064
       maxAttenuation: 0
     - Name: Level_Complete
-      Path: Default Work Unit/Main/Level_Complete
+      Path: Default Work Unit\Main\Level_Complete
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -198,7 +198,7 @@ MonoBehaviour:
       Guid: e9f3a2d6c4d6c540b4bab16cbb54055a
       maxAttenuation: 0
     - Name: Level_Music
-      Path: Default Work Unit/Level_Music
+      Path: Default Work Unit\Level_Music
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -208,7 +208,7 @@ MonoBehaviour:
       Guid: 419fe468afac1943b5236c8f5835d7d4
       maxAttenuation: 0
     - Name: LevelSelect_Amb
-      Path: Default Work Unit/LevelSelect_Amb
+      Path: Default Work Unit\LevelSelect_Amb
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -218,7 +218,7 @@ MonoBehaviour:
       Guid: 7ac14dc9c2a7f0409353b2c5c6b943c4
       maxAttenuation: 0
     - Name: Lift_Arrive
-      Path: Default Work Unit/Lift_Arrive
+      Path: Default Work Unit\Lift_Arrive
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -228,7 +228,7 @@ MonoBehaviour:
       Guid: 3b375c00f5e6fe4db0bf3edef33de211
       maxAttenuation: 0
     - Name: Light_Torch
-      Path: Default Work Unit/Main/Light_Torch
+      Path: Default Work Unit\Main\Light_Torch
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -240,7 +240,7 @@ MonoBehaviour:
       Guid: 695140772a59044e848202c0e2b5d5e3
       maxAttenuation: 25
     - Name: Menu_Music
-      Path: Default Work Unit/Menu_Music
+      Path: Default Work Unit\Menu_Music
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -250,7 +250,7 @@ MonoBehaviour:
       Guid: dc95bb1eca88f24dbfab82b9cfc2b6ec
       maxAttenuation: 0
     - Name: Mop
-      Path: Default Work Unit/Main/Mop
+      Path: Default Work Unit\Main\Mop
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -262,7 +262,7 @@ MonoBehaviour:
       Guid: d1263db997910c489d80197f075dbb53
       maxAttenuation: 0
     - Name: Music_Start
-      Path: Default Work Unit/Main/Music_Start
+      Path: Default Work Unit\Main\Music_Start
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -274,7 +274,7 @@ MonoBehaviour:
       Guid: 0325dcbecc174947a84f2fe605e3a222
       maxAttenuation: 0
     - Name: Open_Gate
-      Path: Default Work Unit/Main/Open_Gate
+      Path: Default Work Unit\Main\Open_Gate
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -286,7 +286,7 @@ MonoBehaviour:
       Guid: 5a7a20a520c2de459778ca42c286fa74
       maxAttenuation: 25
     - Name: OpenLift
-      Path: Default Work Unit/OpenLift
+      Path: Default Work Unit\OpenLift
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -296,7 +296,7 @@ MonoBehaviour:
       Guid: dafd1d733a07454d9a072c691aef64fe
       maxAttenuation: 0
     - Name: Pit_Death
-      Path: Default Work Unit/Main/Pit_Death
+      Path: Default Work Unit\Main\Pit_Death
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -308,7 +308,7 @@ MonoBehaviour:
       Guid: 73096614ba53dd4596b9952b8c3fd191
       maxAttenuation: 0
     - Name: Pull_Lever
-      Path: Default Work Unit/Main/Pull_Lever
+      Path: Default Work Unit\Main\Pull_Lever
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -320,7 +320,7 @@ MonoBehaviour:
       Guid: b9e383866ebf174d9347615ddb518a36
       maxAttenuation: 0
     - Name: Set_Trapdoor
-      Path: Default Work Unit/Main/Set_Trapdoor
+      Path: Default Work Unit\Main\Set_Trapdoor
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -332,7 +332,7 @@ MonoBehaviour:
       Guid: 2a1ad2415d3fdf4f9deec1d21e7ddebb
       maxAttenuation: 0
     - Name: Spaces
-      Path: Default Work Unit/Main/Spaces
+      Path: Default Work Unit\Main\Spaces
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -344,7 +344,7 @@ MonoBehaviour:
       Guid: c18430dae4120c479671a649b6acd588
       maxAttenuation: 0
     - Name: Spikes
-      Path: Default Work Unit/Main/Spikes
+      Path: Default Work Unit\Main\Spikes
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -356,7 +356,7 @@ MonoBehaviour:
       Guid: e6a17c4b2fe7544cb782b846470fec8b
       maxAttenuation: 25
     - Name: Spikes_Down
-      Path: Default Work Unit/Main/Spikes_Down
+      Path: Default Work Unit\Main\Spikes_Down
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -368,7 +368,7 @@ MonoBehaviour:
       Guid: c4f742b61a56f749b9f1e507c8caa35a
       maxAttenuation: 25
     - Name: Spikes_Up
-      Path: Default Work Unit/Main/Spikes_Up
+      Path: Default Work Unit\Main\Spikes_Up
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -380,7 +380,7 @@ MonoBehaviour:
       Guid: 303e03e2c2bf794c8722591b6abff0f4
       maxAttenuation: 25
     - Name: Swing_Torch
-      Path: Default Work Unit/Main/Swing_Torch
+      Path: Default Work Unit\Main\Swing_Torch
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -392,7 +392,7 @@ MonoBehaviour:
       Guid: debf89712332764cab205b65f92cd2dd
       maxAttenuation: 0
     - Name: Trigger_Trapdoor
-      Path: Default Work Unit/Main/Trigger_Trapdoor
+      Path: Default Work Unit\Main\Trigger_Trapdoor
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -404,14 +404,14 @@ MonoBehaviour:
       Guid: 614ee2241ec0024b8b072e5d73f86ec3
       maxAttenuation: 0
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}'
-    m_lastTimePsrt1: -776103424
-    m_lastTimePart2: -1999292330
+    m_lastTimePsrt1: 1478900528
+    m_lastTimePart2: -1999292248
     List:
     - Name: Hall_Reverb
-      Path: Default Work Unit/Master Audio Bus/Hall_Reverb
+      Path: Default Work Unit\Master Audio Bus\Hall_Reverb
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -422,7 +422,7 @@ MonoBehaviour:
       ID: -132214061
       Guid: c168de6037ef38418e71f0483058edc2
     - Name: Large_Reverb
-      Path: Default Work Unit/Master Audio Bus/Large_Reverb
+      Path: Default Work Unit\Master Audio Bus\Large_Reverb
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -433,7 +433,7 @@ MonoBehaviour:
       ID: -126302571
       Guid: 7f4424a76539ee47b974e5f1b88e639b
     - Name: Small_Reverb
-      Path: Default Work Unit/Master Audio Bus/Small_Reverb
+      Path: Default Work Unit\Master Audio Bus\Small_Reverb
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -444,14 +444,14 @@ MonoBehaviour:
       ID: -242761991
       Guid: 5002447a5362994cb98060e1ef8ad7d9
   StateWwu:
-  - PhysicalPath: States/Default Work Unit.wwu
+  - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{53F1EBD3-FE15-4956-B414-DA57C63E30BD}'
-    m_lastTimePsrt1: -1363174912
-    m_lastTimePart2: -1999292852
+    m_lastTimePsrt1: 1556293739
+    m_lastTimePart2: -1999292248
     List:
     - Name: Music
-      Path: Default Work Unit/Music
+      Path: Default Work Unit\Music
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -496,7 +496,7 @@ MonoBehaviour:
       - bytes: b0e0b7f28b2c304abf2d66e761dad16b
       - bytes: c2d331d153f0144c9607a935e643d86b
     - Name: Reverb_Zone
-      Path: Default Work Unit/Reverb_Zone
+      Path: Default Work Unit\Reverb_Zone
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -529,21 +529,21 @@ MonoBehaviour:
       - bytes: 783e09f9770cf844af8077b50152abff
       - bytes: f89d9480ba9c974ca1b8e664555e7743
   SwitchWwu:
-  - PhysicalPath: Switches/Default Work Unit.wwu
+  - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FEE1E438-54EA-471F-8021-5AAAFB6AD920}'
-    m_lastTimePsrt1: -1563174912
-    m_lastTimePart2: -1999292852
+    m_lastTimePsrt1: 1556403772
+    m_lastTimePart2: -1999292248
     List: []
   BankWwu:
-  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{F90E13A9-AD2C-4C30-8E42-92EA9FB4B16A}'
-    m_lastTimePsrt1: -1363174912
-    m_lastTimePart2: -1999292852
+    m_lastTimePsrt1: 1556073673
+    m_lastTimePart2: -1999292248
     List:
     - Name: Levels
-      Path: Default Work Unit/Levels
+      Path: Default Work Unit\Levels
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -552,7 +552,7 @@ MonoBehaviour:
       ID: -1616736980
       Guid: 371e4f03a99ed049b43c3ea2aacc328a
     - Name: Main
-      Path: Default Work Unit/Main
+      Path: Default Work Unit\Main
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -561,7 +561,7 @@ MonoBehaviour:
       ID: -1133058374
       Guid: e14097971d0fdf4291574c7773236c14
     - Name: Menu
-      Path: Default Work Unit/Menu
+      Path: Default Work Unit\Menu
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -570,20 +570,20 @@ MonoBehaviour:
       ID: -1687411216
       Guid: 9af75076468c444e84376d1fd21e8f40
   RtpcWwu:
-  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{6B01A27D-E61C-4CEF-839F-396E4A707915}'
-    m_lastTimePsrt1: -1583174912
-    m_lastTimePart2: -1999292852
+    m_lastTimePsrt1: 1465586535
+    m_lastTimePart2: -1999292248
     List: []
-  - PhysicalPath: Game Parameters/Factory SoundSeed Air Game Syncs.wwu
+  - PhysicalPath: Game Parameters\Factory SoundSeed Air Game Syncs.wwu
     ParentPhysicalPath: 
     Guid: '{3B167755-FB42-458B-98BF-96F557AFB3B9}'
-    m_lastTimePsrt1: -1583174912
-    m_lastTimePart2: -1999292852
+    m_lastTimePsrt1: 1465686565
+    m_lastTimePart2: -1999292248
     List:
     - Name: SS_Air_Fear
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_Fear
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fear
       PathAndIcons:
       - ElementName: Factory SoundSeed Air Game Syncs
         ObjectType: 12
@@ -592,7 +592,7 @@ MonoBehaviour:
       ID: 1351367891
       Guid: 59062ef746431c4ea1b1dab46a05101e
     - Name: SS_Air_Freefall
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_Freefall
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Freefall
       PathAndIcons:
       - ElementName: Factory SoundSeed Air Game Syncs
         ObjectType: 12
@@ -601,7 +601,7 @@ MonoBehaviour:
       ID: -1292209176
       Guid: 37fe2d2f9e4f944d83d853cca39781ad
     - Name: SS_Air_Fury
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_Fury
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fury
       PathAndIcons:
       - ElementName: Factory SoundSeed Air Game Syncs
         ObjectType: 12
@@ -610,7 +610,7 @@ MonoBehaviour:
       ID: 1029930033
       Guid: dc79aea23acaba4696529986c322a87b
     - Name: SS_Air_Month
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_Month
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Month
       PathAndIcons:
       - ElementName: Factory SoundSeed Air Game Syncs
         ObjectType: 12
@@ -619,7 +619,7 @@ MonoBehaviour:
       ID: -1646418679
       Guid: 45b4e209a3c47f44b3ca818a1d925ef7
     - Name: SS_Air_Presence
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_Presence
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Presence
       PathAndIcons:
       - ElementName: Factory SoundSeed Air Game Syncs
         ObjectType: 12
@@ -628,7 +628,7 @@ MonoBehaviour:
       ID: -447042342
       Guid: 1a81b7e32f7b0f49b44f5fe51b468041
     - Name: SS_Air_RPM
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_RPM
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_RPM
       PathAndIcons:
       - ElementName: Factory SoundSeed Air Game Syncs
         ObjectType: 12
@@ -637,7 +637,7 @@ MonoBehaviour:
       ID: 822163944
       Guid: ab9048a3d5b92645a64d5290c43ef2dc
     - Name: SS_Air_Size
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_Size
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Size
       PathAndIcons:
       - ElementName: Factory SoundSeed Air Game Syncs
         ObjectType: 12
@@ -646,7 +646,7 @@ MonoBehaviour:
       ID: -1220270574
       Guid: efeb291393a12e47a38c64668b494879
     - Name: SS_Air_Storm
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_Storm
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Storm
       PathAndIcons:
       - ElementName: Factory SoundSeed Air Game Syncs
         ObjectType: 12
@@ -655,7 +655,7 @@ MonoBehaviour:
       ID: -579304704
       Guid: db8c3fe9d1063747acaf7cd44bbed783
     - Name: SS_Air_TimeOfDay
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_TimeOfDay
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_TimeOfDay
       PathAndIcons:
       - ElementName: Factory SoundSeed Air Game Syncs
         ObjectType: 12
@@ -664,7 +664,7 @@ MonoBehaviour:
       ID: -1091570167
       Guid: 2ca76f537e8c8b4cae03ef34fdadc314
     - Name: SS_Air_Turbulence
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_Turbulence
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Turbulence
       PathAndIcons:
       - ElementName: Factory SoundSeed Air Game Syncs
         ObjectType: 12
@@ -673,11 +673,11 @@ MonoBehaviour:
       ID: -134719478
       Guid: 197ba8edaa73a0409f192073606db710
   TriggerWwu:
-  - PhysicalPath: Triggers/Default Work Unit.wwu
+  - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{3E6FAD6E-DC7E-467A-81AC-C5285878FA47}'
-    m_lastTimePsrt1: -1563174912
-    m_lastTimePart2: -1999292852
+    m_lastTimePsrt1: 1556513805
+    m_lastTimePart2: -1999292248
     List: []
   ExpandedItems:
   - /Torchlighters

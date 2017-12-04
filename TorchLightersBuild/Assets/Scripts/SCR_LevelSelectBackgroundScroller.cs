@@ -2,6 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+* Class Name:
+* SCR_LevelSelectBackgroundMovement
+* ==========
+* 
+* Created: 03/10/17
+* Author(s): Sebastian Poskitt-Marshall
+*
+* Purpose:
+* Functionality for looping the level select background
+*/
+
 public class SCR_LevelSelectBackgroundScroller : MonoBehaviour {
 	public float speed = 0;
 

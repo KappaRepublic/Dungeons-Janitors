@@ -2,6 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+* Class Name:
+* SCR_MopDirection
+* ==========
+* 
+* Created: 03/10/17
+* Author(s): Sebastian Poskitt-Marshall
+*
+* Purpose:
+* <OLD>
+* Initial functionality for mop based on mouse position
+* on screen.
+*/
+
 public class SCR_MopDirection : MonoBehaviour {
 
 	Vector3 mousePos;

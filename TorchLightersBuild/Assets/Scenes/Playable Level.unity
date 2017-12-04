@@ -2675,7 +2675,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 1.44}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!1 &198502420
 GameObject:
@@ -3393,7 +3393,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 1.44}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!4 &236441202 stripped
 Transform:
@@ -6576,14 +6576,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114863990545979052, guid: 5730d1d1ea11ecd4e89749d88cd47ce1,
-        type: 2}
-      propertyPath: buffer.mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 33492283203981464, guid: 5730d1d1ea11ecd4e89749d88cd47ce1,
         type: 2}
       propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114863990545979052, guid: 5730d1d1ea11ecd4e89749d88cd47ce1,
+        type: 2}
+      propertyPath: buffer.mesh
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1102808100297240, guid: 5730d1d1ea11ecd4e89749d88cd47ce1, type: 2}
@@ -8153,16 +8153,16 @@ MonoBehaviour:
   bounds:
     serializedVersion: 2
     x: 61.54
-    y: 41.65
+    y: 40.01
     width: 4
     height: 4
   edges:
   - parent: {fileID: 0}
     pointA:
-      position: {x: 63.54, y: 45.65, z: -4}
+      position: {x: 63.54, y: 44.01, z: -4}
       angle: 0
     pointB:
-      position: {x: 64.30537, y: 45.49776, z: -4}
+      position: {x: 64.30537, y: 43.857758, z: -4}
       angle: 0
     normal: {x: -0.19509004, y: -0.9807853, z: 0}
     direction: {x: 0.9807853, y: -0.19509004, z: 0}
@@ -8171,10 +8171,10 @@ MonoBehaviour:
     isStart: 0
   - parent: {fileID: 0}
     pointA:
-      position: {x: 64.30537, y: 45.49776, z: -4}
+      position: {x: 64.30537, y: 43.857758, z: -4}
       angle: 0
     pointB:
-      position: {x: 64.954216, y: 45.064217, z: -4}
+      position: {x: 64.954216, y: 43.424213, z: -4}
       angle: 0
     normal: {x: -0.55557054, y: -0.8314694, z: 0}
     direction: {x: 0.8314694, y: -0.55557054, z: 0}
@@ -8183,10 +8183,10 @@ MonoBehaviour:
     isStart: 0
   - parent: {fileID: 0}
     pointA:
-      position: {x: 64.954216, y: 45.064217, z: -4}
+      position: {x: 64.954216, y: 43.424213, z: -4}
       angle: 0
     pointB:
-      position: {x: 65.38776, y: 44.415367, z: -4}
+      position: {x: 65.38776, y: 42.775364, z: -4}
       angle: 0
     normal: {x: -0.83146983, y: -0.5555699, z: 0}
     direction: {x: 0.5555699, y: -0.83146983, z: 0}
@@ -8195,10 +8195,10 @@ MonoBehaviour:
     isStart: 0
   - parent: {fileID: 0}
     pointA:
-      position: {x: 65.38776, y: 44.415367, z: -4}
+      position: {x: 65.38776, y: 42.775364, z: -4}
       angle: 0
     pointB:
-      position: {x: 65.54, y: 43.65, z: -4}
+      position: {x: 65.54, y: 42.01, z: -4}
       angle: 0
     normal: {x: -0.98078513, y: -0.19509098, z: 0}
     direction: {x: 0.19509098, y: -0.98078513, z: 0}
@@ -8207,10 +8207,10 @@ MonoBehaviour:
     isStart: 0
   - parent: {fileID: 0}
     pointA:
-      position: {x: 65.54, y: 43.65, z: -4}
+      position: {x: 65.54, y: 42.01, z: -4}
       angle: 0
     pointB:
-      position: {x: 65.38776, y: 42.884636, z: -4}
+      position: {x: 65.38776, y: 41.244633, z: -4}
       angle: 0
     normal: {x: -0.98078513, y: 0.19509098, z: 0}
     direction: {x: -0.19509098, y: -0.98078513, z: 0}
@@ -8219,10 +8219,10 @@ MonoBehaviour:
     isStart: 0
   - parent: {fileID: 0}
     pointA:
-      position: {x: 65.38776, y: 42.884636, z: -4}
+      position: {x: 65.38776, y: 41.244633, z: -4}
       angle: 0
     pointB:
-      position: {x: 64.954216, y: 42.235786, z: -4}
+      position: {x: 64.954216, y: 40.595783, z: -4}
       angle: 0
     normal: {x: -0.83146983, y: 0.5555699, z: 0}
     direction: {x: -0.5555699, y: -0.83146983, z: 0}
@@ -8231,10 +8231,10 @@ MonoBehaviour:
     isStart: 0
   - parent: {fileID: 0}
     pointA:
-      position: {x: 64.954216, y: 42.235786, z: -4}
+      position: {x: 64.954216, y: 40.595783, z: -4}
       angle: 0
     pointB:
-      position: {x: 64.30537, y: 41.802242, z: -4}
+      position: {x: 64.30537, y: 40.16224, z: -4}
       angle: 0
     normal: {x: -0.55557054, y: 0.8314694, z: 0}
     direction: {x: -0.8314694, y: -0.55557054, z: 0}
@@ -8243,10 +8243,10 @@ MonoBehaviour:
     isStart: 0
   - parent: {fileID: 0}
     pointA:
-      position: {x: 64.30537, y: 41.802242, z: -4}
+      position: {x: 64.30537, y: 40.16224, z: -4}
       angle: 0
     pointB:
-      position: {x: 63.54, y: 41.65, z: -4}
+      position: {x: 63.54, y: 40.01, z: -4}
       angle: 0
     normal: {x: -0.19509004, y: 0.9807853, z: 0}
     direction: {x: -0.9807853, y: -0.19509004, z: 0}
@@ -8255,10 +8255,10 @@ MonoBehaviour:
     isStart: 0
   - parent: {fileID: 0}
     pointA:
-      position: {x: 63.54, y: 41.65, z: -4}
+      position: {x: 63.54, y: 40.01, z: -4}
       angle: 0
     pointB:
-      position: {x: 62.774635, y: 41.802242, z: -4}
+      position: {x: 62.774635, y: 40.16224, z: -4}
       angle: 0
     normal: {x: 0.19509004, y: 0.9807853, z: 0}
     direction: {x: -0.9807853, y: 0.19509004, z: 0}
@@ -8267,10 +8267,10 @@ MonoBehaviour:
     isStart: 0
   - parent: {fileID: 0}
     pointA:
-      position: {x: 62.774635, y: 41.802242, z: -4}
+      position: {x: 62.774635, y: 40.16224, z: -4}
       angle: 0
     pointB:
-      position: {x: 62.125786, y: 42.235786, z: -4}
+      position: {x: 62.125786, y: 40.595783, z: -4}
       angle: 0
     normal: {x: 0.55557054, y: 0.8314694, z: 0}
     direction: {x: -0.8314694, y: 0.55557054, z: 0}
@@ -8279,10 +8279,10 @@ MonoBehaviour:
     isStart: 0
   - parent: {fileID: 0}
     pointA:
-      position: {x: 62.125786, y: 42.235786, z: -4}
+      position: {x: 62.125786, y: 40.595783, z: -4}
       angle: 0
     pointB:
-      position: {x: 61.69224, y: 42.884636, z: -4}
+      position: {x: 61.69224, y: 41.244633, z: -4}
       angle: 0
     normal: {x: 0.83146983, y: 0.5555699, z: 0}
     direction: {x: -0.5555699, y: 0.83146983, z: 0}
@@ -8291,10 +8291,10 @@ MonoBehaviour:
     isStart: 0
   - parent: {fileID: 0}
     pointA:
-      position: {x: 61.69224, y: 42.884636, z: -4}
+      position: {x: 61.69224, y: 41.244633, z: -4}
       angle: 0
     pointB:
-      position: {x: 61.54, y: 43.65, z: -4}
+      position: {x: 61.54, y: 42.01, z: -4}
       angle: 0
     normal: {x: 0.98078513, y: 0.19509098, z: 0}
     direction: {x: -0.19509098, y: 0.98078513, z: 0}
@@ -8303,10 +8303,10 @@ MonoBehaviour:
     isStart: 0
   - parent: {fileID: 0}
     pointA:
-      position: {x: 61.54, y: 43.65, z: -4}
+      position: {x: 61.54, y: 42.01, z: -4}
       angle: 0
     pointB:
-      position: {x: 61.69224, y: 44.415367, z: -4}
+      position: {x: 61.69224, y: 42.775364, z: -4}
       angle: 0
     normal: {x: 0.98078513, y: -0.19509098, z: 0}
     direction: {x: 0.19509098, y: 0.98078513, z: 0}
@@ -8315,10 +8315,10 @@ MonoBehaviour:
     isStart: 0
   - parent: {fileID: 0}
     pointA:
-      position: {x: 61.69224, y: 44.415367, z: -4}
+      position: {x: 61.69224, y: 42.775364, z: -4}
       angle: 0
     pointB:
-      position: {x: 62.125786, y: 45.064217, z: -4}
+      position: {x: 62.125786, y: 43.424213, z: -4}
       angle: 0
     normal: {x: 0.83146983, y: -0.5555699, z: 0}
     direction: {x: 0.5555699, y: 0.83146983, z: 0}
@@ -8327,10 +8327,10 @@ MonoBehaviour:
     isStart: 0
   - parent: {fileID: 0}
     pointA:
-      position: {x: 62.125786, y: 45.064217, z: -4}
+      position: {x: 62.125786, y: 43.424213, z: -4}
       angle: 0
     pointB:
-      position: {x: 62.774635, y: 45.49776, z: -4}
+      position: {x: 62.774635, y: 43.857758, z: -4}
       angle: 0
     normal: {x: 0.55557054, y: -0.8314694, z: 0}
     direction: {x: 0.8314694, y: 0.55557054, z: 0}
@@ -8339,10 +8339,10 @@ MonoBehaviour:
     isStart: 0
   - parent: {fileID: 0}
     pointA:
-      position: {x: 62.774635, y: 45.49776, z: -4}
+      position: {x: 62.774635, y: 43.857758, z: -4}
       angle: 0
     pointB:
-      position: {x: 63.54, y: 45.65, z: -4}
+      position: {x: 63.54, y: 44.01, z: -4}
       angle: 0
     normal: {x: 0.19509004, y: -0.9807853, z: 0}
     direction: {x: 0.9807853, y: 0.19509004, z: 0}
@@ -8351,10 +8351,10 @@ MonoBehaviour:
     isStart: 0
   - parent: {fileID: 0}
     pointA:
-      position: {x: 63.54, y: 45.65, z: -4}
+      position: {x: 63.54, y: 44.01, z: -4}
       angle: 0
     pointB:
-      position: {x: 63.54, y: 45.65, z: -4}
+      position: {x: 63.54, y: 44.01, z: -4}
       angle: 0
     normal: {x: 0, y: -0, z: 0}
     direction: {x: 0, y: 0, z: 0}
@@ -8384,7 +8384,7 @@ MonoBehaviour:
   verticesDirty: 0
   isStatic: 0
   color: {r: 0.8, g: 0.6, b: 0.3, a: 1}
-  material: {fileID: 2100000, guid: fcd7a727c1d95bb4b8bda395a72961c0, type: 2}
+  material: {fileID: 2100000, guid: e31a5ba5d58967f46ad8f740958b9136, type: 2}
   shadowLayer:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -8394,137 +8394,115 @@ MonoBehaviour:
   buffer:
     mesh: {fileID: 0}
     vertices:
-    - position: {x: -0.998991, y: -0.005077362, z: 0}
-      angle: -3.1365101
-    - position: {x: -0.9989052, y: -0.005504608, z: 0}
-      angle: -3.1360822
-    - position: {x: -0.9777832, y: -0.11169624, z: 0}
-      angle: -3.0278516
+    - position: {x: -0.98924065, y: -0.0540905, z: 0}
+      angle: -3.0869682
     - position: {x: -0.9238796, y: -0.3826828, z: 0}
       angle: -2.7488942
     - position: {x: -0.9238796, y: -0.3826828, z: 0}
       angle: -2.7488942
-    - position: {x: -0.7667866, y: -0.6177902, z: 0}
-      angle: -2.4633934
+    - position: {x: -0.7871456, y: -0.58732224, z: 0}
+      angle: -2.5005653
     - position: {x: -0.70710754, y: -0.70710754, z: 0}
       angle: -2.3561945
     - position: {x: -0.70710754, y: -0.70710754, z: 0}
       angle: -2.3561945
-    - position: {x: -0.473938, y: -0.8629055, z: 0}
-      angle: -2.0730522
+    - position: {x: -0.5055237, y: -0.8418007, z: 0}
+      angle: -2.111603
+    - position: {x: -0.38401985, y: -0.9229851, z: 0}
+      angle: -1.9650729
     - position: {x: -0.3826828, y: -0.9238796, z: 0}
       angle: -1.9634948
     - position: {x: -0.3826828, y: -0.9238796, z: 0}
       angle: -1.9634948
-    - position: {x: -0.36717796, y: -0.9269638, z: 0}
-      angle: -1.9479432
-    - position: {x: -0.26417732, y: -0.94745255, z: 0}
-      angle: -1.842719
-    - position: {x: -0.18230438, y: -0.9637375, z: 0}
-      angle: -1.7577512
+    - position: {x: -0.27675056, y: -0.9449501, z: 0}
+      angle: -1.855702
+    - position: {x: -0.18587875, y: -0.96302605, z: 0}
+      angle: -1.7614669
     - position: {x: 0, y: -1, z: 0}
       angle: -1.5707964
     - position: {x: 0, y: -1, z: 0}
       angle: -1.5707964
-    - position: {x: 0.17003441, y: -0.966177, z: 0}
-      angle: -1.3965933
-    - position: {x: 0.28871155, y: -0.94257164, z: 0}
-      angle: -1.273568
-    - position: {x: 0.36506653, y: -0.9273834, z: 0}
-      angle: -1.1957741
+    - position: {x: 0.17337799, y: -0.9655132, z: 0}
+      angle: -1.3931191
+    - position: {x: 0.30238342, y: -0.93985176, z: 0}
+      angle: -1.2595202
+    - position: {x: 0.38206482, y: -0.9240017, z: 0}
+      angle: -1.1787156
     - position: {x: 0.3826828, y: -0.9238796, z: 0}
       angle: -1.1780978
     - position: {x: 0.3826828, y: -0.9238796, z: 0}
       angle: -1.1780978
-    - position: {x: 0.4058113, y: -0.9084263, z: 0}
-      angle: -1.1506742
-    - position: {x: 0.6069641, y: -0.77402115, z: 0}
-      angle: -0.9057827
+    - position: {x: 0.42355347, y: -0.8965702, z: 0}
+      angle: -1.129459
+    - position: {x: 0.62865067, y: -0.7595291, z: 0}
+      angle: -0.8794009
     - position: {x: 0.70710754, y: -0.70710754, z: 0}
       angle: -0.7853982
     - position: {x: 0.70710754, y: -0.70710754, z: 0}
       angle: -0.7853982
-    - position: {x: 0.7258568, y: -0.6790447, z: 0}
-      angle: -0.75209
-    - position: {x: 0.7746887, y: -0.60596466, z: 0}
-      angle: -0.6637952
+    - position: {x: 0.75058746, y: -0.6420326, z: 0}
+      angle: -0.7076054
+    - position: {x: 0.7981529, y: -0.57084656, z: 0}
+      angle: -0.62086093
     - position: {x: 0.9238777, y: -0.3826828, z: 0}
       angle: -0.39269918
     - position: {x: 0.9238777, y: -0.3826828, z: 0}
       angle: -0.39269918
-    - position: {x: 0.9520416, y: -0.24108887, z: 0}
-      angle: -0.24801967
-    - position: {x: 0.9538498, y: -0.23201561, z: 0}
-      angle: -0.23860744
+    - position: {x: 0.9642868, y: -0.17954445, z: 0}
+      angle: -0.18408604
+    - position: {x: 0.96564865, y: -0.17269707, z: 0}
+      angle: -0.17696957
     - position: {x: 1, y: 0, z: 0}
       angle: 0
-    - position: {x: 0.94919586, y: 0.2553978, z: 0}
-      angle: 0.26284254
+    - position: {x: 0.9377899, y: 0.31274223, z: 0}
+      angle: 0.32189026
     - position: {x: 0.9238777, y: 0.3826828, z: 0}
       angle: 0.39269918
     - position: {x: 0.9238777, y: 0.3826828, z: 0}
       angle: 0.39269918
-    - position: {x: 0.8693352, y: 0.4643116, z: 0}
-      angle: 0.49055374
     - position: {x: 0.70710754, y: 0.70710754, z: 0}
       angle: 0.7853982
     - position: {x: 0.70710754, y: 0.70710754, z: 0}
       angle: 0.7853982
-    - position: {x: 0.6129074, y: 0.77005005, z: 0}
-      angle: 0.89854085
-    - position: {x: 0.6129074, y: 0.77005005, z: 0}
-      angle: 0.8985424
+    - position: {x: 0.7035103, y: 0.7095108, z: 0}
+      angle: 0.7896447
+    - position: {x: 0.38799286, y: 0.92033195, z: 0}
+      angle: 1.1718266
     - position: {x: 0.3826828, y: 0.9238796, z: 0}
       angle: 1.1780978
     - position: {x: 0.3826828, y: 0.9238796, z: 0}
       angle: 1.1780978
-    - position: {x: 0.20581245, y: 0.95906067, z: 0}
-      angle: 1.3594044
+    - position: {x: 0.16737938, y: 0.9667053, z: 0}
+      angle: 1.399352
     - position: {x: 0, y: 1, z: 0}
       angle: 1.5707964
-    - position: {x: -0.21497154, y: 0.95723915, z: 0}
-      angle: 1.7917057
+    - position: {x: -0.17489052, y: 0.96521187, z: 0}
+      angle: 1.7500454
     - position: {x: -0.3826828, y: 0.9238796, z: 0}
       angle: 1.9634948
     - position: {x: -0.3826828, y: 0.9238796, z: 0}
       angle: 1.9634948
-    - position: {x: -0.630394, y: 0.75836563, z: 0}
-      angle: 2.2643058
-    - position: {x: -0.630394, y: 0.75836563, z: 0}
-      angle: 2.264306
+    - position: {x: -0.40138054, y: 0.9113865, z: 0}
+      angle: 1.9856437
     - position: {x: -0.70710754, y: 0.70710754, z: 0}
       angle: 2.3561945
     - position: {x: -0.70710754, y: 0.70710754, z: 0}
       angle: 2.3561945
-    - position: {x: -0.87410927, y: 0.4571705, z: 0}
-      angle: 2.6597047
+    - position: {x: -0.71082497, y: 0.7015438, z: 0}
+      angle: 2.3627658
     - position: {x: -0.9238796, y: 0.3826828, z: 0}
       angle: 2.7488942
     - position: {x: -0.9238796, y: 0.3826828, z: 0}
       angle: 2.7488942
-    - position: {x: -0.9559078, y: 0.22166443, z: 0}
-      angle: 2.913731
+    - position: {x: -0.94592285, y: 0.27186394, z: 0}
+      angle: 2.8617296
     - position: {x: -1, y: 0, z: 0}
       angle: 3.1415927
     - position: {x: -1, y: 0, z: 0}
       angle: 3.1415927
     - position: {x: 0, y: 0, z: 0}
       angle: 0
-    - position: {x: 0, y: 0, z: 0}
-      angle: Infinity
-    - position: {x: 0, y: 0, z: 0}
-      angle: Infinity
-    - position: {x: 0, y: 0, z: 0}
-      angle: Infinity
-    - position: {x: -0.9913883, y: 0.043291092, z: 0}
-      angle: Infinity
-    - position: {x: 0, y: 0, z: 0}
-      angle: Infinity
-    - position: {x: 0, y: 0, z: 0}
-      angle: Infinity
-    - position: {x: -1, y: 0, z: 0}
-      angle: Infinity
-    triangles: 390000000100000000000000390000000200000001000000390000000300000002000000390000000400000003000000390000000500000004000000390000000600000005000000390000000700000006000000390000000800000007000000390000000900000008000000390000000a00000009000000390000000b0000000a000000390000000c0000000b000000390000000d0000000c000000390000000e0000000d000000390000000f0000000e00000039000000100000000f000000390000001100000010000000390000001200000011000000390000001300000012000000390000001400000013000000390000001500000014000000390000001600000015000000390000001700000016000000390000001800000017000000390000001900000018000000390000001a00000019000000390000001b0000001a000000390000001c0000001b000000390000001d0000001c000000390000001e0000001d000000390000001f0000001e00000039000000200000001f000000390000002100000020000000390000002200000021000000390000002300000022000000390000002400000023000000390000002500000024000000390000002600000025000000390000002700000026000000390000002800000027000000390000002900000028000000390000002a00000029000000390000002b0000002a000000390000002c0000002b000000390000002d0000002c000000390000002e0000002d000000390000002f0000002e00000039000000300000002f000000390000003100000030000000390000003200000031000000390000003300000032000000390000003400000033000000390000003500000034000000390000003600000035000000390000003700000036000000390000003800000037000000390000000000000038000000000000000000000000000000
+    triangles: 350000000100000000000000350000000200000001000000350000000300000002000000350000000400000003000000350000000500000004000000350000000600000005000000350000000700000006000000350000000800000007000000350000000900000008000000350000000a00000009000000350000000b0000000a000000350000000c0000000b000000350000000d0000000c000000350000000e0000000d000000350000000f0000000e00000035000000100000000f000000350000001100000010000000350000001200000011000000350000001300000012000000350000001400000013000000350000001500000014000000350000001600000015000000350000001700000016000000350000001800000017000000350000001900000018000000350000001a00000019000000350000001b0000001a000000350000001c0000001b000000350000001d0000001c000000350000001e0000001d000000350000001f0000001e00000035000000200000001f000000350000002100000020000000350000002200000021000000350000002300000022000000350000002400000023000000350000002500000024000000350000002600000025000000350000002700000026000000350000002800000027000000350000002900000028000000350000002a00000029000000350000002b0000002a000000350000002c0000002b000000350000002d0000002c000000350000002e0000002d000000350000002f0000002e00000035000000300000002f000000350000003100000030000000350000003200000031000000350000003300000032000000350000003400000033000000350000000000000034000000000000000000000000000000
     normals:
     - {x: 0, y: 0, z: -1}
     - {x: 0, y: 0, z: -1}
@@ -8580,78 +8558,62 @@ MonoBehaviour:
     - {x: 0, y: 0, z: -1}
     - {x: 0, y: 0, z: -1}
     - {x: 0, y: 0, z: -1}
-    - {x: 0, y: 0, z: -1}
-    - {x: 0, y: 0, z: -1}
-    - {x: 0, y: 0, z: -1}
-    - {x: 0, y: 0, z: -1}
     uvs:
-    - {x: 0.0005044937, y: 0.49746132}
-    - {x: 0.00054740906, y: 0.4972477}
-    - {x: 0.011108398, y: 0.44415188}
+    - {x: 0.005379677, y: 0.47295475}
     - {x: 0.03806019, y: 0.3086586}
     - {x: 0.03806019, y: 0.3086586}
-    - {x: 0.11660671, y: 0.19110489}
+    - {x: 0.10642719, y: 0.20633888}
     - {x: 0.14644623, y: 0.14644623}
     - {x: 0.14644623, y: 0.14644623}
-    - {x: 0.263031, y: 0.06854725}
+    - {x: 0.24723816, y: 0.079099655}
+    - {x: 0.30799007, y: 0.03850746}
     - {x: 0.3086586, y: 0.03806019}
     - {x: 0.3086586, y: 0.03806019}
-    - {x: 0.31641102, y: 0.036518097}
-    - {x: 0.36791134, y: 0.026273727}
-    - {x: 0.4088478, y: 0.018131256}
+    - {x: 0.36162472, y: 0.027524948}
+    - {x: 0.40706062, y: 0.018486977}
     - {x: 0.5, y: 0}
     - {x: 0.5, y: 0}
-    - {x: 0.5850172, y: 0.016911507}
-    - {x: 0.6443558, y: 0.02871418}
-    - {x: 0.68253326, y: 0.03630829}
+    - {x: 0.586689, y: 0.017243385}
+    - {x: 0.6511917, y: 0.03007412}
+    - {x: 0.6910324, y: 0.037999153}
     - {x: 0.6913414, y: 0.03806019}
     - {x: 0.6913414, y: 0.03806019}
-    - {x: 0.70290565, y: 0.045786858}
-    - {x: 0.80348206, y: 0.112989426}
+    - {x: 0.71177673, y: 0.051714897}
+    - {x: 0.81432533, y: 0.12023544}
     - {x: 0.8535538, y: 0.14644623}
     - {x: 0.8535538, y: 0.14644623}
-    - {x: 0.8629284, y: 0.16047764}
-    - {x: 0.88734436, y: 0.19701767}
+    - {x: 0.87529373, y: 0.17898369}
+    - {x: 0.89907646, y: 0.21457672}
     - {x: 0.96193886, y: 0.3086586}
     - {x: 0.96193886, y: 0.3086586}
-    - {x: 0.9760208, y: 0.37945557}
-    - {x: 0.9769249, y: 0.3839922}
+    - {x: 0.9821434, y: 0.41022778}
+    - {x: 0.9828243, y: 0.41365147}
     - {x: 1, y: 0.5}
-    - {x: 0.97459793, y: 0.6276989}
+    - {x: 0.96889496, y: 0.6563711}
     - {x: 0.96193886, y: 0.6913414}
     - {x: 0.96193886, y: 0.6913414}
-    - {x: 0.9346676, y: 0.7321558}
     - {x: 0.8535538, y: 0.8535538}
     - {x: 0.8535538, y: 0.8535538}
-    - {x: 0.8064537, y: 0.885025}
-    - {x: 0.8064537, y: 0.885025}
+    - {x: 0.85175514, y: 0.8547554}
+    - {x: 0.6939964, y: 0.960166}
     - {x: 0.6913414, y: 0.9619398}
     - {x: 0.6913414, y: 0.9619398}
-    - {x: 0.6029062, y: 0.97953033}
+    - {x: 0.5836897, y: 0.98335266}
     - {x: 0.5, y: 1}
-    - {x: 0.39251423, y: 0.9786196}
+    - {x: 0.41255474, y: 0.98260593}
     - {x: 0.3086586, y: 0.9619398}
     - {x: 0.3086586, y: 0.9619398}
-    - {x: 0.18480301, y: 0.8791828}
-    - {x: 0.18480301, y: 0.8791828}
+    - {x: 0.29930973, y: 0.95569324}
     - {x: 0.14644623, y: 0.8535538}
     - {x: 0.14644623, y: 0.8535538}
-    - {x: 0.062945366, y: 0.72858524}
+    - {x: 0.14458752, y: 0.8507719}
     - {x: 0.03806019, y: 0.6913414}
     - {x: 0.03806019, y: 0.6913414}
-    - {x: 0.02204609, y: 0.6108322}
+    - {x: 0.027038574, y: 0.63593197}
     - {x: 0, y: 0.5}
     - {x: 0, y: 0.5}
     - {x: 0.5, y: 0.5}
     colors:
-    - serializedVersion: 2
-      rgba: 4283210188
-    - serializedVersion: 2
-      rgba: 4283210188
-    - serializedVersion: 2
-      rgba: 4283210188
-    - serializedVersion: 2
-      rgba: 4283210188
     - serializedVersion: 2
       rgba: 4283210188
     - serializedVersion: 2
@@ -8781,7 +8743,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: fcd7a727c1d95bb4b8bda395a72961c0, type: 2}
+  - {fileID: 2100000, guid: e31a5ba5d58967f46ad8f740958b9136, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9680,8 +9642,8 @@ MonoBehaviour:
     normal: {x: 0.0017671804, y: -0.99999845, z: 0}
     direction: {x: 0.99999845, y: 0.0017671804, z: 0}
     flagNormalUpdate: 0
-    isEnd: 0
-    isStart: 0
+    isEnd: 1
+    isStart: 1
   - parent: {fileID: 0}
     pointA:
       position: {x: 36.000576, y: 43.503445, z: 0}
@@ -10270,7 +10232,7 @@ MonoBehaviour:
     normal: {x: 0.9999988, y: 0.0015697108, z: 0}
     direction: {x: -0.0015697108, y: 0.9999988, z: 0}
     flagNormalUpdate: 0
-    isEnd: 0
+    isEnd: 1
     isStart: 0
   - parent: {fileID: 0}
     pointA:
@@ -10295,7 +10257,7 @@ MonoBehaviour:
     direction: {x: -0.00042069994, y: 0.99999994, z: 0}
     flagNormalUpdate: 0
     isEnd: 0
-    isStart: 0
+    isStart: 1
   - parent: {fileID: 0}
     pointA:
       position: {x: 34, y: 50.5, z: 0}
@@ -13323,7 +13285,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2095678344}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 63.54, y: 43.65, z: -2}
+  m_LocalPosition: {x: 63.54, y: 42.01, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1071994663}
@@ -13846,9 +13808,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0, y: 1, z: 0}
     direction: {x: -1, y: 0, z: 0}
-    flagNormalUpdate: 0
-    isEnd: 1
-    isStart: 1
+    flagNormalUpdate: 1
+    isEnd: 0
+    isStart: 0
   - parent: {fileID: 0}
     pointA:
       position: {x: 38, y: 37.505, z: 0}
@@ -13858,7 +13820,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: -1, y: -0, z: 0}
     direction: {x: 0, y: -1, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -13870,9 +13832,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0.0012683279, y: -0.9999992, z: 0}
     direction: {x: 0.9999992, y: 0.0012683279, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
-    isStart: 0
+    isStart: 1
   - parent: {fileID: 0}
     pointA:
       position: {x: 40.99412, y: 25.510572, z: 0}
@@ -13882,9 +13844,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: 1, y: 0.000016606904, z: 0}
     direction: {x: -0.000016606904, y: 1, z: 0}
-    flagNormalUpdate: 0
-    isEnd: 1
-    isStart: 1
+    flagNormalUpdate: 1
+    isEnd: 0
+    isStart: 0
   - parent: {fileID: 0}
     pointA:
       position: {x: 40.994072, y: 28.496744, z: 0}
@@ -13894,8 +13856,8 @@ MonoBehaviour:
       angle: 0
     normal: {x: -0.00019384873, y: -1, z: 0}
     direction: {x: 1, y: -0.00019384873, z: 0}
-    flagNormalUpdate: 0
-    isEnd: 0
+    flagNormalUpdate: 1
+    isEnd: 1
     isStart: 0
   - parent: {fileID: 0}
     pointA:
@@ -13906,9 +13868,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0.9999957, y: -0.002917903, z: 0}
     direction: {x: 0.002917903, y: 0.9999957, z: 0}
-    flagNormalUpdate: 0
-    isEnd: 1
-    isStart: 1
+    flagNormalUpdate: 1
+    isEnd: 0
+    isStart: 0
   - parent: {fileID: 0}
     pointA:
       position: {x: 59.001957, y: 32.497627, z: 0}
@@ -13918,9 +13880,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: -0.000648469, y: -0.9999998, z: 0}
     direction: {x: 0.9999998, y: -0.000648469, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
-    isStart: 0
+    isStart: 1
   - parent: {fileID: 0}
     pointA:
       position: {x: 65.99639, y: 32.49309, z: 0}
@@ -13930,9 +13892,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: -0.99999994, y: -0.00027174523, z: 0}
     direction: {x: 0.00027174523, y: -0.99999994, z: 0}
-    flagNormalUpdate: 0
-    isEnd: 1
-    isStart: 1
+    flagNormalUpdate: 1
+    isEnd: 0
+    isStart: 0
   - parent: {fileID: 0}
     pointA:
       position: {x: 65.997475, y: 28.506365, z: 0}
@@ -13942,7 +13904,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0.000070526556, y: -1, z: 0}
     direction: {x: 1, y: 0.000070526556, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -13954,9 +13916,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: -0.99999994, y: 0.00036572354, z: 0}
     direction: {x: -0.00036572354, y: -0.99999994, z: 0}
-    flagNormalUpdate: 0
-    isEnd: 0
-    isStart: 1
+    flagNormalUpdate: 1
+    isEnd: 1
+    isStart: 0
   - parent: {fileID: 0}
     pointA:
       position: {x: 77.00345, y: 25.503143, z: 0}
@@ -13966,7 +13928,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0.000548155, y: 0.9999998, z: 0}
     direction: {x: -0.9999998, y: 0.000548155, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -13978,9 +13940,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: -0.9999999, y: -0.0005793397, z: 0}
     direction: {x: 0.0005793397, y: -0.9999999, z: 0}
-    flagNormalUpdate: 0
-    isEnd: 1
-    isStart: 0
+    flagNormalUpdate: 1
+    isEnd: 0
+    isStart: 1
   - parent: {fileID: 0}
     pointA:
       position: {x: 74.00289, y: 21.501377, z: 0}
@@ -13990,7 +13952,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: -0.00017547653, y: -1, z: 0}
     direction: {x: 1, y: -0.00017547653, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -14002,9 +13964,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: -0.9999983, y: 0.0018522241, z: 0}
     direction: {x: -0.0018522241, y: -0.9999983, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 1
-    isStart: 1
+    isStart: 0
   - parent: {fileID: 0}
     pointA:
       position: {x: 76.993614, y: 16.49622, z: 0}
@@ -14014,7 +13976,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: -0.000054579472, y: -1, z: 0}
     direction: {x: 1, y: -0.000054579472, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -14026,7 +13988,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0.9999998, y: -0.0004950851, z: 0}
     direction: {x: 0.0004950851, y: 0.9999998, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -14038,9 +14000,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: -0.000248049, y: -1, z: 0}
     direction: {x: 1, y: -0.000248049, z: 0}
-    flagNormalUpdate: 0
-    isEnd: 0
-    isStart: 0
+    flagNormalUpdate: 1
+    isEnd: 1
+    isStart: 1
   - parent: {fileID: 0}
     pointA:
       position: {x: 82.00121, y: 22.505564, z: 0}
@@ -14050,7 +14012,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: 1, y: -0.000048461832, z: 0}
     direction: {x: 0.000048461832, y: 1, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -14062,9 +14024,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0.0043263035, y: -0.9999907, z: 0}
     direction: {x: 0.9999907, y: 0.0043263035, z: 0}
-    flagNormalUpdate: 0
-    isEnd: 0
-    isStart: 0
+    flagNormalUpdate: 1
+    isEnd: 1
+    isStart: 1
   - parent: {fileID: 0}
     pointA:
       position: {x: 86.007675, y: 28.505274, z: 0}
@@ -14074,7 +14036,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0.99999934, y: 0.001082968, z: 0}
     direction: {x: -0.001082968, y: 0.99999934, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -14086,9 +14048,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: -0.0020402952, y: 0.9999979, z: 0}
     direction: {x: -0.9999979, y: -0.0020402952, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
-    isStart: 1
+    isStart: 0
   - parent: {fileID: 0}
     pointA:
       position: {x: 80.99656, y: 37.48435, z: 0}
@@ -14098,9 +14060,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: -0.9999987, y: -0.0016397759, z: 0}
     direction: {x: 0.0016397759, y: -0.9999987, z: 0}
-    flagNormalUpdate: 0
-    isEnd: 0
-    isStart: 0
+    flagNormalUpdate: 1
+    isEnd: 1
+    isStart: 1
   - parent: {fileID: 0}
     pointA:
       position: {x: 81.00308, y: 33.50629, z: 0}
@@ -14110,8 +14072,8 @@ MonoBehaviour:
       angle: 0
     normal: {x: -0.0013588585, y: 0.9999991, z: 0}
     direction: {x: -0.9999991, y: -0.0013588585, z: 0}
-    flagNormalUpdate: 0
-    isEnd: 1
+    flagNormalUpdate: 1
+    isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
     pointA:
@@ -14122,7 +14084,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: 1, y: 0.000108532564, z: 0}
     direction: {x: -0.000108532564, y: 1, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 1
     isStart: 0
   isActive: 1
@@ -17452,7 +17414,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 1.44}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!1 &1102022076
 GameObject:
@@ -21722,7 +21684,7 @@ MonoBehaviour:
     direction: {x: -1, y: 0, z: 0}
     flagNormalUpdate: 1
     isEnd: 0
-    isStart: 1
+    isStart: 0
   - parent: {fileID: 0}
     pointA:
       position: {x: 59.998, y: -19.502998, z: 0}
@@ -21781,7 +21743,7 @@ MonoBehaviour:
     normal: {x: -0.99999994, y: 0.00029771333, z: 0}
     direction: {x: -0.00029771333, y: -0.99999994, z: 0}
     flagNormalUpdate: 1
-    isEnd: 1
+    isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
     pointA:
@@ -21793,8 +21755,8 @@ MonoBehaviour:
     normal: {x: -0.00082927383, y: -0.99999964, z: 0}
     direction: {x: 0.99999964, y: -0.00082927383, z: 0}
     flagNormalUpdate: 1
-    isEnd: 0
-    isStart: 0
+    isEnd: 1
+    isStart: 1
   - parent: {fileID: 0}
     pointA:
       position: {x: 58.005505, y: -27.50241, z: 0}
@@ -21805,8 +21767,8 @@ MonoBehaviour:
     normal: {x: -0.9999999, y: -0.00044508994, z: 0}
     direction: {x: 0.00044508994, y: -0.9999999, z: 0}
     flagNormalUpdate: 1
-    isEnd: 1
-    isStart: 1
+    isEnd: 0
+    isStart: 0
   - parent: {fileID: 0}
     pointA:
       position: {x: 58.007286, y: -31.50489, z: 0}
@@ -21817,8 +21779,8 @@ MonoBehaviour:
     normal: {x: -0.00020294928, y: -1, z: 0}
     direction: {x: 1, y: -0.00020294928, z: 0}
     flagNormalUpdate: 1
-    isEnd: 0
-    isStart: 0
+    isEnd: 1
+    isStart: 1
   - parent: {fileID: 0}
     pointA:
       position: {x: 59.999695, y: -31.505295, z: 0}
@@ -21829,8 +21791,8 @@ MonoBehaviour:
     normal: {x: -0.9999958, y: -0.0028855356, z: 0}
     direction: {x: 0.0028855356, y: -0.9999958, z: 0}
     flagNormalUpdate: 1
-    isEnd: 1
-    isStart: 1
+    isEnd: 0
+    isStart: 0
   - parent: {fileID: 0}
     pointA:
       position: {x: 60.002556, y: -32.496796, z: 0}
@@ -21854,7 +21816,7 @@ MonoBehaviour:
     direction: {x: -0.0005888961, y: 0.9999998, z: 0}
     flagNormalUpdate: 1
     isEnd: 0
-    isStart: 0
+    isStart: 1
   - parent: {fileID: 0}
     pointA:
       position: {x: 61.99817, y: -31.514992, z: 0}
@@ -21865,7 +21827,7 @@ MonoBehaviour:
     normal: {x: 0.0016435533, y: -0.9999986, z: 0}
     direction: {x: 0.9999986, y: 0.0016435533, z: 0}
     flagNormalUpdate: 1
-    isEnd: 0
+    isEnd: 1
     isStart: 0
   - parent: {fileID: 0}
     pointA:
@@ -21889,8 +21851,8 @@ MonoBehaviour:
     normal: {x: -0.002862697, y: 0.99999595, z: 0}
     direction: {x: -0.99999595, y: -0.002862697, z: 0}
     flagNormalUpdate: 1
-    isEnd: 1
-    isStart: 1
+    isEnd: 0
+    isStart: 0
   - parent: {fileID: 0}
     pointA:
       position: {x: 68.000626, y: -21.511902, z: 0}
@@ -21914,7 +21876,7 @@ MonoBehaviour:
     direction: {x: -0.9999987, y: 0.0015853819, z: 0}
     flagNormalUpdate: 1
     isEnd: 0
-    isStart: 1
+    isStart: 0
   - parent: {fileID: 0}
     pointA:
       position: {x: 66.000824, y: -19.501526, z: 0}
@@ -21925,8 +21887,8 @@ MonoBehaviour:
     normal: {x: -0.99999905, y: -0.0013971159, z: 0}
     direction: {x: 0.0013971159, y: -0.99999905, z: 0}
     flagNormalUpdate: 1
-    isEnd: 1
-    isStart: 0
+    isEnd: 0
+    isStart: 1
   - parent: {fileID: 0}
     pointA:
       position: {x: 66.00641, y: -23.49884, z: 0}
@@ -21949,8 +21911,8 @@ MonoBehaviour:
     normal: {x: -0.99999994, y: 0.000509879, z: 0}
     direction: {x: -0.000509879, y: -0.99999994, z: 0}
     flagNormalUpdate: 1
-    isEnd: 0
-    isStart: 1
+    isEnd: 1
+    isStart: 0
   - parent: {fileID: 0}
     pointA:
       position: {x: 67.99696, y: -29.499191, z: 0}
@@ -21961,7 +21923,7 @@ MonoBehaviour:
     normal: {x: -0.0010127327, y: 0.9999995, z: 0}
     direction: {x: -0.9999995, y: -0.0010127327, z: 0}
     flagNormalUpdate: 1
-    isEnd: 1
+    isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
     pointA:
@@ -21974,7 +21936,7 @@ MonoBehaviour:
     direction: {x: -0.0004952849, y: 0.99999994, z: 0}
     flagNormalUpdate: 1
     isEnd: 0
-    isStart: 0
+    isStart: 1
   - parent: {fileID: 0}
     pointA:
       position: {x: 60.008514, y: -23.5074, z: 0}
@@ -25925,10 +25887,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   torchCompletionPercentage: 70
-  trapCompletionPercentage: 60
+  trapCompletionPercentage: 70
   bloodCompletionPercentage: 80
-  chestCompletionPercentage: 50
-  corpseCompletionPercentage: 60
+  chestCompletionPercentage: 60
+  corpseCompletionPercentage: 50
   torchUiBar: {fileID: 1245691372}
   torchGoalIndicator: {fileID: 704376559}
   trapUiBar: {fileID: 928091345}
@@ -26147,6 +26109,7 @@ MonoBehaviour:
   totalScore: {fileID: 1722859906}
   timer: {fileID: 1574793261}
   sTracker: {fileID: 1687675953}
+  player: {fileID: 2095678344}
 --- !u!1001 &1699793420
 Prefab:
   m_ObjectHideFlags: 0
@@ -27556,7 +27519,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 1.44}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!1 &1775499545
 GameObject:
@@ -31461,9 +31424,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0, y: 1, z: 0}
     direction: {x: -1, y: 0, z: 0}
-    flagNormalUpdate: 0
-    isEnd: 1
-    isStart: 1
+    flagNormalUpdate: 1
+    isEnd: 0
+    isStart: 0
   - parent: {fileID: 0}
     pointA:
       position: {x: 56.994, y: 25.5, z: 0}
@@ -31473,7 +31436,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: -1, y: -0, z: 0}
     direction: {x: 0, y: -1, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -31485,9 +31448,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0.00015557511, y: -1, z: 0}
     direction: {x: 1, y: 0.00015557511, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
-    isStart: 0
+    isStart: 1
   - parent: {fileID: 0}
     pointA:
       position: {x: 59.997696, y: 21.511854, z: 0}
@@ -31497,7 +31460,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: -1, y: -0.00023005938, z: 0}
     direction: {x: 0.00023005938, y: -1, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -31509,9 +31472,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0, y: 1, z: 0}
     direction: {x: -1, y: 0, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 1
-    isStart: 1
+    isStart: 0
   - parent: {fileID: 0}
     pointA:
       position: {x: 56.00043, y: 10.501831, z: 0}
@@ -31521,7 +31484,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: -1, y: -0.00024244569, z: 0}
     direction: {x: 0.00024244569, y: -1, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -31533,7 +31496,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: -0.00012971736, y: -1, z: 0}
     direction: {x: 1, y: -0.00012971736, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -31545,9 +31508,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: -0.9999993, y: 0.0012215067, z: 0}
     direction: {x: -0.0012215067, y: -0.9999993, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
-    isStart: 0
+    isStart: 1
   - parent: {fileID: 0}
     pointA:
       position: {x: 61.998608, y: -3.50457, z: 0}
@@ -31557,9 +31520,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: -0.000048330683, y: 1, z: 0}
     direction: {x: -1, y: -0.000048330683, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 1
-    isStart: 1
+    isStart: 0
   - parent: {fileID: 0}
     pointA:
       position: {x: 55.999996, y: -3.50486, z: 0}
@@ -31569,7 +31532,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: -1, y: -0.00013737133, z: 0}
     direction: {x: 0.00013737133, y: -1, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -31581,7 +31544,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0.000108356006, y: -1, z: 0}
     direction: {x: 1, y: 0.000108356006, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -31593,7 +31556,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0.9999999, y: -0.00048221098, z: 0}
     direction: {x: 0.00048221098, y: 0.9999999, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -31605,7 +31568,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: -0.000029865238, y: 1, z: 0}
     direction: {x: -1, y: -0.000029865238, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 1
     isStart: 1
   - parent: {fileID: 0}
@@ -31617,7 +31580,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0.99999994, y: -0.000516108, z: 0}
     direction: {x: 0.000516108, y: 0.99999994, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -31629,7 +31592,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0.00008463521, y: -1, z: 0}
     direction: {x: 1, y: 0.00008463521, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -31641,7 +31604,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: 1, y: -0.00008873071, z: 0}
     direction: {x: 0.00008873071, y: 1, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -31653,7 +31616,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: -0.0013759518, y: 0.99999905, z: 0}
     direction: {x: -0.99999905, y: -0.0013759518, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 1
     isStart: 1
   - parent: {fileID: 0}
@@ -31665,7 +31628,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0.9999998, y: -0.0006007493, z: 0}
     direction: {x: 0.0006007493, y: 0.9999998, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 0
     isStart: 0
   - parent: {fileID: 0}
@@ -31677,9 +31640,9 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0.0002198798, y: -1, z: 0}
     direction: {x: 1, y: 0.0002198798, z: 0}
-    flagNormalUpdate: 0
-    isEnd: 0
-    isStart: 0
+    flagNormalUpdate: 1
+    isEnd: 1
+    isStart: 1
   - parent: {fileID: 0}
     pointA:
       position: {x: 72.00324, y: 21.513723, z: 0}
@@ -31689,7 +31652,7 @@ MonoBehaviour:
       angle: 0
     normal: {x: 0.99999976, y: -0.0007330293, z: 0}
     direction: {x: 0.0007330293, y: 0.99999976, z: 0}
-    flagNormalUpdate: 0
+    flagNormalUpdate: 1
     isEnd: 1
     isStart: 0
   isActive: 1

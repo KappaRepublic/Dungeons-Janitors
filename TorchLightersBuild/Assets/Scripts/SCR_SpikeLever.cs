@@ -2,6 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+* Class Name:
+* SCR_SpikeLever
+* ==========
+* 
+* Created: 08/10/17
+* Author(s): Sebastian Poskitt-Marshall, RoryMcLean
+*
+* Purpose:
+* Functionality for controlling the spikes within the level
+* via the attatched lever object
+*/
+
 public class SCR_SpikeLever : MonoBehaviour 
 {
 

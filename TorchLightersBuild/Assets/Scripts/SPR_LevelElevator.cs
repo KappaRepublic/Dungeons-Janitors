@@ -3,6 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/*
+* Class Name:
+* SCR_LevelElevator
+* ==========
+* 
+* Created: 21/11/17
+* Author(s): Sebastian Poskitt-Marshall
+*
+* Purpose:
+* Enters the linked scene when player interacts with the object
+* in level.
+*/
+
 public class SPR_LevelElevator : MonoBehaviour {
 
 	public int sceneToLoad;

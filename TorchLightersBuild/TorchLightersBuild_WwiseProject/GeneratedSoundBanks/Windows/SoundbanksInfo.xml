@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>/Users/pauldb/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/MProf Games Development/Team 2/Github/TorchLighters/TorchLightersBuild/TorchLightersBuild_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/pauldb/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/MProf Games Development/Team 2/Github/TorchLighters/TorchLightersBuild/TorchLightersBuild_WwiseProject/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/pauldb/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/MProf Games Development/Team 2/Github/TorchLighters/TorchLightersBuild/TorchLightersBuild_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Paul\Desktop\TorchLighters-seb-final\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Paul\Desktop\TorchLighters-seb-final\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Paul\Desktop\TorchLighters-seb-final\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/pauldb/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/MProf Games Development/Team 2/Github/TorchLighters/TorchLightersBuild/TorchLightersBuild_WwiseProject/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Paul\Desktop\TorchLighters-seb-final\TorchLighters-seb\TorchLightersBuild\TorchLightersBuild_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -26,23 +26,23 @@
 			<IncludedMemoryFiles>
 				<File Id="5717030" Language="SFX">
 					<ShortName>101948__juskiddink__dry-thunder3.wav</ShortName>
-					<Path>SFX/101948__juskiddink__dry-thunder3_F17FB28C.wem</Path>
+					<Path>SFX\101948__juskiddink__dry-thunder3_F17FB28C.wem</Path>
 				</File>
 				<File Id="452886228" Language="SFX">
 					<ShortName>104954__glaneur-de-sons__pigeons-taking-off.wav</ShortName>
-					<Path>SFX/104954__glaneur-de-sons__pigeons-taking-off_F17FB28C.wem</Path>
+					<Path>SFX\104954__glaneur-de-sons__pigeons-taking-off_F17FB28C.wem</Path>
 				</File>
 				<File Id="513084512" Language="SFX">
 					<ShortName>Trans1.wav</ShortName>
-					<Path>SFX/Trans1_F17FB28C.wem</Path>
+					<Path>SFX\Trans1_F17FB28C.wem</Path>
 				</File>
 				<File Id="599225133" Language="SFX">
 					<ShortName>Music Menu.wav</ShortName>
-					<Path>SFX/Music Menu_F17FB28C.wem</Path>
+					<Path>SFX\Music Menu_F17FB28C.wem</Path>
 				</File>
 				<File Id="727837060" Language="SFX">
 					<ShortName>336217__robinhood76__06348-distant-ghost-howl.wav</ShortName>
-					<Path>SFX/336217__robinhood76__06348-distant-ghost-howl_F17FB28C.wem</Path>
+					<Path>SFX\336217__robinhood76__06348-distant-ghost-howl_F17FB28C.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -59,51 +59,51 @@
 			<IncludedMemoryFiles>
 				<File Id="92247098" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.07.wav</ShortName>
-					<Path>SFX/Concrete_Left_Foot_Toe.07_1C9C67B2.wem</Path>
+					<Path>SFX\Concrete_Left_Foot_Toe.07_1C9C67B2.wem</Path>
 				</File>
 				<File Id="100743402" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.02.wav</ShortName>
-					<Path>SFX/Concrete_Left_Foot_Toe.02_1C9C67B2.wem</Path>
+					<Path>SFX\Concrete_Left_Foot_Toe.02_1C9C67B2.wem</Path>
 				</File>
 				<File Id="204364504" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.03.wav</ShortName>
-					<Path>SFX/Concrete_Left_Foot_Toe.03_1C9C67B2.wem</Path>
+					<Path>SFX\Concrete_Left_Foot_Toe.03_1C9C67B2.wem</Path>
 				</File>
 				<File Id="227952304" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.06.wav</ShortName>
-					<Path>SFX/Concrete_Left_Foot_Toe.06_1C9C67B2.wem</Path>
+					<Path>SFX\Concrete_Left_Foot_Toe.06_1C9C67B2.wem</Path>
 				</File>
 				<File Id="252893621" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.04.wav</ShortName>
-					<Path>SFX/Concrete_Left_Foot_Toe.04_1C9C67B2.wem</Path>
+					<Path>SFX\Concrete_Left_Foot_Toe.04_1C9C67B2.wem</Path>
 				</File>
 				<File Id="272842970" Language="SFX">
 					<ShortName>Supermarket Loop.wav</ShortName>
-					<Path>SFX/Supermarket Loop_920BC219.wem</Path>
+					<Path>SFX\Supermarket Loop_37D262E0.wem</Path>
 				</File>
 				<File Id="456617033" Language="SFX">
 					<ShortName>Room Amb 1.wav</ShortName>
-					<Path>SFX/Room Amb 1_5E5F9466.wem</Path>
+					<Path>SFX\Room Amb 1_3D9FB620.wem</Path>
 				</File>
 				<File Id="513084512" Language="SFX">
 					<ShortName>Trans1.wav</ShortName>
-					<Path>SFX/Trans1_F17FB28C.wem</Path>
+					<Path>SFX\Trans1_F17FB28C.wem</Path>
 				</File>
 				<File Id="648141054" Language="SFX">
 					<ShortName>Elevator down.wav</ShortName>
-					<Path>SFX/Elevator down_8DC03BEA.wem</Path>
+					<Path>SFX\Elevator down_8DC03BEA.wem</Path>
 				</File>
 				<File Id="741245128" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.05.wav</ShortName>
-					<Path>SFX/Concrete_Left_Foot_Toe.05_1C9C67B2.wem</Path>
+					<Path>SFX\Concrete_Left_Foot_Toe.05_1C9C67B2.wem</Path>
 				</File>
 				<File Id="953556749" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.01.wav</ShortName>
-					<Path>SFX/Concrete_Left_Foot_Toe.01_1C9C67B2.wem</Path>
+					<Path>SFX\Concrete_Left_Foot_Toe.01_1C9C67B2.wem</Path>
 				</File>
 				<File Id="992871585" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.08.wav</ShortName>
-					<Path>SFX/Concrete_Left_Foot_Toe.08_1C9C67B2.wem</Path>
+					<Path>SFX\Concrete_Left_Foot_Toe.08_1C9C67B2.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -146,347 +146,347 @@
 			<IncludedMemoryFiles>
 				<File Id="11027485" Language="SFX">
 					<ShortName>clothing_movement_4.wav</ShortName>
-					<Path>SFX/clothing_movement_4_5A1FE50D.wem</Path>
+					<Path>SFX\clothing_movement_4_5A1FE50D.wem</Path>
 				</File>
 				<File Id="30370103" Language="SFX">
 					<ShortName>arrow reload.wav</ShortName>
-					<Path>SFX/arrow reload_1C9C67B2.wem</Path>
+					<Path>SFX\arrow reload_1C9C67B2.wem</Path>
 				</File>
 				<File Id="39703815" Language="SFX">
 					<ShortName>arrow reload 3.wav</ShortName>
-					<Path>SFX/arrow reload 3_1C9C67B2.wem</Path>
+					<Path>SFX\arrow reload 3_1C9C67B2.wem</Path>
 				</File>
 				<File Id="45085846" Language="SFX">
 					<ShortName>fs_stone_heel_1.wav</ShortName>
-					<Path>SFX/fs_stone_heel_1_1C9C67B2.wem</Path>
+					<Path>SFX\fs_stone_heel_1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="48513008" Language="SFX">
 					<ShortName>clothing_movement_6.wav</ShortName>
-					<Path>SFX/clothing_movement_6_ECCE338B.wem</Path>
+					<Path>SFX\clothing_movement_6_ECCE338B.wem</Path>
 				</File>
 				<File Id="76783930" Language="SFX">
 					<ShortName>Mop1.wav</ShortName>
-					<Path>SFX/Mop1_1C9C67B2.wem</Path>
+					<Path>SFX\Mop1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="92247098" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.07.wav</ShortName>
-					<Path>SFX/Concrete_Left_Foot_Toe.07_1C9C67B2.wem</Path>
+					<Path>SFX\Concrete_Left_Foot_Toe.07_1C9C67B2.wem</Path>
 				</File>
 				<File Id="100743402" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.02.wav</ShortName>
-					<Path>SFX/Concrete_Left_Foot_Toe.02_1C9C67B2.wem</Path>
+					<Path>SFX\Concrete_Left_Foot_Toe.02_1C9C67B2.wem</Path>
 				</File>
 				<File Id="105432556" Language="SFX">
 					<ShortName>ambience base 3.wav</ShortName>
-					<Path>SFX/ambience base 3_9CA129D4.wem</Path>
+					<Path>SFX\ambience base 3_9CA129D4.wem</Path>
 				</File>
 				<File Id="149845972" Language="SFX">
 					<ShortName>fs_stone_heel_6.wav</ShortName>
-					<Path>SFX/fs_stone_heel_6_1C9C67B2.wem</Path>
+					<Path>SFX\fs_stone_heel_6_1C9C67B2.wem</Path>
 				</File>
 				<File Id="194680731" Language="SFX">
 					<ShortName>mop_swing_2.wav</ShortName>
-					<Path>SFX/mop_swing_2_1C9C67B2.wem</Path>
+					<Path>SFX\mop_swing_2_1C9C67B2.wem</Path>
 				</File>
 				<File Id="204364504" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.03.wav</ShortName>
-					<Path>SFX/Concrete_Left_Foot_Toe.03_1C9C67B2.wem</Path>
+					<Path>SFX\Concrete_Left_Foot_Toe.03_1C9C67B2.wem</Path>
 				</File>
 				<File Id="205821305" Language="SFX">
 					<ShortName>mop_swing_4.wav</ShortName>
-					<Path>SFX/mop_swing_4_1C9C67B2.wem</Path>
+					<Path>SFX\mop_swing_4_1C9C67B2.wem</Path>
 				</File>
 				<File Id="216249049" Language="SFX">
 					<ShortName>fs_stone_heel_3.wav</ShortName>
-					<Path>SFX/fs_stone_heel_3_1C9C67B2.wem</Path>
+					<Path>SFX\fs_stone_heel_3_1C9C67B2.wem</Path>
 				</File>
 				<File Id="226817299" Language="SFX">
 					<ShortName>trapdoor set.wav</ShortName>
-					<Path>SFX/trapdoor set_1C9C67B2.wem</Path>
+					<Path>SFX\trapdoor set_1C9C67B2.wem</Path>
 				</File>
 				<File Id="227952304" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.06.wav</ShortName>
-					<Path>SFX/Concrete_Left_Foot_Toe.06_1C9C67B2.wem</Path>
+					<Path>SFX\Concrete_Left_Foot_Toe.06_1C9C67B2.wem</Path>
 				</File>
 				<File Id="252893621" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.04.wav</ShortName>
-					<Path>SFX/Concrete_Left_Foot_Toe.04_1C9C67B2.wem</Path>
+					<Path>SFX\Concrete_Left_Foot_Toe.04_1C9C67B2.wem</Path>
 				</File>
 				<File Id="254265299" Language="SFX">
 					<ShortName>Gate Close 1.wav</ShortName>
-					<Path>SFX/Gate Close 1_1C9C67B2.wem</Path>
+					<Path>SFX\Gate Close 1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="262578551" Language="SFX">
 					<ShortName>P1.wav</ShortName>
-					<Path>SFX/P1_F17FB28C.wem</Path>
+					<Path>SFX\P1_F17FB28C.wem</Path>
 				</File>
 				<File Id="272842970" Language="SFX">
 					<ShortName>Supermarket Loop.wav</ShortName>
-					<Path>SFX/Supermarket Loop_920BC219.wem</Path>
+					<Path>SFX\Supermarket Loop_37D262E0.wem</Path>
 				</File>
 				<File Id="273515129" Language="SFX">
 					<ShortName>fs_stone_heel_2.wav</ShortName>
-					<Path>SFX/fs_stone_heel_2_1C9C67B2.wem</Path>
+					<Path>SFX\fs_stone_heel_2_1C9C67B2.wem</Path>
 				</File>
 				<File Id="277348869" Language="SFX">
 					<ShortName>Close chest gold 3.wav</ShortName>
-					<Path>SFX/Close chest gold 3_1C9C67B2.wem</Path>
+					<Path>SFX\Close chest gold 3_1C9C67B2.wem</Path>
 				</File>
 				<File Id="289709675" Language="SFX">
 					<ShortName>Gate Open 1.wav</ShortName>
-					<Path>SFX/Gate Open 1_1C9C67B2.wem</Path>
+					<Path>SFX\Gate Open 1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="291924013" Language="SFX">
 					<ShortName>mop_swing_1.wav</ShortName>
-					<Path>SFX/mop_swing_1_1C9C67B2.wem</Path>
+					<Path>SFX\mop_swing_1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="323883956" Language="SFX">
 					<ShortName>arrow fire 2.wav</ShortName>
-					<Path>SFX/arrow fire 2_1C9C67B2.wem</Path>
+					<Path>SFX\arrow fire 2_1C9C67B2.wem</Path>
 				</File>
 				<File Id="328850470" Language="SFX">
 					<ShortName>mop_swing_3.wav</ShortName>
-					<Path>SFX/mop_swing_3_1C9C67B2.wem</Path>
+					<Path>SFX\mop_swing_3_1C9C67B2.wem</Path>
 				</File>
 				<File Id="335646140" Language="SFX">
 					<ShortName>P2-2.wav</ShortName>
-					<Path>SFX/P2-2_F17FB28C.wem</Path>
+					<Path>SFX\P2-2_F17FB28C.wem</Path>
 				</File>
 				<File Id="335995624" Language="SFX">
 					<ShortName>fs_stone_heel_5.wav</ShortName>
-					<Path>SFX/fs_stone_heel_5_1C9C67B2.wem</Path>
+					<Path>SFX\fs_stone_heel_5_1C9C67B2.wem</Path>
 				</File>
 				<File Id="351333416" Language="SFX">
 					<ShortName>Elevator ding.wav</ShortName>
-					<Path>SFX/Elevator ding_D381CC8A.wem</Path>
+					<Path>SFX\Elevator ding_D381CC8A.wem</Path>
 				</File>
 				<File Id="360739430" Language="SFX">
 					<ShortName>Scratch 1.wav</ShortName>
-					<Path>SFX/Scratch 1_1C9C67B2.wem</Path>
+					<Path>SFX\Scratch 1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="369006218" Language="SFX">
 					<ShortName>P3.wav</ShortName>
-					<Path>SFX/P3_F17FB28C.wem</Path>
+					<Path>SFX\P3_F17FB28C.wem</Path>
 				</File>
 				<File Id="369774411" Language="SFX">
 					<ShortName>Mop5.wav</ShortName>
-					<Path>SFX/Mop5_1C9C67B2.wem</Path>
+					<Path>SFX\Mop5_1C9C67B2.wem</Path>
 				</File>
 				<File Id="370491744" Language="SFX">
 					<ShortName>dash 2.wav</ShortName>
-					<Path>SFX/dash 2_1C9C67B2.wem</Path>
+					<Path>SFX\dash 2_1C9C67B2.wem</Path>
 				</File>
 				<File Id="409256195" Language="SFX">
 					<ShortName>dash 1.wav</ShortName>
-					<Path>SFX/dash 1_1C9C67B2.wem</Path>
+					<Path>SFX\dash 1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="425492008" Language="SFX">
 					<ShortName>Torchlighter Amb 2.wav</ShortName>
-					<Path>SFX/Torchlighter Amb 2_F38BBB2B.wem</Path>
+					<Path>SFX\Torchlighter Amb 2_A3B07AFE.wem</Path>
 				</File>
 				<File Id="430733079" Language="SFX">
 					<ShortName>arrow fire 1.wav</ShortName>
-					<Path>SFX/arrow fire 1_1C9C67B2.wem</Path>
+					<Path>SFX\arrow fire 1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="446315770" Language="SFX">
 					<ShortName>Mop4.wav</ShortName>
-					<Path>SFX/Mop4_1C9C67B2.wem</Path>
+					<Path>SFX\Mop4_1C9C67B2.wem</Path>
 				</File>
 				<File Id="458489072" Language="SFX">
 					<ShortName>Close chest wood 1.wav</ShortName>
-					<Path>SFX/Close chest wood 1_1C9C67B2.wem</Path>
+					<Path>SFX\Close chest wood 1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="465799402" Language="SFX">
 					<ShortName>fs_stone_toe_7.wav</ShortName>
-					<Path>SFX/fs_stone_toe_7_1C9C67B2.wem</Path>
+					<Path>SFX\fs_stone_toe_7_1C9C67B2.wem</Path>
 				</File>
 				<File Id="480557333" Language="SFX">
 					<ShortName>P4.wav</ShortName>
-					<Path>SFX/P4_F17FB28C.wem</Path>
+					<Path>SFX\P4_F17FB28C.wem</Path>
 				</File>
 				<File Id="494455522" Language="SFX">
 					<ShortName>arrow miss 2.wav</ShortName>
-					<Path>SFX/arrow miss 2_1C9C67B2.wem</Path>
+					<Path>SFX\arrow miss 2_1C9C67B2.wem</Path>
 				</File>
 				<File Id="500986679" Language="SFX">
 					<ShortName>P3-3.wav</ShortName>
-					<Path>SFX/P3-3_F17FB28C.wem</Path>
+					<Path>SFX\P3-3_F17FB28C.wem</Path>
 				</File>
 				<File Id="501375345" Language="SFX">
 					<ShortName>P4-2.wav</ShortName>
-					<Path>SFX/P4-2_F17FB28C.wem</Path>
+					<Path>SFX\P4-2_F17FB28C.wem</Path>
 				</File>
 				<File Id="505879799" Language="SFX">
 					<ShortName>Trans2.wav</ShortName>
-					<Path>SFX/Trans2_F17FB28C.wem</Path>
+					<Path>SFX\Trans2_F17FB28C.wem</Path>
 				</File>
 				<File Id="512358483" Language="SFX">
 					<ShortName>fs_stone_heel_4.wav</ShortName>
-					<Path>SFX/fs_stone_heel_4_1C9C67B2.wem</Path>
+					<Path>SFX\fs_stone_heel_4_1C9C67B2.wem</Path>
 				</File>
 				<File Id="513084512" Language="SFX">
 					<ShortName>Trans1.wav</ShortName>
-					<Path>SFX/Trans1_F17FB28C.wem</Path>
+					<Path>SFX\Trans1_F17FB28C.wem</Path>
 				</File>
 				<File Id="522100863" Language="SFX">
 					<ShortName>fs_stone_toe_2.wav</ShortName>
-					<Path>SFX/fs_stone_toe_2_1C9C67B2.wem</Path>
+					<Path>SFX\fs_stone_toe_2_1C9C67B2.wem</Path>
 				</File>
 				<File Id="540279701" Language="SFX">
 					<ShortName>Music 6 End.wav</ShortName>
-					<Path>SFX/Music 6 End_F17FB28C.wem</Path>
+					<Path>SFX\Music 6 End_F17FB28C.wem</Path>
 				</File>
 				<File Id="550011003" Language="SFX">
 					<ShortName>Light Torch 1.wav</ShortName>
-					<Path>SFX/Light Torch 1_1C9C67B2.wem</Path>
+					<Path>SFX\Light Torch 1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="551363450" Language="SFX">
 					<ShortName>Torchlighter Amb 1.wav</ShortName>
-					<Path>SFX/Torchlighter Amb 1_F46436F9.wem</Path>
+					<Path>SFX\Torchlighter Amb 1_F46436F9.wem</Path>
 				</File>
 				<File Id="560534499" Language="SFX">
 					<ShortName>fs_stone_toe_5.wav</ShortName>
-					<Path>SFX/fs_stone_toe_5_1C9C67B2.wem</Path>
+					<Path>SFX\fs_stone_toe_5_1C9C67B2.wem</Path>
 				</File>
 				<File Id="563467749" Language="SFX">
 					<ShortName>gate open start.wav</ShortName>
-					<Path>SFX/gate open start_1C9C67B2.wem</Path>
+					<Path>SFX\gate open start_1C9C67B2.wem</Path>
 				</File>
 				<File Id="584531347" Language="SFX">
 					<ShortName>clothing_movement_5.wav</ShortName>
-					<Path>SFX/clothing_movement_5_931CB3E0.wem</Path>
+					<Path>SFX\clothing_movement_5_931CB3E0.wem</Path>
 				</File>
 				<File Id="595152032" Language="SFX">
 					<ShortName>Set Trap.wav</ShortName>
-					<Path>SFX/Set Trap_1C9C67B2.wem</Path>
+					<Path>SFX\Set Trap_1C9C67B2.wem</Path>
 				</File>
 				<File Id="601591945" Language="SFX">
 					<ShortName>Close chest wood 2.wav</ShortName>
-					<Path>SFX/Close chest wood 2_1C9C67B2.wem</Path>
+					<Path>SFX\Close chest wood 2_1C9C67B2.wem</Path>
 				</File>
 				<File Id="628139494" Language="SFX">
 					<ShortName>Mop2.wav</ShortName>
-					<Path>SFX/Mop2_1C9C67B2.wem</Path>
+					<Path>SFX\Mop2_1C9C67B2.wem</Path>
 				</File>
 				<File Id="628927122" Language="SFX">
 					<ShortName>clothing_movement_1.wav</ShortName>
-					<Path>SFX/clothing_movement_1_46DD8E91.wem</Path>
+					<Path>SFX\clothing_movement_1_46DD8E91.wem</Path>
 				</File>
 				<File Id="633473104" Language="SFX">
 					<ShortName>spikes up.wav</ShortName>
-					<Path>SFX/spikes up_F1AAF61B.wem</Path>
+					<Path>SFX\spikes up_52DF6FA5.wem</Path>
 				</File>
 				<File Id="648141054" Language="SFX">
 					<ShortName>Elevator down.wav</ShortName>
-					<Path>SFX/Elevator down_8DC03BEA.wem</Path>
+					<Path>SFX\Elevator down_8DC03BEA.wem</Path>
 				</File>
 				<File Id="662909320" Language="SFX">
 					<ShortName>arrow hit.wav</ShortName>
-					<Path>SFX/arrow hit_1C9C67B2.wem</Path>
+					<Path>SFX\arrow hit_1C9C67B2.wem</Path>
 				</File>
 				<File Id="688484614" Language="SFX">
 					<ShortName>Close chest gold 2.wav</ShortName>
-					<Path>SFX/Close chest gold 2_1C9C67B2.wem</Path>
+					<Path>SFX\Close chest gold 2_1C9C67B2.wem</Path>
 				</File>
 				<File Id="690302272" Language="SFX">
 					<ShortName>fs_stone_toe_1.wav</ShortName>
-					<Path>SFX/fs_stone_toe_1_1C9C67B2.wem</Path>
+					<Path>SFX\fs_stone_toe_1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="697961581" Language="SFX">
 					<ShortName>fs_stone_toe_6.wav</ShortName>
-					<Path>SFX/fs_stone_toe_6_1C9C67B2.wem</Path>
+					<Path>SFX\fs_stone_toe_6_1C9C67B2.wem</Path>
 				</File>
 				<File Id="703590830" Language="SFX">
 					<ShortName>dash 3.wav</ShortName>
-					<Path>SFX/dash 3_1C9C67B2.wem</Path>
+					<Path>SFX\dash 3_1C9C67B2.wem</Path>
 				</File>
 				<File Id="741245128" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.05.wav</ShortName>
-					<Path>SFX/Concrete_Left_Foot_Toe.05_1C9C67B2.wem</Path>
+					<Path>SFX\Concrete_Left_Foot_Toe.05_1C9C67B2.wem</Path>
 				</File>
 				<File Id="780882581" Language="SFX">
 					<ShortName>Mop3.wav</ShortName>
-					<Path>SFX/Mop3_1C9C67B2.wem</Path>
+					<Path>SFX\Mop3_1C9C67B2.wem</Path>
 				</File>
 				<File Id="802047604" Language="SFX">
 					<ShortName>dead 1.wav</ShortName>
-					<Path>SFX/dead 1_1C9C67B2.wem</Path>
+					<Path>SFX\dead 1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="813395391" Language="SFX">
 					<ShortName>Gate Lever 1.wav</ShortName>
-					<Path>SFX/Gate Lever 1_1C9C67B2.wem</Path>
+					<Path>SFX\Gate Lever 1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="838024916" Language="SFX">
 					<ShortName>P2.wav</ShortName>
-					<Path>SFX/P2_F17FB28C.wem</Path>
+					<Path>SFX\P2_F17FB28C.wem</Path>
 				</File>
 				<File Id="841016456" Language="SFX">
 					<ShortName>fs_stone_toe_3.wav</ShortName>
-					<Path>SFX/fs_stone_toe_3_1C9C67B2.wem</Path>
+					<Path>SFX\fs_stone_toe_3_1C9C67B2.wem</Path>
 				</File>
 				<File Id="842506889" Language="SFX">
 					<ShortName>arrow reload 2.wav</ShortName>
-					<Path>SFX/arrow reload 2_1C9C67B2.wem</Path>
+					<Path>SFX\arrow reload 2_1C9C67B2.wem</Path>
 				</File>
 				<File Id="878654252" Language="SFX">
 					<ShortName>Trigger Trapdoor.wav</ShortName>
-					<Path>SFX/Trigger Trapdoor_1C9C67B2.wem</Path>
+					<Path>SFX\Trigger Trapdoor_1C9C67B2.wem</Path>
 				</File>
 				<File Id="880573726" Language="SFX">
 					<ShortName>arrow miss 1.wav</ShortName>
-					<Path>SFX/arrow miss 1_1C9C67B2.wem</Path>
+					<Path>SFX\arrow miss 1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="886055633" Language="SFX">
 					<ShortName>Trigger Trap.wav</ShortName>
-					<Path>SFX/Trigger Trap_1C9C67B2.wem</Path>
+					<Path>SFX\Trigger Trap_1C9C67B2.wem</Path>
 				</File>
 				<File Id="897544447" Language="SFX">
 					<ShortName>clothing_movement_2.wav</ShortName>
-					<Path>SFX/clothing_movement_2_9EB4B346.wem</Path>
+					<Path>SFX\clothing_movement_2_9EB4B346.wem</Path>
 				</File>
 				<File Id="932737058" Language="SFX">
 					<ShortName>Close chest gold 1.wav</ShortName>
-					<Path>SFX/Close chest gold 1_1C9C67B2.wem</Path>
+					<Path>SFX\Close chest gold 1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="935381441" Language="SFX">
 					<ShortName>Light Torch Loop 1.wav</ShortName>
-					<Path>SFX/Light Torch Loop 1_F17FB28C.wem</Path>
+					<Path>SFX\Light Torch Loop 1_F17FB28C.wem</Path>
 				</File>
 				<File Id="939029470" Language="SFX">
 					<ShortName>Corpse Store 1.wav</ShortName>
-					<Path>SFX/Corpse Store 1_1C9C67B2.wem</Path>
+					<Path>SFX\Corpse Store 1_1C9C67B2.wem</Path>
 				</File>
 				<File Id="953556749" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.01.wav</ShortName>
-					<Path>SFX/Concrete_Left_Foot_Toe.01_1C9C67B2.wem</Path>
+					<Path>SFX\Concrete_Left_Foot_Toe.01_1C9C67B2.wem</Path>
 				</File>
 				<File Id="968088806" Language="SFX">
 					<ShortName>fs_stone_toe_4.wav</ShortName>
-					<Path>SFX/fs_stone_toe_4_1C9C67B2.wem</Path>
+					<Path>SFX\fs_stone_toe_4_1C9C67B2.wem</Path>
 				</File>
 				<File Id="992871585" Language="SFX">
 					<ShortName>Concrete_Left_Foot_Toe.08.wav</ShortName>
-					<Path>SFX/Concrete_Left_Foot_Toe.08_1C9C67B2.wem</Path>
+					<Path>SFX\Concrete_Left_Foot_Toe.08_1C9C67B2.wem</Path>
 				</File>
 				<File Id="1001031287" Language="SFX">
 					<ShortName>Spikes.wav</ShortName>
-					<Path>SFX/Spikes_1C9C67B2.wem</Path>
+					<Path>SFX\Spikes_1C9C67B2.wem</Path>
 				</File>
 				<File Id="1023382564" Language="SFX">
 					<ShortName>spikes up.wav</ShortName>
-					<Path>SFX/spikes up_1C9C67B2.wem</Path>
+					<Path>SFX\spikes up_1C9C67B2.wem</Path>
 				</File>
 				<File Id="1026255925" Language="SFX">
 					<ShortName>clothing_movement_3.wav</ShortName>
-					<Path>SFX/clothing_movement_3_1BB1AAE9.wem</Path>
+					<Path>SFX\clothing_movement_3_1BB1AAE9.wem</Path>
 				</File>
 				<File Id="1052743530" Language="SFX">
 					<ShortName>ambience base tunnel.wav</ShortName>
-					<Path>SFX/ambience base tunnel_CAD5527D.wem</Path>
+					<Path>SFX\ambience base tunnel_FBB3CF0A.wem</Path>
 				</File>
 				<File Id="1068195165" Language="SFX">
 					<ShortName>Empty Amb 1.wav</ShortName>
-					<Path>SFX/Empty Amb 1_D93489A5.wem</Path>
+					<Path>SFX\Empty Amb 1_298025B0.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
