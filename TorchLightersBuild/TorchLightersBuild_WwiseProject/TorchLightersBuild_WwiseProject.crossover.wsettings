@@ -4,15 +4,20 @@
 		<UserProjectSettings Name="" ID="{C9340E3D-34C0-4ED8-82DD-32E698C8CA16}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Documents\MProf Games Development\Team 2\Torchlighter\Assets"/>
+				<Property Name="Event Action List\{06D935FB-B83C-4261-B946-83DD0C125CF8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2EB95765-B4D3-4F25-A1C1-390EA6B07EF3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3E681F01-E0AE-4A81-946B-F9BB743CCE5D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{403CA044-89F6-49B5-B480-1897DB445D80}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{48124709-BE2F-4B5A-8690-4F8F4D706064}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4B7CA1E6-E72F-4C54-B782-B846470FEC8B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{543D85AB-4C0A-441E-B128-1263E7EA56BF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{77405169-592A-4E04-8482-02C0E2B5D5E3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{82EC22FA-2990-442F-8816-B98C6B07BA31}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8E6F2FCC-0888-41BB-93E1-D674DD0C5A55}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B642F7C4-561A-49F7-B9F1-E507C8CAA35A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B93D26D1-9197-480C-9D80-197F075DBB53}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BEDC2503-17CC-4749-A84F-2FE605E3A222}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E2033E30-BFC2-4C79-8722-591B6ABFF0F4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -64,7 +69,7 @@
 				<Property Name="PluginUserAcknowledge\iZotope Hybrid Reverb" Type="bool" Value="True"/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{49FED366-B530-42A8-993B-924873AAB707}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
@@ -82,7 +87,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="haXhLqwOpUmdbdzxetrBQw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="A2gydojPb0a30AHX5xa10fLVS4052k5LqYIkLp2LMSmyDkHcEVp8Ta51xWPSyzlV1q9lBs9G6U6tpXlemR4zebst9qlAMPtPqiRp26IczuU="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="E/JDFFjMTUWYMBydbUAcIQD6jAVEqK9Fm6vomz56FocDaDJ2iM9vRrfQAdfnFrXREwhx6nhhSkigCTk9XnZ3bJ0NyoVVUx5Jlnb2FrElecHy1UuNOdpOS6mCJC6dizEp+u3oARRgz0u1MiEdE69yzbIOQdwRWnxNrnXFY9LLOVUX2FmlPQ7zTZqjtLafdsWV1q9lBs9G6U6tpXlemR4zebst9qlAMPtPqiRp26IczuU="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="l6BLAcuzcUKm4Yid+QSMDA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="OOTh/upUH0eAIVqq+2rZIA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="VZg/3rIeTkC7838rkVrcGdPr8VMV/lZJtBTaV8Y+ML0="/>
@@ -99,13 +104,15 @@
 				<Property Name="RTPC\GameParameterSimValue\{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}" Type="Real64" Value="75"/>
 				<Property Name="RTPC\GameParameterSimValue\{EDA87B19-73AA-40A0-9F19-2073606DB710}" Type="Real64" Value="6"/>
 				<Property Name="RTPC\GameParameterSimValue\{F72E0659-4346-4E1C-A1B1-DAB46A05101E}" Type="Real64" Value="50"/>
+				<Property Name="SettingsUserOverride" Type="bool" Value="True"/>
 				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="qRMO+SytMEyOQpLqn7Sxag=="/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
+				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\Assets\StreamingAssets\Audio\GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPathUserOverride" Type="bool" Value="True"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Windows">..\Assets\StreamingAssets\Audio\</Value>
-						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Windows">..\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Mac">..\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">

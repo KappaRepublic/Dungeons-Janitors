@@ -1,7 +1,9 @@
 fileFormatVersion: 2
 guid: 0331e06f6d96a483db1ebd376589fac5
-timeCreated: 1507560388
+timeCreated: 1511805356
+licenseType: Free
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
   defaultReferences: []
   executionOrder: -75

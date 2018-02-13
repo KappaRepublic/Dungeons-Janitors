@@ -25,12 +25,17 @@ public class SCR_PressurePlate : MonoBehaviour
 	float bulletImpulse = 5.0f;
 	GameObject theBullet;
 
+	public Sprite downPlate;
+	public Sprite upPlate;
+
+	public float rotation = 0.0f;
+
 	public bool platePressed;
 
 	// Use this for initialization
 	void Start () 
 	{
-		platePressed = false;
+		platePressed = true;
 	}
 
 	// Update is called once per frame
@@ -43,18 +48,30 @@ public class SCR_PressurePlate : MonoBehaviour
 	{
 		if (coll.gameObject.tag == "Player" && platePressed == false)
 		{
-			platePressed = true;
+			if (!coll.gameObject.GetComponent<SCR_Player> ().dodging) {
+				platePressed = true;
+	
+				AkSoundEngine.PostEvent ("Pull_Lever", gameObject);
+			
+				wallTrap.GetComponent<Animator> ().Play ("ANIM_WallGun_Empty");
 
+				//theBullet = (GameObject)Instantiate (Resources.Load ("Bullet"), wallTrap.transform.position + wallTrap.transform.forward, wallTrap.transform.rotation);
 
+				//spawn a bullet, place it on top of the walltrap, move it "forward"
+				theBullet = (GameObject)Instantiate (bulletPrefab, wallTrap.transform.position + wallTrap.transform.forward, wallTrap.transform.rotation);
+				theBullet.transform.Rotate(new Vector3(0.0f, 0.0f, rotation));
 
-			//theBullet = (GameObject)Instantiate (Resources.Load ("Bullet"), wallTrap.transform.position + wallTrap.transform.forward, wallTrap.transform.rotation);
+				theBullet.GetComponent<Rigidbody2D> ().AddForce (-(theBullet.transform.up * bulletImpulse), ForceMode2D.Impulse);
+				AkSoundEngine.PostEvent ("Arrow_Fire", gameObject);
 
-			//spawn a bullet, place it on top of the walltrap, move it "forward"
-			theBullet = (GameObject)Instantiate (bulletPrefab, wallTrap.transform.position + wallTrap.transform.forward, wallTrap.transform.rotation);
+				this.GetComponent<SpriteRenderer> ().sprite = downPlate;
+			}
+				
+        }
 
-			theBullet.GetComponent<Rigidbody2D> ().AddForce (wallTrap.transform.up * bulletImpulse, ForceMode2D.Impulse);
+    }
 
-		}
-
+	public void setUpPosition() {
+		this.GetComponent<SpriteRenderer> ().sprite = upPlate;
 	}
 }

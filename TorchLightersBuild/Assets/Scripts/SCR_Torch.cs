@@ -10,10 +10,9 @@ using UnityEngine;
 * ==========
 * 
 * Created: 05/10/17
-* Base Class: (If applicable) Name of the base class.
-* Author(s): Rory McLean
+* Author(s): Rory McLean, Sebastian Poskitt-Marshall
 *
-* Purpose: The purpose of this file.
+* Purpose:
 * Functionality for the torchs
 * lighting them when the player is in proxsimity and presses the light button
 * 
@@ -21,16 +20,39 @@ using UnityEngine;
 
 public class SCR_Torch : MonoBehaviour 
 {
-	bool torchLit = false;
+	public bool torchLit = false;
 	public Sprite unlitSprite;
 	public Sprite litSprite;
 	public GameObject lightSource;
 
-	//changes the sprite to signify the light is on
 	public void lightTorch(){
-		torchLit = true;
-		GetComponent<SpriteRenderer> ().sprite = litSprite;
-		//activates the light source for the lighting system.
+
+		if (!torchLit) {
+
+			torchLit = true;
+
+			AkSoundEngine.PostEvent ("Light_Torch", gameObject);
+			
+
+			int rand = Random.Range (0, 2);
+
+			// Choose a random animation to play for variance in graphics.
+			switch (rand) {
+			case 0:
+				GetComponent<Animator> ().Play ("ANIM_TorchBeingLit01");
+				break;
+			case 1:
+				GetComponent<Animator> ().Play ("ANIM_TorchBeingLit02");
+				break;
+			case 2:
+				GetComponent<Animator> ().Play ("ANIM_TorchBeingLit03");
+				break;
+			default:
+				break;
+			}
+
+		}
+
 		lightSource.SetActive (true);
 	}
 }

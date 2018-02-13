@@ -39,9 +39,13 @@ public class SCR_WallTrap : MonoBehaviour
 	{		
 		if (pressure.platePressed == true)
 		{
-			
-			pressure.platePressed = false;
+            AkSoundEngine.PostEvent("Arrow_Fire", gameObject);
 
+            pressure.platePressed = false;
+
+			this.GetComponent<Animator> ().Play ("ANIM_WallGun_Reloaded");
+
+			pressure.setUpPosition ();
 		}
 	}
 }

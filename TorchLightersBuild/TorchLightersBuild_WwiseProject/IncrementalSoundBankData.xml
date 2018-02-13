@@ -3,26 +3,56 @@
 	<Platform GUID="{282150F0-A4A7-4613-8425-92300F921D10}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="2399928884" Timestamp="131521012200000000"/>
-				<File Name="Main" Hash="1005599849" Timestamp="131521044950000000"/>
+				<File Name="Init" Hash="2979465573" Timestamp="131562686620000000"/>
+				<File Name="Levels" Hash="292146308" Timestamp="131562701820000000"/>
+				<File Name="Main" Hash="1445184962" Timestamp="131562701800000000"/>
+				<File Name="Menu" Hash="2214542297" Timestamp="131562701820000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="393056025" Timestamp="131521044950000000"/>
+				<File Name="" Hash="1749558021" Timestamp="131562701820000000"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{FA13E2CA-2F3D-4936-846F-F21415981E09}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="2911980819" Timestamp="131562671265300000"/>
+				<File Name="Main" Hash="1131528883" Timestamp="131562672092100000"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="2626016880" Timestamp="131562672092400000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{F6C97578-C0ED-4CB5-BA6A-F4DCE2AE5342}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="3987134246" Timestamp="131521012200000000"/>
-				<File Name="Main" Hash="1005599849" Timestamp="131521044940000000"/>
+				<File Name="Init" Hash="3187382705" Timestamp="131551609620000000"/>
+				<File Name="Main" Hash="356647722" Timestamp="131551609620000000"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="640091552" Timestamp="131521044940000000"/>
+				<File Name="" Hash="4032026402" Timestamp="131551610640000000"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{C56C8727-5E95-4E90-8A12-536545ECDD17}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Init" Hash="4113274372" Timestamp="131565641000000000"/>
+				<File Name="Levels" Hash="2290757998" Timestamp="131565641000000000"/>
+				<File Name="Main" Hash="2839939399" Timestamp="131565641000000000"/>
+				<File Name="Menu" Hash="1243056663" Timestamp="131565641000000000"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="2958357428" Timestamp="131565641000000000"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

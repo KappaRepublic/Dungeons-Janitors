@@ -10,6 +10,18 @@
 						<State Name="L2" ID="{AF428703-C108-4A85-B276-C2131428DCE2}"/>
 						<State Name="L3" ID="{2657500E-148E-4614-8D94-0FA8D5770610}"/>
 						<State Name="L4" ID="{CCD8DFF5-728E-4047-94B8-EEB6B7AFA28C}"/>
+						<State Name="Menu" ID="{D85E9C9A-D0C0-452A-A845-6339F8385503}"/>
+						<State Name="End" ID="{349AEF8D-7035-48B6-B02E-2CCFB3955831}"/>
+						<State Name="Start" ID="{D131D3C2-F053-4C14-9607-A935E643D86B}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Reverb_Zone" ID="{00CCEA0D-1ABE-4A9A-8B18-D7E9B355BA29}">
+					<ChildrenList>
+						<State Name="None" ID="{F9093E78-0C77-44F8-AF80-77B50152ABFF}"/>
+						<State Name="Hall" ID="{4C2A5C80-15F1-4246-8AC9-72713417B503}"/>
+						<State Name="Small" ID="{80949DF8-9CBA-4C97-A1B8-E664555E7743}"/>
+						<State Name="Medium" ID="{4BB7707A-5607-4581-8089-CDE3533D21C3}"/>
+						<State Name="Large" ID="{B82E3B13-6817-4138-9244-3E227C26EDA1}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
