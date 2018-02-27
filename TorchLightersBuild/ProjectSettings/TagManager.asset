@@ -8,6 +8,11 @@ TagManager:
   - Lever
   - Blood
   - Torch
+  - WallTrap
+  - Gate
+  - GateCollider
+  - RubbleCollider
+  - TrapDoor
   layers:
   - Default
   - TransparentFX

@@ -20,31 +20,28 @@ using UnityEngine;
 
 public class SCR_WallTrap : MonoBehaviour 
 {
+	public static Vector3 currentPosition;
+	public SCR_PressurePlate pressure;
+
 	// Use this for initialization
 	void Start () 
 	{
-		
+		currentPosition = gameObject.transform.position;
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		Debug.Log (SCR_PressurePlate.platePressed);
+		//Debug.Log (SCR_PressurePlate.platePressed);
 	}
 
-	void OnTriggerStay2D(Collider2D coll)
-	{
-		if (coll.gameObject.tag == "Player")
+	public void resetTrap()
+	{		
+		if (pressure.platePressed == true)
 		{
-			if (SCR_PressurePlate.platePressed == true)
-			{
-				if (Input.GetKeyDown (KeyCode.Space))
-				{
-					SCR_PressurePlate.platePressed = false;
-				}
-			}
-				
-		}
+			
+			pressure.platePressed = false;
 
+		}
 	}
 }

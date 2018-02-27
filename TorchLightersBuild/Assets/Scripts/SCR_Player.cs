@@ -24,44 +24,27 @@ public class SCR_Player : MonoBehaviour {
 
 	public float footStepTimer = 0.4f;
 
+	public static bool dead = false;
+	public GameObject checkPoint;
+
 	// Use this for initialization
 	void Start () {
 		pAnimator = GetComponent<Animator>();
-
-        AkSoundEngine.SetState("Reverb_Zone", "Small");
-    }
+	}
 	
 	// Update is called once per frame
 	void Update () {
 		// Update cool downs
-
+		Debug.Log(dead);
 		// Process player input
 		processInput ();
+
+		respawn ();
 	}
 
-    // PLAYER AUDIO TRIGGERS
-
-    public void IsWalking()
-    {
-        AkSoundEngine.PostEvent("Footstep", gameObject);
-    }
-
-    public void IsMopping()
-    {
-        AkSoundEngine.PostEvent("Mop", gameObject);
-    }
-
-    public void IsLightingTorch()
-    {
-        AkSoundEngine.PostEvent("Swing_Torch", gameObject);
-    }
-
-    //
-
-
-    // Process input checks for what the player is inputting and calls
-    // the functions correlating to each key
-    void processInput(){
+	// Process input checks for what the player is inputting and calls
+	// the functions correlating to each key
+	void processInput(){
 
 		Vector2 velocity = new Vector2(0.0f, 0.0f);
 
@@ -181,4 +164,19 @@ public class SCR_Player : MonoBehaviour {
 			}
 		}
 	}
+
+
+
+
+	void respawn()
+	{
+		if (dead == true)
+		{
+			gameObject.transform.position = checkPoint.transform.position;
+			dead = false;
+		}
+	}
 }
+
+
+

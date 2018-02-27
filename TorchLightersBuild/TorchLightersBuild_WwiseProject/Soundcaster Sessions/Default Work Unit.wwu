@@ -38,10 +38,6 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Swing_Torch" ID="{AD790DF0-253C-4998-A982-3F322F4B26BD}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
-							<Position X="2" Y="2"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Pull_Lever" ID="{8683E3B9-BF6E-4D17-9347-615DDB518A36}" WorkUnitID="{014BA097-B3CB-4271-A6E1-889DF9048C0C}"/>
 							<Position X="3" Y="0"/>
 						</Module>
@@ -114,7 +110,6 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="L4" ID="{CCD8DFF5-728E-4047-94B8-EEB6B7AFA28C}"/>
-						<CurrentStateRef Name="Hall" ID="{771B866F-3A64-4E11-AE6C-892A64F95F3F}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

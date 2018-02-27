@@ -56,7 +56,7 @@ public class SCR_OpenMenu : MonoBehaviour
 		}
 	}
 
-
+	//when the game is paused, time is set to 0 which pauses the game
 	public void Pause()
 	{
 		isPaused = true;

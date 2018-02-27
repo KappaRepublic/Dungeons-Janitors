@@ -19,6 +19,16 @@
 				</Event>
 				<Event Name="Light_Torch" ID="{77405169-592A-4E04-8482-02C0E2B5D5E3}">
 					<ChildrenList>
+						<Action Name="" ID="{8AB0BED4-EE50-4C46-B11A-6C36B1420630}" ShortID="866347766">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Light Torch 1" ID="{79BC965B-E615-4A83-A201-8467575F1D9F}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{6A909B03-9B82-4133-BE70-FE3C9E55AF3A}" ShortID="225195262">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
@@ -199,47 +209,18 @@
 				</Event>
 				<Event Name="Mop" ID="{B93D26D1-9197-480C-9D80-197F075DBB53}">
 					<ChildrenList>
-						<Action Name="" ID="{4D1A1DAC-C75E-41DF-A932-6A5DF2255503}" ShortID="643046048">
+						<Action Name="" ID="{833BAF21-9112-4355-957E-1B62A93AF089}" ShortID="184802926">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Mop_Whoosh" ID="{902C9EA4-9589-4513-B816-FE45FC6143A1}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
+									<ObjectRef Name="Mop" ID="{FBED8CA5-B5AF-447A-8C6D-F03DB9BEA399}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Swing_Torch" ID="{AD790DF0-253C-4998-A982-3F322F4B26BD}">
-					<ChildrenList>
-						<Action Name="" ID="{5F5441AF-A0CF-42CB-AF34-EF5DD7F97435}" ShortID="1038731568">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Light Torch 1" ID="{79BC965B-E615-4A83-A201-8467575F1D9F}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Clean_Blood" ID="{2DBA9B01-D4DF-4F0E-B830-560FF16E7EE5}">
-					<ChildrenList>
-						<Action Name="" ID="{62050FC6-47C6-4A09-9FDC-69381F72D99E}" ShortID="306956380">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Cleanup_Blood" ID="{FBED8CA5-B5AF-447A-8C6D-F03DB9BEA399}" WorkUnitID="{0665AFD6-46CF-4EE9-ADA5-795E991E3379}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Refill_Chest" ID="{56B52824-3D0F-4F77-BC72-EFFF140CF87D}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

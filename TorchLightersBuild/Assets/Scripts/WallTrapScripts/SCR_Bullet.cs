@@ -22,7 +22,7 @@ using UnityEngine;
 public class SCR_Bullet : MonoBehaviour 
 {
 
-	float destrotTimer = 2.0f;
+	float destrotTimer = 5.0f;
 
 	// Use this for initialization
 	void Start () 
@@ -39,5 +39,17 @@ public class SCR_Bullet : MonoBehaviour
 		{
 			Destroy (gameObject);
 		}
+	}
+
+	void OnCollisionEnter2D(Collision2D col)
+	{
+
+		if (col.gameObject.tag == "Player")
+		{
+			SCR_Player.dead = true;
+		}
+
+
+		Destroy (gameObject);
 	}
 }

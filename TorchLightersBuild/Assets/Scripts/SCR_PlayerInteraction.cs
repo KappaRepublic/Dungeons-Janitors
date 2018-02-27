@@ -35,6 +35,32 @@ public class SCR_PlayerInteraction : MonoBehaviour {
 				// Play the animation
 				pAnimator.Play("ANIM_PlayerTorchLight_Left");
 			}
+
+			if (col.gameObject.tag == "WallTrap")
+			{
+				Debug.Log ("WallTrap");
+				col.gameObject.GetComponent<SCR_WallTrap> ().resetTrap ();
+			}
+
+
+			if (col.gameObject.tag == "GateCollider")
+			{
+				Debug.Log ("GateCollider");
+				col.gameObject.GetComponent<SCR_Gate> ().gateInteraction ();
+			}
+
+			if(col.gameObject.tag == "RubbleCollider")
+			{
+				Debug.Log("RubbleCollider");
+				col.gameObject.GetComponent<SCR_Rubble> ().rubbleInteraction();
+			}
+
+			if (col.gameObject.tag == "TrapDoor")
+			{
+				Debug.Log ("TrapDoor");
+				col.gameObject.GetComponent<SCR_TrapDoor> ().trapDoorInteraction ();
+			}
+			
 		}
 	}
 }
