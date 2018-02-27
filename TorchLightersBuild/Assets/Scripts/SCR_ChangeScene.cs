@@ -33,11 +33,9 @@ public class SCR_ChangeScene : MonoBehaviour
 
 	}
 
-	//in the editor we select which level to load 
-	//(this allows this function to be universialy used
 	public void changeGameScene(int level)
 	{
-		//loads the scene
+
 		SceneManager.LoadScene (level);
 	}
 		

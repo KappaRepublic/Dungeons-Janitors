@@ -49,8 +49,6 @@ public class SCR_Monster : MonoBehaviour
 	{
 		Debug.Log (hungerTimer);
 
-		//when the monster is brought back
-		//after a few seconds the monster will become hungry
 		if (isAlive == true && stopTimer == false)
 		{
 			hungerTimer -= Time.deltaTime;
@@ -61,8 +59,6 @@ public class SCR_Monster : MonoBehaviour
 			isHungry = true;
 		}
 
-		//when the monster is fed and happy, they will
-		//move back and forth
 		if (isHappy == true)
 		{
 			if (transform.position.x > rightLimit)
@@ -80,21 +76,17 @@ public class SCR_Monster : MonoBehaviour
 
 	void OnTriggerStay2D(Collider2D coll)
 	{
-		//if the player interacts with a dead monster
 		if (coll.gameObject.tag == "Player" && isAlive == false)
 		{
 			if (Input.GetKeyDown (KeyCode.Space))
 			{
-				//the monster is brought back to life
 				isAlive = true;
 				GetComponent<SpriteRenderer> ().sprite = monsterHungry;
 			}
-			//if the player interacts with a alive/ hungry monster
 		} else if (coll.gameObject.tag == "Player" && isHungry == true)
 		{
 			if (Input.GetKeyDown (KeyCode.Space))
 			{
-				//the monster is fed, the hunger timer stops and they are happy
 				GetComponent<SpriteRenderer> ().sprite = monsterFed;
 				stopTimer = true;
 				isHungry = false;

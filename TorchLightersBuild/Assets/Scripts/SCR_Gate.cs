@@ -22,10 +22,11 @@ public class SCR_Gate : MonoBehaviour
 {
 
 	bool gateOpen = false;
-	public Sprite closedGate;
-	public Sprite openGate;
-
-	public GameObject gate;
+	// public Sprite closedGate;
+	// public Sprite openGate;
+	public GameObject gateObject;
+	float openTime = 5.0f;
+	public bool gateIsOpened;
 
 	// Use this for initialization
 	void Start () 
@@ -36,28 +37,55 @@ public class SCR_Gate : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		//changes the sprite and disables the collider so the player can walk through
-		if (gateOpen == true)
-		{
-			gate.gameObject.GetComponent<SpriteRenderer> ().sprite = openGate;
-			gate.gameObject.GetComponent<BoxCollider2D> ().enabled = false;
-		}
+		if (gateIsOpened) {
+			if (gateOpen == true) {
+				openTime -= Time.deltaTime;
+			}
 
-		//visaversa
-		if (gateOpen == false)
-		{
-			gate.gameObject.GetComponent<SpriteRenderer> ().sprite = closedGate;
-			gate.gameObject.GetComponent<BoxCollider2D> ().enabled = true;
+			if (openTime <= 0.0f) {
+				openTime = 5.0f;
+
+
+				// gateObject.GetComponent<SpriteRenderer> ().sprite = openGate;
+				gateObject.GetComponent<BoxCollider2D> ().enabled = false;
+				
+				gateOpen = false;
+			}
 		}
 	}
 
-	//when the player interacts with a gate, if its open, close it. and if its
-	//closed, open it.
-	public void gateInteraction()
+	public void activateGate() 
 	{
-		
-		gateOpen = !gateOpen;
+		if (!gateIsOpened) {
+            AkSoundEngine.PostEvent("Open_Gate", gameObject);
+            //gateOpen = !gateOpen;
 
-		//Debug.Log (gateOpen);
+            /*if (gateOpen == true)
+		{
+			//seb is a silly goose
+			// I concur
+			gateObject.GetComponent<SpriteRenderer> ().sprite = openGate;
+			gateObject.GetComponent<BoxCollider2D> ().enabled = false;
+			AkSoundEngine.PostEvent ("Close_Gate", gameObject);
+
+		}*/
+            gateOpen = true;
+			gateIsOpened = true;
+			this.gameObject.transform.GetChild (0).gameObject.GetComponent<Animator> ().Play ("ANIM_GateOpen");
+
+			//if (gateOpen == false)
+			/*{
+			openTime = 5.0f;
+			gateObject.GetComponent<SpriteRenderer> ().sprite = closedGate;
+			gateObject.GetComponent<BoxCollider2D> ().enabled = true;
+			AkSoundEngine.PostEvent ("Open_Gate", gameObject);
+			gateOpen = false;
+		}*/
+		}
+        else
+        {
+            AkSoundEngine.PostEvent("Close_Gate", gameObject);
+        }
 	}
+		
 }

@@ -22,34 +22,52 @@ using UnityEngine;
 public class SCR_Bullet : MonoBehaviour 
 {
 
-	float destrotTimer = 5.0f;
+	float destroyTimer = 5.0f;
+	public GameObject player;
+	public GameObject player2;
 
 	// Use this for initialization
 	void Start () 
 	{
-		
+		player = GameObject.FindGameObjectsWithTag ("Player")[0];
+		player2 = GameObject.FindGameObjectsWithTag ("Player")[1];
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		destrotTimer -= Time.deltaTime;
+		destroyTimer -= Time.deltaTime;
 
-		if (destrotTimer <= 0)
+		if (destroyTimer <= 0)
 		{
 			Destroy (gameObject);
 		}
 	}
 
-	void OnCollisionEnter2D(Collision2D col)
-	{
 
+	void OnTriggerEnter2D(Collider2D col) 
+	{
 		if (col.gameObject.tag == "Player")
 		{
-			SCR_Player.dead = true;
+            AkSoundEngine.PostEvent("Arrow_Kill", player);
+			if (col.gameObject.GetComponent<SCR_Player> ().player2) {
+				player2.GetComponent<SCR_Player>().kill (this.gameObject);
+			} else {
+				player.GetComponent<SCR_Player>().kill (this.gameObject);
+			}
+
+
+            Destroy(gameObject);
+
+        }
+
+        if (col.gameObject.tag == "DestructionZone") 
+		{
+			Destroy (gameObject);
+	
+				AkSoundEngine.PostEvent ("Arrow_Miss", gameObject);
+			}
+
 		}
-
-
-		Destroy (gameObject);
 	}
-}
+

@@ -8,11 +8,21 @@ TagManager:
   - Lever
   - Blood
   - Torch
-  - WallTrap
-  - Gate
-  - GateCollider
-  - RubbleCollider
+  - Corpse
   - TrapDoor
+  - WallTrap
+  - DestructionZone
+  - GateCollider
+  - Gate
+  - LargeRoom
+  - SmallRoom
+  - Hallway
+  - MediumRoom
+  - PressurePlate
+  - Bullet
+  - Spike
+  - BoundsMonster
+  - Monster
   layers:
   - Default
   - TransparentFX
