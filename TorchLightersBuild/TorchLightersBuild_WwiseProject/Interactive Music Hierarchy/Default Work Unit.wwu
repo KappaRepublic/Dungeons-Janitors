@@ -3852,7 +3852,7 @@
 						<Property Name="Tempo" Type="Real64" Value="128"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-15</Value>
+								<Value>-22</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

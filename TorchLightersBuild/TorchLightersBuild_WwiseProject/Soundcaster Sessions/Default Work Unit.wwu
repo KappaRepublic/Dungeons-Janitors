@@ -166,7 +166,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="L4" ID="{CCD8DFF5-728E-4047-94B8-EEB6B7AFA28C}"/>
-						<CurrentStateRef Name="Large" ID="{B82E3B13-6817-4138-9244-3E227C26EDA1}"/>
+						<CurrentStateRef Name="Hall" ID="{4C2A5C80-15F1-4246-8AC9-72713417B503}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

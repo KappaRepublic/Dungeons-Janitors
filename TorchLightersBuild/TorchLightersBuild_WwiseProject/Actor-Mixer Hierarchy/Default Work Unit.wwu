@@ -337,9 +337,15 @@
 									</ReferenceList>
 									<ChildrenList>
 										<BlendContainer Name="Walking" ID="{1443F213-CC58-454D-9830-1C9D6D401C21}" ShortID="912544568">
+											<PropertyList>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66B5D066-2992-4EF1-8303-97EF3441F3FF}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<ObjectRef Name="New_Wwise_Parametric_EQ_08" ID="{3375EE1C-73BB-4C9F-BF27-FC7F1CAEDB0C}" WorkUnitID="{580DCB54-2388-4D43-B0C5-78DA4D4FCAEE}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}"/>
@@ -805,6 +811,9 @@
 														</Reference>
 														<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 															<ObjectRef Name="High_Pass_60Hz" ID="{F9627628-0B10-4272-BC30-D4C20423CB38}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
+														<Reference Name="Effect2" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+															<ObjectRef Name="New_Wwise_Parametric_EQ_09" ID="{93B0D4A1-2EAF-4AA5-A19C-87178F1E4F32}" WorkUnitID="{580DCB54-2388-4D43-B0C5-78DA4D4FCAEE}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}"/>
@@ -1554,15 +1563,19 @@
 								<Sound Name="Light Torch Loop 1" ID="{FBE2208F-C32A-4BA2-9E78-9AE28CC056EE}" ShortID="13836939">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-11</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{66B5D066-2992-4EF1-8303-97EF3441F3FF}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<ObjectRef Name="New_Wwise_Parametric_EQ_10" ID="{EB2C142D-D80D-4E4B-A80A-058236092B6A}" WorkUnitID="{580DCB54-2388-4D43-B0C5-78DA4D4FCAEE}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2EE1A585-0EAC-49A5-9D6D-DCF17ADAC143}"/>
@@ -2615,7 +2628,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-19</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
