@@ -216,6 +216,7 @@ MonoBehaviour:
   activated: 1
   steps: 0
   player: {fileID: 1868996233628048, guid: 6a0cebba6e75a6c4bbf3743c027fdd18, type: 2}
+  player2: {fileID: 0}
 --- !u!212 &12958896
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -513,6 +514,7 @@ MonoBehaviour:
   activated: 1
   steps: 0
   player: {fileID: 1868996233628048, guid: 6a0cebba6e75a6c4bbf3743c027fdd18, type: 2}
+  player2: {fileID: 0}
 --- !u!212 &178723519
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1178,6 +1180,7 @@ MonoBehaviour:
   activated: 1
   steps: 0
   player: {fileID: 1868996233628048, guid: 6a0cebba6e75a6c4bbf3743c027fdd18, type: 2}
+  player2: {fileID: 0}
 --- !u!212 &353802912
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1385,6 +1388,7 @@ MonoBehaviour:
   activated: 1
   steps: 0
   player: {fileID: 1868996233628048, guid: 6a0cebba6e75a6c4bbf3743c027fdd18, type: 2}
+  player2: {fileID: 0}
 --- !u!212 &364008352
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2793,6 +2797,7 @@ MonoBehaviour:
   activated: 1
   steps: 0
   player: {fileID: 1868996233628048, guid: 6a0cebba6e75a6c4bbf3743c027fdd18, type: 2}
+  player2: {fileID: 0}
 --- !u!212 &711750160
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3731,7 +3736,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4943480148958554, guid: 4924e9ef7b3aa1e45a7e073463957489, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 92.41
+      value: 92.98
       objectReference: {fileID: 0}
     - target: {fileID: 4943480148958554, guid: 4924e9ef7b3aa1e45a7e073463957489, type: 2}
       propertyPath: m_LocalPosition.y
@@ -4188,6 +4193,7 @@ MonoBehaviour:
   activated: 1
   steps: 0
   player: {fileID: 1868996233628048, guid: 6a0cebba6e75a6c4bbf3743c027fdd18, type: 2}
+  player2: {fileID: 0}
 --- !u!212 &1299039192
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4780,6 +4786,7 @@ MonoBehaviour:
   activated: 1
   steps: 0
   player: {fileID: 1868996233628048, guid: 6a0cebba6e75a6c4bbf3743c027fdd18, type: 2}
+  player2: {fileID: 0}
 --- !u!212 &1478374204
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5650,6 +5657,7 @@ MonoBehaviour:
   activated: 1
   steps: 0
   player: {fileID: 1868996233628048, guid: 6a0cebba6e75a6c4bbf3743c027fdd18, type: 2}
+  player2: {fileID: 0}
 --- !u!212 &1684786190
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5815,6 +5823,7 @@ MonoBehaviour:
   activated: 1
   steps: 0
   player: {fileID: 1868996233628048, guid: 6a0cebba6e75a6c4bbf3743c027fdd18, type: 2}
+  player2: {fileID: 0}
 --- !u!212 &1690552007
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6769,6 +6778,7 @@ MonoBehaviour:
   activated: 1
   steps: 0
   player: {fileID: 1868996233628048, guid: 6a0cebba6e75a6c4bbf3743c027fdd18, type: 2}
+  player2: {fileID: 0}
 --- !u!212 &2010927786
 SpriteRenderer:
   m_ObjectHideFlags: 0

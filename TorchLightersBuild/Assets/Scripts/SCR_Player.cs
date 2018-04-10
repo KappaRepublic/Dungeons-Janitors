@@ -17,7 +17,7 @@ using XInputDotNetPure;
 */
 
 public class SCR_Player : MonoBehaviour {
-	
+
 	public float playerSpeed = 4.0f;
 	public GameObject playerInteractionArea;
 	public Animator pAnimator;
@@ -55,6 +55,10 @@ public class SCR_Player : MonoBehaviour {
 	public bool player2 = false;
 	bool isDead = false;
 
+	public bool getIsDead() {
+		return isDead; 
+	}
+
 	[Header("Corpse Prefabs")]
 	public GameObject wallGunCorpse;
 	bool killedByWallgun = false;
@@ -70,7 +74,7 @@ public class SCR_Player : MonoBehaviour {
 		//AkSoundEngine.LoadBank (1, 0);
 
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		startTime -= Time.deltaTime;
@@ -96,9 +100,13 @@ public class SCR_Player : MonoBehaviour {
 				}
 
 				animStateInfo = pAnimator.GetCurrentAnimatorStateInfo (0);
-	
+
 				// Process player input
 				processInput ();
+
+				if (player2) {
+					this.GetComponent<SpriteRenderer>().sortingOrder = (int)Camera.main.WorldToScreenPoint (this.GetComponent<SpriteRenderer>().bounds.min).y * -1 + 285;
+				}
 			}
 		}
 	}
@@ -189,10 +197,10 @@ public class SCR_Player : MonoBehaviour {
 			}
 			if (Input.GetKeyDown (KeyCode.LeftShift) || (prevState.Triggers.Left > 0.1)) {
 				if (canRoll) {
-                    AkSoundEngine.PostEvent("Dash", gameObject);
+					AkSoundEngine.PostEvent("Dash", gameObject);
 
-                    // Start the animation
-                    if (directionLeft) {
+					// Start the animation
+					if (directionLeft) {
 						if (staticY) {
 							pAnimator.Play("ANIM_PlayerDash_Left");
 						} else if (directionUp) {
@@ -464,10 +472,10 @@ public class SCR_Player : MonoBehaviour {
 			if (directionLeft) {
 				pAnimator.Play ("ANIM_PlayerTorchLight_Left");
 
-            } else {
+			} else {
 				pAnimator.Play ("ANIM_PlayerTorchLight_Right");
 
-            }
+			}
 		}
 	}
 
@@ -485,7 +493,7 @@ public class SCR_Player : MonoBehaviour {
 
 			}
 		}
-    }
+	}
 
 	public void kill(GameObject killedBy)
 	{
@@ -527,7 +535,7 @@ public class SCR_Player : MonoBehaviour {
 		isDead = true;
 
 		StartCoroutine (waitForDeath (killedBy));
-    }
+	}
 
 	IEnumerator waitForDeath(GameObject killedBy) {
 		yield return new WaitForSeconds (2.0f);

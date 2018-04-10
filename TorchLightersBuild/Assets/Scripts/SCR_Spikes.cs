@@ -26,6 +26,8 @@ public class SCR_Spikes : MonoBehaviour
 
 	bool player2Check = false;
 
+	bool touchingCheck = false;
+
 
 	void Start()
 	{
@@ -75,8 +77,25 @@ public class SCR_Spikes : MonoBehaviour
 			AkSoundEngine.PostEvent ("Spikes_Up", gameObject);
 			steps = 0;
 
+
+			//if player is colliding 
+			if (touchingCheck == true)
+			{
+				if (player2Check) {
+					Debug.Log ("Player 2");
+					player2.GetComponent<SCR_Player> ().kill (this.gameObject);
+					AkSoundEngine.PostEvent ("Dead", gameObject);
+				} else {
+					Debug.Log ("Player 1");
+					player.GetComponent<SCR_Player> ().kill (this.gameObject);
+					AkSoundEngine.PostEvent ("Dead", gameObject);
+				}
+			}
+
 		} else 
 		{
+
+
 			// GetComponent<SpriteRenderer> ().sprite = spikesDown;
 			GetComponent<Animator> ().Play ("ANIM_SpikeDeactivate");
 			GetComponent<BoxCollider2D> ().enabled = false;
@@ -102,6 +121,21 @@ public class SCR_Spikes : MonoBehaviour
 				}
 			}
 
+		}
+	}
+
+
+	public void OnTriggerStay2D(Collider2D col)
+	{
+		if (col.gameObject.tag == "Player")
+		{
+			if (player2Check)
+			{
+				touchingCheck = true;
+			} else
+			{
+				touchingCheck = true;
+			}
 		}
 	}
 }

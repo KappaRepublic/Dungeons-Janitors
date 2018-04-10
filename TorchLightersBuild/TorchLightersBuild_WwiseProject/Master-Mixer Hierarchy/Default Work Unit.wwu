@@ -14,13 +14,6 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AuxBus Name="Large_Reverb" ID="{A724447F-3965-47EE-B974-E5F1B88E639B}">
-							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
-									<ValueList>
-										<Value>-18</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<ObjectRef Name="Medium" ID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
@@ -53,13 +46,6 @@
 							</StateInfo>
 						</AuxBus>
 						<AuxBus Name="Small_Reverb" ID="{7A440250-6253-4C99-B980-60E1EF8AD7D9}">
-							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
-									<ValueList>
-										<Value>-6</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
 									<ObjectRef Name="Small_Wooden_Room1" ID="{F7CBE859-36A8-4174-B553-AE32A7FE95FA}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
@@ -100,13 +86,6 @@
 							</StateInfo>
 						</AuxBus>
 						<AuxBus Name="Hall_Reverb" ID="{60DE68C1-EF37-4138-8E71-F0483058EDC2}">
-							<PropertyList>
-								<Property Name="BusVolume" Type="Real64">
-									<ValueList>
-										<Value>-12</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
 									<ObjectRef Name="Tunnel1" ID="{CC44B890-9865-4157-965F-86FED27BC4C6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
@@ -151,7 +130,9 @@
 				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}">
 					<ChildrenList>
-						<Bus Name="Music" ID="{424844FD-08BE-4A0A-9AB2-3C4D3B54DC6C}"/>
+						<Bus Name="Music" ID="{424844FD-08BE-4A0A-9AB2-3C4D3B54DC6C}">
+							<ReferenceList/>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>

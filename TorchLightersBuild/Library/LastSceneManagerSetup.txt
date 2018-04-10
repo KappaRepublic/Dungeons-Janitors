@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/SCN_Level1 (2)_Coop.unity
+- path: Assets/Scenes/Playable Level.unity
   isLoaded: 1
   isActive: 1

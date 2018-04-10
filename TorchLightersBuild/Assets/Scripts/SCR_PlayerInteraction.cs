@@ -169,7 +169,7 @@ public class SCR_PlayerInteraction : MonoBehaviour {
 		if (col.gameObject.tag != "Player" & col.gameObject.tag != "Blood") {
 			
 			// Show that object has been found to debug information
-			Debug.Log("Object Found");
+			//Debug.Log("Object Found");
 
 			collidingObjects.Add (col.gameObject);
 

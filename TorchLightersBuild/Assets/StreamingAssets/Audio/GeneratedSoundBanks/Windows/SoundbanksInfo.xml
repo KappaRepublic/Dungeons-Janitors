@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="125">
 	<RootPaths>
-		<ProjectRoot>/Users/pauldb/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/MProf Games Development/Term 1/Team 2/Github/TorchLighters/TorchLightersBuild/TorchLightersBuild_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/pauldb/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/MProf Games Development/Term 1/Team 2/Github/TorchLighters/TorchLightersBuild/TorchLightersBuild_WwiseProject/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/pauldb/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/MProf Games Development/Term 1/Team 2/Github/TorchLighters/TorchLightersBuild/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>/Users/pauldb/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/MProf Games Development/Team 2/Github/TorchLighters/TorchLightersBuild/TorchLightersBuild_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/pauldb/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/MProf Games Development/Team 2/Github/TorchLighters/TorchLightersBuild/TorchLightersBuild_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/pauldb/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/MProf Games Development/Team 2/Github/TorchLighters/TorchLightersBuild/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/pauldb/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/MProf Games Development/Term 1/Team 2/Github/TorchLighters/TorchLightersBuild/TorchLightersBuild_WwiseProject/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/pauldb/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Documents/MProf Games Development/Team 2/Github/TorchLighters/TorchLightersBuild/TorchLightersBuild_WwiseProject/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
